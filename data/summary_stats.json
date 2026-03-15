@@ -1,0 +1,135 @@
+{
+  "total_districts_climate": 719,
+  "total_districts_yield": 719,
+  "states": [
+    "Andaman And Nicobar Islands",
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chandigarh",
+    "Chhattisgarh",
+    "Delhi",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jammu And Kashmir",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Ladakh",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Puducherry",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "The Dadra And Nagar Haveli And Daman And Diu",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+  ],
+  "year_range": [
+    1997,
+    2020
+  ],
+  "avg_warming_rate_c_decade": 0.129,
+  "pct_districts_warming": 94.6,
+  "top5_vulnerable": [
+    {
+      "district_name": "Parbhani",
+      "state_name": "MAHARASHTRA",
+      "vulnerability_score": 0.12,
+      "temp_trend_c_decade": 0.362,
+      "mean_idiosync_shock": 0.332
+    },
+    {
+      "district_name": "Y.S.R.",
+      "state_name": "ANDHRA PRADESH",
+      "vulnerability_score": 0.11,
+      "temp_trend_c_decade": 0.276,
+      "mean_idiosync_shock": 0.399
+    },
+    {
+      "district_name": "Latur",
+      "state_name": "MAHARASHTRA",
+      "vulnerability_score": 0.098,
+      "temp_trend_c_decade": 0.287,
+      "mean_idiosync_shock": 0.342
+    },
+    {
+      "district_name": "Solapur",
+      "state_name": "MAHARASHTRA",
+      "vulnerability_score": 0.098,
+      "temp_trend_c_decade": 0.243,
+      "mean_idiosync_shock": 0.405
+    },
+    {
+      "district_name": "Hingoli",
+      "state_name": "MAHARASHTRA",
+      "vulnerability_score": 0.097,
+      "temp_trend_c_decade": 0.349,
+      "mean_idiosync_shock": 0.279
+    }
+  ],
+  "top5_climate_buffered": [
+    {
+      "district_name": "Bareilly",
+      "state_name": "UTTAR PRADESH",
+      "irrigation_share": 81.30510650587439,
+      "mean_idiosync_shock": 0.152,
+      "buffer_score": 501.883
+    },
+    {
+      "district_name": "Moradabad",
+      "state_name": "UTTAR PRADESH",
+      "irrigation_share": 90.70767393251717,
+      "mean_idiosync_shock": 0.172,
+      "buffer_score": 498.394
+    },
+    {
+      "district_name": "Shahjahanpur",
+      "state_name": "UTTAR PRADESH",
+      "irrigation_share": 76.26528881545012,
+      "mean_idiosync_shock": 0.167,
+      "buffer_score": 430.877
+    },
+    {
+      "district_name": "Rampur",
+      "state_name": "UTTAR PRADESH",
+      "irrigation_share": 78.08229597140178,
+      "mean_idiosync_shock": 0.172,
+      "buffer_score": 429.024
+    },
+    {
+      "district_name": "Pilibhit",
+      "state_name": "UTTAR PRADESH",
+      "irrigation_share": 64.24733487667552,
+      "mean_idiosync_shock": 0.157,
+      "buffer_score": 384.715
+    }
+  ],
+  "drought_year_covariate_shocks": {
+    "2002": -149.644,
+    "2006": -110.751,
+    "2014": -108.062,
+    "2000": -94.513,
+    "2015": -93.186
+  },
+  "heat_year_covariate_shocks": {
+    "2009": 0.478,
+    "1998": 0.422,
+    "2014": 0.301,
+    "2005": 0.279,
+    "2002": 0.225
+  }
+}

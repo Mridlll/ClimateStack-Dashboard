@@ -1,0 +1,174 @@
+{
+  "gcm": "CMIP6_ensemble_median",
+  "scenarios": [
+    "ssp245",
+    "ssp585 (labeled as ssp370 in outputs)"
+  ],
+  "historical_period": [
+    2005,
+    2014
+  ],
+  "projection_year": 2035,
+  "total_districts": 719,
+  "regression_coefficients": {
+    "kharif_beta": -0.042,
+    "kharif_sigma": 0.428,
+    "rabi_beta": -0.072,
+    "rabi_sigma": 0.648,
+    "crop_specific": {
+      "Moong": -0.189,
+      "Wheat": -0.16,
+      "Gram": -0.181,
+      "Maize": -0.09,
+      "Rice": -0.042,
+      "Bajra": -0.042,
+      "Jowar": -0.042
+    }
+  },
+  "national_averages": {
+    "kharif_warming_ssp245": 0.552,
+    "kharif_warming_ssp370": 0.552,
+    "rabi_warming_ssp370": 0.654,
+    "kharif_yield_impact_ssp245": -4.75,
+    "kharif_yield_impact_ssp370": -5.27,
+    "rabi_yield_impact_ssp245": -7.06,
+    "rabi_yield_impact_ssp370": -6.99
+  },
+  "distribution_kharif_ssp370": {
+    "p5": -8.11,
+    "p10": -7.23,
+    "p25": -5.79,
+    "p50": -4.86,
+    "p75": -4.37,
+    "p90": -4.01,
+    "p95": -3.85
+  },
+  "pct_negative_kharif_ssp370": 100.0,
+  "most_impacted_kharif": [
+    {
+      "district": "Leh",
+      "state": "LADAKH",
+      "warming": 1.215,
+      "yield_pct": -11.24
+    },
+    {
+      "district": "Kargil",
+      "state": "LADAKH",
+      "warming": 1.147,
+      "yield_pct": -10.64
+    },
+    {
+      "district": "Ganderbal",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.095,
+      "yield_pct": -10.19
+    },
+    {
+      "district": "Bandipore",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.065,
+      "yield_pct": -9.92
+    },
+    {
+      "district": "Muzaffarabad",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.055,
+      "yield_pct": -9.83
+    },
+    {
+      "district": "Lahul & Spiti",
+      "state": "HIMACHAL PRADESH",
+      "warming": 1.049,
+      "yield_pct": -9.78
+    },
+    {
+      "district": "Kupwara",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.047,
+      "yield_pct": -9.77
+    },
+    {
+      "district": "Baramula",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.034,
+      "yield_pct": -9.65
+    },
+    {
+      "district": "Kinnaur",
+      "state": "HIMACHAL PRADESH",
+      "warming": 1.033,
+      "yield_pct": -9.64
+    },
+    {
+      "district": "Srinagar",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.023,
+      "yield_pct": -9.55
+    }
+  ],
+  "most_impacted_rabi": [
+    {
+      "district": "Doda",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.125,
+      "yield_pct": -11.75
+    },
+    {
+      "district": "Baramula",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.121,
+      "yield_pct": -11.71
+    },
+    {
+      "district": "Mirpur",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.117,
+      "yield_pct": -11.67
+    },
+    {
+      "district": "Kathua",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.11,
+      "yield_pct": -11.6
+    },
+    {
+      "district": "Jaisalmer",
+      "state": "RAJASTHAN",
+      "warming": 1.105,
+      "yield_pct": -11.56
+    },
+    {
+      "district": "Punch",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.105,
+      "yield_pct": -11.56
+    },
+    {
+      "district": "Rajouri",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.103,
+      "yield_pct": -11.53
+    },
+    {
+      "district": "Kupwara",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.096,
+      "yield_pct": -11.47
+    },
+    {
+      "district": "Lahul & Spiti",
+      "state": "HIMACHAL PRADESH",
+      "warming": 1.095,
+      "yield_pct": -11.45
+    },
+    {
+      "district": "Badgam",
+      "state": "JAMMU & KASHMIR",
+      "warming": 1.091,
+      "yield_pct": -11.42
+    }
+  ],
+  "projection_method_breakdown": {
+    "cmip6_ensemble_delta": 719
+  }
+}

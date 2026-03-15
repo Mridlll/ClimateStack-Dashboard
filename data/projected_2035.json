@@ -1,0 +1,4929 @@
+{
+  "Adilabad": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.243,
+    "projected_temp_2035": 0.364,
+    "projected_yield_pct_2035": -0.664,
+    "irrigation_share": 18.166
+  },
+  "Agar Malwa": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.084,
+    "projected_temp_2035": 0.127,
+    "projected_yield_pct_2035": -0.231,
+    "irrigation_share": 66.092
+  },
+  "Agra": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.197,
+    "projected_yield_pct_2035": -0.359,
+    "irrigation_share": 54.148
+  },
+  "Ahmadabad": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.092,
+    "projected_temp_2035": 0.139,
+    "projected_yield_pct_2035": -0.253,
+    "irrigation_share": 34.853
+  },
+  "Ahmadnagar": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.27,
+    "projected_temp_2035": 0.405,
+    "projected_yield_pct_2035": -0.74,
+    "irrigation_share": 23.978
+  },
+  "Aizawl": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.193,
+    "projected_temp_2035": 0.29,
+    "projected_yield_pct_2035": -0.529,
+    "irrigation_share": 0.573
+  },
+  "Ajmer": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.003,
+    "projected_temp_2035": 0.005,
+    "projected_yield_pct_2035": -0.008,
+    "irrigation_share": 24.929
+  },
+  "Akola": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.297,
+    "projected_temp_2035": 0.446,
+    "projected_yield_pct_2035": -0.814,
+    "irrigation_share": 8.141
+  },
+  "Alappuzha": {
+    "state": "KERALA",
+    "trend_c_decade": 0.198,
+    "projected_temp_2035": 0.297,
+    "projected_yield_pct_2035": -0.543
+  },
+  "Aligarh": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.095,
+    "projected_temp_2035": 0.143,
+    "projected_yield_pct_2035": -0.261,
+    "irrigation_share": 86.263
+  },
+  "Alipurduar": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.072,
+    "projected_temp_2035": 0.108,
+    "projected_yield_pct_2035": -0.198
+  },
+  "Alirajpur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.183,
+    "projected_temp_2035": 0.274,
+    "projected_yield_pct_2035": -0.501,
+    "irrigation_share": 17.278
+  },
+  "Almora": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.167,
+    "projected_temp_2035": 0.251,
+    "projected_yield_pct_2035": -0.459,
+    "irrigation_share": 0.901
+  },
+  "Alwar": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.029,
+    "projected_temp_2035": 0.044,
+    "projected_yield_pct_2035": -0.081,
+    "irrigation_share": 50.676
+  },
+  "Ambala": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.165,
+    "projected_temp_2035": 0.248,
+    "projected_yield_pct_2035": -0.453,
+    "irrigation_share": 94.901
+  },
+  "Ambedkar Nagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.223,
+    "projected_temp_2035": 0.334,
+    "projected_yield_pct_2035": -0.611,
+    "irrigation_share": 61.51
+  },
+  "Amethi": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.257,
+    "projected_temp_2035": 0.385,
+    "projected_yield_pct_2035": -0.703,
+    "irrigation_share": 52.933
+  },
+  "Amravati": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.25,
+    "projected_temp_2035": 0.375,
+    "projected_yield_pct_2035": -0.686,
+    "irrigation_share": 8.961
+  },
+  "Amreli": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.094,
+    "projected_temp_2035": 0.141,
+    "projected_yield_pct_2035": -0.258,
+    "irrigation_share": 48.459
+  },
+  "Amritsar": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.03,
+    "projected_temp_2035": 0.046,
+    "projected_yield_pct_2035": -0.084,
+    "irrigation_share": 83.288
+  },
+  "Amroha": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.136,
+    "projected_temp_2035": 0.204,
+    "projected_yield_pct_2035": -0.372,
+    "irrigation_share": 62.231
+  },
+  "Anand": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.109,
+    "projected_temp_2035": 0.163,
+    "projected_yield_pct_2035": -0.298,
+    "irrigation_share": 72.142
+  },
+  "Anantapur": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.213,
+    "projected_temp_2035": 0.32,
+    "projected_yield_pct_2035": -0.585,
+    "irrigation_share": 18.395
+  },
+  "Anantnag": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.098,
+    "projected_temp_2035": -0.148,
+    "projected_yield_pct_2035": 0.27,
+    "irrigation_share": 37.739
+  },
+  "Anjaw": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.155,
+    "projected_temp_2035": 0.232,
+    "projected_yield_pct_2035": -0.424,
+    "irrigation_share": 8.404
+  },
+  "Anugul": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.025,
+    "projected_temp_2035": 0.038,
+    "projected_yield_pct_2035": -0.07,
+    "irrigation_share": 2.7
+  },
+  "Anuppur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.149,
+    "projected_temp_2035": 0.224,
+    "projected_yield_pct_2035": -0.409,
+    "irrigation_share": 3.5
+  },
+  "Araria": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.087,
+    "projected_temp_2035": 0.131,
+    "projected_yield_pct_2035": -0.239,
+    "irrigation_share": 46.732
+  },
+  "Aravalli": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.107,
+    "projected_temp_2035": 0.16,
+    "projected_yield_pct_2035": -0.293,
+    "irrigation_share": 57.551
+  },
+  "Ariyalur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.097,
+    "projected_temp_2035": 0.145,
+    "projected_yield_pct_2035": -0.264,
+    "irrigation_share": 20.701
+  },
+  "Arwal": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.214,
+    "projected_temp_2035": 0.322,
+    "projected_yield_pct_2035": -0.587,
+    "irrigation_share": 30.301
+  },
+  "Ashoknagar": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.062,
+    "projected_temp_2035": 0.093,
+    "projected_yield_pct_2035": -0.169,
+    "irrigation_share": 65.573
+  },
+  "Auraiya": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.441,
+    "irrigation_share": 51.826
+  },
+  "Aurangabad": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.263,
+    "projected_temp_2035": 0.394,
+    "projected_yield_pct_2035": -0.719,
+    "irrigation_share": 34.992
+  },
+  "Azamgarh": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.226,
+    "projected_temp_2035": 0.339,
+    "projected_yield_pct_2035": -0.62,
+    "irrigation_share": 65.981
+  },
+  "Badgam": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.0,
+    "projected_temp_2035": 0.001,
+    "projected_yield_pct_2035": -0.001
+  },
+  "Bagalkote": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.056,
+    "projected_temp_2035": 0.084,
+    "projected_yield_pct_2035": -0.153,
+    "irrigation_share": 57.704
+  },
+  "Bageshwar": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.194,
+    "projected_yield_pct_2035": -0.354,
+    "irrigation_share": 2.124
+  },
+  "Baghpat": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.068,
+    "projected_temp_2035": 0.102,
+    "projected_yield_pct_2035": -0.187,
+    "irrigation_share": 76.491
+  },
+  "Bahraich": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.227,
+    "projected_temp_2035": 0.34,
+    "projected_yield_pct_2035": -0.621,
+    "irrigation_share": 67.051
+  },
+  "Baksa": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.223,
+    "projected_yield_pct_2035": -0.407,
+    "irrigation_share": 9.984
+  },
+  "Balaghat": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.119,
+    "projected_temp_2035": 0.178,
+    "projected_yield_pct_2035": -0.325,
+    "irrigation_share": 27.711
+  },
+  "Balangir": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.024,
+    "projected_temp_2035": -0.036,
+    "projected_yield_pct_2035": 0.066,
+    "irrigation_share": 3.438
+  },
+  "Baleshwar": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.071,
+    "projected_temp_2035": 0.106,
+    "projected_yield_pct_2035": -0.194,
+    "irrigation_share": 22.654
+  },
+  "Ballari": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.08,
+    "projected_temp_2035": 0.12,
+    "projected_yield_pct_2035": -0.22,
+    "irrigation_share": 40.285
+  },
+  "Ballia": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.231,
+    "projected_temp_2035": 0.346,
+    "projected_yield_pct_2035": -0.631,
+    "irrigation_share": 60.876
+  },
+  "Balod": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.102,
+    "projected_temp_2035": 0.153,
+    "projected_yield_pct_2035": -0.28,
+    "irrigation_share": 27.565
+  },
+  "Baloda Bazar": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.054,
+    "projected_temp_2035": 0.081,
+    "projected_yield_pct_2035": -0.148,
+    "irrigation_share": 26.965
+  },
+  "Balrampur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.189,
+    "projected_temp_2035": 0.284,
+    "projected_yield_pct_2035": -0.519,
+    "irrigation_share": 26.249
+  },
+  "Bametara": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.081,
+    "projected_temp_2035": 0.121,
+    "projected_yield_pct_2035": -0.221,
+    "irrigation_share": 40.669
+  },
+  "Banas Kantha": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.119,
+    "projected_temp_2035": 0.178,
+    "projected_yield_pct_2035": -0.325,
+    "irrigation_share": 40.844
+  },
+  "Banda": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.257,
+    "projected_temp_2035": 0.385,
+    "projected_yield_pct_2035": -0.703,
+    "irrigation_share": 53.647
+  },
+  "Bandipore": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.017,
+    "projected_temp_2035": -0.025,
+    "projected_yield_pct_2035": 0.046
+  },
+  "Bangalore": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.168,
+    "projected_temp_2035": 0.251,
+    "projected_yield_pct_2035": -0.459,
+    "irrigation_share": 12.376
+  },
+  "Banka": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.167,
+    "projected_temp_2035": 0.25,
+    "projected_yield_pct_2035": -0.457,
+    "irrigation_share": 34.828
+  },
+  "Bankura": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.176,
+    "projected_temp_2035": 0.265,
+    "projected_yield_pct_2035": -0.483
+  },
+  "Banswara": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.203,
+    "projected_temp_2035": 0.305,
+    "projected_yield_pct_2035": -0.557,
+    "irrigation_share": 35.363
+  },
+  "Bara Banki": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.217,
+    "projected_temp_2035": 0.326,
+    "projected_yield_pct_2035": -0.595
+  },
+  "Baramula": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.041,
+    "projected_temp_2035": 0.061,
+    "projected_yield_pct_2035": -0.111
+  },
+  "Baran": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.082,
+    "projected_temp_2035": 0.124,
+    "projected_yield_pct_2035": -0.226,
+    "irrigation_share": 48.113
+  },
+  "Bareilly": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.2,
+    "projected_temp_2035": 0.3,
+    "projected_yield_pct_2035": -0.548,
+    "irrigation_share": 81.305
+  },
+  "Bargarh": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.045,
+    "projected_temp_2035": 0.068,
+    "projected_yield_pct_2035": -0.124,
+    "irrigation_share": 29.692
+  },
+  "Barmer": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.152,
+    "projected_temp_2035": 0.228,
+    "projected_yield_pct_2035": -0.417,
+    "irrigation_share": 17.256
+  },
+  "Barnala": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.021,
+    "projected_temp_2035": 0.032,
+    "projected_yield_pct_2035": -0.058,
+    "irrigation_share": 87.709
+  },
+  "Barpeta": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.13,
+    "projected_temp_2035": 0.195,
+    "projected_yield_pct_2035": -0.355,
+    "irrigation_share": 25.462
+  },
+  "Barwani": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.18,
+    "projected_temp_2035": 0.27,
+    "projected_yield_pct_2035": -0.494,
+    "irrigation_share": 40.261
+  },
+  "Bastar": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.177,
+    "projected_temp_2035": 0.265,
+    "projected_yield_pct_2035": -0.483,
+    "irrigation_share": 1.813
+  },
+  "Basti": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.223,
+    "projected_temp_2035": 0.334,
+    "projected_yield_pct_2035": -0.61,
+    "irrigation_share": 83.181
+  },
+  "Bathinda": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.024,
+    "projected_temp_2035": 0.036,
+    "projected_yield_pct_2035": -0.066,
+    "irrigation_share": 83.96
+  },
+  "Baudh": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.002,
+    "projected_temp_2035": 0.002,
+    "projected_yield_pct_2035": -0.004,
+    "irrigation_share": 12.601
+  },
+  "Begusarai": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.169,
+    "projected_temp_2035": 0.254,
+    "projected_yield_pct_2035": -0.463,
+    "irrigation_share": 63.448
+  },
+  "Belagavi": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.106,
+    "projected_temp_2035": 0.158,
+    "projected_yield_pct_2035": -0.289,
+    "irrigation_share": 45.728
+  },
+  "Bengaluru Rural": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.176,
+    "projected_temp_2035": 0.265,
+    "projected_yield_pct_2035": -0.483,
+    "irrigation_share": 4.955
+  },
+  "Betul": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.168,
+    "projected_temp_2035": 0.252,
+    "projected_yield_pct_2035": -0.461,
+    "irrigation_share": 20.949
+  },
+  "Bhadohi": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.253,
+    "projected_temp_2035": 0.38,
+    "projected_yield_pct_2035": -0.694
+  },
+  "Bhadradri Kothagudem": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.104,
+    "projected_temp_2035": 0.155,
+    "projected_yield_pct_2035": -0.284
+  },
+  "Bhadrak": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.028,
+    "projected_temp_2035": 0.042,
+    "projected_yield_pct_2035": -0.076,
+    "irrigation_share": 24.929
+  },
+  "Bhagalpur": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.222,
+    "projected_yield_pct_2035": -0.406,
+    "irrigation_share": 19.39
+  },
+  "Bhandara": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.128,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.352,
+    "irrigation_share": 57.155
+  },
+  "Bharatpur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.096,
+    "projected_temp_2035": 0.144,
+    "projected_yield_pct_2035": -0.264,
+    "irrigation_share": 69.697
+  },
+  "Bharuch": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.138,
+    "projected_temp_2035": 0.207,
+    "projected_yield_pct_2035": -0.379,
+    "irrigation_share": 23.914
+  },
+  "Bhavnagar": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.068,
+    "projected_temp_2035": 0.102,
+    "projected_yield_pct_2035": -0.187,
+    "irrigation_share": 23.304
+  },
+  "Bhilwara": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.065,
+    "projected_temp_2035": -0.097,
+    "projected_yield_pct_2035": 0.177,
+    "irrigation_share": 23.206
+  },
+  "Bhind": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.195,
+    "projected_temp_2035": 0.293,
+    "projected_yield_pct_2035": -0.535,
+    "irrigation_share": 64.129
+  },
+  "Bhiwani": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.019,
+    "projected_temp_2035": 0.029,
+    "projected_yield_pct_2035": -0.053,
+    "irrigation_share": 71.594
+  },
+  "Bhojpur": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.218,
+    "projected_temp_2035": 0.328,
+    "projected_yield_pct_2035": -0.598,
+    "irrigation_share": 49.912
+  },
+  "Bhopal": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.12,
+    "projected_temp_2035": 0.181,
+    "projected_yield_pct_2035": -0.33,
+    "irrigation_share": 53.086
+  },
+  "Bid": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.289,
+    "projected_temp_2035": 0.434,
+    "projected_yield_pct_2035": -0.792,
+    "irrigation_share": 18.039
+  },
+  "Bidar": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.203,
+    "projected_temp_2035": 0.304,
+    "projected_yield_pct_2035": -0.556,
+    "irrigation_share": 9.691
+  },
+  "Bijapur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.188,
+    "projected_temp_2035": 0.282,
+    "projected_yield_pct_2035": -0.515,
+    "irrigation_share": 0.379
+  },
+  "Bijnor": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.296,
+    "projected_yield_pct_2035": -0.541,
+    "irrigation_share": 74.806
+  },
+  "Bikaner": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.06,
+    "projected_temp_2035": 0.09,
+    "projected_yield_pct_2035": -0.164,
+    "irrigation_share": 21.888
+  },
+  "Bilaspur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.135,
+    "projected_temp_2035": 0.203,
+    "projected_yield_pct_2035": -0.371,
+    "irrigation_share": 10.999
+  },
+  "Birbhum": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.174,
+    "projected_temp_2035": 0.261,
+    "projected_yield_pct_2035": -0.476
+  },
+  "Bishnupur": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.122,
+    "projected_temp_2035": 0.184,
+    "projected_yield_pct_2035": -0.335
+  },
+  "Biswanath": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.128,
+    "projected_temp_2035": 0.192,
+    "projected_yield_pct_2035": -0.351
+  },
+  "Bokaro": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.169,
+    "projected_temp_2035": 0.254,
+    "projected_yield_pct_2035": -0.464,
+    "irrigation_share": 0.927
+  },
+  "Bongaigaon": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.102,
+    "projected_temp_2035": 0.153,
+    "projected_yield_pct_2035": -0.28,
+    "irrigation_share": 12.563
+  },
+  "Botad": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.135,
+    "projected_temp_2035": 0.202,
+    "projected_yield_pct_2035": -0.369,
+    "irrigation_share": 68.779
+  },
+  "Budaun": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.149,
+    "projected_temp_2035": 0.224,
+    "projected_yield_pct_2035": -0.409,
+    "irrigation_share": 68.015
+  },
+  "Bulandshahr": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.087,
+    "projected_temp_2035": 0.131,
+    "projected_yield_pct_2035": -0.238,
+    "irrigation_share": 77.87
+  },
+  "Buldana": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.317,
+    "projected_temp_2035": 0.475,
+    "projected_yield_pct_2035": -0.867,
+    "irrigation_share": 6.159
+  },
+  "Bundi": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.035,
+    "projected_temp_2035": -0.053,
+    "projected_yield_pct_2035": 0.097,
+    "irrigation_share": 44.052
+  },
+  "Burhanpur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.246,
+    "projected_temp_2035": 0.369,
+    "projected_yield_pct_2035": -0.674,
+    "irrigation_share": 25.074
+  },
+  "Buxar": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.215,
+    "projected_temp_2035": 0.323,
+    "projected_yield_pct_2035": -0.589,
+    "irrigation_share": 57.261
+  },
+  "Cachar": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.199,
+    "projected_temp_2035": 0.299,
+    "projected_yield_pct_2035": -0.546,
+    "irrigation_share": 1.686
+  },
+  "Chamarajanagara": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.173,
+    "projected_temp_2035": 0.259,
+    "projected_yield_pct_2035": -0.473,
+    "irrigation_share": 14.055
+  },
+  "Chamba": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.005,
+    "projected_temp_2035": 0.007,
+    "projected_yield_pct_2035": -0.013,
+    "irrigation_share": 0.714
+  },
+  "Chamoli": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.016,
+    "projected_temp_2035": 0.025,
+    "projected_yield_pct_2035": -0.045,
+    "irrigation_share": 0.123
+  },
+  "Champawat": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.178,
+    "projected_temp_2035": 0.267,
+    "projected_yield_pct_2035": -0.487,
+    "irrigation_share": 0.551
+  },
+  "Champhai": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.126,
+    "projected_temp_2035": 0.189,
+    "projected_yield_pct_2035": -0.345,
+    "irrigation_share": 0.6
+  },
+  "Chandauli": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.2,
+    "projected_temp_2035": 0.3,
+    "projected_yield_pct_2035": -0.548,
+    "irrigation_share": 48.763
+  },
+  "Chandel": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.123,
+    "projected_temp_2035": 0.185,
+    "projected_yield_pct_2035": -0.338
+  },
+  "Chandigarh": {
+    "state": "CHANDIGARH",
+    "trend_c_decade": 0.217,
+    "projected_temp_2035": 0.325,
+    "projected_yield_pct_2035": -0.594,
+    "irrigation_share": 16.024
+  },
+  "Chandrapur": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.253,
+    "projected_temp_2035": 0.379,
+    "projected_yield_pct_2035": -0.692,
+    "irrigation_share": 22.176
+  },
+  "Changlang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.043,
+    "projected_temp_2035": 0.065,
+    "projected_yield_pct_2035": -0.118,
+    "irrigation_share": 10.764
+  },
+  "Charaideo": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.063,
+    "projected_temp_2035": 0.095,
+    "projected_yield_pct_2035": -0.174
+  },
+  "Charki Dadri": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.02,
+    "projected_temp_2035": 0.03,
+    "projected_yield_pct_2035": -0.054,
+    "irrigation_share": 74.547
+  },
+  "Chatra": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.196,
+    "projected_temp_2035": 0.294,
+    "projected_yield_pct_2035": -0.536,
+    "irrigation_share": 1.7
+  },
+  "Chengalpattu": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.047,
+    "projected_temp_2035": 0.071,
+    "projected_yield_pct_2035": -0.129,
+    "irrigation_share": 24.591
+  },
+  "Chennai": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.04,
+    "projected_temp_2035": 0.059,
+    "projected_yield_pct_2035": -0.109,
+    "irrigation_share": 0.644
+  },
+  "Chhatarpur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.191,
+    "projected_temp_2035": 0.287,
+    "projected_yield_pct_2035": -0.523,
+    "irrigation_share": 45.567
+  },
+  "Chhindwara": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.125,
+    "projected_temp_2035": 0.188,
+    "projected_yield_pct_2035": -0.343,
+    "irrigation_share": 29.074
+  },
+  "Chikkaballapura": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.222,
+    "projected_temp_2035": 0.333,
+    "projected_yield_pct_2035": -0.608,
+    "irrigation_share": 11.874
+  },
+  "Chikkamagaluru": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.142,
+    "projected_temp_2035": 0.213,
+    "projected_yield_pct_2035": -0.389,
+    "irrigation_share": 16.053
+  },
+  "Chirang": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.127,
+    "projected_temp_2035": 0.191,
+    "projected_yield_pct_2035": -0.349,
+    "irrigation_share": 5.172
+  },
+  "Chitradurga": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.222,
+    "projected_yield_pct_2035": -0.406,
+    "irrigation_share": 20.298
+  },
+  "Chitrakoot": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.225,
+    "projected_temp_2035": 0.338,
+    "projected_yield_pct_2035": -0.616,
+    "irrigation_share": 24.58
+  },
+  "Chittaurgarh": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.089,
+    "projected_temp_2035": -0.133,
+    "projected_yield_pct_2035": 0.244,
+    "irrigation_share": 38.374
+  },
+  "Chittoor": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.205,
+    "projected_temp_2035": 0.308,
+    "projected_yield_pct_2035": -0.562,
+    "irrigation_share": 9.151
+  },
+  "Chota Udaipur": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.224,
+    "projected_temp_2035": 0.336,
+    "projected_yield_pct_2035": -0.614,
+    "irrigation_share": 18.49
+  },
+  "Churachandpur": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.13,
+    "projected_temp_2035": 0.195,
+    "projected_yield_pct_2035": -0.357
+  },
+  "Churu": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.076,
+    "projected_temp_2035": 0.114,
+    "projected_yield_pct_2035": -0.208,
+    "irrigation_share": 19.469
+  },
+  "Coimbatore": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.153,
+    "projected_temp_2035": 0.229,
+    "projected_yield_pct_2035": -0.419,
+    "irrigation_share": 25.177
+  },
+  "Cooch Behar": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.056,
+    "projected_temp_2035": 0.083,
+    "projected_yield_pct_2035": -0.152
+  },
+  "Cuddalore": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.086,
+    "projected_temp_2035": 0.129,
+    "projected_yield_pct_2035": -0.236,
+    "irrigation_share": 37.955
+  },
+  "Cuttack": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.026,
+    "projected_temp_2035": -0.039,
+    "projected_yield_pct_2035": 0.071,
+    "irrigation_share": 15.665
+  },
+  "Dadra & Nagar Haveli": {
+    "state": "DADRA & NAGAR HAVE",
+    "trend_c_decade": 0.206,
+    "projected_temp_2035": 0.309,
+    "projected_yield_pct_2035": -0.564
+  },
+  "Dakshin Bastar Dantewada": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.204,
+    "projected_temp_2035": 0.305,
+    "projected_yield_pct_2035": -0.558,
+    "irrigation_share": 0.009
+  },
+  "Dakshin Dinajpur": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.14,
+    "projected_temp_2035": 0.21,
+    "projected_yield_pct_2035": -0.383
+  },
+  "Dakshina Kannada": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.141,
+    "projected_temp_2035": 0.211,
+    "projected_yield_pct_2035": -0.385,
+    "irrigation_share": 31.373
+  },
+  "Damoh": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.442,
+    "irrigation_share": 40.491
+  },
+  "Darbhanga": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.222,
+    "projected_yield_pct_2035": -0.406,
+    "irrigation_share": 44.797
+  },
+  "Darjiling": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.064,
+    "projected_temp_2035": 0.097,
+    "projected_yield_pct_2035": -0.176
+  },
+  "Darrang": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.132,
+    "projected_temp_2035": 0.198,
+    "projected_yield_pct_2035": -0.362,
+    "irrigation_share": 6.618
+  },
+  "Datia": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.191,
+    "projected_temp_2035": 0.287,
+    "projected_yield_pct_2035": -0.524,
+    "irrigation_share": 71.053
+  },
+  "Dausa": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.004,
+    "projected_temp_2035": 0.005,
+    "projected_yield_pct_2035": -0.01,
+    "irrigation_share": 41.335
+  },
+  "Davanagere": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.082,
+    "projected_temp_2035": 0.123,
+    "projected_yield_pct_2035": -0.226,
+    "irrigation_share": 36.937
+  },
+  "Debagarh": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.084,
+    "projected_temp_2035": 0.126,
+    "projected_yield_pct_2035": -0.23
+  },
+  "Dehradun": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.155,
+    "projected_temp_2035": 0.232,
+    "projected_yield_pct_2035": -0.423,
+    "irrigation_share": 4.363
+  },
+  "Deoghar": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.182,
+    "projected_temp_2035": 0.273,
+    "projected_yield_pct_2035": -0.498,
+    "irrigation_share": 3.865
+  },
+  "Deoria": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.229,
+    "projected_temp_2035": 0.344,
+    "projected_yield_pct_2035": -0.627,
+    "irrigation_share": 72.107
+  },
+  "Devbhumi Dwarka": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.055,
+    "projected_temp_2035": 0.083,
+    "projected_yield_pct_2035": -0.151,
+    "irrigation_share": 38.47
+  },
+  "Dewas": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.137,
+    "projected_temp_2035": 0.205,
+    "projected_yield_pct_2035": -0.374,
+    "irrigation_share": 58.069
+  },
+  "Dhalai": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.213,
+    "projected_temp_2035": 0.32,
+    "projected_yield_pct_2035": -0.584,
+    "irrigation_share": 2.679
+  },
+  "Dhamtari": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.073,
+    "projected_temp_2035": 0.11,
+    "projected_yield_pct_2035": -0.201,
+    "irrigation_share": 28.098
+  },
+  "Dhanbad": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.175,
+    "projected_temp_2035": 0.262,
+    "projected_yield_pct_2035": -0.478,
+    "irrigation_share": 0.594
+  },
+  "Dhar": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.258,
+    "projected_yield_pct_2035": -0.47,
+    "irrigation_share": 54.688
+  },
+  "Dharmapuri": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.208,
+    "projected_temp_2035": 0.311,
+    "projected_yield_pct_2035": -0.568,
+    "irrigation_share": 12.787
+  },
+  "Dharwad": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.083,
+    "projected_temp_2035": 0.124,
+    "projected_yield_pct_2035": -0.227,
+    "irrigation_share": 8.535
+  },
+  "Dhaulpur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.112,
+    "projected_temp_2035": 0.167,
+    "projected_yield_pct_2035": -0.306,
+    "irrigation_share": 47.095
+  },
+  "Dhemaji": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.062,
+    "projected_temp_2035": 0.093,
+    "projected_yield_pct_2035": -0.169,
+    "irrigation_share": 0.248
+  },
+  "Dhenkanal": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.013,
+    "projected_temp_2035": 0.02,
+    "projected_yield_pct_2035": -0.036,
+    "irrigation_share": 7.791
+  },
+  "Dhubri": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.08,
+    "projected_temp_2035": 0.121,
+    "projected_yield_pct_2035": -0.22,
+    "irrigation_share": 23.385
+  },
+  "Dhule": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.219,
+    "projected_temp_2035": 0.329,
+    "projected_yield_pct_2035": -0.601,
+    "irrigation_share": 25.237
+  },
+  "Dibrugarh": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.06,
+    "projected_temp_2035": 0.089,
+    "projected_yield_pct_2035": -0.163,
+    "irrigation_share": 0.848
+  },
+  "Dima Hasao": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.145,
+    "projected_temp_2035": 0.218,
+    "projected_yield_pct_2035": -0.398,
+    "irrigation_share": 0.21
+  },
+  "Dimapur": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.142,
+    "projected_temp_2035": 0.214,
+    "projected_yield_pct_2035": -0.39,
+    "irrigation_share": 40.51
+  },
+  "Dindigul": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.175,
+    "projected_temp_2035": 0.262,
+    "projected_yield_pct_2035": -0.479,
+    "irrigation_share": 15.926
+  },
+  "Dindori": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.159,
+    "projected_temp_2035": 0.238,
+    "projected_yield_pct_2035": -0.435,
+    "irrigation_share": 4.533
+  },
+  "Doda": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.07,
+    "projected_temp_2035": -0.104,
+    "projected_yield_pct_2035": 0.191,
+    "irrigation_share": 1.185
+  },
+  "Dohad": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.173,
+    "projected_temp_2035": 0.259,
+    "projected_yield_pct_2035": -0.474,
+    "irrigation_share": 25.795
+  },
+  "Dumka": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.258,
+    "projected_yield_pct_2035": -0.47,
+    "irrigation_share": 0.626
+  },
+  "Dungarpur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.105,
+    "projected_temp_2035": 0.157,
+    "projected_yield_pct_2035": -0.287,
+    "irrigation_share": 16.616
+  },
+  "Durg": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.058,
+    "projected_temp_2035": 0.086,
+    "projected_yield_pct_2035": -0.158,
+    "irrigation_share": 43.971
+  },
+  "East": {
+    "state": "DELHI",
+    "trend_c_decade": 0.073,
+    "projected_temp_2035": 0.109,
+    "projected_yield_pct_2035": -0.199
+  },
+  "East District": {
+    "state": "SIKKIM",
+    "trend_c_decade": 0.256,
+    "projected_temp_2035": 0.385,
+    "projected_yield_pct_2035": -0.702
+  },
+  "East Garo Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.133,
+    "projected_temp_2035": 0.199,
+    "projected_yield_pct_2035": -0.363,
+    "irrigation_share": 4.832
+  },
+  "East Godavari": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.063,
+    "projected_temp_2035": 0.094,
+    "projected_yield_pct_2035": -0.172,
+    "irrigation_share": 46.104
+  },
+  "East Jaintia Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.153,
+    "projected_temp_2035": 0.23,
+    "projected_yield_pct_2035": -0.419,
+    "irrigation_share": 1.768
+  },
+  "East Kameng": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.218,
+    "projected_temp_2035": 0.327,
+    "projected_yield_pct_2035": -0.597,
+    "irrigation_share": 9.557
+  },
+  "East Khasi Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.146,
+    "projected_temp_2035": 0.219,
+    "projected_yield_pct_2035": -0.4,
+    "irrigation_share": 4.267
+  },
+  "East Nimar": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.216,
+    "projected_temp_2035": 0.323,
+    "projected_yield_pct_2035": -0.59
+  },
+  "East Siang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.025,
+    "projected_temp_2035": 0.038,
+    "projected_yield_pct_2035": -0.069,
+    "irrigation_share": 19.272
+  },
+  "Ernakulam": {
+    "state": "KERALA",
+    "trend_c_decade": 0.217,
+    "projected_temp_2035": 0.325,
+    "projected_yield_pct_2035": -0.594
+  },
+  "Erode": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.127,
+    "projected_temp_2035": 0.19,
+    "projected_yield_pct_2035": -0.347,
+    "irrigation_share": 20.578
+  },
+  "Etah": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353,
+    "irrigation_share": 81.082
+  },
+  "Etawah": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.154,
+    "projected_temp_2035": 0.231,
+    "projected_yield_pct_2035": -0.422,
+    "irrigation_share": 43.413
+  },
+  "Faizabad": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.218,
+    "projected_temp_2035": 0.327,
+    "projected_yield_pct_2035": -0.598,
+    "irrigation_share": 71.059
+  },
+  "Faridabad": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.078,
+    "projected_temp_2035": 0.118,
+    "projected_yield_pct_2035": -0.215,
+    "irrigation_share": 44.704
+  },
+  "Faridkot": {
+    "state": "PUNJAB",
+    "trend_c_decade": -0.014,
+    "projected_temp_2035": -0.021,
+    "projected_yield_pct_2035": 0.039,
+    "irrigation_share": 86.475
+  },
+  "Farrukhabad": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353,
+    "irrigation_share": 61.888
+  },
+  "Fatehabad": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.067,
+    "projected_temp_2035": 0.1,
+    "projected_yield_pct_2035": -0.183,
+    "irrigation_share": 88.352
+  },
+  "Fatehgarh Sahib": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.164,
+    "projected_temp_2035": 0.246,
+    "projected_yield_pct_2035": -0.448,
+    "irrigation_share": 88.831
+  },
+  "Fatehpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.266,
+    "projected_temp_2035": 0.4,
+    "projected_yield_pct_2035": -0.73,
+    "irrigation_share": 64.559
+  },
+  "Fazilka": {
+    "state": "PUNJAB",
+    "trend_c_decade": -0.084,
+    "projected_temp_2035": -0.125,
+    "projected_yield_pct_2035": 0.229,
+    "irrigation_share": 87.634
+  },
+  "Firozabad": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.136,
+    "projected_temp_2035": 0.205,
+    "projected_yield_pct_2035": -0.374,
+    "irrigation_share": 33.632
+  },
+  "Firozpur": {
+    "state": "PUNJAB",
+    "trend_c_decade": -0.033,
+    "projected_temp_2035": -0.05,
+    "projected_yield_pct_2035": 0.091,
+    "irrigation_share": 91.448
+  },
+  "Gadag": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.053,
+    "projected_temp_2035": 0.08,
+    "projected_yield_pct_2035": -0.146,
+    "irrigation_share": 17.004
+  },
+  "Gadchiroli": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.201,
+    "projected_temp_2035": 0.301,
+    "projected_yield_pct_2035": -0.55,
+    "irrigation_share": 30.812
+  },
+  "Gajapati": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.029,
+    "projected_temp_2035": 0.043,
+    "projected_yield_pct_2035": -0.079,
+    "irrigation_share": 9.106
+  },
+  "Ganderbal": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.032,
+    "projected_temp_2035": -0.048,
+    "projected_yield_pct_2035": 0.088,
+    "irrigation_share": 25.837
+  },
+  "Gandhinagar": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.073,
+    "projected_temp_2035": 0.11,
+    "projected_yield_pct_2035": -0.201,
+    "irrigation_share": 68.509
+  },
+  "Ganganagar": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.108,
+    "projected_temp_2035": -0.163,
+    "projected_yield_pct_2035": 0.297,
+    "irrigation_share": 60.298
+  },
+  "Ganjam": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.022,
+    "projected_temp_2035": -0.033,
+    "projected_yield_pct_2035": 0.061,
+    "irrigation_share": 32.376
+  },
+  "Garhwa": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.208,
+    "projected_temp_2035": 0.311,
+    "projected_yield_pct_2035": -0.569,
+    "irrigation_share": 7.946
+  },
+  "Garhwal": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.259,
+    "projected_yield_pct_2035": -0.472,
+    "irrigation_share": 0.414
+  },
+  "Gariaband": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.05,
+    "projected_temp_2035": 0.075,
+    "projected_yield_pct_2035": -0.136,
+    "irrigation_share": 9.256
+  },
+  "Gautam Buddha Nagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.083,
+    "projected_temp_2035": 0.125,
+    "projected_yield_pct_2035": -0.228,
+    "irrigation_share": 25.328
+  },
+  "Gaya": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.22,
+    "projected_temp_2035": 0.33,
+    "projected_yield_pct_2035": -0.603,
+    "irrigation_share": 19.832
+  },
+  "Ghaziabad": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.056,
+    "projected_temp_2035": 0.085,
+    "projected_yield_pct_2035": -0.154,
+    "irrigation_share": 44.27
+  },
+  "Ghazipur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.215,
+    "projected_temp_2035": 0.322,
+    "projected_yield_pct_2035": -0.588,
+    "irrigation_share": 68.059
+  },
+  "Gir Somnath": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.03,
+    "projected_temp_2035": 0.044,
+    "projected_yield_pct_2035": -0.081,
+    "irrigation_share": 39.755
+  },
+  "Giridih": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.241,
+    "projected_yield_pct_2035": -0.441,
+    "irrigation_share": 7.77
+  },
+  "Goalpara": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.102,
+    "projected_temp_2035": 0.153,
+    "projected_yield_pct_2035": -0.28,
+    "irrigation_share": 17.175
+  },
+  "Godda": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.166,
+    "projected_temp_2035": 0.249,
+    "projected_yield_pct_2035": -0.454,
+    "irrigation_share": 3.459
+  },
+  "Golaghat": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.194,
+    "projected_yield_pct_2035": -0.354,
+    "irrigation_share": 0.139
+  },
+  "Gomati": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.217,
+    "projected_temp_2035": 0.325,
+    "projected_yield_pct_2035": -0.594,
+    "irrigation_share": 11.636
+  },
+  "Gonda": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.208,
+    "projected_temp_2035": 0.313,
+    "projected_yield_pct_2035": -0.571,
+    "irrigation_share": 72.683
+  },
+  "Gondiya": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.155,
+    "projected_temp_2035": 0.233,
+    "projected_yield_pct_2035": -0.425,
+    "irrigation_share": 48.3
+  },
+  "Gopalganj": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.223,
+    "projected_temp_2035": 0.334,
+    "projected_yield_pct_2035": -0.61,
+    "irrigation_share": 40.16
+  },
+  "Gorakhpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.229,
+    "projected_temp_2035": 0.343,
+    "projected_yield_pct_2035": -0.626,
+    "irrigation_share": 46.913
+  },
+  "Gumla": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.16,
+    "projected_temp_2035": 0.24,
+    "projected_yield_pct_2035": -0.438,
+    "irrigation_share": 1.654
+  },
+  "Guna": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.061,
+    "projected_temp_2035": 0.091,
+    "projected_yield_pct_2035": -0.166,
+    "irrigation_share": 51.509
+  },
+  "Guntur": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.021,
+    "projected_temp_2035": 0.031,
+    "projected_yield_pct_2035": -0.057,
+    "irrigation_share": 33.873
+  },
+  "Gurdaspur": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.054,
+    "projected_temp_2035": 0.081,
+    "projected_yield_pct_2035": -0.148,
+    "irrigation_share": 80.623
+  },
+  "Gurugram": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.073,
+    "projected_temp_2035": 0.109,
+    "projected_yield_pct_2035": -0.2
+  },
+  "Gwalior": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.17,
+    "projected_temp_2035": 0.255,
+    "projected_yield_pct_2035": -0.465,
+    "irrigation_share": 34.65
+  },
+  "Hailakandi": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.201,
+    "projected_temp_2035": 0.302,
+    "projected_yield_pct_2035": -0.551,
+    "irrigation_share": 0.064
+  },
+  "Hamirpur": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.187,
+    "projected_temp_2035": 0.281,
+    "projected_yield_pct_2035": -0.513,
+    "irrigation_share": 22.193
+  },
+  "Hanumangarh": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.012,
+    "projected_temp_2035": -0.019,
+    "projected_yield_pct_2035": 0.034,
+    "irrigation_share": 51.562
+  },
+  "Hapur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.076,
+    "projected_temp_2035": 0.114,
+    "projected_yield_pct_2035": -0.208,
+    "irrigation_share": 70.652
+  },
+  "Harda": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.215,
+    "projected_temp_2035": 0.323,
+    "projected_yield_pct_2035": -0.589,
+    "irrigation_share": 58.252
+  },
+  "Hardoi": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.154,
+    "projected_temp_2035": 0.231,
+    "projected_yield_pct_2035": -0.421,
+    "irrigation_share": 46.647
+  },
+  "Hardwar": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.195,
+    "projected_temp_2035": 0.292,
+    "projected_yield_pct_2035": -0.533,
+    "irrigation_share": 44.519
+  },
+  "Hassan": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.152,
+    "projected_temp_2035": 0.228,
+    "projected_yield_pct_2035": -0.417,
+    "irrigation_share": 19.366
+  },
+  "Hathras": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.115,
+    "projected_temp_2035": 0.172,
+    "projected_yield_pct_2035": -0.314,
+    "irrigation_share": 65.831
+  },
+  "Haveri": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.082,
+    "projected_temp_2035": 0.123,
+    "projected_yield_pct_2035": -0.225,
+    "irrigation_share": 29.607
+  },
+  "Hazaribagh": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.163,
+    "projected_temp_2035": 0.245,
+    "projected_yield_pct_2035": -0.448,
+    "irrigation_share": 2.08
+  },
+  "Hingoli": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.349,
+    "projected_temp_2035": 0.523,
+    "projected_yield_pct_2035": -0.956,
+    "irrigation_share": 40.657
+  },
+  "Hisar": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.037,
+    "projected_temp_2035": 0.056,
+    "projected_yield_pct_2035": -0.102,
+    "irrigation_share": 75.04
+  },
+  "Hnahthial": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.181,
+    "projected_temp_2035": 0.271,
+    "projected_yield_pct_2035": -0.496
+  },
+  "Hojai": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.183,
+    "projected_temp_2035": 0.275,
+    "projected_yield_pct_2035": -0.502
+  },
+  "Hooghly": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.153,
+    "projected_temp_2035": 0.229,
+    "projected_yield_pct_2035": -0.419
+  },
+  "Hoshangabad": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.132,
+    "projected_temp_2035": 0.198,
+    "projected_yield_pct_2035": -0.362,
+    "irrigation_share": 43.906
+  },
+  "Hoshiarpur": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.135,
+    "projected_temp_2035": 0.202,
+    "projected_yield_pct_2035": -0.37,
+    "irrigation_share": 59.727
+  },
+  "Howrah": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.241,
+    "projected_yield_pct_2035": -0.44
+  },
+  "Hyderabad": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.046,
+    "projected_temp_2035": 0.069,
+    "projected_yield_pct_2035": -0.126,
+    "irrigation_share": 0.0
+  },
+  "Idukki": {
+    "state": "KERALA",
+    "trend_c_decade": 0.211,
+    "projected_temp_2035": 0.316,
+    "projected_yield_pct_2035": -0.578,
+    "irrigation_share": 10.967
+  },
+  "Imphal East": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.113,
+    "projected_temp_2035": 0.17,
+    "projected_yield_pct_2035": -0.31
+  },
+  "Imphal West": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.123,
+    "projected_temp_2035": 0.184,
+    "projected_yield_pct_2035": -0.336
+  },
+  "Indore": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353,
+    "irrigation_share": 59.482
+  },
+  "Jabalpur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.146,
+    "projected_temp_2035": 0.219,
+    "projected_yield_pct_2035": -0.4,
+    "irrigation_share": 38.514
+  },
+  "Jagatsinghapur": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.028,
+    "projected_temp_2035": -0.042,
+    "projected_yield_pct_2035": 0.076,
+    "irrigation_share": 31.102
+  },
+  "Jagitial": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.204,
+    "projected_temp_2035": 0.306,
+    "projected_yield_pct_2035": -0.558,
+    "irrigation_share": 57.25
+  },
+  "Jaipur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.002,
+    "projected_temp_2035": -0.003,
+    "projected_yield_pct_2035": 0.006,
+    "irrigation_share": 24.526
+  },
+  "Jaisalmer": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.088,
+    "projected_temp_2035": 0.132,
+    "projected_yield_pct_2035": -0.24,
+    "irrigation_share": 5.232
+  },
+  "Jajapur": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.018,
+    "projected_temp_2035": 0.028,
+    "projected_yield_pct_2035": -0.051,
+    "irrigation_share": 9.469
+  },
+  "Jalandhar": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.059,
+    "projected_temp_2035": 0.089,
+    "projected_yield_pct_2035": -0.162,
+    "irrigation_share": 91.236
+  },
+  "Jalaun": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.202,
+    "projected_temp_2035": 0.303,
+    "projected_yield_pct_2035": -0.554,
+    "irrigation_share": 55.14
+  },
+  "Jalgaon": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.275,
+    "projected_temp_2035": 0.412,
+    "projected_yield_pct_2035": -0.753,
+    "irrigation_share": 22.268
+  },
+  "Jalna": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.329,
+    "projected_temp_2035": 0.494,
+    "projected_yield_pct_2035": -0.902,
+    "irrigation_share": 18.028
+  },
+  "Jalor": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.108,
+    "projected_temp_2035": 0.162,
+    "projected_yield_pct_2035": -0.296,
+    "irrigation_share": 26.524
+  },
+  "Jalpaiguri": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.052,
+    "projected_temp_2035": 0.078,
+    "projected_yield_pct_2035": -0.142
+  },
+  "Jammu": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.049,
+    "projected_temp_2035": 0.074,
+    "projected_yield_pct_2035": -0.135,
+    "irrigation_share": 23.818
+  },
+  "Jamnagar": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.057,
+    "projected_temp_2035": 0.086,
+    "projected_yield_pct_2035": -0.156,
+    "irrigation_share": 52.676
+  },
+  "Jamtara": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.177,
+    "projected_temp_2035": 0.265,
+    "projected_yield_pct_2035": -0.485,
+    "irrigation_share": 1.274
+  },
+  "Jamui": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.16,
+    "projected_temp_2035": 0.239,
+    "projected_yield_pct_2035": -0.437,
+    "irrigation_share": 5.877
+  },
+  "Jangoan": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.008,
+    "projected_temp_2035": 0.012,
+    "projected_yield_pct_2035": -0.021,
+    "irrigation_share": 46.604
+  },
+  "Janjgir - Champa": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.078,
+    "projected_temp_2035": 0.116,
+    "projected_yield_pct_2035": -0.213,
+    "irrigation_share": 63.051
+  },
+  "Jashpur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.156,
+    "projected_temp_2035": 0.235,
+    "projected_yield_pct_2035": -0.428,
+    "irrigation_share": 1.641
+  },
+  "Jaunpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.258,
+    "projected_temp_2035": 0.386,
+    "projected_yield_pct_2035": -0.705,
+    "irrigation_share": 52.582
+  },
+  "Jayashankar": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.124,
+    "projected_temp_2035": 0.186,
+    "projected_yield_pct_2035": -0.34,
+    "irrigation_share": 22.686
+  },
+  "Jehanabad": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.209,
+    "projected_temp_2035": 0.313,
+    "projected_yield_pct_2035": -0.572,
+    "irrigation_share": 50.426
+  },
+  "Jhabua": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.179,
+    "projected_temp_2035": 0.269,
+    "projected_yield_pct_2035": -0.491,
+    "irrigation_share": 40.71
+  },
+  "Jhajjar": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.038,
+    "projected_temp_2035": 0.058,
+    "projected_yield_pct_2035": -0.105,
+    "irrigation_share": 60.215
+  },
+  "Jhalawar": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.061,
+    "projected_temp_2035": 0.092,
+    "projected_yield_pct_2035": -0.168,
+    "irrigation_share": 52.721
+  },
+  "Jhansi": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.174,
+    "projected_temp_2035": 0.261,
+    "projected_yield_pct_2035": -0.476,
+    "irrigation_share": 50.935
+  },
+  "Jhargram": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.177,
+    "projected_temp_2035": 0.266,
+    "projected_yield_pct_2035": -0.485
+  },
+  "Jharsuguda": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.123,
+    "projected_temp_2035": 0.185,
+    "projected_yield_pct_2035": -0.337,
+    "irrigation_share": 2.327
+  },
+  "Jhunjhunun": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.032,
+    "projected_temp_2035": 0.047,
+    "projected_yield_pct_2035": -0.086,
+    "irrigation_share": 49.525
+  },
+  "Jind": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.091,
+    "projected_temp_2035": 0.136,
+    "projected_yield_pct_2035": -0.249,
+    "irrigation_share": 78.74
+  },
+  "Jiribam": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.194,
+    "projected_temp_2035": 0.292,
+    "projected_yield_pct_2035": -0.532
+  },
+  "Jodhpur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.12,
+    "projected_temp_2035": 0.18,
+    "projected_yield_pct_2035": -0.329,
+    "irrigation_share": 16.686
+  },
+  "Jogulamba Gadwal": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.045,
+    "projected_temp_2035": 0.067,
+    "projected_yield_pct_2035": -0.122,
+    "irrigation_share": 49.168
+  },
+  "Jorhat": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.122,
+    "projected_temp_2035": 0.184,
+    "projected_yield_pct_2035": -0.335,
+    "irrigation_share": 1.973
+  },
+  "Junagadh": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.085,
+    "projected_temp_2035": 0.128,
+    "projected_yield_pct_2035": -0.233,
+    "irrigation_share": 47.994
+  },
+  "Kabeerdham": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.12,
+    "projected_temp_2035": 0.179,
+    "projected_yield_pct_2035": -0.327,
+    "irrigation_share": 20.433
+  },
+  "Kachchh": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.09,
+    "projected_temp_2035": 0.135,
+    "projected_yield_pct_2035": -0.246,
+    "irrigation_share": 6.585
+  },
+  "Kaimur (bhabua)": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.296,
+    "projected_yield_pct_2035": -0.541,
+    "irrigation_share": 40.566
+  },
+  "Kaithal": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.104,
+    "projected_temp_2035": 0.155,
+    "projected_yield_pct_2035": -0.284,
+    "irrigation_share": 81.093
+  },
+  "Kakching": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.14,
+    "projected_temp_2035": 0.21,
+    "projected_yield_pct_2035": -0.384
+  },
+  "Kalaburagi": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.099,
+    "projected_temp_2035": 0.148,
+    "projected_yield_pct_2035": -0.27
+  },
+  "Kalahandi": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.039,
+    "projected_temp_2035": -0.058,
+    "projected_yield_pct_2035": 0.106,
+    "irrigation_share": 20.741
+  },
+  "Kalimpong": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.113,
+    "projected_temp_2035": 0.17,
+    "projected_yield_pct_2035": -0.31
+  },
+  "Kallakurichi": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.145,
+    "projected_temp_2035": 0.217,
+    "projected_yield_pct_2035": -0.396
+  },
+  "Kamareddy": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.209,
+    "projected_temp_2035": 0.314,
+    "projected_yield_pct_2035": -0.573,
+    "irrigation_share": 39.683
+  },
+  "Kamjong": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.196,
+    "projected_yield_pct_2035": -0.358
+  },
+  "Kamle": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.096,
+    "projected_temp_2035": 0.144,
+    "projected_yield_pct_2035": -0.263,
+    "irrigation_share": 11.588
+  },
+  "Kamrup": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.149,
+    "projected_temp_2035": 0.224,
+    "projected_yield_pct_2035": -0.408,
+    "irrigation_share": 3.791
+  },
+  "Kamrup Metropolitan": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.156,
+    "projected_temp_2035": 0.235,
+    "projected_yield_pct_2035": -0.428,
+    "irrigation_share": 1.16
+  },
+  "Kancheepuram": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.079,
+    "projected_temp_2035": 0.119,
+    "projected_yield_pct_2035": -0.217,
+    "irrigation_share": 23.683
+  },
+  "Kandhamal": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.038,
+    "projected_temp_2035": 0.056,
+    "projected_yield_pct_2035": -0.103,
+    "irrigation_share": 0.885
+  },
+  "Kangpokpi": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.102,
+    "projected_temp_2035": 0.153,
+    "projected_yield_pct_2035": -0.279
+  },
+  "Kangra": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.085,
+    "projected_temp_2035": 0.127,
+    "projected_yield_pct_2035": -0.232,
+    "irrigation_share": 5.719
+  },
+  "Kannauj": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.155,
+    "projected_temp_2035": 0.232,
+    "projected_yield_pct_2035": -0.424,
+    "irrigation_share": 68.003
+  },
+  "Kanniyakumari": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.169,
+    "projected_temp_2035": 0.253,
+    "projected_yield_pct_2035": -0.462,
+    "irrigation_share": 14.574
+  },
+  "Kannur": {
+    "state": "KERALA",
+    "trend_c_decade": 0.149,
+    "projected_temp_2035": 0.224,
+    "projected_yield_pct_2035": -0.408,
+    "irrigation_share": 4.32
+  },
+  "Kanpur Dehat": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.185,
+    "projected_temp_2035": 0.278,
+    "projected_yield_pct_2035": -0.507,
+    "irrigation_share": 47.713
+  },
+  "Kanpur Nagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.213,
+    "projected_temp_2035": 0.319,
+    "projected_yield_pct_2035": -0.582,
+    "irrigation_share": 48.021
+  },
+  "Kapurthala": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.056,
+    "projected_temp_2035": 0.085,
+    "projected_yield_pct_2035": -0.154,
+    "irrigation_share": 78.952
+  },
+  "Karaikal": {
+    "state": "PUDUCHERRY",
+    "trend_c_decade": 0.084,
+    "projected_temp_2035": 0.126,
+    "projected_yield_pct_2035": -0.229,
+    "irrigation_share": 34.824
+  },
+  "Karauli": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.028,
+    "projected_temp_2035": 0.042,
+    "projected_yield_pct_2035": -0.076,
+    "irrigation_share": 28.311
+  },
+  "Karbi Anglong": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353,
+    "irrigation_share": 6.063
+  },
+  "Kargil": {
+    "state": "LADAKH",
+    "trend_c_decade": -0.041,
+    "projected_temp_2035": -0.062,
+    "projected_yield_pct_2035": 0.112,
+    "irrigation_share": 52.989
+  },
+  "Karimganj": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.194,
+    "projected_temp_2035": 0.29,
+    "projected_yield_pct_2035": -0.53,
+    "irrigation_share": 1.763
+  },
+  "Karimnagar": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.084,
+    "projected_temp_2035": 0.126,
+    "projected_yield_pct_2035": -0.231,
+    "irrigation_share": 59.503
+  },
+  "Karnal": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.111,
+    "projected_temp_2035": 0.167,
+    "projected_yield_pct_2035": -0.304,
+    "irrigation_share": 81.397
+  },
+  "Karur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.222,
+    "projected_yield_pct_2035": -0.406,
+    "irrigation_share": 14.526
+  },
+  "Kasaragod": {
+    "state": "KERALA",
+    "trend_c_decade": 0.154,
+    "projected_temp_2035": 0.231,
+    "projected_yield_pct_2035": -0.422,
+    "irrigation_share": 28.341
+  },
+  "Kasganj": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.194,
+    "projected_yield_pct_2035": -0.355,
+    "irrigation_share": 56.276
+  },
+  "Kathua": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.068,
+    "projected_temp_2035": 0.102,
+    "projected_yield_pct_2035": -0.186,
+    "irrigation_share": 8.14
+  },
+  "Katihar": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.111,
+    "projected_temp_2035": 0.167,
+    "projected_yield_pct_2035": -0.305,
+    "irrigation_share": 22.271
+  },
+  "Katni": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.184,
+    "projected_temp_2035": 0.276,
+    "projected_yield_pct_2035": -0.505,
+    "irrigation_share": 43.905
+  },
+  "Kaushambi": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.278,
+    "projected_temp_2035": 0.417,
+    "projected_yield_pct_2035": -0.761,
+    "irrigation_share": 53.713
+  },
+  "Kendrapara": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.004,
+    "projected_temp_2035": -0.006,
+    "projected_yield_pct_2035": 0.011,
+    "irrigation_share": 18.539
+  },
+  "Kendujhar": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.083,
+    "projected_temp_2035": 0.124,
+    "projected_yield_pct_2035": -0.227,
+    "irrigation_share": 2.85
+  },
+  "Khagaria": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.145,
+    "projected_temp_2035": 0.218,
+    "projected_yield_pct_2035": -0.397,
+    "irrigation_share": 42.529
+  },
+  "Khammam": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.034,
+    "projected_temp_2035": 0.052,
+    "projected_yield_pct_2035": -0.094,
+    "irrigation_share": 41.656
+  },
+  "Khawzawl": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.144,
+    "projected_temp_2035": 0.215,
+    "projected_yield_pct_2035": -0.393
+  },
+  "Kheda": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.196,
+    "projected_yield_pct_2035": -0.358,
+    "irrigation_share": 68.113
+  },
+  "Kheri": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.222,
+    "projected_temp_2035": 0.332,
+    "projected_yield_pct_2035": -0.607,
+    "irrigation_share": 61.429
+  },
+  "Khordha": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.031,
+    "projected_temp_2035": -0.047,
+    "projected_yield_pct_2035": 0.085,
+    "irrigation_share": 9.027
+  },
+  "Khowai": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.199,
+    "projected_temp_2035": 0.298,
+    "projected_yield_pct_2035": -0.545,
+    "irrigation_share": 10.494
+  },
+  "Khunti": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.139,
+    "projected_temp_2035": 0.208,
+    "projected_yield_pct_2035": -0.38,
+    "irrigation_share": 2.151
+  },
+  "Kinnaur": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": -0.052,
+    "projected_temp_2035": -0.078,
+    "projected_yield_pct_2035": 0.142,
+    "irrigation_share": 0.878
+  },
+  "Kiphire": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.092,
+    "projected_temp_2035": 0.139,
+    "projected_yield_pct_2035": -0.253,
+    "irrigation_share": 2.542
+  },
+  "Kishanganj": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.057,
+    "projected_temp_2035": 0.085,
+    "projected_yield_pct_2035": -0.155,
+    "irrigation_share": 33.798
+  },
+  "Kishtwar": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.067,
+    "projected_temp_2035": -0.1,
+    "projected_yield_pct_2035": 0.183,
+    "irrigation_share": 2.466
+  },
+  "Kodagu": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.257,
+    "projected_yield_pct_2035": -0.47,
+    "irrigation_share": 0.412
+  },
+  "Kodarma": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.166,
+    "projected_temp_2035": 0.25,
+    "projected_yield_pct_2035": -0.456,
+    "irrigation_share": 1.52
+  },
+  "Kohima": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.135,
+    "projected_temp_2035": 0.202,
+    "projected_yield_pct_2035": -0.37,
+    "irrigation_share": 7.057
+  },
+  "Kokrajhar": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.095,
+    "projected_temp_2035": 0.142,
+    "projected_yield_pct_2035": -0.26,
+    "irrigation_share": 3.802
+  },
+  "Kolar": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.212,
+    "projected_temp_2035": 0.319,
+    "projected_yield_pct_2035": -0.582,
+    "irrigation_share": 14.008
+  },
+  "Kolasib": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.201,
+    "projected_temp_2035": 0.302,
+    "projected_yield_pct_2035": -0.551,
+    "irrigation_share": 0.534
+  },
+  "Kolhapur": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.192,
+    "projected_temp_2035": 0.288,
+    "projected_yield_pct_2035": -0.526,
+    "irrigation_share": 18.412
+  },
+  "Kollam": {
+    "state": "KERALA",
+    "trend_c_decade": 0.217,
+    "projected_temp_2035": 0.326,
+    "projected_yield_pct_2035": -0.595,
+    "irrigation_share": 1.961
+  },
+  "Kondagaon": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.134,
+    "projected_temp_2035": 0.201,
+    "projected_yield_pct_2035": -0.366,
+    "irrigation_share": 1.68
+  },
+  "Koppal": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.026,
+    "projected_temp_2035": 0.04,
+    "projected_yield_pct_2035": -0.072,
+    "irrigation_share": 36.088
+  },
+  "Koraput": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.107,
+    "projected_temp_2035": 0.161,
+    "projected_yield_pct_2035": -0.293,
+    "irrigation_share": 11.611
+  },
+  "Korba": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.106,
+    "projected_temp_2035": 0.159,
+    "projected_yield_pct_2035": -0.29,
+    "irrigation_share": 0.715
+  },
+  "Koriya": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.158,
+    "projected_temp_2035": 0.237,
+    "projected_yield_pct_2035": -0.433
+  },
+  "Kota": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.04,
+    "projected_temp_2035": 0.06,
+    "projected_yield_pct_2035": -0.109,
+    "irrigation_share": 51.103
+  },
+  "Kottayam": {
+    "state": "KERALA",
+    "trend_c_decade": 0.234,
+    "projected_temp_2035": 0.351,
+    "projected_yield_pct_2035": -0.641
+  },
+  "Kozhikode": {
+    "state": "KERALA",
+    "trend_c_decade": 0.183,
+    "projected_temp_2035": 0.275,
+    "projected_yield_pct_2035": -0.502,
+    "irrigation_share": 1.85
+  },
+  "Kra Daadi": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.128,
+    "projected_temp_2035": 0.191,
+    "projected_yield_pct_2035": -0.349,
+    "irrigation_share": 7.991
+  },
+  "Krishna": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.018,
+    "projected_temp_2035": 0.027,
+    "projected_yield_pct_2035": -0.049,
+    "irrigation_share": 43.609
+  },
+  "Krishnagiri": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.215,
+    "projected_temp_2035": 0.323,
+    "projected_yield_pct_2035": -0.589,
+    "irrigation_share": 13.74
+  },
+  "Kulgam": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.03,
+    "projected_temp_2035": 0.046,
+    "projected_yield_pct_2035": -0.083,
+    "irrigation_share": 30.123
+  },
+  "Kullu": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": -0.01,
+    "projected_temp_2035": -0.015,
+    "projected_yield_pct_2035": 0.027,
+    "irrigation_share": 2.856
+  },
+  "Kumuram Bheem Asifabad": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.228,
+    "projected_temp_2035": 0.343,
+    "projected_yield_pct_2035": -0.626,
+    "irrigation_share": 5.649
+  },
+  "Kupwara": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.017,
+    "projected_temp_2035": 0.026,
+    "projected_yield_pct_2035": -0.048,
+    "irrigation_share": 33.128
+  },
+  "Kurnool": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.143,
+    "projected_temp_2035": 0.214,
+    "projected_yield_pct_2035": -0.391,
+    "irrigation_share": 11.771
+  },
+  "Kurukshetra": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.125,
+    "projected_temp_2035": 0.188,
+    "projected_yield_pct_2035": -0.343,
+    "irrigation_share": 97.776
+  },
+  "Kurung Kumey": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.159,
+    "projected_temp_2035": 0.239,
+    "projected_yield_pct_2035": -0.436,
+    "irrigation_share": 6.414
+  },
+  "Kushinagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.201,
+    "projected_temp_2035": 0.302,
+    "projected_yield_pct_2035": -0.551,
+    "irrigation_share": 76.19
+  },
+  "Lahul & Spiti": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": -0.085,
+    "projected_temp_2035": -0.127,
+    "projected_yield_pct_2035": 0.232,
+    "irrigation_share": 0.388
+  },
+  "Lakhimpur": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.115,
+    "projected_temp_2035": 0.172,
+    "projected_yield_pct_2035": -0.314,
+    "irrigation_share": 11.114
+  },
+  "Lakhisarai": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.17,
+    "projected_temp_2035": 0.254,
+    "projected_yield_pct_2035": -0.465,
+    "irrigation_share": 25.386
+  },
+  "Lalitpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.102,
+    "projected_temp_2035": 0.153,
+    "projected_yield_pct_2035": -0.279,
+    "irrigation_share": 14.652
+  },
+  "Latehar": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.164,
+    "projected_temp_2035": 0.247,
+    "projected_yield_pct_2035": -0.45,
+    "irrigation_share": 3.05
+  },
+  "Latur": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.287,
+    "projected_temp_2035": 0.431,
+    "projected_yield_pct_2035": -0.787,
+    "irrigation_share": 57.267
+  },
+  "Lawngtlai": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.243,
+    "projected_temp_2035": 0.364,
+    "projected_yield_pct_2035": -0.665,
+    "irrigation_share": 0.592
+  },
+  "Leh": {
+    "state": "LADAKH",
+    "trend_c_decade": 0.071,
+    "projected_temp_2035": 0.107,
+    "projected_yield_pct_2035": -0.195
+  },
+  "Lepa Rada": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.1,
+    "projected_temp_2035": 0.15,
+    "projected_yield_pct_2035": -0.274,
+    "irrigation_share": 18.316
+  },
+  "Lohardaga": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.146,
+    "projected_temp_2035": 0.219,
+    "projected_yield_pct_2035": -0.401,
+    "irrigation_share": 6.048
+  },
+  "Lohit": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.11,
+    "projected_temp_2035": 0.165,
+    "projected_yield_pct_2035": -0.302,
+    "irrigation_share": 10.254
+  },
+  "Longding": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.1,
+    "projected_temp_2035": 0.15,
+    "projected_yield_pct_2035": -0.273,
+    "irrigation_share": 2.658
+  },
+  "Longleng": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.105,
+    "projected_temp_2035": 0.158,
+    "projected_yield_pct_2035": -0.288,
+    "irrigation_share": 2.715
+  },
+  "Lower Dibang Valley": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.066,
+    "projected_temp_2035": 0.099,
+    "projected_yield_pct_2035": -0.181,
+    "irrigation_share": 21.97
+  },
+  "Lower Siang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.085,
+    "projected_temp_2035": 0.127,
+    "projected_yield_pct_2035": -0.232,
+    "irrigation_share": 16.957
+  },
+  "Lower Subansiri": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.119,
+    "projected_temp_2035": 0.178,
+    "projected_yield_pct_2035": -0.326,
+    "irrigation_share": 15.262
+  },
+  "Lucknow": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.193,
+    "projected_temp_2035": 0.29,
+    "projected_yield_pct_2035": -0.529,
+    "irrigation_share": 24.892
+  },
+  "Ludhiana": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.065,
+    "projected_temp_2035": 0.097,
+    "projected_yield_pct_2035": -0.177,
+    "irrigation_share": 81.239
+  },
+  "Lunglei": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.228,
+    "projected_temp_2035": 0.343,
+    "projected_yield_pct_2035": -0.626,
+    "irrigation_share": 0.609
+  },
+  "Madhepura": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.117,
+    "projected_temp_2035": 0.175,
+    "projected_yield_pct_2035": -0.32,
+    "irrigation_share": 36.375
+  },
+  "Madhubani": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.14,
+    "projected_temp_2035": 0.21,
+    "projected_yield_pct_2035": -0.383,
+    "irrigation_share": 23.602
+  },
+  "Madurai": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.1,
+    "projected_temp_2035": 0.149,
+    "projected_yield_pct_2035": -0.273,
+    "irrigation_share": 16.985
+  },
+  "Mahabubabad": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.038,
+    "projected_temp_2035": 0.056,
+    "projected_yield_pct_2035": -0.103,
+    "irrigation_share": 35.779
+  },
+  "Mahabubnagar": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.027,
+    "projected_temp_2035": 0.04,
+    "projected_yield_pct_2035": -0.073,
+    "irrigation_share": 34.931
+  },
+  "Mahasamund": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.021,
+    "projected_temp_2035": 0.032,
+    "projected_yield_pct_2035": -0.058,
+    "irrigation_share": 14.707
+  },
+  "Mahendragarh": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.031,
+    "projected_temp_2035": 0.047,
+    "projected_yield_pct_2035": -0.085,
+    "irrigation_share": 47.814
+  },
+  "Mahesana": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.056,
+    "projected_temp_2035": 0.084,
+    "projected_yield_pct_2035": -0.153,
+    "irrigation_share": 54.593
+  },
+  "Mahisagar": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.184,
+    "projected_temp_2035": 0.276,
+    "projected_yield_pct_2035": -0.503,
+    "irrigation_share": 35.91
+  },
+  "Mahoba": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.217,
+    "projected_temp_2035": 0.325,
+    "projected_yield_pct_2035": -0.594,
+    "irrigation_share": 21.409
+  },
+  "Mahrajganj": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.198,
+    "projected_temp_2035": 0.297,
+    "projected_yield_pct_2035": -0.542,
+    "irrigation_share": 33.529
+  },
+  "Mainpuri": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.144,
+    "projected_temp_2035": 0.217,
+    "projected_yield_pct_2035": -0.395,
+    "irrigation_share": 78.539
+  },
+  "Majuli": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.118,
+    "projected_temp_2035": 0.178,
+    "projected_yield_pct_2035": -0.324
+  },
+  "Malappuram": {
+    "state": "KERALA",
+    "trend_c_decade": 0.199,
+    "projected_temp_2035": 0.299,
+    "projected_yield_pct_2035": -0.545,
+    "irrigation_share": 8.984
+  },
+  "Maldah": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.14,
+    "projected_temp_2035": 0.21,
+    "projected_yield_pct_2035": -0.383
+  },
+  "Malkangiri": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.441,
+    "irrigation_share": 0.966
+  },
+  "Mamit": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.214,
+    "projected_temp_2035": 0.322,
+    "projected_yield_pct_2035": -0.587,
+    "irrigation_share": 0.584
+  },
+  "Mancherial": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.196,
+    "projected_temp_2035": 0.294,
+    "projected_yield_pct_2035": -0.536,
+    "irrigation_share": 19.911
+  },
+  "Mandi": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.101,
+    "projected_temp_2035": 0.152,
+    "projected_yield_pct_2035": -0.278,
+    "irrigation_share": 3.711
+  },
+  "Mandla": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.197,
+    "projected_yield_pct_2035": -0.359,
+    "irrigation_share": 5.919
+  },
+  "Mandsaur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.067,
+    "projected_temp_2035": 0.1,
+    "projected_yield_pct_2035": -0.183,
+    "irrigation_share": 50.944
+  },
+  "Mandya": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.177,
+    "projected_temp_2035": 0.265,
+    "projected_yield_pct_2035": -0.484,
+    "irrigation_share": 36.362
+  },
+  "Mansa": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.051,
+    "projected_temp_2035": 0.077,
+    "projected_yield_pct_2035": -0.14,
+    "irrigation_share": 86.204
+  },
+  "Mathura": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.081,
+    "projected_temp_2035": 0.122,
+    "projected_yield_pct_2035": -0.223,
+    "irrigation_share": 60.352
+  },
+  "Mau": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.223,
+    "projected_temp_2035": 0.334,
+    "projected_yield_pct_2035": -0.61,
+    "irrigation_share": 83.078
+  },
+  "Mayurbhanj": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.121,
+    "projected_temp_2035": 0.181,
+    "projected_yield_pct_2035": -0.331,
+    "irrigation_share": 8.985
+  },
+  "Medak": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.137,
+    "projected_temp_2035": 0.205,
+    "projected_yield_pct_2035": -0.374,
+    "irrigation_share": 44.728
+  },
+  "Medchal Malkajgiri": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.05,
+    "projected_temp_2035": 0.076,
+    "projected_yield_pct_2035": -0.138,
+    "irrigation_share": 10.366
+  },
+  "Medinipur West": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.164,
+    "projected_temp_2035": 0.246,
+    "projected_yield_pct_2035": -0.448
+  },
+  "Meerut": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.106,
+    "projected_temp_2035": 0.159,
+    "projected_yield_pct_2035": -0.29,
+    "irrigation_share": 31.53
+  },
+  "Mirpur": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.057,
+    "projected_temp_2035": 0.085,
+    "projected_yield_pct_2035": -0.155
+  },
+  "Mirzapur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.219,
+    "projected_temp_2035": 0.329,
+    "projected_yield_pct_2035": -0.6,
+    "irrigation_share": 38.521
+  },
+  "Moga": {
+    "state": "PUNJAB",
+    "trend_c_decade": -0.028,
+    "projected_temp_2035": -0.041,
+    "projected_yield_pct_2035": 0.076,
+    "irrigation_share": 86.933
+  },
+  "Mokokchung": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.103,
+    "projected_temp_2035": 0.154,
+    "projected_yield_pct_2035": -0.281,
+    "irrigation_share": 4.667
+  },
+  "Mon": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.091,
+    "projected_temp_2035": 0.136,
+    "projected_yield_pct_2035": -0.249,
+    "irrigation_share": 3.084
+  },
+  "Moradabad": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.182,
+    "projected_temp_2035": 0.273,
+    "projected_yield_pct_2035": -0.498,
+    "irrigation_share": 90.708
+  },
+  "Morbi": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.124,
+    "projected_temp_2035": 0.186,
+    "projected_yield_pct_2035": -0.34,
+    "irrigation_share": 54.318
+  },
+  "Morena": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.13,
+    "projected_temp_2035": 0.195,
+    "projected_yield_pct_2035": -0.355,
+    "irrigation_share": 47.877
+  },
+  "Morigaon": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.135,
+    "projected_temp_2035": 0.203,
+    "projected_yield_pct_2035": -0.371,
+    "irrigation_share": 15.147
+  },
+  "Mulugu": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.118,
+    "projected_temp_2035": 0.177,
+    "projected_yield_pct_2035": -0.323,
+    "irrigation_share": 6.426
+  },
+  "Mumbai Suburban": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.158,
+    "projected_temp_2035": 0.237,
+    "projected_yield_pct_2035": -0.433
+  },
+  "Mungeli": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.128,
+    "projected_temp_2035": 0.192,
+    "projected_yield_pct_2035": -0.35,
+    "irrigation_share": 25.497
+  },
+  "Munger": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.258,
+    "projected_yield_pct_2035": -0.47,
+    "irrigation_share": 17.18
+  },
+  "Murshidabad": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.166,
+    "projected_temp_2035": 0.248,
+    "projected_yield_pct_2035": -0.454
+  },
+  "Muzaffarabad": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.005,
+    "projected_temp_2035": 0.007,
+    "projected_yield_pct_2035": -0.014
+  },
+  "Muzaffarnagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.152,
+    "projected_temp_2035": 0.228,
+    "projected_yield_pct_2035": -0.416,
+    "irrigation_share": 74.874
+  },
+  "Muzaffarpur": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.186,
+    "projected_temp_2035": 0.279,
+    "projected_yield_pct_2035": -0.509,
+    "irrigation_share": 42.501
+  },
+  "Mysuru": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.163,
+    "projected_temp_2035": 0.245,
+    "projected_yield_pct_2035": -0.448,
+    "irrigation_share": 19.601
+  },
+  "Nabarangapur": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.064,
+    "projected_temp_2035": 0.096,
+    "projected_yield_pct_2035": -0.176,
+    "irrigation_share": 3.07
+  },
+  "Nadia": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.442
+  },
+  "Nagaon": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.152,
+    "projected_temp_2035": 0.228,
+    "projected_yield_pct_2035": -0.416,
+    "irrigation_share": 17.813
+  },
+  "Nagapattinam": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.083,
+    "projected_temp_2035": 0.125,
+    "projected_yield_pct_2035": -0.227,
+    "irrigation_share": 32.659
+  },
+  "Nagarkurnool": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.064,
+    "projected_temp_2035": 0.097,
+    "projected_yield_pct_2035": -0.176,
+    "irrigation_share": 31.675
+  },
+  "Nagaur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.118,
+    "projected_temp_2035": 0.176,
+    "projected_yield_pct_2035": -0.322,
+    "irrigation_share": 25.045
+  },
+  "Nagpur": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.14,
+    "projected_temp_2035": 0.21,
+    "projected_yield_pct_2035": -0.384,
+    "irrigation_share": 37.22
+  },
+  "Nainital": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.198,
+    "projected_temp_2035": 0.297,
+    "projected_yield_pct_2035": -0.542,
+    "irrigation_share": 5.764
+  },
+  "Nalanda": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.194,
+    "projected_temp_2035": 0.292,
+    "projected_yield_pct_2035": -0.532,
+    "irrigation_share": 50.229
+  },
+  "Nalbari": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.141,
+    "projected_temp_2035": 0.212,
+    "projected_yield_pct_2035": -0.387,
+    "irrigation_share": 25.447
+  },
+  "Nalgonda": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.019,
+    "projected_temp_2035": 0.028,
+    "projected_yield_pct_2035": -0.051,
+    "irrigation_share": 34.18
+  },
+  "Namakkal": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.151,
+    "projected_temp_2035": 0.227,
+    "projected_yield_pct_2035": -0.414,
+    "irrigation_share": 21.629
+  },
+  "Namsai": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.072,
+    "projected_temp_2035": 0.108,
+    "projected_yield_pct_2035": -0.198,
+    "irrigation_share": 11.416
+  },
+  "Nanded": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.301,
+    "projected_temp_2035": 0.452,
+    "projected_yield_pct_2035": -0.826,
+    "irrigation_share": 15.49
+  },
+  "Nandurbar": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.188,
+    "projected_temp_2035": 0.282,
+    "projected_yield_pct_2035": -0.516,
+    "irrigation_share": 22.922
+  },
+  "Narayanpet": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.011,
+    "projected_temp_2035": 0.017,
+    "projected_yield_pct_2035": -0.031,
+    "irrigation_share": 29.443
+  },
+  "Narayanpur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.165,
+    "projected_temp_2035": 0.248,
+    "projected_yield_pct_2035": -0.453,
+    "irrigation_share": 0.04
+  },
+  "Narmada": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.242,
+    "projected_temp_2035": 0.363,
+    "projected_yield_pct_2035": -0.663,
+    "irrigation_share": 10.793
+  },
+  "Narsimhapur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.116,
+    "projected_temp_2035": 0.174,
+    "projected_yield_pct_2035": -0.319,
+    "irrigation_share": 56.644
+  },
+  "Nashik": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.278,
+    "projected_temp_2035": 0.417,
+    "projected_yield_pct_2035": -0.761,
+    "irrigation_share": 51.021
+  },
+  "Navsari": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.216,
+    "projected_temp_2035": 0.323,
+    "projected_yield_pct_2035": -0.591,
+    "irrigation_share": 34.848
+  },
+  "Nawada": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.185,
+    "projected_temp_2035": 0.277,
+    "projected_yield_pct_2035": -0.506,
+    "irrigation_share": 26.523
+  },
+  "Nayagarh": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.019,
+    "projected_temp_2035": -0.028,
+    "projected_yield_pct_2035": 0.052,
+    "irrigation_share": 2.546
+  },
+  "Neemuch": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": -0.024,
+    "projected_temp_2035": -0.037,
+    "projected_yield_pct_2035": 0.067,
+    "irrigation_share": 39.407
+  },
+  "New Delhi": {
+    "state": "DELHI",
+    "trend_c_decade": 0.06,
+    "projected_temp_2035": 0.089,
+    "projected_yield_pct_2035": -0.163
+  },
+  "Nicobars": {
+    "state": "ANDAMAN & NICOBAR",
+    "trend_c_decade": 0.188,
+    "projected_temp_2035": 0.282,
+    "projected_yield_pct_2035": -0.515
+  },
+  "Nirmal": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.232,
+    "projected_temp_2035": 0.347,
+    "projected_yield_pct_2035": -0.634,
+    "irrigation_share": 34.763
+  },
+  "Niwari": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.128,
+    "projected_temp_2035": 0.192,
+    "projected_yield_pct_2035": -0.35,
+    "irrigation_share": 61.249
+  },
+  "Nizamabad": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.256,
+    "projected_temp_2035": 0.385,
+    "projected_yield_pct_2035": -0.702,
+    "irrigation_share": 49.897
+  },
+  "Noney": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.13,
+    "projected_temp_2035": 0.195,
+    "projected_yield_pct_2035": -0.356
+  },
+  "North": {
+    "state": "DELHI",
+    "trend_c_decade": 0.017,
+    "projected_temp_2035": 0.025,
+    "projected_yield_pct_2035": -0.046
+  },
+  "North  & Middle Andaman": {
+    "state": "ANDAMAN & NICOBAR",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353
+  },
+  "North  District": {
+    "state": "SIKKIM",
+    "trend_c_decade": 0.247,
+    "projected_temp_2035": 0.371,
+    "projected_yield_pct_2035": -0.678
+  },
+  "North Garo Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.118,
+    "projected_temp_2035": 0.177,
+    "projected_yield_pct_2035": -0.323,
+    "irrigation_share": 5.897
+  },
+  "North Goa": {
+    "state": "GOA",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.295,
+    "projected_yield_pct_2035": -0.538,
+    "irrigation_share": 16.473
+  },
+  "North Tripura": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.193,
+    "projected_temp_2035": 0.289,
+    "projected_yield_pct_2035": -0.528,
+    "irrigation_share": 4.872
+  },
+  "North Twenty Four Pargan*": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.441
+  },
+  "North West": {
+    "state": "DELHI",
+    "trend_c_decade": 0.028,
+    "projected_temp_2035": 0.042,
+    "projected_yield_pct_2035": -0.076
+  },
+  "Nuapada": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.022,
+    "projected_temp_2035": 0.033,
+    "projected_yield_pct_2035": -0.06,
+    "irrigation_share": 8.192
+  },
+  "Nuh": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.042,
+    "projected_temp_2035": 0.063,
+    "projected_yield_pct_2035": -0.116
+  },
+  "Osmanabad": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.274,
+    "projected_temp_2035": 0.412,
+    "projected_yield_pct_2035": -0.752
+  },
+  "Pakke Kessang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.137,
+    "projected_temp_2035": 0.205,
+    "projected_yield_pct_2035": -0.374,
+    "irrigation_share": 10.847
+  },
+  "Pakur": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.169,
+    "projected_temp_2035": 0.253,
+    "projected_yield_pct_2035": -0.462,
+    "irrigation_share": 1.701
+  },
+  "Palakkad": {
+    "state": "KERALA",
+    "trend_c_decade": 0.215,
+    "projected_temp_2035": 0.322,
+    "projected_yield_pct_2035": -0.588,
+    "irrigation_share": 19.016
+  },
+  "Palamu": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.295,
+    "projected_yield_pct_2035": -0.539,
+    "irrigation_share": 4.303
+  },
+  "Palghar": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.216,
+    "projected_temp_2035": 0.324,
+    "projected_yield_pct_2035": -0.591,
+    "irrigation_share": 5.434
+  },
+  "Pali": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.036,
+    "projected_temp_2035": 0.055,
+    "projected_yield_pct_2035": -0.1,
+    "irrigation_share": 17.189
+  },
+  "Palwal": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.054,
+    "projected_temp_2035": 0.081,
+    "projected_yield_pct_2035": -0.148,
+    "irrigation_share": 48.218
+  },
+  "Panch Mahals": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.2,
+    "projected_temp_2035": 0.3,
+    "projected_yield_pct_2035": -0.548,
+    "irrigation_share": 13.968
+  },
+  "Panchkula": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.175,
+    "projected_temp_2035": 0.263,
+    "projected_yield_pct_2035": -0.48,
+    "irrigation_share": 31.351
+  },
+  "Panipat": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.097,
+    "projected_temp_2035": 0.146,
+    "projected_yield_pct_2035": -0.267,
+    "irrigation_share": 75.006
+  },
+  "Panna": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.186,
+    "projected_temp_2035": 0.278,
+    "projected_yield_pct_2035": -0.508,
+    "irrigation_share": 26.341
+  },
+  "Papum Pare": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.098,
+    "projected_temp_2035": 0.147,
+    "projected_yield_pct_2035": -0.268,
+    "irrigation_share": 23.07
+  },
+  "Parbhani": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.362,
+    "projected_temp_2035": 0.543,
+    "projected_yield_pct_2035": -0.991,
+    "irrigation_share": 29.279
+  },
+  "Paschim Bardhaman": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.17,
+    "projected_temp_2035": 0.254,
+    "projected_yield_pct_2035": -0.465
+  },
+  "Pashchim Champaran": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.177,
+    "projected_temp_2035": 0.266,
+    "projected_yield_pct_2035": -0.486,
+    "irrigation_share": 32.591
+  },
+  "Pashchimi Singhbhum": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.147,
+    "projected_temp_2035": 0.22,
+    "projected_yield_pct_2035": -0.402
+  },
+  "Patan": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.113,
+    "projected_temp_2035": 0.17,
+    "projected_yield_pct_2035": -0.311,
+    "irrigation_share": 42.469
+  },
+  "Pathanamthitta": {
+    "state": "KERALA",
+    "trend_c_decade": 0.22,
+    "projected_temp_2035": 0.331,
+    "projected_yield_pct_2035": -0.604
+  },
+  "Pathankot": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.067,
+    "projected_temp_2035": 0.1,
+    "projected_yield_pct_2035": -0.182,
+    "irrigation_share": 49.614
+  },
+  "Patiala": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.095,
+    "projected_temp_2035": 0.143,
+    "projected_yield_pct_2035": -0.26,
+    "irrigation_share": 79.613
+  },
+  "Patna": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.203,
+    "projected_temp_2035": 0.305,
+    "projected_yield_pct_2035": -0.557,
+    "irrigation_share": 25.73
+  },
+  "Peddapalli": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.155,
+    "projected_temp_2035": 0.232,
+    "projected_yield_pct_2035": -0.423,
+    "irrigation_share": 48.671
+  },
+  "Perambalur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.115,
+    "projected_temp_2035": 0.173,
+    "projected_yield_pct_2035": -0.316,
+    "irrigation_share": 14.361
+  },
+  "Peren": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.197,
+    "projected_yield_pct_2035": -0.36,
+    "irrigation_share": 7.348
+  },
+  "Phek": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.113,
+    "projected_temp_2035": 0.169,
+    "projected_yield_pct_2035": -0.309,
+    "irrigation_share": 7.594
+  },
+  "Pherzawl": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.173,
+    "projected_temp_2035": 0.259,
+    "projected_yield_pct_2035": -0.473
+  },
+  "Pilibhit": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.234,
+    "projected_temp_2035": 0.351,
+    "projected_yield_pct_2035": -0.64,
+    "irrigation_share": 64.247
+  },
+  "Pithoragarh": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.223,
+    "projected_yield_pct_2035": -0.407,
+    "irrigation_share": 0.271
+  },
+  "Porbandar": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.05,
+    "projected_temp_2035": 0.074,
+    "projected_yield_pct_2035": -0.136,
+    "irrigation_share": 30.494
+  },
+  "Prakasam": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.111,
+    "projected_temp_2035": 0.166,
+    "projected_yield_pct_2035": -0.303,
+    "irrigation_share": 5.433
+  },
+  "Pratapgarh": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.222,
+    "projected_temp_2035": 0.333,
+    "projected_yield_pct_2035": -0.607,
+    "irrigation_share": 44.84
+  },
+  "Prayagraj": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.271,
+    "projected_temp_2035": 0.406,
+    "projected_yield_pct_2035": -0.741
+  },
+  "Puducherry": {
+    "state": "PUDUCHERRY",
+    "trend_c_decade": 0.057,
+    "projected_temp_2035": 0.086,
+    "projected_yield_pct_2035": -0.157,
+    "irrigation_share": 33.535
+  },
+  "Pudukkottai": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.116,
+    "projected_temp_2035": 0.173,
+    "projected_yield_pct_2035": -0.316,
+    "irrigation_share": 25.403
+  },
+  "Pulwama": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.015,
+    "projected_temp_2035": -0.022,
+    "projected_yield_pct_2035": 0.04,
+    "irrigation_share": 33.938
+  },
+  "Punch": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.016,
+    "projected_temp_2035": -0.025,
+    "projected_yield_pct_2035": 0.045
+  },
+  "Pune": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.264,
+    "projected_temp_2035": 0.396,
+    "projected_yield_pct_2035": -0.723,
+    "irrigation_share": 27.265
+  },
+  "Purba Bardhaman": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.442
+  },
+  "Purba Champaran": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.185,
+    "projected_temp_2035": 0.278,
+    "projected_yield_pct_2035": -0.508,
+    "irrigation_share": 29.866
+  },
+  "Purba Medinipur": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.135,
+    "projected_temp_2035": 0.202,
+    "projected_yield_pct_2035": -0.368
+  },
+  "Purbi Singhbhum": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.18,
+    "projected_temp_2035": 0.271,
+    "projected_yield_pct_2035": -0.494
+  },
+  "Puri": {
+    "state": "ODISHA",
+    "trend_c_decade": -0.052,
+    "projected_temp_2035": -0.078,
+    "projected_yield_pct_2035": 0.142,
+    "irrigation_share": 27.93
+  },
+  "Purnia": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.098,
+    "projected_temp_2035": 0.147,
+    "projected_yield_pct_2035": -0.269,
+    "irrigation_share": 50.886
+  },
+  "Puruliya": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.169,
+    "projected_temp_2035": 0.254,
+    "projected_yield_pct_2035": -0.464
+  },
+  "Rae Bareli": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.267,
+    "projected_temp_2035": 0.4,
+    "projected_yield_pct_2035": -0.73,
+    "irrigation_share": 65.251
+  },
+  "Raichur": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.022,
+    "projected_temp_2035": 0.032,
+    "projected_yield_pct_2035": -0.059,
+    "irrigation_share": 35.182
+  },
+  "Raigarh": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.166,
+    "projected_temp_2035": 0.249,
+    "projected_yield_pct_2035": -0.455,
+    "irrigation_share": 4.82
+  },
+  "Raipur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.039,
+    "projected_temp_2035": 0.059,
+    "projected_yield_pct_2035": -0.108,
+    "irrigation_share": 46.433
+  },
+  "Raisen": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.122,
+    "projected_temp_2035": 0.183,
+    "projected_yield_pct_2035": -0.333,
+    "irrigation_share": 47.606
+  },
+  "Rajanna Sircilla": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.114,
+    "projected_temp_2035": 0.171,
+    "projected_yield_pct_2035": -0.313
+  },
+  "Rajgarh": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.087,
+    "projected_temp_2035": 0.131,
+    "projected_yield_pct_2035": -0.239,
+    "irrigation_share": 61.573
+  },
+  "Rajkot": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.078,
+    "projected_temp_2035": 0.117,
+    "projected_yield_pct_2035": -0.214,
+    "irrigation_share": 53.472
+  },
+  "Rajnandgaon": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.119,
+    "projected_temp_2035": 0.178,
+    "projected_yield_pct_2035": -0.326,
+    "irrigation_share": 13.675
+  },
+  "Rajouri": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.013,
+    "projected_temp_2035": 0.019,
+    "projected_yield_pct_2035": -0.035,
+    "irrigation_share": 2.05
+  },
+  "Rajsamand": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.052,
+    "projected_temp_2035": -0.078,
+    "projected_yield_pct_2035": 0.143,
+    "irrigation_share": 13.132
+  },
+  "Ramanagara": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.15,
+    "projected_temp_2035": 0.225,
+    "projected_yield_pct_2035": -0.41,
+    "irrigation_share": 8.145
+  },
+  "Ramanathapuram": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.107,
+    "projected_temp_2035": 0.16,
+    "projected_yield_pct_2035": -0.293,
+    "irrigation_share": 16.15
+  },
+  "Ramban": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": -0.007,
+    "projected_temp_2035": -0.01,
+    "projected_yield_pct_2035": 0.018,
+    "irrigation_share": 1.302
+  },
+  "Ramgarh": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.155,
+    "projected_temp_2035": 0.232,
+    "projected_yield_pct_2035": -0.424,
+    "irrigation_share": 2.061
+  },
+  "Rampur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.198,
+    "projected_temp_2035": 0.297,
+    "projected_yield_pct_2035": -0.543,
+    "irrigation_share": 78.082
+  },
+  "Ranchi": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.147,
+    "projected_temp_2035": 0.221,
+    "projected_yield_pct_2035": -0.403,
+    "irrigation_share": 2.592
+  },
+  "Ranga Reddy": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.048,
+    "projected_temp_2035": 0.073,
+    "projected_yield_pct_2035": -0.133,
+    "irrigation_share": 15.921
+  },
+  "Ranipet": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353
+  },
+  "Ratlam": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.158,
+    "projected_temp_2035": 0.237,
+    "projected_yield_pct_2035": -0.433,
+    "irrigation_share": 61.958
+  },
+  "Ratnagiri": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.198,
+    "projected_temp_2035": 0.298,
+    "projected_yield_pct_2035": -0.544,
+    "irrigation_share": 3.077
+  },
+  "Rayagada": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.006,
+    "projected_temp_2035": 0.009,
+    "projected_yield_pct_2035": -0.016,
+    "irrigation_share": 7.248
+  },
+  "Reasi": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.041,
+    "projected_temp_2035": 0.061,
+    "projected_yield_pct_2035": -0.111,
+    "irrigation_share": 0.944
+  },
+  "Rewa": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.216,
+    "projected_temp_2035": 0.324,
+    "projected_yield_pct_2035": -0.592,
+    "irrigation_share": 49.757
+  },
+  "Rewari": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.062,
+    "projected_temp_2035": 0.093,
+    "projected_yield_pct_2035": -0.17,
+    "irrigation_share": 83.374
+  },
+  "Ribhoi": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.145,
+    "projected_temp_2035": 0.218,
+    "projected_yield_pct_2035": -0.398,
+    "irrigation_share": 5.523
+  },
+  "Rohtak": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.003,
+    "projected_temp_2035": 0.005,
+    "projected_yield_pct_2035": -0.009,
+    "irrigation_share": 76.027
+  },
+  "Rohtas": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.21,
+    "projected_temp_2035": 0.315,
+    "projected_yield_pct_2035": -0.575,
+    "irrigation_share": 53.577
+  },
+  "Rudraprayag": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.08,
+    "projected_temp_2035": 0.12,
+    "projected_yield_pct_2035": -0.22
+  },
+  "Rupnagar": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.193,
+    "projected_temp_2035": 0.29,
+    "projected_yield_pct_2035": -0.529,
+    "irrigation_share": 58.111
+  },
+  "Sabar Kantha": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.053,
+    "projected_temp_2035": 0.079,
+    "projected_yield_pct_2035": -0.144,
+    "irrigation_share": 53.366
+  },
+  "Sagar": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.112,
+    "projected_temp_2035": 0.168,
+    "projected_yield_pct_2035": -0.306,
+    "irrigation_share": 51.973
+  },
+  "Saharanpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.171,
+    "projected_temp_2035": 0.257,
+    "projected_yield_pct_2035": -0.469,
+    "irrigation_share": 54.518
+  },
+  "Saharsa": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.196,
+    "projected_yield_pct_2035": -0.358,
+    "irrigation_share": 36.196
+  },
+  "Sahibganj": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.157,
+    "projected_temp_2035": 0.236,
+    "projected_yield_pct_2035": -0.431,
+    "irrigation_share": 1.615
+  },
+  "Sahibzada Ajit Singh Nag*": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.199,
+    "projected_temp_2035": 0.298,
+    "projected_yield_pct_2035": -0.545
+  },
+  "Saiha": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.209,
+    "projected_temp_2035": 0.313,
+    "projected_yield_pct_2035": -0.571,
+    "irrigation_share": 0.572
+  },
+  "Saitual": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.154,
+    "projected_temp_2035": 0.231,
+    "projected_yield_pct_2035": -0.422
+  },
+  "Salem": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.18,
+    "projected_temp_2035": 0.271,
+    "projected_yield_pct_2035": -0.494,
+    "irrigation_share": 22.851
+  },
+  "Samastipur": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.16,
+    "projected_temp_2035": 0.239,
+    "projected_yield_pct_2035": -0.437,
+    "irrigation_share": 42.736
+  },
+  "Samba": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.083,
+    "projected_temp_2035": 0.125,
+    "projected_yield_pct_2035": -0.228,
+    "irrigation_share": 11.93
+  },
+  "Sambalpur": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.078,
+    "projected_temp_2035": 0.117,
+    "projected_yield_pct_2035": -0.213,
+    "irrigation_share": 5.577
+  },
+  "Sambhal": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.13,
+    "projected_temp_2035": 0.195,
+    "projected_yield_pct_2035": -0.356,
+    "irrigation_share": 53.537
+  },
+  "Sangareddy": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.175,
+    "projected_temp_2035": 0.263,
+    "projected_yield_pct_2035": -0.48,
+    "irrigation_share": 18.298
+  },
+  "Sangli": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.19,
+    "projected_temp_2035": 0.285,
+    "projected_yield_pct_2035": -0.52,
+    "irrigation_share": 29.276
+  },
+  "Sangrur": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.045,
+    "projected_temp_2035": 0.068,
+    "projected_yield_pct_2035": -0.125,
+    "irrigation_share": 87.375
+  },
+  "Sant Kabir Nagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.23,
+    "projected_temp_2035": 0.345,
+    "projected_yield_pct_2035": -0.63,
+    "irrigation_share": 62.477
+  },
+  "Saraikela-kharsawan": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.178,
+    "projected_temp_2035": 0.268,
+    "projected_yield_pct_2035": -0.489,
+    "irrigation_share": 0.286
+  },
+  "Saran": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.225,
+    "projected_temp_2035": 0.338,
+    "projected_yield_pct_2035": -0.617,
+    "irrigation_share": 34.927
+  },
+  "Satara": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.253,
+    "projected_temp_2035": 0.38,
+    "projected_yield_pct_2035": -0.694,
+    "irrigation_share": 35.402
+  },
+  "Satna": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.201,
+    "projected_temp_2035": 0.302,
+    "projected_yield_pct_2035": -0.551,
+    "irrigation_share": 45.3
+  },
+  "Sawai Madhopur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.017,
+    "projected_temp_2035": -0.025,
+    "projected_yield_pct_2035": 0.046,
+    "irrigation_share": 50.192
+  },
+  "Sehore": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.156,
+    "projected_temp_2035": 0.234,
+    "projected_yield_pct_2035": -0.427,
+    "irrigation_share": 56.591
+  },
+  "Senapati": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.104,
+    "projected_temp_2035": 0.155,
+    "projected_yield_pct_2035": -0.284
+  },
+  "Seoni": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.108,
+    "projected_temp_2035": 0.162,
+    "projected_yield_pct_2035": -0.295,
+    "irrigation_share": 34.082
+  },
+  "Serchhip": {
+    "state": "MIZORAM",
+    "trend_c_decade": 0.174,
+    "projected_temp_2035": 0.261,
+    "projected_yield_pct_2035": -0.476,
+    "irrigation_share": 0.53
+  },
+  "Shahdara": {
+    "state": "DELHI",
+    "trend_c_decade": 0.054,
+    "projected_temp_2035": 0.081,
+    "projected_yield_pct_2035": -0.148
+  },
+  "Shahdol": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.198,
+    "projected_temp_2035": 0.296,
+    "projected_yield_pct_2035": -0.541,
+    "irrigation_share": 2.893
+  },
+  "Shahid Bhagat Singh Nagar": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.181,
+    "projected_temp_2035": 0.272,
+    "projected_yield_pct_2035": -0.496,
+    "irrigation_share": 70.358
+  },
+  "Shahjahanpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.189,
+    "projected_temp_2035": 0.284,
+    "projected_yield_pct_2035": -0.518,
+    "irrigation_share": 76.265
+  },
+  "Shajapur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.119,
+    "projected_temp_2035": 0.178,
+    "projected_yield_pct_2035": -0.326,
+    "irrigation_share": 73.69
+  },
+  "Shamli": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.131,
+    "projected_temp_2035": 0.197,
+    "projected_yield_pct_2035": -0.359,
+    "irrigation_share": 78.585
+  },
+  "Sheikhpura": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.176,
+    "projected_temp_2035": 0.263,
+    "projected_yield_pct_2035": -0.481,
+    "irrigation_share": 40.854
+  },
+  "Sheohar": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.176,
+    "projected_temp_2035": 0.265,
+    "projected_yield_pct_2035": -0.483,
+    "irrigation_share": 39.473
+  },
+  "Sheopur": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.056,
+    "projected_temp_2035": 0.084,
+    "projected_yield_pct_2035": -0.154,
+    "irrigation_share": 25.279
+  },
+  "Shi Yomi": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.092,
+    "projected_temp_2035": 0.138,
+    "projected_yield_pct_2035": -0.253,
+    "irrigation_share": 27.14
+  },
+  "Shimla": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.049,
+    "projected_temp_2035": 0.074,
+    "projected_yield_pct_2035": -0.134,
+    "irrigation_share": 0.44
+  },
+  "Shivamogga": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.143,
+    "projected_temp_2035": 0.214,
+    "projected_yield_pct_2035": -0.391,
+    "irrigation_share": 20.991
+  },
+  "Shivpuri": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.08,
+    "projected_temp_2035": 0.12,
+    "projected_yield_pct_2035": -0.219,
+    "irrigation_share": 35.931
+  },
+  "Shrawasti": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.21,
+    "projected_temp_2035": 0.316,
+    "projected_yield_pct_2035": -0.576,
+    "irrigation_share": 62.834
+  },
+  "Shupiyan": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.009,
+    "projected_temp_2035": 0.014,
+    "projected_yield_pct_2035": -0.025
+  },
+  "Siang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.144,
+    "projected_temp_2035": 0.215,
+    "projected_yield_pct_2035": -0.393,
+    "irrigation_share": 16.661
+  },
+  "Siddharthnagar": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.218,
+    "projected_temp_2035": 0.327,
+    "projected_yield_pct_2035": -0.597,
+    "irrigation_share": 73.448
+  },
+  "Siddipet": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.066,
+    "projected_temp_2035": 0.099,
+    "projected_yield_pct_2035": -0.181,
+    "irrigation_share": 46.472
+  },
+  "Sidhi": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.211,
+    "projected_temp_2035": 0.317,
+    "projected_yield_pct_2035": -0.579,
+    "irrigation_share": 30.156
+  },
+  "Sikar": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.066,
+    "projected_temp_2035": 0.099,
+    "projected_yield_pct_2035": -0.181,
+    "irrigation_share": 27.684
+  },
+  "Simdega": {
+    "state": "JHARKHAND",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.242,
+    "projected_yield_pct_2035": -0.442,
+    "irrigation_share": 0.769
+  },
+  "Sindhudurg": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.194,
+    "projected_temp_2035": 0.291,
+    "projected_yield_pct_2035": -0.531,
+    "irrigation_share": 11.976
+  },
+  "Singrauli": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.296,
+    "projected_yield_pct_2035": -0.541,
+    "irrigation_share": 11.234
+  },
+  "Sipahijala": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.2,
+    "projected_temp_2035": 0.3,
+    "projected_yield_pct_2035": -0.548,
+    "irrigation_share": 11.759
+  },
+  "Sirmaur": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.142,
+    "projected_temp_2035": 0.214,
+    "projected_yield_pct_2035": -0.39,
+    "irrigation_share": 6.198
+  },
+  "Sirohi": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.045,
+    "projected_temp_2035": 0.068,
+    "projected_yield_pct_2035": -0.124,
+    "irrigation_share": 22.338
+  },
+  "Sirsa": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.058,
+    "projected_temp_2035": 0.087,
+    "projected_yield_pct_2035": -0.159,
+    "irrigation_share": 86.614
+  },
+  "Sitamarhi": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.178,
+    "projected_temp_2035": 0.267,
+    "projected_yield_pct_2035": -0.488,
+    "irrigation_share": 52.058
+  },
+  "Sitapur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.194,
+    "projected_temp_2035": 0.291,
+    "projected_yield_pct_2035": -0.531,
+    "irrigation_share": 73.726
+  },
+  "Sivaganga": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.088,
+    "projected_temp_2035": 0.133,
+    "projected_yield_pct_2035": -0.242,
+    "irrigation_share": 17.652
+  },
+  "Sivasagar": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.097,
+    "projected_temp_2035": 0.146,
+    "projected_yield_pct_2035": -0.266,
+    "irrigation_share": 1.414
+  },
+  "Siwan": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.236,
+    "projected_temp_2035": 0.354,
+    "projected_yield_pct_2035": -0.647,
+    "irrigation_share": 44.783
+  },
+  "Solan": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.154,
+    "projected_temp_2035": 0.231,
+    "projected_yield_pct_2035": -0.422,
+    "irrigation_share": 5.176
+  },
+  "Solapur": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.243,
+    "projected_temp_2035": 0.364,
+    "projected_yield_pct_2035": -0.665,
+    "irrigation_share": 26.504
+  },
+  "Sonbhadra": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.202,
+    "projected_temp_2035": 0.304,
+    "projected_yield_pct_2035": -0.554,
+    "irrigation_share": 12.022
+  },
+  "Sonipat": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.025,
+    "projected_temp_2035": 0.038,
+    "projected_yield_pct_2035": -0.069,
+    "irrigation_share": 72.458
+  },
+  "Sonitpur": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.17,
+    "projected_temp_2035": 0.255,
+    "projected_yield_pct_2035": -0.466,
+    "irrigation_share": 3.11
+  },
+  "South": {
+    "state": "DELHI",
+    "trend_c_decade": 0.079,
+    "projected_temp_2035": 0.119,
+    "projected_yield_pct_2035": -0.218
+  },
+  "South Andaman": {
+    "state": "ANDAMAN & NICOBAR",
+    "trend_c_decade": 0.145,
+    "projected_temp_2035": 0.218,
+    "projected_yield_pct_2035": -0.397
+  },
+  "South District": {
+    "state": "SIKKIM",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.295,
+    "projected_yield_pct_2035": -0.538
+  },
+  "South East": {
+    "state": "DELHI",
+    "trend_c_decade": 0.086,
+    "projected_temp_2035": 0.129,
+    "projected_yield_pct_2035": -0.235
+  },
+  "South Garo Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.182,
+    "projected_temp_2035": 0.273,
+    "projected_yield_pct_2035": -0.499,
+    "irrigation_share": 4.24
+  },
+  "South Goa": {
+    "state": "GOA",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.258,
+    "projected_yield_pct_2035": -0.47,
+    "irrigation_share": 7.288
+  },
+  "South Salmara Mancachar": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.099,
+    "projected_temp_2035": 0.149,
+    "projected_yield_pct_2035": -0.271
+  },
+  "South Tripura": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.218,
+    "projected_temp_2035": 0.327,
+    "projected_yield_pct_2035": -0.598,
+    "irrigation_share": 12.468
+  },
+  "South Twenty Four Pargan*": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.136,
+    "projected_temp_2035": 0.204,
+    "projected_yield_pct_2035": -0.373
+  },
+  "South West": {
+    "state": "DELHI",
+    "trend_c_decade": 0.05,
+    "projected_temp_2035": 0.075,
+    "projected_yield_pct_2035": -0.136
+  },
+  "South West Garo Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.15,
+    "projected_temp_2035": 0.225,
+    "projected_yield_pct_2035": -0.412,
+    "irrigation_share": 11.238
+  },
+  "South West Khasi Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.161,
+    "projected_temp_2035": 0.241,
+    "projected_yield_pct_2035": -0.44,
+    "irrigation_share": 1.749
+  },
+  "Sri Muktsar Sahib": {
+    "state": "PUNJAB",
+    "trend_c_decade": -0.029,
+    "projected_temp_2035": -0.044,
+    "projected_yield_pct_2035": 0.08
+  },
+  "Sri Potti Sriramulu Nell*": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.159,
+    "projected_temp_2035": 0.239,
+    "projected_yield_pct_2035": -0.437
+  },
+  "Srikakulam": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": -0.005,
+    "projected_temp_2035": -0.007,
+    "projected_yield_pct_2035": 0.013,
+    "irrigation_share": 28.475
+  },
+  "Srinagar": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.024,
+    "projected_temp_2035": 0.035,
+    "projected_yield_pct_2035": -0.064,
+    "irrigation_share": 46.39
+  },
+  "Subarnapur": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.009,
+    "projected_temp_2035": 0.013,
+    "projected_yield_pct_2035": -0.025
+  },
+  "Sukma": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.181,
+    "projected_temp_2035": 0.271,
+    "projected_yield_pct_2035": -0.495,
+    "irrigation_share": 0.07
+  },
+  "Sultanpur": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.244,
+    "projected_temp_2035": 0.366,
+    "projected_yield_pct_2035": -0.669,
+    "irrigation_share": 49.08
+  },
+  "Sundargarh": {
+    "state": "ODISHA",
+    "trend_c_decade": 0.144,
+    "projected_temp_2035": 0.217,
+    "projected_yield_pct_2035": -0.396,
+    "irrigation_share": 2.194
+  },
+  "Supaul": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.116,
+    "projected_temp_2035": 0.175,
+    "projected_yield_pct_2035": -0.319,
+    "irrigation_share": 33.913
+  },
+  "Surajpur": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.167,
+    "projected_temp_2035": 0.25,
+    "projected_yield_pct_2035": -0.457,
+    "irrigation_share": 3.094
+  },
+  "Surat": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.181,
+    "projected_temp_2035": 0.271,
+    "projected_yield_pct_2035": -0.495,
+    "irrigation_share": 30.538
+  },
+  "Surendranagar": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.352,
+    "irrigation_share": 40.407
+  },
+  "Surguja": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.139,
+    "projected_temp_2035": 0.209,
+    "projected_yield_pct_2035": -0.382,
+    "irrigation_share": 3.174
+  },
+  "Suryapet": {
+    "state": "TELANGANA",
+    "trend_c_decade": -0.003,
+    "projected_temp_2035": -0.005,
+    "projected_yield_pct_2035": 0.009,
+    "irrigation_share": 67.101
+  },
+  "Tamenglong": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.124,
+    "projected_temp_2035": 0.186,
+    "projected_yield_pct_2035": -0.34
+  },
+  "Tapi": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.239,
+    "projected_temp_2035": 0.359,
+    "projected_yield_pct_2035": -0.656,
+    "irrigation_share": 22.886
+  },
+  "Tarn Taran": {
+    "state": "PUNJAB",
+    "trend_c_decade": 0.017,
+    "projected_temp_2035": 0.025,
+    "projected_yield_pct_2035": -0.045,
+    "irrigation_share": 90.098
+  },
+  "Tawang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.196,
+    "projected_temp_2035": 0.294,
+    "projected_yield_pct_2035": -0.536,
+    "irrigation_share": 3.19
+  },
+  "Tehri Garhwal": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.117,
+    "projected_temp_2035": 0.175,
+    "projected_yield_pct_2035": -0.32,
+    "irrigation_share": 1.27
+  },
+  "Tengnoupal": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.138,
+    "projected_temp_2035": 0.207,
+    "projected_yield_pct_2035": -0.379
+  },
+  "Tenkasi": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.147,
+    "projected_temp_2035": 0.22,
+    "projected_yield_pct_2035": -0.402
+  },
+  "Thane": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.286,
+    "projected_temp_2035": 0.429,
+    "projected_yield_pct_2035": -0.783,
+    "irrigation_share": 5.434
+  },
+  "Thanjavur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.091,
+    "projected_temp_2035": 0.137,
+    "projected_yield_pct_2035": -0.249,
+    "irrigation_share": 52.895
+  },
+  "The Dangs": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.253,
+    "projected_temp_2035": 0.379,
+    "projected_yield_pct_2035": -0.692
+  },
+  "The Nilgiris": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.194,
+    "projected_temp_2035": 0.291,
+    "projected_yield_pct_2035": -0.532,
+    "irrigation_share": 2.038
+  },
+  "Theni": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.158,
+    "projected_temp_2035": 0.236,
+    "projected_yield_pct_2035": -0.431,
+    "irrigation_share": 19.425
+  },
+  "Thiruvallur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.089,
+    "projected_temp_2035": 0.133,
+    "projected_yield_pct_2035": -0.243,
+    "irrigation_share": 26.469
+  },
+  "Thiruvananthapuram": {
+    "state": "KERALA",
+    "trend_c_decade": 0.208,
+    "projected_temp_2035": 0.313,
+    "projected_yield_pct_2035": -0.571,
+    "irrigation_share": 3.185
+  },
+  "Thiruvarur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.079,
+    "projected_temp_2035": 0.118,
+    "projected_yield_pct_2035": -0.215,
+    "irrigation_share": 70.177
+  },
+  "Thoothukkudi": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.125,
+    "projected_temp_2035": 0.188,
+    "projected_yield_pct_2035": -0.343
+  },
+  "Thoubal": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.123,
+    "projected_temp_2035": 0.185,
+    "projected_yield_pct_2035": -0.337,
+    "irrigation_share": 26.437
+  },
+  "Thrissur": {
+    "state": "KERALA",
+    "trend_c_decade": 0.203,
+    "projected_temp_2035": 0.305,
+    "projected_yield_pct_2035": -0.557,
+    "irrigation_share": 22.935
+  },
+  "Tikamgarh": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.163,
+    "projected_temp_2035": 0.245,
+    "projected_yield_pct_2035": -0.448,
+    "irrigation_share": 58.538
+  },
+  "Tinsukia": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.005,
+    "projected_temp_2035": 0.008,
+    "projected_yield_pct_2035": -0.014,
+    "irrigation_share": 1.042
+  },
+  "Tirap": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.069,
+    "projected_temp_2035": 0.104,
+    "projected_yield_pct_2035": -0.19,
+    "irrigation_share": 5.503
+  },
+  "Tiruchirappalli": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.352,
+    "irrigation_share": 14.854
+  },
+  "Tirunelveli": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.149,
+    "projected_temp_2035": 0.224,
+    "projected_yield_pct_2035": -0.408,
+    "irrigation_share": 14.488
+  },
+  "Tirupathur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.226,
+    "projected_temp_2035": 0.339,
+    "projected_yield_pct_2035": -0.618,
+    "irrigation_share": 15.62
+  },
+  "Tiruppur": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.158,
+    "projected_temp_2035": 0.238,
+    "projected_yield_pct_2035": -0.434,
+    "irrigation_share": 25.513
+  },
+  "Tiruvannamalai": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.148,
+    "projected_temp_2035": 0.222,
+    "projected_yield_pct_2035": -0.406,
+    "irrigation_share": 30.047
+  },
+  "Tonk": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": -0.062,
+    "projected_temp_2035": -0.093,
+    "projected_yield_pct_2035": 0.169,
+    "irrigation_share": 58.482
+  },
+  "Tuensang": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.095,
+    "projected_temp_2035": 0.143,
+    "projected_yield_pct_2035": -0.261,
+    "irrigation_share": 4.285
+  },
+  "Tumakuru": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.152,
+    "projected_temp_2035": 0.228,
+    "projected_yield_pct_2035": -0.416,
+    "irrigation_share": 28.407
+  },
+  "Udaipur": {
+    "state": "RAJASTHAN",
+    "trend_c_decade": 0.039,
+    "projected_temp_2035": 0.058,
+    "projected_yield_pct_2035": -0.107,
+    "irrigation_share": 11.144
+  },
+  "Udalguri": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.165,
+    "projected_temp_2035": 0.248,
+    "projected_yield_pct_2035": -0.453,
+    "irrigation_share": 8.246
+  },
+  "Udham Singh Nagar": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.238,
+    "projected_temp_2035": 0.356,
+    "projected_yield_pct_2035": -0.651,
+    "irrigation_share": 47.396
+  },
+  "Udhampur": {
+    "state": "JAMMU & KASHMIR",
+    "trend_c_decade": 0.024,
+    "projected_temp_2035": 0.037,
+    "projected_yield_pct_2035": -0.067,
+    "irrigation_share": 2.037
+  },
+  "Udupi": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.149,
+    "projected_temp_2035": 0.223,
+    "projected_yield_pct_2035": -0.407,
+    "irrigation_share": 12.125
+  },
+  "Ujjain": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.133,
+    "projected_temp_2035": 0.199,
+    "projected_yield_pct_2035": -0.363,
+    "irrigation_share": 84.211
+  },
+  "Ukhrul": {
+    "state": "MANIPUR",
+    "trend_c_decade": 0.105,
+    "projected_temp_2035": 0.157,
+    "projected_yield_pct_2035": -0.287
+  },
+  "Umaria": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.184,
+    "projected_temp_2035": 0.276,
+    "projected_yield_pct_2035": -0.505,
+    "irrigation_share": 15.443
+  },
+  "Una": {
+    "state": "HIMACHAL PRADESH",
+    "trend_c_decade": 0.133,
+    "projected_temp_2035": 0.199,
+    "projected_yield_pct_2035": -0.364,
+    "irrigation_share": 11.236
+  },
+  "Unnao": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.189,
+    "projected_temp_2035": 0.283,
+    "projected_yield_pct_2035": -0.516,
+    "irrigation_share": 51.055
+  },
+  "Unokoti": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.196,
+    "projected_temp_2035": 0.294,
+    "projected_yield_pct_2035": -0.537,
+    "irrigation_share": 6.724
+  },
+  "Upper Dibang Valley": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.141,
+    "projected_temp_2035": 0.211,
+    "projected_yield_pct_2035": -0.386
+  },
+  "Upper Siang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.18,
+    "projected_temp_2035": 0.269,
+    "projected_yield_pct_2035": -0.492,
+    "irrigation_share": 11.391
+  },
+  "Upper Subansiri": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.128,
+    "projected_temp_2035": 0.192,
+    "projected_yield_pct_2035": -0.35,
+    "irrigation_share": 6.911
+  },
+  "Uttar Bastar Kanker": {
+    "state": "CHHATTISGARH",
+    "trend_c_decade": 0.164,
+    "projected_temp_2035": 0.246,
+    "projected_yield_pct_2035": -0.45
+  },
+  "Uttar Dinajpur": {
+    "state": "WEST BENGAL",
+    "trend_c_decade": 0.071,
+    "projected_temp_2035": 0.107,
+    "projected_yield_pct_2035": -0.196
+  },
+  "Uttara Kannada": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.154,
+    "projected_temp_2035": 0.231,
+    "projected_yield_pct_2035": -0.423,
+    "irrigation_share": 5.99
+  },
+  "Uttarkashi": {
+    "state": "UTTARAKHAND",
+    "trend_c_decade": 0.026,
+    "projected_temp_2035": 0.039,
+    "projected_yield_pct_2035": -0.071
+  },
+  "Vadodara": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.172,
+    "projected_temp_2035": 0.257,
+    "projected_yield_pct_2035": -0.47,
+    "irrigation_share": 66.076
+  },
+  "Vaishali": {
+    "state": "BIHAR",
+    "trend_c_decade": 0.18,
+    "projected_temp_2035": 0.27,
+    "projected_yield_pct_2035": -0.494,
+    "irrigation_share": 32.664
+  },
+  "Valsad": {
+    "state": "GUJARAT",
+    "trend_c_decade": 0.193,
+    "projected_temp_2035": 0.29,
+    "projected_yield_pct_2035": -0.529,
+    "irrigation_share": 45.342
+  },
+  "Varanasi": {
+    "state": "UTTAR PRADESH",
+    "trend_c_decade": 0.23,
+    "projected_temp_2035": 0.345,
+    "projected_yield_pct_2035": -0.629,
+    "irrigation_share": 52.955
+  },
+  "Vellore": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.224,
+    "projected_temp_2035": 0.337,
+    "projected_yield_pct_2035": -0.615,
+    "irrigation_share": 9.826
+  },
+  "Vidisha": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.065,
+    "projected_temp_2035": 0.098,
+    "projected_yield_pct_2035": -0.179,
+    "irrigation_share": 64.724
+  },
+  "Vijayapura": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.097,
+    "projected_temp_2035": 0.146,
+    "projected_yield_pct_2035": -0.266,
+    "irrigation_share": 36.605
+  },
+  "Vikarabad": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.097,
+    "projected_temp_2035": 0.145,
+    "projected_yield_pct_2035": -0.266,
+    "irrigation_share": 20.228
+  },
+  "Viluppuram": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.069,
+    "projected_temp_2035": 0.103,
+    "projected_yield_pct_2035": -0.188,
+    "irrigation_share": 32.878
+  },
+  "Virudhunagar": {
+    "state": "TAMIL NADU",
+    "trend_c_decade": 0.105,
+    "projected_temp_2035": 0.157,
+    "projected_yield_pct_2035": -0.287,
+    "irrigation_share": 13.387
+  },
+  "Visakhapatnam": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.045,
+    "projected_temp_2035": 0.067,
+    "projected_yield_pct_2035": -0.122,
+    "irrigation_share": 5.312
+  },
+  "Vizianagaram": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.025,
+    "projected_temp_2035": 0.038,
+    "projected_yield_pct_2035": -0.07,
+    "irrigation_share": 26.284
+  },
+  "Wanaparthy": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.036,
+    "projected_temp_2035": 0.054,
+    "projected_yield_pct_2035": -0.099,
+    "irrigation_share": 49.086
+  },
+  "Warangal Rural": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.024,
+    "projected_temp_2035": 0.036,
+    "projected_yield_pct_2035": -0.067,
+    "irrigation_share": 65.278
+  },
+  "Warangal Urban": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.024,
+    "projected_temp_2035": 0.036,
+    "projected_yield_pct_2035": -0.065
+  },
+  "Wardha": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.229,
+    "projected_temp_2035": 0.344,
+    "projected_yield_pct_2035": -0.628,
+    "irrigation_share": 9.458
+  },
+  "Washim": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.326,
+    "projected_temp_2035": 0.49,
+    "projected_yield_pct_2035": -0.894,
+    "irrigation_share": 5.189
+  },
+  "Wayanad": {
+    "state": "KERALA",
+    "trend_c_decade": 0.185,
+    "projected_temp_2035": 0.278,
+    "projected_yield_pct_2035": -0.508,
+    "irrigation_share": 7.123
+  },
+  "West District": {
+    "state": "SIKKIM",
+    "trend_c_decade": 0.096,
+    "projected_temp_2035": 0.144,
+    "projected_yield_pct_2035": -0.263
+  },
+  "West Garo Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.116,
+    "projected_temp_2035": 0.175,
+    "projected_yield_pct_2035": -0.319,
+    "irrigation_share": 5.88
+  },
+  "West Godavari": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.039,
+    "projected_temp_2035": 0.058,
+    "projected_yield_pct_2035": -0.107,
+    "irrigation_share": 43.132
+  },
+  "West Jaintia Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.193,
+    "projected_yield_pct_2035": -0.353,
+    "irrigation_share": 8.308
+  },
+  "West Kameng": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.17,
+    "projected_temp_2035": 0.255,
+    "projected_yield_pct_2035": -0.466,
+    "irrigation_share": 1.936
+  },
+  "West Karbi Anglong": {
+    "state": "ASSAM",
+    "trend_c_decade": 0.134,
+    "projected_temp_2035": 0.2,
+    "projected_yield_pct_2035": -0.366
+  },
+  "West Khasi Hills": {
+    "state": "MEGHALAYA",
+    "trend_c_decade": 0.136,
+    "projected_temp_2035": 0.204,
+    "projected_yield_pct_2035": -0.372,
+    "irrigation_share": 3.298
+  },
+  "West Nimar": {
+    "state": "MADHYA PRADESH",
+    "trend_c_decade": 0.18,
+    "projected_temp_2035": 0.27,
+    "projected_yield_pct_2035": -0.493
+  },
+  "West Siang": {
+    "state": "ARUNACHAL PRADESH",
+    "trend_c_decade": 0.083,
+    "projected_temp_2035": 0.124,
+    "projected_yield_pct_2035": -0.227,
+    "irrigation_share": 25.775
+  },
+  "West Tripura": {
+    "state": "TRIPURA",
+    "trend_c_decade": 0.197,
+    "projected_temp_2035": 0.296,
+    "projected_yield_pct_2035": -0.541,
+    "irrigation_share": 12.535
+  },
+  "Wokha": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.141,
+    "projected_temp_2035": 0.211,
+    "projected_yield_pct_2035": -0.385,
+    "irrigation_share": 6.089
+  },
+  "Y.S.R.": {
+    "state": "ANDHRA PRADESH",
+    "trend_c_decade": 0.276,
+    "projected_temp_2035": 0.414,
+    "projected_yield_pct_2035": -0.757
+  },
+  "Yadadri Bhuvanagiri": {
+    "state": "TELANGANA",
+    "trend_c_decade": 0.011,
+    "projected_temp_2035": 0.016,
+    "projected_yield_pct_2035": -0.03
+  },
+  "Yadgir": {
+    "state": "KARNATAKA",
+    "trend_c_decade": 0.012,
+    "projected_temp_2035": 0.018,
+    "projected_yield_pct_2035": -0.033,
+    "irrigation_share": 37.185
+  },
+  "Yamunanagar": {
+    "state": "HARYANA",
+    "trend_c_decade": 0.185,
+    "projected_temp_2035": 0.277,
+    "projected_yield_pct_2035": -0.507,
+    "irrigation_share": 67.198
+  },
+  "Yavatmal": {
+    "state": "MAHARASHTRA",
+    "trend_c_decade": 0.322,
+    "projected_temp_2035": 0.482,
+    "projected_yield_pct_2035": -0.881,
+    "irrigation_share": 4.338
+  },
+  "Zunheboto": {
+    "state": "NAGALAND",
+    "trend_c_decade": 0.129,
+    "projected_temp_2035": 0.194,
+    "projected_yield_pct_2035": -0.355,
+    "irrigation_share": 4.493
+  }
+}
