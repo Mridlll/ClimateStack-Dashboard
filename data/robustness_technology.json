@@ -1,0 +1,269 @@
+{
+  "kharif": {
+    "A_baseline": {
+      "n_obs": 76646,
+      "n_districts": 668,
+      "r2_within": 0.01133,
+      "beta_temp_c_trend_z": 0.049269,
+      "se_temp_c_trend_z": 0.006694,
+      "pval_temp_c_trend_z": 0.0,
+      "beta_temp_c_covariate_z": -0.005988,
+      "se_temp_c_covariate_z": 0.005298,
+      "pval_temp_c_covariate_z": 0.258415,
+      "beta_temp_c_idiosyncratic_z": -0.065541,
+      "se_temp_c_idiosyncratic_z": 0.005897,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "B_year_control": {
+      "n_obs": 76646,
+      "n_districts": 668,
+      "r2_within": 0.01677,
+      "beta_temp_c_trend_z": -0.063814,
+      "se_temp_c_trend_z": 0.00916,
+      "pval_temp_c_trend_z": 0.0,
+      "beta_temp_c_covariate_z": -0.008778,
+      "se_temp_c_covariate_z": 0.005414,
+      "pval_temp_c_covariate_z": 0.104929,
+      "beta_temp_c_idiosyncratic_z": -0.063925,
+      "se_temp_c_idiosyncratic_z": 0.005702,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "C_yield_trend": {
+      "n_obs": 76621,
+      "n_districts": 658,
+      "r2_within": 0.01132,
+      "beta_temp_c_trend_z": 0.04925,
+      "se_temp_c_trend_z": 0.006693,
+      "pval_temp_c_trend_z": 0.0,
+      "beta_temp_c_covariate_z": -0.006103,
+      "se_temp_c_covariate_z": 0.005298,
+      "pval_temp_c_covariate_z": 0.249354,
+      "beta_temp_c_idiosyncratic_z": -0.065455,
+      "se_temp_c_idiosyncratic_z": 0.0059,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "D_both": {
+      "n_obs": 76621,
+      "n_districts": 658,
+      "r2_within": 0.01677,
+      "beta_temp_c_trend_z": -0.063826,
+      "se_temp_c_trend_z": 0.009159,
+      "pval_temp_c_trend_z": 0.0,
+      "beta_temp_c_covariate_z": -0.008893,
+      "se_temp_c_covariate_z": 0.005414,
+      "pval_temp_c_covariate_z": 0.100432,
+      "beta_temp_c_idiosyncratic_z": -0.063841,
+      "se_temp_c_idiosyncratic_z": 0.005705,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "interpretation": {
+      "spec_B_trend_change_pct": -229.5,
+      "spec_B_idio_change_pct": 2.5,
+      "spec_B_trend_sign_flip": true,
+      "spec_C_trend_change_pct": -0.0,
+      "spec_C_idio_change_pct": 0.1,
+      "spec_C_trend_sign_flip": false,
+      "spec_D_trend_change_pct": -229.5,
+      "spec_D_idio_change_pct": 2.6,
+      "spec_D_trend_sign_flip": true
+    }
+  },
+  "rabi": {
+    "A_baseline": {
+      "n_obs": 49292,
+      "n_districts": 662,
+      "r2_within": 0.02148,
+      "beta_temp_c_trend_z": 0.104015,
+      "se_temp_c_trend_z": 0.00673,
+      "pval_temp_c_trend_z": 0.0,
+      "beta_temp_c_covariate_z": -0.01738,
+      "se_temp_c_covariate_z": 0.002646,
+      "pval_temp_c_covariate_z": 0.0,
+      "beta_temp_c_idiosyncratic_z": -0.019113,
+      "se_temp_c_idiosyncratic_z": 0.003045,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "B_year_control": {
+      "n_obs": 49292,
+      "n_districts": 662,
+      "r2_within": 0.02719,
+      "beta_temp_c_trend_z": -0.011841,
+      "se_temp_c_trend_z": 0.010532,
+      "pval_temp_c_trend_z": 0.26087,
+      "beta_temp_c_covariate_z": -0.015255,
+      "se_temp_c_covariate_z": 0.002686,
+      "pval_temp_c_covariate_z": 0.0,
+      "beta_temp_c_idiosyncratic_z": -0.021343,
+      "se_temp_c_idiosyncratic_z": 0.003078,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "C_yield_trend": {
+      "n_obs": 49271,
+      "n_districts": 653,
+      "r2_within": 0.02148,
+      "beta_temp_c_trend_z": 0.104018,
+      "se_temp_c_trend_z": 0.00673,
+      "pval_temp_c_trend_z": 0.0,
+      "beta_temp_c_covariate_z": -0.01738,
+      "se_temp_c_covariate_z": 0.002646,
+      "pval_temp_c_covariate_z": 0.0,
+      "beta_temp_c_idiosyncratic_z": -0.019083,
+      "se_temp_c_idiosyncratic_z": 0.003046,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "D_both": {
+      "n_obs": 49271,
+      "n_districts": 653,
+      "r2_within": 0.02719,
+      "beta_temp_c_trend_z": -0.011833,
+      "se_temp_c_trend_z": 0.010532,
+      "pval_temp_c_trend_z": 0.261196,
+      "beta_temp_c_covariate_z": -0.015255,
+      "se_temp_c_covariate_z": 0.002686,
+      "pval_temp_c_covariate_z": 0.0,
+      "beta_temp_c_idiosyncratic_z": -0.021314,
+      "se_temp_c_idiosyncratic_z": 0.003079,
+      "pval_temp_c_idiosyncratic_z": 0.0
+    },
+    "interpretation": {
+      "spec_B_trend_change_pct": -111.4,
+      "spec_B_idio_change_pct": -11.7,
+      "spec_B_trend_sign_flip": true,
+      "spec_C_trend_change_pct": 0.0,
+      "spec_C_idio_change_pct": 0.2,
+      "spec_C_trend_sign_flip": false,
+      "spec_D_trend_change_pct": -111.4,
+      "spec_D_idio_change_pct": -11.5,
+      "spec_D_trend_sign_flip": true
+    }
+  },
+  "crop_robustness": {
+    "Rice_Kharif": {
+      "beta_idio_baseline": -0.013695,
+      "beta_idio_with_tech": -0.013387,
+      "change_pct": 2.3,
+      "robust": true
+    },
+    "Rice_Rabi": {
+      "beta_idio_baseline": -0.009369,
+      "beta_idio_with_tech": -0.008651,
+      "change_pct": 7.7,
+      "robust": true
+    },
+    "Wheat_Kharif": {
+      "beta_idio_baseline": 0.07153,
+      "beta_idio_with_tech": 0.07153,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Wheat_Rabi": {
+      "beta_idio_baseline": -0.029761,
+      "beta_idio_with_tech": -0.029761,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Maize_Kharif": {
+      "beta_idio_baseline": -0.042402,
+      "beta_idio_with_tech": -0.042402,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Maize_Rabi": {
+      "beta_idio_baseline": -0.004781,
+      "beta_idio_with_tech": -0.004781,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Moong(Green Gram)_Kharif": {
+      "beta_idio_baseline": -0.110721,
+      "beta_idio_with_tech": -0.110721,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Moong(Green Gram)_Rabi": {
+      "beta_idio_baseline": 0.015872,
+      "beta_idio_with_tech": 0.015872,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Arhar/Tur_Kharif": {
+      "beta_idio_baseline": -0.076653,
+      "beta_idio_with_tech": -0.076653,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Arhar/Tur_Rabi": {
+      "beta_idio_baseline": -0.007508,
+      "beta_idio_with_tech": -0.007508,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Bajra_Kharif": {
+      "beta_idio_baseline": -0.090938,
+      "beta_idio_with_tech": -0.090938,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Bajra_Rabi": {
+      "beta_idio_baseline": -0.000801,
+      "beta_idio_with_tech": -0.000801,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Jowar_Kharif": {
+      "beta_idio_baseline": -0.093561,
+      "beta_idio_with_tech": -0.092957,
+      "change_pct": 0.6,
+      "robust": true
+    },
+    "Jowar_Rabi": {
+      "beta_idio_baseline": -0.067761,
+      "beta_idio_with_tech": -0.067761,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Gram_Kharif": {
+      "beta_idio_baseline": -0.444584,
+      "beta_idio_with_tech": -0.444584,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Gram_Rabi": {
+      "beta_idio_baseline": -0.045063,
+      "beta_idio_with_tech": -0.045063,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Soyabean_Kharif": {
+      "beta_idio_baseline": -0.022465,
+      "beta_idio_with_tech": -0.022465,
+      "change_pct": -0.0,
+      "robust": true
+    },
+    "Soyabean_Rabi": {
+      "beta_idio_baseline": 0.00956,
+      "beta_idio_with_tech": 0.00956,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Groundnut_Kharif": {
+      "beta_idio_baseline": -0.081015,
+      "beta_idio_with_tech": -0.081015,
+      "change_pct": 0.0,
+      "robust": true
+    },
+    "Groundnut_Rabi": {
+      "beta_idio_baseline": 0.006774,
+      "beta_idio_with_tech": 0.006774,
+      "change_pct": 0.0,
+      "robust": true
+    }
+  },
+  "yield_trend_summary": {
+    "mean_slope": 0.015897,
+    "std_slope": 0.025986,
+    "n_districts_with_trend": 1311,
+    "pct_positive": 79.4,
+    "description": "District-specific yield trends computed as slope of log(yield) on year. Used as a technology/intensification proxy in robustness checks. Conceptually equivalent to nightlight intensity trends."
+  }
+}

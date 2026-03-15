@@ -1,0 +1,1061 @@
+{
+  "metadata": {
+    "description": "State-level heterogeneity in climate-yield response coefficients. For each state with >500 observations, we estimate the decomposed climate regression and extract the temperature idiosyncratic coefficient (the causal parameter for local weather shocks).",
+    "min_observations": 500,
+    "n_eligible_states": 26
+  },
+  "state_coefficients": {
+    "KHARIF_all_india": {
+      "n_obs": 76646,
+      "n_districts": 668,
+      "r2_within": 0.01133,
+      "beta_temp_trend": 0.049269,
+      "beta_temp_covariate": -0.005988,
+      "beta_temp_idiosyncratic": -0.065541,
+      "se_temp_idiosyncratic": 0.005897,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 33.9
+    },
+    "KHARIF_Uttar Pradesh": {
+      "state": "Uttar Pradesh",
+      "season": "KHARIF",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 13346,
+      "n_districts": 86,
+      "r2_within": 0.0145,
+      "beta_temp_trend": 0.064688,
+      "beta_temp_covariate": -0.064311,
+      "beta_temp_idiosyncratic": 0.00656,
+      "se_temp_idiosyncratic": 0.008667,
+      "pval_temp_idiosyncratic": 0.449111,
+      "mean_irrigation_pct": 53.6
+    },
+    "KHARIF_Madhya Pradesh": {
+      "state": "Madhya Pradesh",
+      "season": "KHARIF",
+      "zone": "Central Plateau",
+      "n_obs": 8240,
+      "n_districts": 64,
+      "r2_within": 0.0187,
+      "beta_temp_trend": 0.101466,
+      "beta_temp_covariate": 0.023748,
+      "beta_temp_idiosyncratic": -0.076183,
+      "se_temp_idiosyncratic": 0.013226,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 42.6
+    },
+    "KHARIF_Maharashtra": {
+      "state": "Maharashtra",
+      "season": "KHARIF",
+      "zone": "Deccan Plateau",
+      "n_obs": 6606,
+      "n_districts": 34,
+      "r2_within": 0.04703,
+      "beta_temp_trend": -0.042235,
+      "beta_temp_covariate": 0.048157,
+      "beta_temp_idiosyncratic": -0.156838,
+      "se_temp_idiosyncratic": 0.01985,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 24.4
+    },
+    "KHARIF_Rajasthan": {
+      "state": "Rajasthan",
+      "season": "KHARIF",
+      "zone": "Western Dry",
+      "n_obs": 5952,
+      "n_districts": 33,
+      "r2_within": 0.05662,
+      "beta_temp_trend": 0.067476,
+      "beta_temp_covariate": -0.075067,
+      "beta_temp_idiosyncratic": -0.160298,
+      "se_temp_idiosyncratic": 0.016111,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 36.1
+    },
+    "KHARIF_Karnataka": {
+      "state": "Karnataka",
+      "season": "KHARIF",
+      "zone": "Deccan Plateau",
+      "n_obs": 4807,
+      "n_districts": 30,
+      "r2_within": 0.01532,
+      "beta_temp_trend": -0.023244,
+      "beta_temp_covariate": -0.072317,
+      "beta_temp_idiosyncratic": -0.059951,
+      "se_temp_idiosyncratic": 0.017142,
+      "pval_temp_idiosyncratic": 0.000474,
+      "mean_irrigation_pct": 24.4
+    },
+    "KHARIF_Bihar": {
+      "state": "Bihar",
+      "season": "KHARIF",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 3427,
+      "n_districts": 41,
+      "r2_within": 0.01461,
+      "beta_temp_trend": 0.038848,
+      "beta_temp_covariate": 0.00572,
+      "beta_temp_idiosyncratic": 0.050274,
+      "se_temp_idiosyncratic": 0.015063,
+      "pval_temp_idiosyncratic": 0.000854,
+      "mean_irrigation_pct": 37.1
+    },
+    "KHARIF_Chhattisgarh": {
+      "state": "Chhattisgarh",
+      "season": "KHARIF",
+      "zone": "Central Plateau",
+      "n_obs": 4374,
+      "n_districts": 27,
+      "r2_within": 0.01405,
+      "beta_temp_trend": 0.10213,
+      "beta_temp_covariate": 0.062501,
+      "beta_temp_idiosyncratic": -0.029526,
+      "se_temp_idiosyncratic": 0.01545,
+      "pval_temp_idiosyncratic": 0.056057,
+      "mean_irrigation_pct": 14.9
+    },
+    "KHARIF_Andhra Pradesh": {
+      "state": "Andhra Pradesh",
+      "season": "KHARIF",
+      "zone": "Deccan Plateau",
+      "n_obs": 3011,
+      "n_districts": 19,
+      "r2_within": 0.04155,
+      "beta_temp_trend": 0.058524,
+      "beta_temp_covariate": -0.00833,
+      "beta_temp_idiosyncratic": -0.049023,
+      "se_temp_idiosyncratic": 0.020074,
+      "pval_temp_idiosyncratic": 0.014658,
+      "mean_irrigation_pct": 29.8
+    },
+    "KHARIF_Gujarat": {
+      "state": "Gujarat",
+      "season": "KHARIF",
+      "zone": "Western Dry",
+      "n_obs": 4024,
+      "n_districts": 33,
+      "r2_within": 0.08771,
+      "beta_temp_trend": 0.074334,
+      "beta_temp_covariate": 0.035487,
+      "beta_temp_idiosyncratic": -0.089478,
+      "se_temp_idiosyncratic": 0.014415,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 40.4
+    },
+    "KHARIF_Tamil Nadu": {
+      "state": "Tamil Nadu",
+      "season": "KHARIF",
+      "zone": "Coastal",
+      "n_obs": 3494,
+      "n_districts": 30,
+      "r2_within": 0.04725,
+      "beta_temp_trend": 0.182334,
+      "beta_temp_covariate": -0.02758,
+      "beta_temp_idiosyncratic": -0.050607,
+      "se_temp_idiosyncratic": 0.014185,
+      "pval_temp_idiosyncratic": 0.000365,
+      "mean_irrigation_pct": 22.3
+    },
+    "KHARIF_Assam": {
+      "state": "Assam",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 1153,
+      "n_districts": 27,
+      "r2_within": 0.29651,
+      "beta_temp_trend": 0.308669,
+      "beta_temp_covariate": -0.060313,
+      "beta_temp_idiosyncratic": 0.051018,
+      "se_temp_idiosyncratic": 0.014698,
+      "pval_temp_idiosyncratic": 0.000538,
+      "mean_irrigation_pct": 7.7
+    },
+    "KHARIF_Haryana": {
+      "state": "Haryana",
+      "season": "KHARIF",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 2162,
+      "n_districts": 20,
+      "r2_within": 0.01903,
+      "beta_temp_trend": -0.196814,
+      "beta_temp_covariate": 0.238539,
+      "beta_temp_idiosyncratic": -0.01054,
+      "se_temp_idiosyncratic": 0.03005,
+      "pval_temp_idiosyncratic": 0.725824,
+      "mean_irrigation_pct": 71.7
+    },
+    "KHARIF_West Bengal": {
+      "state": "West Bengal",
+      "season": "KHARIF",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 1002,
+      "n_districts": 19,
+      "r2_within": 0.03046,
+      "beta_temp_trend": -0.093907,
+      "beta_temp_covariate": -0.019848,
+      "beta_temp_idiosyncratic": -0.072465,
+      "se_temp_idiosyncratic": 0.027201,
+      "pval_temp_idiosyncratic": 0.007848,
+      "mean_irrigation_pct": NaN
+    },
+    "KHARIF_Himachal Pradesh": {
+      "state": "Himachal Pradesh",
+      "season": "KHARIF",
+      "zone": "Hills",
+      "n_obs": 1890,
+      "n_districts": 12,
+      "r2_within": 0.01864,
+      "beta_temp_trend": 0.200003,
+      "beta_temp_covariate": -0.045134,
+      "beta_temp_idiosyncratic": -0.019039,
+      "se_temp_idiosyncratic": 0.01196,
+      "pval_temp_idiosyncratic": 0.111584,
+      "mean_irrigation_pct": 8.9
+    },
+    "KHARIF_Telangana": {
+      "state": "Telangana",
+      "season": "KHARIF",
+      "zone": "Deccan Plateau",
+      "n_obs": 1327,
+      "n_districts": 31,
+      "r2_within": 0.04457,
+      "beta_temp_trend": -0.004772,
+      "beta_temp_covariate": 0.016998,
+      "beta_temp_idiosyncratic": -0.056588,
+      "se_temp_idiosyncratic": 0.024349,
+      "pval_temp_idiosyncratic": 0.020279,
+      "mean_irrigation_pct": 35.1
+    },
+    "KHARIF_Punjab": {
+      "state": "Punjab",
+      "season": "KHARIF",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 1479,
+      "n_districts": 21,
+      "r2_within": 0.04405,
+      "beta_temp_trend": 0.278253,
+      "beta_temp_covariate": -0.000116,
+      "beta_temp_idiosyncratic": -0.013757,
+      "se_temp_idiosyncratic": 0.007671,
+      "pval_temp_idiosyncratic": 0.073123,
+      "mean_irrigation_pct": 77.6
+    },
+    "KHARIF_Nagaland": {
+      "state": "Nagaland",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 1597,
+      "n_districts": 11,
+      "r2_within": 0.02637,
+      "beta_temp_trend": 0.049914,
+      "beta_temp_covariate": -0.068685,
+      "beta_temp_idiosyncratic": -0.095623,
+      "se_temp_idiosyncratic": 0.01341,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 8.5
+    },
+    "KHARIF_Jharkhand": {
+      "state": "Jharkhand",
+      "season": "KHARIF",
+      "zone": "Central Plateau",
+      "n_obs": 735,
+      "n_districts": 24,
+      "r2_within": 0.01967,
+      "beta_temp_trend": 0.007305,
+      "beta_temp_covariate": -0.009514,
+      "beta_temp_idiosyncratic": -0.026739,
+      "se_temp_idiosyncratic": 0.036135,
+      "pval_temp_idiosyncratic": 0.459562,
+      "mean_irrigation_pct": 4.7
+    },
+    "KHARIF_Uttarakhand": {
+      "state": "Uttarakhand",
+      "season": "KHARIF",
+      "zone": "Hills",
+      "n_obs": 1492,
+      "n_districts": 13,
+      "r2_within": 0.06025,
+      "beta_temp_trend": 0.122028,
+      "beta_temp_covariate": 0.009118,
+      "beta_temp_idiosyncratic": 0.024397,
+      "se_temp_idiosyncratic": 0.007412,
+      "pval_temp_idiosyncratic": 0.001019,
+      "mean_irrigation_pct": 10.7
+    },
+    "KHARIF_Jammu And Kashmir": {
+      "state": "Jammu And Kashmir",
+      "season": "KHARIF",
+      "zone": "Hills",
+      "n_obs": 1130,
+      "n_districts": 20,
+      "r2_within": 0.02603,
+      "beta_temp_trend": 0.102727,
+      "beta_temp_covariate": -0.031175,
+      "beta_temp_idiosyncratic": 0.045253,
+      "se_temp_idiosyncratic": 0.012623,
+      "pval_temp_idiosyncratic": 0.000352,
+      "mean_irrigation_pct": 16.8
+    },
+    "KHARIF_Odisha": {
+      "state": "Odisha",
+      "season": "KHARIF",
+      "zone": "Coastal",
+      "n_obs": 1049,
+      "n_districts": 30,
+      "r2_within": 0.03726,
+      "beta_temp_trend": 0.004684,
+      "beta_temp_covariate": 0.035954,
+      "beta_temp_idiosyncratic": -0.14238,
+      "se_temp_idiosyncratic": 0.035475,
+      "pval_temp_idiosyncratic": 6.4e-05,
+      "mean_irrigation_pct": 10.5
+    },
+    "KHARIF_Arunachal Pradesh": {
+      "state": "Arunachal Pradesh",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 1140,
+      "n_districts": 25,
+      "r2_within": 0.00973,
+      "beta_temp_trend": 0.006244,
+      "beta_temp_covariate": -0.038869,
+      "beta_temp_idiosyncratic": -0.071203,
+      "se_temp_idiosyncratic": 0.019098,
+      "pval_temp_idiosyncratic": 0.000203,
+      "mean_irrigation_pct": 12.8
+    },
+    "KHARIF_Tripura": {
+      "state": "Tripura",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 697,
+      "n_districts": 8,
+      "r2_within": 0.01936,
+      "beta_temp_trend": -0.011043,
+      "beta_temp_covariate": -0.077455,
+      "beta_temp_idiosyncratic": -0.107071,
+      "se_temp_idiosyncratic": 0.028736,
+      "pval_temp_idiosyncratic": 0.000211,
+      "mean_irrigation_pct": 8.8
+    },
+    "KHARIF_Manipur": {
+      "state": "Manipur",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 847,
+      "n_districts": 9,
+      "r2_within": 0.11075,
+      "beta_temp_trend": -0.172996,
+      "beta_temp_covariate": -0.105671,
+      "beta_temp_idiosyncratic": 0.010706,
+      "se_temp_idiosyncratic": 0.023725,
+      "pval_temp_idiosyncratic": 0.651914,
+      "mean_irrigation_pct": 26.4
+    },
+    "KHARIF_Meghalaya": {
+      "state": "Meghalaya",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 457,
+      "n_districts": 11,
+      "r2_within": 0.10484,
+      "beta_temp_trend": 0.176971,
+      "beta_temp_covariate": 0.035242,
+      "beta_temp_idiosyncratic": 0.060364,
+      "se_temp_idiosyncratic": 0.020313,
+      "pval_temp_idiosyncratic": 0.003124,
+      "mean_irrigation_pct": 4.8
+    },
+    "KHARIF_Mizoram": {
+      "state": "Mizoram",
+      "season": "KHARIF",
+      "zone": "Northeast",
+      "n_obs": 562,
+      "n_districts": 8,
+      "r2_within": 0.07926,
+      "beta_temp_trend": 0.149785,
+      "beta_temp_covariate": -0.055118,
+      "beta_temp_idiosyncratic": 0.243487,
+      "se_temp_idiosyncratic": 0.09222,
+      "pval_temp_idiosyncratic": 0.00852,
+      "mean_irrigation_pct": 0.6
+    },
+    "RABI_all_india": {
+      "n_obs": 49292,
+      "n_districts": 662,
+      "r2_within": 0.02148,
+      "beta_temp_trend": 0.104015,
+      "beta_temp_covariate": -0.01738,
+      "beta_temp_idiosyncratic": -0.019113,
+      "se_temp_idiosyncratic": 0.003045,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 31.5
+    },
+    "RABI_Uttar Pradesh": {
+      "state": "Uttar Pradesh",
+      "season": "RABI",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 6687,
+      "n_districts": 86,
+      "r2_within": 0.05819,
+      "beta_temp_trend": 0.131101,
+      "beta_temp_covariate": -0.023951,
+      "beta_temp_idiosyncratic": 0.024758,
+      "se_temp_idiosyncratic": 0.009048,
+      "pval_temp_idiosyncratic": 0.006232,
+      "mean_irrigation_pct": 54.0
+    },
+    "RABI_Madhya Pradesh": {
+      "state": "Madhya Pradesh",
+      "season": "RABI",
+      "zone": "Central Plateau",
+      "n_obs": 3679,
+      "n_districts": 65,
+      "r2_within": 0.04717,
+      "beta_temp_trend": 0.218519,
+      "beta_temp_covariate": 0.052718,
+      "beta_temp_idiosyncratic": -0.091743,
+      "se_temp_idiosyncratic": 0.013791,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 42.4
+    },
+    "RABI_Maharashtra": {
+      "state": "Maharashtra",
+      "season": "RABI",
+      "zone": "Deccan Plateau",
+      "n_obs": 3381,
+      "n_districts": 34,
+      "r2_within": 0.03517,
+      "beta_temp_trend": 0.033092,
+      "beta_temp_covariate": -0.012516,
+      "beta_temp_idiosyncratic": -0.066331,
+      "se_temp_idiosyncratic": 0.013318,
+      "pval_temp_idiosyncratic": 1e-06,
+      "mean_irrigation_pct": 25.4
+    },
+    "RABI_Rajasthan": {
+      "state": "Rajasthan",
+      "season": "RABI",
+      "zone": "Western Dry",
+      "n_obs": 2351,
+      "n_districts": 33,
+      "r2_within": 0.04368,
+      "beta_temp_trend": -0.014865,
+      "beta_temp_covariate": 0.005133,
+      "beta_temp_idiosyncratic": -0.03226,
+      "se_temp_idiosyncratic": 0.009349,
+      "pval_temp_idiosyncratic": 0.000569,
+      "mean_irrigation_pct": 34.7
+    },
+    "RABI_Karnataka": {
+      "state": "Karnataka",
+      "season": "RABI",
+      "zone": "Deccan Plateau",
+      "n_obs": 3424,
+      "n_districts": 30,
+      "r2_within": 0.02332,
+      "beta_temp_trend": 0.089681,
+      "beta_temp_covariate": -0.065554,
+      "beta_temp_idiosyncratic": -0.054228,
+      "se_temp_idiosyncratic": 0.010371,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 24.4
+    },
+    "RABI_Bihar": {
+      "state": "Bihar",
+      "season": "RABI",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 3618,
+      "n_districts": 41,
+      "r2_within": 0.05455,
+      "beta_temp_trend": 0.064485,
+      "beta_temp_covariate": -0.029016,
+      "beta_temp_idiosyncratic": -0.004804,
+      "se_temp_idiosyncratic": 0.010526,
+      "pval_temp_idiosyncratic": 0.64812,
+      "mean_irrigation_pct": 36.7
+    },
+    "RABI_Chhattisgarh": {
+      "state": "Chhattisgarh",
+      "season": "RABI",
+      "zone": "Central Plateau",
+      "n_obs": 2659,
+      "n_districts": 27,
+      "r2_within": 0.00722,
+      "beta_temp_trend": 0.085055,
+      "beta_temp_covariate": -0.010182,
+      "beta_temp_idiosyncratic": -0.020795,
+      "se_temp_idiosyncratic": 0.015424,
+      "pval_temp_idiosyncratic": 0.177699,
+      "mean_irrigation_pct": 15.9
+    },
+    "RABI_Andhra Pradesh": {
+      "state": "Andhra Pradesh",
+      "season": "RABI",
+      "zone": "Deccan Plateau",
+      "n_obs": 3149,
+      "n_districts": 19,
+      "r2_within": 0.01831,
+      "beta_temp_trend": 0.101623,
+      "beta_temp_covariate": -0.002625,
+      "beta_temp_idiosyncratic": -0.033587,
+      "se_temp_idiosyncratic": 0.014011,
+      "pval_temp_idiosyncratic": 0.016577,
+      "mean_irrigation_pct": 30.8
+    },
+    "RABI_Gujarat": {
+      "state": "Gujarat",
+      "season": "RABI",
+      "zone": "Western Dry",
+      "n_obs": 2067,
+      "n_districts": 33,
+      "r2_within": 0.09846,
+      "beta_temp_trend": 0.040359,
+      "beta_temp_covariate": -0.028672,
+      "beta_temp_idiosyncratic": -0.044141,
+      "se_temp_idiosyncratic": 0.007458,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 40.3
+    },
+    "RABI_Tamil Nadu": {
+      "state": "Tamil Nadu",
+      "season": "RABI",
+      "zone": "Coastal",
+      "n_obs": 1582,
+      "n_districts": 33,
+      "r2_within": 0.06212,
+      "beta_temp_trend": 0.13038,
+      "beta_temp_covariate": -0.367973,
+      "beta_temp_idiosyncratic": -0.155214,
+      "se_temp_idiosyncratic": 0.024866,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 21.9
+    },
+    "RABI_Assam": {
+      "state": "Assam",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 2711,
+      "n_districts": 27,
+      "r2_within": 0.03654,
+      "beta_temp_trend": 0.037354,
+      "beta_temp_covariate": -0.020623,
+      "beta_temp_idiosyncratic": 0.005369,
+      "se_temp_idiosyncratic": 0.004537,
+      "pval_temp_idiosyncratic": 0.236791,
+      "mean_irrigation_pct": 7.8
+    },
+    "RABI_Haryana": {
+      "state": "Haryana",
+      "season": "RABI",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 1121,
+      "n_districts": 20,
+      "r2_within": 0.01453,
+      "beta_temp_trend": 0.146505,
+      "beta_temp_covariate": 0.043139,
+      "beta_temp_idiosyncratic": -0.046283,
+      "se_temp_idiosyncratic": 0.02567,
+      "pval_temp_idiosyncratic": 0.071667,
+      "mean_irrigation_pct": 72.2
+    },
+    "RABI_West Bengal": {
+      "state": "West Bengal",
+      "season": "RABI",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 2027,
+      "n_districts": 20,
+      "r2_within": 0.0762,
+      "beta_temp_trend": 0.187555,
+      "beta_temp_covariate": -0.022648,
+      "beta_temp_idiosyncratic": -0.019995,
+      "se_temp_idiosyncratic": 0.013763,
+      "pval_temp_idiosyncratic": 0.146435,
+      "mean_irrigation_pct": NaN
+    },
+    "RABI_Himachal Pradesh": {
+      "state": "Himachal Pradesh",
+      "season": "RABI",
+      "zone": "Hills",
+      "n_obs": 1036,
+      "n_districts": 12,
+      "r2_within": 0.03308,
+      "beta_temp_trend": -0.082594,
+      "beta_temp_covariate": -0.07492,
+      "beta_temp_idiosyncratic": -0.062389,
+      "se_temp_idiosyncratic": 0.025893,
+      "pval_temp_idiosyncratic": 0.016153,
+      "mean_irrigation_pct": 10.1
+    },
+    "RABI_Telangana": {
+      "state": "Telangana",
+      "season": "RABI",
+      "zone": "Deccan Plateau",
+      "n_obs": 1413,
+      "n_districts": 31,
+      "r2_within": 0.05538,
+      "beta_temp_trend": 0.08187,
+      "beta_temp_covariate": -0.039026,
+      "beta_temp_idiosyncratic": -0.007503,
+      "se_temp_idiosyncratic": 0.009192,
+      "pval_temp_idiosyncratic": 0.414505,
+      "mean_irrigation_pct": 35.4
+    },
+    "RABI_Punjab": {
+      "state": "Punjab",
+      "season": "RABI",
+      "zone": "Indo-Gangetic Plain",
+      "n_obs": 1081,
+      "n_districts": 21,
+      "r2_within": 0.01507,
+      "beta_temp_trend": 0.076825,
+      "beta_temp_covariate": -0.013393,
+      "beta_temp_idiosyncratic": 0.009724,
+      "se_temp_idiosyncratic": 0.008156,
+      "pval_temp_idiosyncratic": 0.233423,
+      "mean_irrigation_pct": 78.1
+    },
+    "RABI_Nagaland": {
+      "state": "Nagaland",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 855,
+      "n_districts": 11,
+      "r2_within": 0.01164,
+      "beta_temp_trend": 0.073344,
+      "beta_temp_covariate": -0.013196,
+      "beta_temp_idiosyncratic": 0.015741,
+      "se_temp_idiosyncratic": 0.007064,
+      "pval_temp_idiosyncratic": 0.026119,
+      "mean_irrigation_pct": 9.7
+    },
+    "RABI_Jharkhand": {
+      "state": "Jharkhand",
+      "season": "RABI",
+      "zone": "Central Plateau",
+      "n_obs": 1649,
+      "n_districts": 24,
+      "r2_within": 0.04061,
+      "beta_temp_trend": 0.083375,
+      "beta_temp_covariate": -0.009153,
+      "beta_temp_idiosyncratic": -0.055521,
+      "se_temp_idiosyncratic": 0.013347,
+      "pval_temp_idiosyncratic": 3.4e-05,
+      "mean_irrigation_pct": 4.4
+    },
+    "RABI_Uttarakhand": {
+      "state": "Uttarakhand",
+      "season": "RABI",
+      "zone": "Hills",
+      "n_obs": 806,
+      "n_districts": 13,
+      "r2_within": 0.01233,
+      "beta_temp_trend": 0.048954,
+      "beta_temp_covariate": -0.033359,
+      "beta_temp_idiosyncratic": 0.001577,
+      "se_temp_idiosyncratic": 0.017661,
+      "pval_temp_idiosyncratic": 0.928881,
+      "mean_irrigation_pct": 11.9
+    },
+    "RABI_Jammu And Kashmir": {
+      "state": "Jammu And Kashmir",
+      "season": "RABI",
+      "zone": "Hills",
+      "n_obs": 591,
+      "n_districts": 21,
+      "r2_within": 0.06444,
+      "beta_temp_trend": 0.020922,
+      "beta_temp_covariate": -0.013896,
+      "beta_temp_idiosyncratic": -0.038749,
+      "se_temp_idiosyncratic": 0.012002,
+      "pval_temp_idiosyncratic": 0.001317,
+      "mean_irrigation_pct": 15.4
+    },
+    "RABI_Odisha": {
+      "state": "Odisha",
+      "season": "RABI",
+      "zone": "Coastal",
+      "n_obs": 623,
+      "n_districts": 30,
+      "r2_within": 0.06539,
+      "beta_temp_trend": 0.009656,
+      "beta_temp_covariate": -0.253709,
+      "beta_temp_idiosyncratic": 0.007768,
+      "se_temp_idiosyncratic": 0.0276,
+      "pval_temp_idiosyncratic": 0.778468,
+      "mean_irrigation_pct": 11.1
+    },
+    "RABI_Arunachal Pradesh": {
+      "state": "Arunachal Pradesh",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 470,
+      "n_districts": 25,
+      "r2_within": 0.12779,
+      "beta_temp_trend": 0.042473,
+      "beta_temp_covariate": 0.000431,
+      "beta_temp_idiosyncratic": -0.08384,
+      "se_temp_idiosyncratic": 0.018836,
+      "pval_temp_idiosyncratic": 1.1e-05,
+      "mean_irrigation_pct": 12.7
+    },
+    "RABI_Tripura": {
+      "state": "Tripura",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 690,
+      "n_districts": 8,
+      "r2_within": 0.02248,
+      "beta_temp_trend": -0.155461,
+      "beta_temp_covariate": -0.056665,
+      "beta_temp_idiosyncratic": -0.072881,
+      "se_temp_idiosyncratic": 0.009545,
+      "pval_temp_idiosyncratic": 0.0,
+      "mean_irrigation_pct": 8.8
+    },
+    "RABI_Manipur": {
+      "state": "Manipur",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 387,
+      "n_districts": 9,
+      "r2_within": 0.12822,
+      "beta_temp_trend": 0.427081,
+      "beta_temp_covariate": 0.023605,
+      "beta_temp_idiosyncratic": 0.025508,
+      "se_temp_idiosyncratic": 0.008056,
+      "pval_temp_idiosyncratic": 0.00167,
+      "mean_irrigation_pct": 26.4
+    },
+    "RABI_Meghalaya": {
+      "state": "Meghalaya",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 469,
+      "n_districts": 11,
+      "r2_within": 0.16608,
+      "beta_temp_trend": 0.222391,
+      "beta_temp_covariate": -0.052883,
+      "beta_temp_idiosyncratic": -0.037805,
+      "se_temp_idiosyncratic": 0.009688,
+      "pval_temp_idiosyncratic": 0.00011,
+      "mean_irrigation_pct": 5.0
+    },
+    "RABI_Mizoram": {
+      "state": "Mizoram",
+      "season": "RABI",
+      "zone": "Northeast",
+      "n_obs": 281,
+      "n_districts": 8,
+      "r2_within": 0.06912,
+      "beta_temp_trend": 0.188383,
+      "beta_temp_covariate": 0.056085,
+      "beta_temp_idiosyncratic": 0.074467,
+      "se_temp_idiosyncratic": 0.034966,
+      "pval_temp_idiosyncratic": 0.03411,
+      "mean_irrigation_pct": 0.6
+    }
+  },
+  "zone_analysis": {
+    "KHARIF_Indo-Gangetic Plain": {
+      "n_states": 5,
+      "avg_beta_temp_idio": -0.007986,
+      "avg_irrigation_pct": NaN,
+      "min_beta": -0.072465,
+      "max_beta": 0.050274,
+      "states": [
+        "Uttar Pradesh",
+        "Bihar",
+        "Haryana",
+        "West Bengal",
+        "Punjab"
+      ]
+    },
+    "KHARIF_Central Plateau": {
+      "n_states": 3,
+      "avg_beta_temp_idio": -0.044149,
+      "avg_irrigation_pct": 20.7,
+      "min_beta": -0.076183,
+      "max_beta": -0.026739,
+      "states": [
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Jharkhand"
+      ]
+    },
+    "KHARIF_Deccan Plateau": {
+      "n_states": 4,
+      "avg_beta_temp_idio": -0.0806,
+      "avg_irrigation_pct": 28.4,
+      "min_beta": -0.156838,
+      "max_beta": -0.049023,
+      "states": [
+        "Maharashtra",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Telangana"
+      ]
+    },
+    "KHARIF_Western Dry": {
+      "n_states": 2,
+      "avg_beta_temp_idio": -0.124888,
+      "avg_irrigation_pct": 38.2,
+      "min_beta": -0.160298,
+      "max_beta": -0.089478,
+      "states": [
+        "Rajasthan",
+        "Gujarat"
+      ]
+    },
+    "KHARIF_Coastal": {
+      "n_states": 2,
+      "avg_beta_temp_idio": -0.096494,
+      "avg_irrigation_pct": 16.4,
+      "min_beta": -0.14238,
+      "max_beta": -0.050607,
+      "states": [
+        "Tamil Nadu",
+        "Odisha"
+      ]
+    },
+    "KHARIF_Northeast": {
+      "n_states": 7,
+      "avg_beta_temp_idio": 0.013097,
+      "avg_irrigation_pct": 9.9,
+      "min_beta": -0.107071,
+      "max_beta": 0.243487,
+      "states": [
+        "Assam",
+        "Nagaland",
+        "Arunachal Pradesh",
+        "Tripura",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram"
+      ]
+    },
+    "KHARIF_Hills": {
+      "n_states": 3,
+      "avg_beta_temp_idio": 0.01687,
+      "avg_irrigation_pct": 12.1,
+      "min_beta": -0.019039,
+      "max_beta": 0.045253,
+      "states": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Jammu And Kashmir"
+      ]
+    },
+    "RABI_Indo-Gangetic Plain": {
+      "n_states": 5,
+      "avg_beta_temp_idio": -0.00732,
+      "avg_irrigation_pct": NaN,
+      "min_beta": -0.046283,
+      "max_beta": 0.024758,
+      "states": [
+        "Uttar Pradesh",
+        "Bihar",
+        "Haryana",
+        "West Bengal",
+        "Punjab"
+      ]
+    },
+    "RABI_Central Plateau": {
+      "n_states": 3,
+      "avg_beta_temp_idio": -0.05602,
+      "avg_irrigation_pct": 20.9,
+      "min_beta": -0.091743,
+      "max_beta": -0.020795,
+      "states": [
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Jharkhand"
+      ]
+    },
+    "RABI_Deccan Plateau": {
+      "n_states": 4,
+      "avg_beta_temp_idio": -0.040412,
+      "avg_irrigation_pct": 29.0,
+      "min_beta": -0.066331,
+      "max_beta": -0.007503,
+      "states": [
+        "Maharashtra",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Telangana"
+      ]
+    },
+    "RABI_Western Dry": {
+      "n_states": 2,
+      "avg_beta_temp_idio": -0.0382,
+      "avg_irrigation_pct": 37.5,
+      "min_beta": -0.044141,
+      "max_beta": -0.03226,
+      "states": [
+        "Rajasthan",
+        "Gujarat"
+      ]
+    },
+    "RABI_Coastal": {
+      "n_states": 2,
+      "avg_beta_temp_idio": -0.073723,
+      "avg_irrigation_pct": 16.5,
+      "min_beta": -0.155214,
+      "max_beta": 0.007768,
+      "states": [
+        "Tamil Nadu",
+        "Odisha"
+      ]
+    },
+    "RABI_Northeast": {
+      "n_states": 7,
+      "avg_beta_temp_idio": -0.010492,
+      "avg_irrigation_pct": 10.1,
+      "min_beta": -0.08384,
+      "max_beta": 0.074467,
+      "states": [
+        "Assam",
+        "Nagaland",
+        "Arunachal Pradesh",
+        "Tripura",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram"
+      ]
+    },
+    "RABI_Hills": {
+      "n_states": 3,
+      "avg_beta_temp_idio": -0.033187,
+      "avg_irrigation_pct": 12.5,
+      "min_beta": -0.062389,
+      "max_beta": 0.001577,
+      "states": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Jammu And Kashmir"
+      ]
+    }
+  },
+  "irrigation_sensitivity_test": {
+    "KHARIF": {
+      "correlation": -0.1594,
+      "regression_slope": -0.000666,
+      "regression_pval": 0.4467,
+      "n_states": 25,
+      "most_sensitive": [
+        {
+          "state": "Rajasthan",
+          "beta": -0.160298,
+          "irrigation_pct": 36.1
+        },
+        {
+          "state": "Maharashtra",
+          "beta": -0.156838,
+          "irrigation_pct": 24.4
+        },
+        {
+          "state": "Odisha",
+          "beta": -0.14238,
+          "irrigation_pct": 10.5
+        },
+        {
+          "state": "Tripura",
+          "beta": -0.107071,
+          "irrigation_pct": 8.8
+        },
+        {
+          "state": "Nagaland",
+          "beta": -0.095623,
+          "irrigation_pct": 8.5
+        }
+      ],
+      "least_sensitive": [
+        {
+          "state": "Jammu And Kashmir",
+          "beta": 0.045253,
+          "irrigation_pct": 16.8
+        },
+        {
+          "state": "Bihar",
+          "beta": 0.050274,
+          "irrigation_pct": 37.1
+        },
+        {
+          "state": "Assam",
+          "beta": 0.051018,
+          "irrigation_pct": 7.7
+        },
+        {
+          "state": "Meghalaya",
+          "beta": 0.060364,
+          "irrigation_pct": 4.8
+        },
+        {
+          "state": "Mizoram",
+          "beta": 0.243487,
+          "irrigation_pct": 0.6
+        }
+      ]
+    },
+    "RABI": {
+      "correlation": 0.0135,
+      "regression_slope": 3.1e-05,
+      "regression_pval": 0.9489,
+      "n_states": 25,
+      "most_sensitive": [
+        {
+          "state": "Tamil Nadu",
+          "beta": -0.155214,
+          "irrigation_pct": 21.9
+        },
+        {
+          "state": "Madhya Pradesh",
+          "beta": -0.091743,
+          "irrigation_pct": 42.4
+        },
+        {
+          "state": "Arunachal Pradesh",
+          "beta": -0.08384,
+          "irrigation_pct": 12.7
+        },
+        {
+          "state": "Tripura",
+          "beta": -0.072881,
+          "irrigation_pct": 8.8
+        },
+        {
+          "state": "Maharashtra",
+          "beta": -0.066331,
+          "irrigation_pct": 25.4
+        }
+      ],
+      "least_sensitive": [
+        {
+          "state": "Punjab",
+          "beta": 0.009724,
+          "irrigation_pct": 78.1
+        },
+        {
+          "state": "Nagaland",
+          "beta": 0.015741,
+          "irrigation_pct": 9.7
+        },
+        {
+          "state": "Uttar Pradesh",
+          "beta": 0.024758,
+          "irrigation_pct": 54.0
+        },
+        {
+          "state": "Manipur",
+          "beta": 0.025508,
+          "irrigation_pct": 26.4
+        },
+        {
+          "state": "Mizoram",
+          "beta": 0.074467,
+          "irrigation_pct": 0.6
+        }
+      ]
+    }
+  }
+}

@@ -19,6 +19,7 @@ let cropCoefficients = null;
 let covariateTimeline = null;
 let parbhaniDecomposition = null;
 let shockCoefficients = null;
+let stateSensitivityGeo = null;
 
 // ── Color scales (calibrated to actual data ranges) ──────────────────────
 
@@ -92,6 +93,28 @@ function irrigColor(val) {
     } else {
         const s = (t - 0.6) / 0.4;
         return `rgb(${Math.round(100 - s * 70)}, ${Math.round(200 - s * 30)}, ${Math.round(100 - s * 50)})`;
+    }
+}
+
+// state sensitivity: diverging green (+0.05 resilient) -> white (0) -> red (-0.16 vulnerable)
+function stateSensitivityColor(val) {
+    if (val == null) return '#d4d4d4';
+    // Range: +0.05 (green/resilient) to -0.16 (red/vulnerable)
+    // Normalize: 0 = -0.16, ~0.76 = 0, 1 = +0.05
+    var clamped = Math.max(-0.16, Math.min(0.05, val));
+    var t = (clamped + 0.16) / 0.21; // 0 = most vulnerable, 1 = most resilient
+    if (t < 0.38) {
+        // Deep red to light red (vulnerable)
+        var s = t / 0.38;
+        return 'rgb(' + Math.round(180 + s * 55) + ', ' + Math.round(30 + s * 80) + ', ' + Math.round(30 + s * 50) + ')';
+    } else if (t < 0.76) {
+        // Light red to white (near zero)
+        var s = (t - 0.38) / 0.38;
+        return 'rgb(' + Math.round(235 + s * 20) + ', ' + Math.round(110 + s * 145) + ', ' + Math.round(80 + s * 175) + ')';
+    } else {
+        // White to green (resilient / positive)
+        var s = (t - 0.76) / 0.24;
+        return 'rgb(' + Math.round(255 - s * 135) + ', ' + Math.round(255 - s * 30) + ', ' + Math.round(255 - s * 135) + ')';
     }
 }
 
@@ -289,6 +312,52 @@ function initMapIdiosyncratic() {
 
     // Crop sensitivity chart (dot + whisker)
     initCropSensitivityChart();
+}
+
+function initMapStateSensitivity() {
+    if (!stateSensitivityGeo) return;
+    var m = makeMap('map-state-sensitivity', false);
+    L.geoJSON(stateSensitivityGeo, {
+        style: function(f) {
+            return {
+                fillColor: stateSensitivityColor(f.properties.beta_temp),
+                fillOpacity: 0.85,
+                weight: 1.5,
+                color: '#666',
+                opacity: 0.7
+            };
+        },
+        onEachFeature: function(f, layer) {
+            var p = f.properties;
+            var beta = p.beta_temp;
+            var sig = (p.pval_temp != null && p.pval_temp < 0.05) ? 'Yes (p<0.05)' : (p.pval_temp != null && p.pval_temp < 0.10) ? 'Marginal (p<0.10)' : 'No';
+            var irrig = (p.irrig_pct != null && !isNaN(p.irrig_pct)) ? p.irrig_pct.toFixed(1) + '%' : 'N/A';
+            var betaStr = (beta != null) ? beta.toFixed(4) : 'N/A';
+            var nObs = p.n_obs ? p.n_obs.toLocaleString() : 'N/A';
+
+            var html = '<div class="map-tooltip">' +
+                '<strong>' + (p.stname || 'Unknown') + '</strong><br>' +
+                '<span style="color:' + (beta < 0 ? '#d32f2f' : '#388e3c') + ';font-weight:600">\u03B2 = ' + betaStr + '</span><br>' +
+                'Zone: ' + (p.zone || 'N/A') + '<br>' +
+                'Irrigation: ' + irrig + '<br>' +
+                'Observations: ' + nObs + '<br>' +
+                'Significant: ' + sig +
+                '</div>';
+
+            layer.bindTooltip(html, { sticky: true, className: 'district-tooltip' });
+
+            layer.on('mouseover', function() {
+                layer.setStyle({ weight: 3, color: '#333', opacity: 1 });
+                layer.bringToFront();
+            });
+            layer.on('mouseout', function() {
+                layer.setStyle({ weight: 1.5, color: '#666', opacity: 0.7 });
+            });
+        }
+    }).addTo(m);
+    m.fitBounds(INDIA_BOUNDS);
+    setGradient('gradient-state-sensitivity', stateSensitivityColor, -0.16, 0.05);
+    initializedMaps['state-sensitivity'] = m;
 }
 
 function initMapIrrigation() {
@@ -554,85 +623,83 @@ function initSSPCompare() {
 // ── Variance Decomposition Chart ─────────────────────────────────────────
 
 function initVarianceDecomp() {
-    var ctx = document.getElementById('chart-variance-decomp');
-    if (!ctx) return;
-
-    var decompColors = {
-        'Baseline': '#5c6bc0',
-        'Seasonality': '#26a69a',
-        'Covariate': '#ff9800',
-        'Idiosyncratic': '#ef5350',
-        'Trend': '#78909c'
-    };
-
-    var tempData = [55, 43, 0.8, 1.2, 0.05];
-    var precipData = [20, 62, 2.2, 16, 0.1];
-    var components = ['Baseline', 'Seasonality', 'Covariate', 'Idiosyncratic', 'Trend'];
-
     var policyMap = {
-        'Baseline': 'Crop choice (already adapted)',
-        'Seasonality': 'Planting calendar optimization',
-        'Covariate': 'Parametric insurance (ENSO triggers)',
-        'Idiosyncratic': 'Index/indemnity insurance',
-        'Trend': 'Long-term infrastructure investment'
+        'Baseline (55%)': 'Already adapted — crop choice',
+        'Seasonality (43%)': 'Predictable — planting calendars',
+        'Covariate (0.8%)': 'Parametric insurance target',
+        'Idiosyncratic (1.2%)': 'Index/indemnity insurance'
     };
 
-    var datasets = components.map(function(comp, i) {
-        return {
-            label: comp,
-            data: [tempData[i], precipData[i]],
-            backgroundColor: decompColors[comp],
-            borderColor: decompColors[comp],
-            borderWidth: 0,
-            borderRadius: 2
-        };
-    });
-
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: ['Temperature', 'Precipitation'],
-            datasets: datasets
-        },
-        options: {
-            indexAxis: 'y',
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: { font: { size: 11 }, usePointStyle: true, boxWidth: 10 }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            var comp = context.dataset.label;
-                            var val = context.raw;
-                            var policy = policyMap[comp] || '';
-                            return comp + ': ' + val.toFixed(1) + '% — ' + policy;
+    // Temperature donut
+    var ctxTemp = document.getElementById('chart-donut-temp');
+    if (ctxTemp) {
+        new Chart(ctxTemp, {
+            type: 'doughnut',
+            data: {
+                labels: ['Baseline (55%)', 'Seasonality (43%)', 'Covariate (0.8%)', 'Idiosyncratic (1.2%)'],
+                datasets: [{
+                    data: [55, 43, 0.8, 1.2],
+                    backgroundColor: ['#1976d2', '#42a5f5', '#ff9800', '#e53935'],
+                    borderWidth: 0,
+                    hoverOffset: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                cutout: '60%',
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(ctx) {
+                                return ctx.label + ' — ' + (policyMap[ctx.label] || '');
+                            }
                         }
                     }
                 }
+            }
+        });
+    }
+
+    var policyMapPrecip = {
+        'Baseline (20%)': 'Already adapted — crop choice',
+        'Seasonality (62%)': 'Predictable — planting calendars',
+        'Covariate (2.2%)': 'Parametric insurance target',
+        'Idiosyncratic (16%)': 'Index/indemnity insurance'
+    };
+
+    // Precipitation donut
+    var ctxPrecip = document.getElementById('chart-donut-precip');
+    if (ctxPrecip) {
+        new Chart(ctxPrecip, {
+            type: 'doughnut',
+            data: {
+                labels: ['Baseline (20%)', 'Seasonality (62%)', 'Covariate (2.2%)', 'Idiosyncratic (16%)'],
+                datasets: [{
+                    data: [20, 62, 2.2, 16],
+                    backgroundColor: ['#1976d2', '#42a5f5', '#ff9800', '#e53935'],
+                    borderWidth: 0,
+                    hoverOffset: 8
+                }]
             },
-            scales: {
-                x: {
-                    stacked: true,
-                    max: 100,
-                    title: { display: true, text: 'Variance Share (%)', font: { size: 11 } },
-                    grid: { color: '#eee' },
-                    ticks: {
-                        font: { size: 10 },
-                        callback: function(val) { return val + '%'; }
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                cutout: '60%',
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(ctx) {
+                                return ctx.label + ' — ' + (policyMapPrecip[ctx.label] || '');
+                            }
+                        }
                     }
-                },
-                y: {
-                    stacked: true,
-                    grid: { display: false },
-                    ticks: { font: { size: 12, weight: 'bold' } }
                 }
             }
-        }
-    });
+        });
+    }
 
     initializedMaps['variance-decomp'] = true;
 }
@@ -965,6 +1032,7 @@ var mapInitFns = {
     trends: initMapTrends,
     shocks: initMapShocks,
     idiosyncratic: initMapIdiosyncratic,
+    'state-sensitivity': initMapStateSensitivity,
     irrigation: initMapIrrigation,
     projected: initMapProjected2035,
     'shock-explorer': initShockExplorer,
@@ -1687,7 +1755,8 @@ function init() {
         load('data/crop_coefficients.json'),           // 6
         load('data/covariate_timeline.json'),          // 7
         load('data/parbhani_decomposition.json'),      // 8
-        load('data/shock_response_coefficients.json')  // 9
+        load('data/shock_response_coefficients.json'), // 9
+        load('data/states_sensitivity.geojson')       // 10
     ]).then(function(results) {
         climateGeo = results[0];
         pilotGeo = results[1];
@@ -1699,6 +1768,7 @@ function init() {
         covariateTimeline = results[7];
         parbhaniDecomposition = results[8];
         shockCoefficients = results[9];
+        stateSensitivityGeo = results[10];
 
         // Build district list for search (combine both GeoJSON sources)
         var seen = {};

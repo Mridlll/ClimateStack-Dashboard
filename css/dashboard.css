@@ -902,6 +902,95 @@ footer {
 .footer-data { font-size: 0.75rem; text-align: right; }
 .footer-data a { color: rgba(255,255,255,0.6); text-decoration: underline; }
 
+/* ── Variance Decomposition Donuts ────────────── */
+.donut-row {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 32px 0;
+}
+.donut-col {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+.donut-col h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-dark);
+    margin-bottom: 12px;
+}
+.donut-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.donut-verdict {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 12px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.donut-verdict.safe {
+    background: rgba(46,125,50,0.1);
+    color: var(--green);
+}
+.donut-verdict.danger {
+    background: rgba(211,47,47,0.1);
+    color: var(--red);
+}
+.donut-note {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+.decomp-policy-map {
+    margin-top: 32px;
+}
+.policy-row {
+    display: flex;
+    gap: 16px;
+}
+.policy-item {
+    flex: 1;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+.policy-item.predictable {
+    background: rgba(46,125,50,0.04);
+    border-color: rgba(46,125,50,0.2);
+}
+.policy-item.mixed {
+    background: rgba(255,152,0,0.04);
+    border-color: rgba(255,152,0,0.2);
+}
+.policy-item.danger {
+    background: rgba(211,47,47,0.04);
+    border-color: rgba(211,47,47,0.2);
+}
+.policy-pct {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.policy-item.predictable .policy-pct { color: var(--green); }
+.policy-item.mixed .policy-pct { color: #ff9800; }
+.policy-item.danger .policy-pct { color: var(--red); }
+.policy-label {
+    font-size: 0.85rem;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+.policy-action {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
 /* ── Responsive ───────────────────────────────── */
 @media (max-width: 900px) {
     .hero { padding: 80px 20px 60px; }
@@ -925,6 +1014,8 @@ footer {
     .shock-slider { min-width: 200px; }
     .ssp-compare-row { flex-direction: column; }
     .map-half { height: 320px; }
+    .donut-row { flex-direction: column; align-items: center; }
+    .policy-row { flex-direction: column; }
 }
 
 @media (max-width: 600px) {

@@ -257,6 +257,27 @@
     </div>
 </section>
 
+<!-- Section 05B: State-Level Climate Sensitivity Choropleth -->
+<section class="map-section" id="section-state-sensitivity" data-map="state-sensitivity">
+    <div class="section-header">
+        <div class="section-number">05B</div>
+        <h2>Climate Sensitivity Varies by Region</h2>
+        <p>State-level temperature sensitivity coefficients from region-specific regressions. Darker red = more damage per degree of warming. The Deccan Plateau and Western India are most vulnerable.</p>
+    </div>
+    <div class="map-wrapper">
+        <div id="map-state-sensitivity" class="map"></div>
+        <div class="map-overlay-legend">
+            <div class="legend-title">Temp Sensitivity (&beta; per 1&sigma; shock)</div>
+            <div class="legend-gradient" id="gradient-state-sensitivity"></div>
+            <div class="legend-ticks"><span>+0.05 (resilient)</span><span>0</span><span>-0.16 (vulnerable)</span></div>
+        </div>
+    </div>
+    <div class="callout-card">
+        <span class="callout-label">Regional Pattern</span>
+        <p><strong>Deccan Plateau</strong> (Maharashtra: &beta;=-0.157) and <strong>Western Dry</strong> (Rajasthan: &beta;=-0.160) are 20&times; more climate-sensitive than the <strong>Indo-Gangetic Plain</strong> (UP: &beta;=+0.007, not significant). The same 1&deg;C shock causes dramatically different damage depending on where it hits.</p>
+    </div>
+</section>
+
 <!-- Section 6: Irrigation Buffer Map -->
 <section class="map-section" id="section-irrigation" data-map="irrigation">
     <div class="section-header">
@@ -636,15 +657,45 @@
     <div class="text-block">
         <div class="section-number">09B</div>
         <h2>What Kind of Climate Risk Does India Face?</h2>
-        <p class="lead">Variance decomposition reveals which climate components dominate year-to-year agricultural uncertainty nationally.</p>
-        <div class="chart-container" style="background:transparent;padding:0;">
-            <div class="chart-fixed-height" style="height:220px;">
-                <canvas id="chart-variance-decomp"></canvas>
+        <p class="lead">Not all climate variation is equal. Our decomposition reveals what's predictable — and what isn't.</p>
+
+        <div class="donut-row">
+            <div class="donut-col">
+                <h3>Temperature</h3>
+                <div class="donut-container">
+                    <canvas id="chart-donut-temp"></canvas>
+                </div>
+                <div class="donut-verdict safe">98% predictable</div>
+                <p class="donut-note">Baseline climate and seasonal cycles dominate. Farmers and insurers can plan for this.</p>
+            </div>
+            <div class="donut-col">
+                <h3>Precipitation</h3>
+                <div class="donut-container">
+                    <canvas id="chart-donut-precip"></canvas>
+                </div>
+                <div class="donut-verdict danger">16% unpredictable local shocks</div>
+                <p class="donut-note">One in six units of rainfall variation is a local surprise — hailstorms, microbursts, localized flooding. This is what index insurance must cover.</p>
             </div>
         </div>
-        <div class="callout-card">
-            <span class="callout-label">Policy Implication</span>
-            <p>For temperature, <strong>baseline</strong> (55%) and <strong>seasonality</strong> (43%) dominate &mdash; these are predictable and can be addressed through crop choice and planting calendars. For precipitation, <strong>seasonality</strong> (62%) and <strong>baseline</strong> (20%) still dominate, but <strong>idiosyncratic shocks</strong> (16%) are much larger &mdash; requiring local insurance products.</p>
+
+        <div class="decomp-policy-map">
+            <div class="policy-row">
+                <div class="policy-item predictable">
+                    <div class="policy-pct">98%</div>
+                    <div class="policy-label">Temperature risk is <strong>manageable</strong></div>
+                    <div class="policy-action">&rarr; Crop switching, planting calendars, long-term infrastructure</div>
+                </div>
+                <div class="policy-item mixed">
+                    <div class="policy-pct">82%</div>
+                    <div class="policy-label">Precipitation is <strong>mostly predictable</strong></div>
+                    <div class="policy-action">&rarr; Seasonal forecasting, water storage, parametric insurance for monsoon failures</div>
+                </div>
+                <div class="policy-item danger">
+                    <div class="policy-pct">16%</div>
+                    <div class="policy-label">Local rainfall shocks are <strong>the blind spot</strong></div>
+                    <div class="policy-action">&rarr; Index-based insurance, emergency credit lines, the CRAF adjustment</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
