@@ -166,6 +166,9 @@ function makeMap(id, dark) {
     return map;
 }
 
+// Detect touch device (must be before tooltipHtml)
+var isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+
 function tooltipHtml(p, rows) {
     let h = `<div style="font-family:system-ui;min-width:180px;padding:4px">`;
     h += `<div style="font-weight:700;font-size:13px;margin-bottom:2px">${p.district || '?'}</div>`;
@@ -178,7 +181,7 @@ function tooltipHtml(p, rows) {
         h += `<span style="color:#666">${label}</span>`;
         h += `<span style="font-weight:600;${cs}">${vs}${suffix || ''}</span></div>`;
     });
-    h += `<div style="font-size:9px;color:#aaa;margin-top:6px;text-align:center">Click to explore</div>`;
+    h += `<div style="font-size:9px;color:#aaa;margin-top:6px;text-align:center">${isTouchDevice ? 'Tap again to explore' : 'Click to explore'}</div>`;
     h += `</div>`;
     return h;
 }
@@ -189,28 +192,68 @@ function bindDistrictInteraction(layer, p, rows, opts) {
     var defaultColor = opts.color || '#999';
     var defaultOpacity = opts.opacity || 0.4;
 
-    layer.bindTooltip(tooltipHtml(p, rows), {
+    // Build tooltip with "Tap again to explore" on mobile
+    var tipContent = tooltipHtml(p, rows);
+    layer.bindTooltip(tipContent, {
         sticky: false,
         direction: 'auto',
         offset: [0, -8],
         opacity: 0.95,
         className: 'district-tooltip'
     });
-    layer.on('mouseover', function(e) {
-        layer.setStyle({ weight: 2.5, color: '#ffeb3b', opacity: 1 });
-        layer.bringToFront();
-        layer.openTooltip(e.latlng);
-    });
-    layer.on('mousemove', function(e) {
-        layer.openTooltip(e.latlng);
-    });
-    layer.on('mouseout', function() {
-        layer.setStyle({ weight: defaultWeight, color: defaultColor, opacity: defaultOpacity });
-        layer.closeTooltip();
-    });
-    layer.on('click', function() {
-        showDistrictDeepDive(p.district, p.state);
-    });
+
+    if (isTouchDevice) {
+        // Mobile: first tap = show tooltip + highlight, second tap = deep dive
+        var tapped = false;
+        layer.on('click', function(e) {
+            if (!tapped) {
+                // First tap: show tooltip, highlight
+                // Close any other open tooltips first
+                if (window._lastTappedLayer && window._lastTappedLayer !== layer) {
+                    window._lastTappedLayer.setStyle({ weight: defaultWeight, color: defaultColor, opacity: defaultOpacity });
+                    window._lastTappedLayer.closeTooltip();
+                    window._lastTappedLayer._tapped = false;
+                }
+                layer.setStyle({ weight: 2.5, color: '#ffeb3b', opacity: 1 });
+                layer.bringToFront();
+                layer.openTooltip(e.latlng);
+                tapped = true;
+                window._lastTappedLayer = layer;
+                // Reset after 4 seconds if no second tap
+                setTimeout(function() {
+                    if (tapped) {
+                        tapped = false;
+                        layer.setStyle({ weight: defaultWeight, color: defaultColor, opacity: defaultOpacity });
+                        layer.closeTooltip();
+                    }
+                }, 4000);
+                L.DomEvent.stopPropagation(e);
+            } else {
+                // Second tap: deep dive
+                tapped = false;
+                layer.closeTooltip();
+                layer.setStyle({ weight: defaultWeight, color: defaultColor, opacity: defaultOpacity });
+                showDistrictDeepDive(p.district, p.state);
+            }
+        });
+    } else {
+        // Desktop: hover = tooltip, click = deep dive
+        layer.on('mouseover', function(e) {
+            layer.setStyle({ weight: 2.5, color: '#ffeb3b', opacity: 1 });
+            layer.bringToFront();
+            layer.openTooltip(e.latlng);
+        });
+        layer.on('mousemove', function(e) {
+            layer.openTooltip(e.latlng);
+        });
+        layer.on('mouseout', function() {
+            layer.setStyle({ weight: defaultWeight, color: defaultColor, opacity: defaultOpacity });
+            layer.closeTooltip();
+        });
+        layer.on('click', function() {
+            showDistrictDeepDive(p.district, p.state);
+        });
+    }
 }
 
 function setGradient(id, colorFn, min, max, n) {
