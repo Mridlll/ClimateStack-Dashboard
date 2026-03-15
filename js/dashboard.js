@@ -533,10 +533,14 @@ function initSSPCompare() {
 
     setGradient('gradient-ssp-compare', projectedYieldColor, 0, -15);
 
-    // Sync map panning/zooming
+    // Sync map panning/zooming (with semaphore to prevent infinite loop)
+    var syncing = false;
     function syncMaps(source, target) {
         source.on('moveend', function() {
+            if (syncing) return;
+            syncing = true;
             target.setView(source.getCenter(), source.getZoom(), { animate: false });
+            setTimeout(function() { syncing = false; }, 50);
         });
     }
     syncMaps(m245, m585);
@@ -840,18 +844,23 @@ function initShockExplorer() {
             layerLookup[p.district] = layer;
             // Tooltip will be updated dynamically
             layer.bindTooltip('', {
-                sticky: true,
-                direction: 'top',
-                offset: [0, -10],
+                sticky: false,
+                direction: 'auto',
+                offset: [0, -8],
                 opacity: 0.95,
                 className: 'district-tooltip'
             });
-            layer.on('mouseover', function() {
+            layer.on('mouseover', function(e) {
                 layer.setStyle({ weight: 2.5, color: '#ffeb3b', opacity: 1 });
                 layer.bringToFront();
+                layer.openTooltip(e.latlng);
+            });
+            layer.on('mousemove', function(e) {
+                layer.openTooltip(e.latlng);
             });
             layer.on('mouseout', function() {
                 layer.setStyle({ weight: 1, color: '#fff', opacity: 0.5 });
+                layer.closeTooltip();
             });
             layer.on('click', function() {
                 showDistrictDeepDive(p.district, p.state);
