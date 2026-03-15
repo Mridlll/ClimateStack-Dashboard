@@ -323,12 +323,26 @@ function initMapIrrigation() {
     initIrrigationChart();
 }
 
+// Crop-specific temperature betas (idiosyncratic, most negative per crop)
+var cropBetas = {
+    'All Crops': null,
+    'Rice': -0.009,
+    'Wheat': -0.045,
+    'Maize': -0.054,
+    'Moong': -0.076,
+    'Arhar/Tur': -0.153,
+    'Gram': -0.049,
+    'Jowar': -0.106,
+    'Bajra': -0.052,
+    'Groundnut': -0.031,
+    'Soyabean': -0.124
+};
+
 function initMapProjected2035() {
-    // Use climateGeo with projected_yield_pct_2035 property, or projectedData overlay
     if (!climateGeo) return;
     var m = makeMap('map-projected', false);
 
-    // Build lookup from projectedData if available
+    // Build lookup from projectedData (cmip6_projections.json) if available
     var projLookup = {};
     if (projectedData) {
         Object.keys(projectedData).forEach(function(district) {
@@ -336,11 +350,14 @@ function initMapProjected2035() {
         });
     }
 
-    L.geoJSON(climateGeo, {
+    var projectedGeoLayer = null;
+    var projectedLayerLookup = {};  // district -> layer
+    var projectedPropsLookup = {};  // district -> merged properties
+
+    projectedGeoLayer = L.geoJSON(climateGeo, {
         style: function(f) {
             var p = f.properties;
             var proj = projLookup[p.district];
-            // Prefer GCM-based projection, fall back to trend extrapolation
             var yieldPct = p.crop_weighted_yield_ssp370 || p.cmip6_yield_kharif_ssp370 || (proj ? proj.projected_yield_pct_2035 : null) || p.projected_yield_pct_2035 || null;
             return {
                 fillColor: projectedYieldColor(yieldPct),
@@ -353,10 +370,9 @@ function initMapProjected2035() {
         onEachFeature: function(f, layer) {
             var p = f.properties;
             var proj = projLookup[p.district] || {};
-            // Merge projected data into properties for tooltip
             var merged = Object.assign({}, p, proj);
-            var warming = merged.cmip6_warming_ssp370 || merged.temp_trend_c_decade;
-            var yieldShow = merged.crop_weighted_yield_ssp370 || merged.cmip6_yield_kharif_ssp370 || merged.projected_yield_pct_2035;
+            projectedLayerLookup[p.district] = layer;
+            projectedPropsLookup[p.district] = merged;
             bindDistrictInteraction(layer, merged, [
                 ['GCM warming (SSP3-7.0)', 'cmip6_warming_ssp370', ' \u00B0C', '#d32f2f'],
                 ['Yield impact (crop-weighted)', 'crop_weighted_yield_ssp370', '%', '#d32f2f'],
@@ -367,7 +383,254 @@ function initMapProjected2035() {
     }).addTo(m);
     m.fitBounds(INDIA_BOUNDS);
     setGradient('gradient-projected', projectedYieldColor, 0, -15);
+
+    // Compute and display initial stats
+    function updateProjectedStats(cropName) {
+        var impacts = [];
+        var worstImpact = 0;
+        var worstDistrict = '';
+
+        Object.keys(projectedLayerLookup).forEach(function(district) {
+            var layer = projectedLayerLookup[district];
+            var props = projectedPropsLookup[district];
+            var warming = props.cmip6_warming_ssp370 || props.projected_kharif_warming_2035_ssp370;
+            var yieldPct;
+
+            if (cropName === 'All Crops' || !cropBetas[cropName]) {
+                yieldPct = props.crop_weighted_yield_ssp370 || props.cmip6_yield_kharif_ssp370 || null;
+            } else {
+                if (warming != null) {
+                    yieldPct = warming * cropBetas[cropName] * 100;
+                } else {
+                    yieldPct = null;
+                }
+            }
+
+            if (yieldPct != null) {
+                layer.setStyle({ fillColor: projectedYieldColor(yieldPct) });
+                impacts.push(yieldPct);
+                if (yieldPct < worstImpact) {
+                    worstImpact = yieldPct;
+                    worstDistrict = district;
+                }
+                // Update tooltip for crop-specific
+                if (cropName !== 'All Crops') {
+                    layer.unbindTooltip();
+                    var tooltipProps = Object.assign({}, props, {
+                        _crop_yield_impact: yieldPct
+                    });
+                    layer.bindTooltip(tooltipHtml(tooltipProps, [
+                        ['Crop', '_selected_crop', ''],
+                        ['GCM warming', 'cmip6_warming_ssp370', ' \u00B0C', '#d32f2f'],
+                        ['Yield impact (' + cropName + ')', '_crop_yield_impact', '%', '#d32f2f'],
+                        ['Warming trend (observed)', 'temp_trend_c_decade', ' \u00B0C/dec']
+                    ]), {
+                        sticky: false, direction: 'auto', offset: [0, -8],
+                        opacity: 0.95, className: 'district-tooltip'
+                    });
+                    tooltipProps._selected_crop = cropName;
+                }
+            } else {
+                layer.setStyle({ fillColor: '#d4d4d4' });
+            }
+        });
+
+        // Update stats overlay
+        var avgEl = document.getElementById('projected-avg-impact');
+        var worstEl = document.getElementById('projected-worst-district');
+        if (avgEl && impacts.length > 0) {
+            var avg = impacts.reduce(function(a, b) { return a + b; }, 0) / impacts.length;
+            avgEl.textContent = avg.toFixed(1) + '%';
+        }
+        if (worstEl) {
+            worstEl.textContent = worstDistrict || '--';
+        }
+    }
+
+    // Initial stats
+    updateProjectedStats('All Crops');
+
+    // Crop dropdown listener
+    var cropSelect = document.getElementById('crop-projection-select');
+    if (cropSelect) {
+        cropSelect.addEventListener('change', function() {
+            updateProjectedStats(cropSelect.value);
+        });
+    }
+
     initializedMaps.projected = m;
+}
+
+// ── SSP Comparison Maps ──────────────────────────────────────────────────
+
+function initSSPCompare() {
+    if (!climateGeo) return;
+
+    // Build lookup from projectedData
+    var projLookup = {};
+    if (projectedData) {
+        Object.keys(projectedData).forEach(function(district) {
+            projLookup[district] = projectedData[district];
+        });
+    }
+
+    var m245 = makeMap('map-ssp245', false);
+    var m585 = makeMap('map-ssp585', false);
+
+    // SSP2-4.5 map (left)
+    L.geoJSON(climateGeo, {
+        style: function(f) {
+            var p = f.properties;
+            var proj = projLookup[p.district];
+            var yieldPct = p.crop_weighted_yield_ssp245 || (proj ? proj.crop_weighted_yield_ssp245 : null) || null;
+            return {
+                fillColor: projectedYieldColor(yieldPct),
+                fillOpacity: 0.85,
+                weight: 0.3,
+                color: '#999',
+                opacity: 0.4
+            };
+        },
+        onEachFeature: function(f, layer) {
+            var p = f.properties;
+            var proj = projLookup[p.district] || {};
+            var merged = Object.assign({}, p, proj);
+            bindDistrictInteraction(layer, merged, [
+                ['Yield impact (SSP2-4.5)', 'crop_weighted_yield_ssp245', '%', '#d32f2f'],
+                ['Warming (SSP2-4.5)', 'projected_kharif_warming_2035_ssp245', ' \u00B0C', '#d32f2f'],
+                ['Warming trend (observed)', 'temp_trend_c_decade', ' \u00B0C/dec']
+            ]);
+        }
+    }).addTo(m245);
+    m245.fitBounds(INDIA_BOUNDS);
+
+    // SSP5-8.5 map (right)
+    L.geoJSON(climateGeo, {
+        style: function(f) {
+            var p = f.properties;
+            var proj = projLookup[p.district];
+            var yieldPct = p.crop_weighted_yield_ssp370 || (proj ? proj.crop_weighted_yield_ssp370 : null) || null;
+            return {
+                fillColor: projectedYieldColor(yieldPct),
+                fillOpacity: 0.85,
+                weight: 0.3,
+                color: '#999',
+                opacity: 0.4
+            };
+        },
+        onEachFeature: function(f, layer) {
+            var p = f.properties;
+            var proj = projLookup[p.district] || {};
+            var merged = Object.assign({}, p, proj);
+            bindDistrictInteraction(layer, merged, [
+                ['Yield impact (SSP5-8.5)', 'crop_weighted_yield_ssp370', '%', '#d32f2f'],
+                ['GCM warming (SSP5-8.5)', 'cmip6_warming_ssp370', ' \u00B0C', '#d32f2f'],
+                ['Warming trend (observed)', 'temp_trend_c_decade', ' \u00B0C/dec']
+            ]);
+        }
+    }).addTo(m585);
+    m585.fitBounds(INDIA_BOUNDS);
+
+    setGradient('gradient-ssp-compare', projectedYieldColor, 0, -15);
+
+    // Sync map panning/zooming
+    function syncMaps(source, target) {
+        source.on('moveend', function() {
+            target.setView(source.getCenter(), source.getZoom(), { animate: false });
+        });
+    }
+    syncMaps(m245, m585);
+    syncMaps(m585, m245);
+
+    initializedMaps['ssp-compare'] = m245;
+    // Store second map for invalidation
+    initializedMaps['ssp-compare-585'] = m585;
+}
+
+// ── Variance Decomposition Chart ─────────────────────────────────────────
+
+function initVarianceDecomp() {
+    var ctx = document.getElementById('chart-variance-decomp');
+    if (!ctx) return;
+
+    var decompColors = {
+        'Baseline': '#5c6bc0',
+        'Seasonality': '#26a69a',
+        'Covariate': '#ff9800',
+        'Idiosyncratic': '#ef5350',
+        'Trend': '#78909c'
+    };
+
+    var tempData = [55, 43, 0.8, 1.2, 0.05];
+    var precipData = [20, 62, 2.2, 16, 0.1];
+    var components = ['Baseline', 'Seasonality', 'Covariate', 'Idiosyncratic', 'Trend'];
+
+    var policyMap = {
+        'Baseline': 'Crop choice (already adapted)',
+        'Seasonality': 'Planting calendar optimization',
+        'Covariate': 'Parametric insurance (ENSO triggers)',
+        'Idiosyncratic': 'Index/indemnity insurance',
+        'Trend': 'Long-term infrastructure investment'
+    };
+
+    var datasets = components.map(function(comp, i) {
+        return {
+            label: comp,
+            data: [tempData[i], precipData[i]],
+            backgroundColor: decompColors[comp],
+            borderColor: decompColors[comp],
+            borderWidth: 0,
+            borderRadius: 2
+        };
+    });
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Temperature', 'Precipitation'],
+            datasets: datasets
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: { font: { size: 11 }, usePointStyle: true, boxWidth: 10 }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            var comp = context.dataset.label;
+                            var val = context.raw;
+                            var policy = policyMap[comp] || '';
+                            return comp + ': ' + val.toFixed(1) + '% — ' + policy;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    stacked: true,
+                    max: 100,
+                    title: { display: true, text: 'Variance Share (%)', font: { size: 11 } },
+                    grid: { color: '#eee' },
+                    ticks: {
+                        font: { size: 10 },
+                        callback: function(val) { return val + '%'; }
+                    }
+                },
+                y: {
+                    stacked: true,
+                    grid: { display: false },
+                    ticks: { font: { size: 12, weight: 'bold' } }
+                }
+            }
+        }
+    });
+
+    initializedMaps['variance-decomp'] = true;
 }
 
 function initVulnerabilityScatter() {
@@ -696,7 +959,9 @@ var mapInitFns = {
     irrigation: initMapIrrigation,
     projected: initMapProjected2035,
     'shock-explorer': initShockExplorer,
-    vulnerability: initVulnerabilityScatter
+    vulnerability: initVulnerabilityScatter,
+    'ssp-compare': initSSPCompare,
+    'variance-decomp': initVarianceDecomp
 };
 
 function setupMapObservers() {
@@ -716,6 +981,10 @@ function setupMapObservers() {
                 // If map already exists and is a Leaflet map, invalidate size
                 if (initializedMaps[mapName] && typeof initializedMaps[mapName].invalidateSize === 'function') {
                     initializedMaps[mapName].invalidateSize();
+                }
+                // Also invalidate paired map for SSP comparison
+                if (mapName === 'ssp-compare' && initializedMaps['ssp-compare-585'] && typeof initializedMaps['ssp-compare-585'].invalidateSize === 'function') {
+                    initializedMaps['ssp-compare-585'].invalidateSize();
                 }
             }
         });

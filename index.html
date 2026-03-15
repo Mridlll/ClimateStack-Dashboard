@@ -298,6 +298,22 @@
         <h2>What the Next Decade Looks Like</h2>
         <p>Projected Kharif yield impact by 2035 using the NEX-GDDP-CMIP6 35-model ensemble median under SSP5-8.5, combined with our estimated crop-climate elasticities.</p>
     </div>
+    <div class="crop-selector">
+        <label for="crop-projection-select">Show crop-specific projection:</label>
+        <select id="crop-projection-select">
+            <option value="All Crops">All Crops (weighted)</option>
+            <option value="Rice">Rice</option>
+            <option value="Wheat">Wheat</option>
+            <option value="Maize">Maize</option>
+            <option value="Moong">Moong</option>
+            <option value="Arhar/Tur">Arhar/Tur</option>
+            <option value="Gram">Gram</option>
+            <option value="Jowar">Jowar</option>
+            <option value="Bajra">Bajra</option>
+            <option value="Groundnut">Groundnut</option>
+            <option value="Soyabean">Soyabean</option>
+        </select>
+    </div>
     <div class="map-wrapper">
         <div id="map-projected" class="map"></div>
         <div class="component-badge">CMIP6 35-GCM Ensemble &bull; SSP5-8.5 &rarr; 2035</div>
@@ -305,6 +321,16 @@
             <div class="legend-title">Projected Kharif Yield Impact (% by 2035)</div>
             <div class="legend-gradient" id="gradient-projected"></div>
             <div class="legend-ticks"><span>0%</span><span>-7%</span><span>-15%</span></div>
+        </div>
+        <div class="map-overlay-stats" id="projected-stats">
+            <div class="overlay-stat">
+                <span class="overlay-stat-value" id="projected-avg-impact">&mdash;</span>
+                <span class="overlay-stat-label">avg yield impact</span>
+            </div>
+            <div class="overlay-stat">
+                <span class="overlay-stat-value" id="projected-worst-district">&mdash;</span>
+                <span class="overlay-stat-label">most impacted</span>
+            </div>
         </div>
     </div>
     <div class="callout-card">
@@ -375,6 +401,36 @@
         <div class="chart-fixed-height" style="height: 400px;">
             <canvas id="chart-vulnerability-scatter"></canvas>
         </div>
+    </div>
+</section>
+
+<!-- Section 06D: Side-by-Side SSP Scenario Comparison -->
+<section class="map-section" id="section-ssp-compare" data-map="ssp-compare">
+    <div class="section-header">
+        <div class="section-number">06D</div>
+        <h2>The Emissions Pathway Matters</h2>
+        <p>Same framework, different futures. Left: moderate emissions (SSP2-4.5). Right: high emissions (SSP5-8.5). Both use crop-weighted yield impacts from the CMIP6 35-GCM ensemble.</p>
+    </div>
+    <div class="ssp-compare-row">
+        <div class="ssp-map-col">
+            <h3>SSP2-4.5 (Moderate)</h3>
+            <div id="map-ssp245" class="map map-half"></div>
+        </div>
+        <div class="ssp-map-col">
+            <h3>SSP5-8.5 (High Emissions)</h3>
+            <div id="map-ssp585" class="map map-half"></div>
+        </div>
+    </div>
+    <div class="ssp-legend-row">
+        <div class="map-overlay-legend" style="position:static;margin:16px auto 0;display:inline-block;">
+            <div class="legend-title">Projected Kharif Yield Impact (% by 2035)</div>
+            <div class="legend-gradient" id="gradient-ssp-compare"></div>
+            <div class="legend-ticks"><span>0%</span><span>-7%</span><span>-15%</span></div>
+        </div>
+    </div>
+    <div class="callout-card">
+        <span class="callout-label">Key Insight</span>
+        <p>Under moderate emissions (SSP2-4.5), many districts face yield declines of 3&ndash;5%. Under high emissions (SSP5-8.5), the same districts face 5&ndash;8% or worse. The difference represents the <strong>cost of inaction</strong> on emissions.</p>
     </div>
 </section>
 
@@ -464,7 +520,7 @@
             <div class="craf-step">
                 <div class="craf-step-num">1</div>
                 <div class="craf-step-content">
-                    <div class="craf-step-label">Warming Trend</div>
+                    <div class="craf-step-label">Warming Trend (observed)</div>
                     <div class="craf-step-value red">+0.36&deg;C / decade</div>
                 </div>
             </div>
@@ -472,21 +528,32 @@
             <div class="craf-step">
                 <div class="craf-step-num">2</div>
                 <div class="craf-step-content">
-                    <div class="craf-step-label">Projected +0.54&deg;C by 2035</div>
-                    <div class="craf-step-value">extrapolated from district trend</div>
+                    <div class="craf-step-label">CMIP6 Projected Warming by 2035 (SSP5-8.5)</div>
+                    <div class="craf-step-value red">+0.44&deg;C</div>
+                    <div style="font-size:0.75rem;color:#888;margin-top:2px">35-GCM ensemble median &bull; NEX-GDDP-CMIP6</div>
                 </div>
             </div>
             <div class="craf-arrow">&darr;</div>
             <div class="craf-step">
                 <div class="craf-step-num">3</div>
                 <div class="craf-step-content">
-                    <div class="craf-step-label">Implied Kharif Yield Decline</div>
-                    <div class="craf-step-value red">~8% for Moong</div>
+                    <div class="craf-step-label">Technology-Controlled Warming Coefficient</div>
+                    <div class="craf-step-value">&minus;0.064 per 1&sigma; (after year-trend controls)</div>
+                    <div style="font-size:0.75rem;color:#888;margin-top:2px">Naive estimate (+0.049) confounded by technology adoption</div>
                 </div>
             </div>
             <div class="craf-arrow">&darr;</div>
             <div class="craf-step">
                 <div class="craf-step-num">4</div>
+                <div class="craf-step-content">
+                    <div class="craf-step-label">Implied Yield Decline for Moong</div>
+                    <div class="craf-step-value red">&minus;3.3% (0.44 &times; 0.076 &times; 100)</div>
+                    <div style="font-size:0.75rem;color:#888;margin-top:2px">Crop-weighted impact: &minus;6.1% across all crops</div>
+                </div>
+            </div>
+            <div class="craf-arrow">&darr;</div>
+            <div class="craf-step">
+                <div class="craf-step-num">5</div>
                 <div class="craf-step-content">
                     <div class="craf-step-label">Irrigation Share</div>
                     <div class="craf-step-value red">12% (low &mdash; minimal buffer)</div>
@@ -494,10 +561,11 @@
             </div>
             <div class="craf-arrow">&darr;</div>
             <div class="craf-step">
-                <div class="craf-step-num">5</div>
+                <div class="craf-step-num">6</div>
                 <div class="craf-step-content">
                     <div class="craf-step-label">CRAF Adjustment</div>
-                    <div class="craf-step-value red">+0.12 to baseline PD</div>
+                    <div class="craf-step-value red">+0.054 to baseline PD</div>
+                    <div style="font-size:0.75rem;color:#888;margin-top:2px">= yield_decline &times; (1 &minus; irrig_buffer) = 6.1% &times; (1 &minus; 0.12&times;0.5) &divide; 100</div>
                 </div>
             </div>
             <div class="craf-arrow">&darr;</div>
@@ -559,6 +627,24 @@
         <div class="callout-card">
             <span class="callout-label">Robustness</span>
             <p>All climate variables remain statistically significant under Conley (1999) spatial HAC standard errors with a 200km kernel &mdash; SEs are 27&ndash;32% larger than entity-clustered but inference is unchanged.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section 09B: Variance Decomposition Chart -->
+<section class="narrative" id="section-variance-decomp" data-map="variance-decomp">
+    <div class="text-block">
+        <div class="section-number">09B</div>
+        <h2>What Kind of Climate Risk Does India Face?</h2>
+        <p class="lead">Variance decomposition reveals which climate components dominate year-to-year agricultural uncertainty nationally.</p>
+        <div class="chart-container" style="background:transparent;padding:0;">
+            <div class="chart-fixed-height" style="height:220px;">
+                <canvas id="chart-variance-decomp"></canvas>
+            </div>
+        </div>
+        <div class="callout-card">
+            <span class="callout-label">Policy Implication</span>
+            <p>For temperature, <strong>baseline</strong> (55%) and <strong>seasonality</strong> (43%) dominate &mdash; these are predictable and can be addressed through crop choice and planting calendars. For precipitation, <strong>seasonality</strong> (62%) and <strong>baseline</strong> (20%) still dominate, but <strong>idiosyncratic shocks</strong> (16%) are much larger &mdash; requiring local insurance products.</p>
         </div>
     </div>
 </section>
