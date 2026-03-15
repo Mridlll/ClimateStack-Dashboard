@@ -18,10 +18,10 @@
 <!-- Section 1: Hero + Stats + Decomposition -->
 <header class="hero" id="section-hero">
     <div class="hero-content">
-        <div class="hero-badge">National Climate Stack Innovation Challenge</div>
+        <div class="hero-badge">Climate Econometrics &times; Geospatial Intelligence</div>
         <h1>ClimateStack</h1>
-        <p class="subtitle">Climate-Informed Credit Risk Intelligence for Rural India</p>
-        <p class="tagline">A hybrid econometric-ML framework translating 24 years of climate data into decision-ready financial intelligence for NABARD</p>
+        <p class="subtitle">How Climate Shapes Agriculture Across 700 Indian Districts</p>
+        <p class="tagline">Decomposing 24 years of temperature and rainfall into five interpretable components &mdash; and measuring how each one affects crop yields differently</p>
         <div class="stats-bar" id="stats-bar">
             <div class="stat-item">
                 <div class="stat-value" id="stat-districts">725</div>
@@ -90,8 +90,8 @@
     <div class="text-block">
         <div class="section-number">02</div>
         <h2>The Problem</h2>
-        <p class="lead">NABARD disburses over &#8377;5 lakh crore annually in agricultural credit &mdash; but climate risk is invisible to the financial system.</p>
-        <p>We decompose climate variation into five components, estimate how each affects yields, and translate the results into decision-ready financial intelligence.</p>
+        <p class="lead">Climate is changing unevenly across India &mdash; but we lack the tools to see how different dimensions of that change affect agriculture differently.</p>
+        <p>We decompose climate variation into five components, estimate how each affects crop yields, and show which districts are most exposed &mdash; and which are naturally buffered.</p>
     </div>
 </section>
 
@@ -184,6 +184,10 @@
     <div class="callout-card">
         <span class="callout-label">Key Finding</span>
         <p>Maharashtra's Marathwada region (Parbhani, Latur, Hingoli) shows the fastest warming at 0.28&ndash;0.36&deg;C per decade &mdash; precisely the drought-prone belt where farmers are most vulnerable.</p>
+    </div>
+    <div class="callout-card green">
+        <span class="callout-label green-label">Why 0.13&deg;C, Not 0.20&deg;C?</span>
+        <p>India's Kharif season warms at <strong>0.13&deg;C/decade</strong> &mdash; below the global land average of ~0.20&deg;C. This isn't an error. The monsoon acts as a natural climate buffer: evaporation absorbs heat energy, cloud cover blocks solar radiation, and moisture-laden air resists warming. India's aerosol loading (crop burning, industrial emissions) further dims incoming sunlight. The monsoon is currently <strong>protecting Kharif crops from the full force of greenhouse warming</strong> &mdash; but if monsoon patterns shift, that shield weakens.</p>
     </div>
 </section>
 
@@ -283,7 +287,7 @@
     <div class="section-header">
         <div class="section-number">06</div>
         <h2>Irrigation as Climate Armor</h2>
-        <p>Our interaction regressions show that irrigated districts buffer climate damage by ~50%. This has direct implications for where NABARD should invest.</p>
+        <p>Our interaction regressions show that irrigated districts buffer climate damage by ~50%. This reveals where infrastructure investment would have the largest protective effect.</p>
     </div>
     <div class="map-wrapper">
         <div id="map-irrigation" class="map"></div>
@@ -416,7 +420,7 @@
     <div class="section-header">
         <div class="section-number">06C</div>
         <h2>Vulnerability vs Adaptation Capacity</h2>
-        <p>Each dot is a district. X-axis = irrigation share (adaptation capacity), Y-axis = projected yield decline by 2035. The high-vulnerability / low-irrigation quadrant is where NABARD should prioritize.</p>
+        <p>Each dot is a district. X-axis = irrigation share (adaptation capacity), Y-axis = projected yield decline by 2035. The upper-left quadrant (high vulnerability, low irrigation) is where intervention would matter most.</p>
     </div>
     <div class="scatter-container">
         <div class="chart-fixed-height" style="height: 400px;">
@@ -489,14 +493,14 @@
 <section class="narrative" id="section-usecases">
     <div class="text-block">
         <div class="section-number">08</div>
-        <h2>Three Decision-Ready Outputs</h2>
-        <p class="lead">Each decomposition component maps to a specific financial instrument.</p>
+        <h2>What This Enables</h2>
+        <p class="lead">Each decomposition component maps to a specific policy response.</p>
 
         <div class="use-case-grid">
             <div class="use-case">
                 <div class="use-case-number">A</div>
-                <h3>Climate-Adjusted Credit Risk</h3>
-                <p>Modify baseline probability of default using projected climate trajectories. Districts with accelerating warming trends + high idiosyncratic volatility + low irrigation carry materially higher risk weights.</p>
+                <h3>Risk Quantification</h3>
+                <p>Districts with accelerating warming + high idiosyncratic volatility + low irrigation face quantifiably higher agricultural risk. The decomposition provides the coefficients to score this precisely.</p>
                 <div class="use-case-metrics">
                     <div class="metric-row"><span class="metric-label">Kharif temp impact</span><span class="metric-value red">-6.6% / 1&sigma;</span></div>
                     <div class="metric-row"><span class="metric-label">Rabi temp impact</span><span class="metric-value red">-7.2% / 1&sigma;</span></div>
@@ -535,7 +539,7 @@
     <div class="text-block">
         <div class="section-number">08B</div>
         <h2>CRAF in Practice: Parbhani, Maharashtra</h2>
-        <p class="lead">How ClimateStack translates climate decomposition into a credit risk adjustment &mdash; step by step.</p>
+        <p class="lead">How the decomposition translates into a quantified risk score &mdash; step by step, for one district.</p>
 
         <div class="craf-pipeline">
             <div class="craf-step">
@@ -704,7 +708,7 @@
 <footer>
     <div class="footer-content">
         <div class="footer-org">
-            <strong>Mridul</strong> | National Climate Stack Innovation Challenge
+            <strong>Mridul</strong> | Climate Econometrics Research
         </div>
         <div class="footer-data">
             Built on open data: ERA5-Land (Copernicus), DiCRA (UNDP), data.gov.in crop statistics<br>
