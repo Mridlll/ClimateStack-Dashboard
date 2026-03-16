@@ -1,0 +1,47 @@
+{
+  "scenarios": {
+    "A": {
+      "name": "Status Quo + Climate Change",
+      "total_revenue_loss_pct": -23.5615,
+      "avg_pd": 0.42026,
+      "portfolio_loss_cr": 698628.51
+    },
+    "B": {
+      "name": "Credit Restriction",
+      "total_revenue_loss_pct": -23.7899,
+      "avg_pd": 0.422724,
+      "portfolio_loss_cr": 699722.07
+    },
+    "C": {
+      "name": "Adaptation Lending",
+      "total_revenue_loss_pct": -21.1246,
+      "avg_pd": 0.39228,
+      "portfolio_loss_cr": 693524.03
+    }
+  },
+  "value_of_information_cr": 75212.23,
+  "total_baseline_revenue_cr": 3418118.16,
+  "n_districts": 594,
+  "n_red_zone": 360,
+  "avg_yield_change_pct": -19.11,
+  "expected_loss_comparison": {
+    "status_quo_cr": 698628.51,
+    "credit_restriction_cr": 699722.07,
+    "adaptation_lending_cr": 693524.03
+  },
+  "scenario_ranking_valid": true,
+  "top_supply_changes": {
+    "Gram": -94.42,
+    "Rapeseed &Mustard": -37.99,
+    "Moong(Green Gram)": -15.57,
+    "Jowar": -15.19,
+    "Arhar/Tur": -13.6
+  },
+  "top_price_increases": {
+    "Urad": -2.76,
+    "Soyabean": -4.34,
+    "Wheat": -7.68,
+    "Rice": -9.57,
+    "Maize": -10.34
+  }
+}

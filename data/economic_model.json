@@ -1,0 +1,5773 @@
+{
+  "scenarios": {
+    "A": {
+      "name": "Status Quo + Climate Change",
+      "total_revenue_loss_pct": -23.5615,
+      "avg_pd": 0.42026,
+      "portfolio_loss_cr": 698628.51
+    },
+    "B": {
+      "name": "Credit Restriction",
+      "total_revenue_loss_pct": -23.7899,
+      "avg_pd": 0.422724,
+      "portfolio_loss_cr": 699722.07
+    },
+    "C": {
+      "name": "Adaptation Lending",
+      "total_revenue_loss_pct": -21.1246,
+      "avg_pd": 0.39228,
+      "portfolio_loss_cr": 693524.03
+    }
+  },
+  "value_of_information_cr": 75212.23,
+  "national_supply_changes": {
+    "Rice": -2.8707,
+    "Wheat": -2.6884,
+    "Maize": -5.1714,
+    "Moong(Green Gram)": -15.5733,
+    "Arhar/Tur": -13.5987,
+    "Gram": -94.4212,
+    "Jowar": -15.187,
+    "Bajra": -12.384,
+    "Groundnut": -12.4578,
+    "Soyabean": -1.9517,
+    "Urad": -1.5154,
+    "Rapeseed &Mustard": -37.9937
+  },
+  "price_adjustments": {
+    "Rice": -9.569,
+    "Wheat": -7.6812,
+    "Maize": -10.3428,
+    "Moong(Green Gram)": -25.9554,
+    "Arhar/Tur": -24.725,
+    "Gram": -171.675,
+    "Jowar": -23.3646,
+    "Bajra": -20.6399,
+    "Groundnut": -24.9157,
+    "Soyabean": -4.3371,
+    "Urad": -2.7552,
+    "Rapeseed &Mustard": -84.4305
+  },
+  "red_zone_districts": [
+    "Adilabad",
+    "Ahmadabad",
+    "Aizawl",
+    "Ajmer",
+    "Akola",
+    "Alipurduar",
+    "Alirajpur",
+    "Almora",
+    "Amravati",
+    "Amreli",
+    "Anantapur",
+    "Anantnag",
+    "Anjaw",
+    "Anugul",
+    "Ariyalur",
+    "Aurangabad",
+    "Badgam",
+    "Bageshwar",
+    "Baksa",
+    "Balaghat",
+    "Balangir",
+    "Ballari",
+    "Balrampur",
+    "Banas Kantha",
+    "Banswara",
+    "Baran",
+    "Barmer",
+    "Barpeta",
+    "Barwani",
+    "Bastar",
+    "Belagavi",
+    "Betul",
+    "Bhagalpur",
+    "Bharuch",
+    "Bhavnagar",
+    "Bhilwara",
+    "Bidar",
+    "Bijapur",
+    "Bikaner",
+    "Birbhum",
+    "Bokaro",
+    "Bongaigaon",
+    "Bundi",
+    "Burhanpur",
+    "Cachar",
+    "Chamarajanagara",
+    "Chamba",
+    "Chamoli",
+    "Champawat",
+    "Champhai",
+    "Chandel",
+    "Chandigarh",
+    "Chandrapur",
+    "Changlang",
+    "Chatra",
+    "Chengalpattu",
+    "Chennai",
+    "Chhatarpur",
+    "Chhindwara",
+    "Chikkaballapura",
+    "Chikkamagaluru",
+    "Chirang",
+    "Chitradurga",
+    "Chitrakoot",
+    "Chittoor",
+    "Churu",
+    "Coimbatore",
+    "Dakshin Bastar Dantewada",
+    "Dakshin Dinajpur",
+    "Damoh",
+    "Darrang",
+    "Dausa",
+    "Dehradun",
+    "Deoghar",
+    "Devbhumi Dwarka",
+    "Dhalai",
+    "Dhanbad",
+    "Dharmapuri",
+    "Dharwad",
+    "Dhemaji",
+    "Dhenkanal",
+    "Dhubri",
+    "Dhule",
+    "Dibrugarh",
+    "Dima Hasao",
+    "Dindigul",
+    "Dindori",
+    "Doda",
+    "Dohad",
+    "Dumka",
+    "Dungarpur",
+    "East Garo Hills",
+    "East Jaintia Hills",
+    "East Kameng",
+    "East Khasi Hills",
+    "East Siang",
+    "Erode",
+    "Etawah",
+    "Firozabad",
+    "Gadag",
+    "Gadchiroli",
+    "Gajapati",
+    "Ganderbal",
+    "Garhwa",
+    "Gautam Buddha Nagar",
+    "Gaya",
+    "Gir Somnath",
+    "Giridih",
+    "Goalpara",
+    "Godda",
+    "Golaghat",
+    "Gomati",
+    "Gumla",
+    "Guntur",
+    "Gwalior",
+    "Hailakandi",
+    "Hamirpur",
+    "Hassan",
+    "Haveri",
+    "Hazaribagh",
+    "Hingoli",
+    "Hoshangabad",
+    "Idukki",
+    "Jabalpur",
+    "Jaipur",
+    "Jaisalmer",
+    "Jajapur",
+    "Jalgaon",
+    "Jalna",
+    "Jammu",
+    "Jamtara",
+    "Jamui",
+    "Jashpur",
+    "Jhabua",
+    "Jodhpur",
+    "Jorhat",
+    "Junagadh",
+    "Kachchh",
+    "Kalaburagi",
+    "Kalahandi",
+    "Kalimpong",
+    "Kamareddy",
+    "Kamle",
+    "Kamrup",
+    "Kandhamal",
+    "Kangra",
+    "Kannur",
+    "Kanpur Dehat",
+    "Kanpur Nagar",
+    "Karauli",
+    "Karbi Anglong",
+    "Karimganj",
+    "Karur",
+    "Kathua",
+    "Katihar",
+    "Katni",
+    "Kendujhar",
+    "Khowai",
+    "Khunti",
+    "Kinnaur",
+    "Kiphire",
+    "Kishtwar",
+    "Kodagu",
+    "Kohima",
+    "Kokrajhar",
+    "Kolar",
+    "Kolasib",
+    "Kolhapur",
+    "Kollam",
+    "Kondagaon",
+    "Koppal",
+    "Koraput",
+    "Korba",
+    "Kozhikode",
+    "Kra Daadi",
+    "Krishnagiri",
+    "Kulgam",
+    "Kullu",
+    "Kupwara",
+    "Kurnool",
+    "Kurung Kumey",
+    "Lakhimpur",
+    "Lakhisarai",
+    "Lalitpur",
+    "Latehar",
+    "Lawngtlai",
+    "Lohardaga",
+    "Lohit",
+    "Longding",
+    "Longleng",
+    "Lower Dibang Valley",
+    "Lower Siang",
+    "Lower Subansiri",
+    "Lucknow",
+    "Lunglei",
+    "Madhubani",
+    "Madurai",
+    "Mahabubnagar",
+    "Mahendragarh",
+    "Mahisagar",
+    "Mahoba",
+    "Malappuram",
+    "Maldah",
+    "Malkangiri",
+    "Mamit",
+    "Mandi",
+    "Mandla",
+    "Mayurbhanj",
+    "Medchal Malkajgiri",
+    "Meerut",
+    "Mirzapur",
+    "Mokokchung",
+    "Mon",
+    "Morena",
+    "Mulugu",
+    "Mumbai Suburban",
+    "Mungeli",
+    "Munger",
+    "Murshidabad",
+    "Mysuru",
+    "Nadia",
+    "Nagaon",
+    "Nagarkurnool",
+    "Nagaur",
+    "Nagpur",
+    "Nainital",
+    "Nalbari",
+    "Namakkal",
+    "Namsai",
+    "Nanded",
+    "Nandurbar",
+    "Narayanpur",
+    "Narmada",
+    "Nawada",
+    "Neemuch",
+    "Nicobars",
+    "Nirmal",
+    "North Garo Hills",
+    "North Tripura",
+    "Nuapada",
+    "Osmanabad",
+    "Pakke Kessang",
+    "Pakur",
+    "Palamu",
+    "Palghar",
+    "Pali",
+    "Panch Mahals",
+    "Panchkula",
+    "Panna",
+    "Papum Pare",
+    "Parbhani",
+    "Pashchim Champaran",
+    "Patan",
+    "Patna",
+    "Perambalur",
+    "Peren",
+    "Phek",
+    "Pithoragarh",
+    "Porbandar",
+    "Prakasam",
+    "Pratapgarh",
+    "Pulwama",
+    "Pune",
+    "Raichur",
+    "Raigarh",
+    "Raisen",
+    "Rajnandgaon",
+    "Rajsamand",
+    "Ramanagara",
+    "Ramban",
+    "Ramgarh",
+    "Ranchi",
+    "Ratnagiri",
+    "Rayagada",
+    "Reasi",
+    "Rewa",
+    "Saiha",
+    "Salem",
+    "Samba",
+    "Sangareddy",
+    "Sangli",
+    "Saran",
+    "Satara",
+    "Satna",
+    "Senapati",
+    "Seoni",
+    "Serchhip",
+    "Shahdol",
+    "Sheopur",
+    "Shi Yomi",
+    "Shimla",
+    "Shivamogga",
+    "Shivpuri",
+    "Siang",
+    "Sidhi",
+    "Sikar",
+    "Simdega",
+    "Singrauli",
+    "Sirmaur",
+    "Sirohi",
+    "Sivasagar",
+    "Solan",
+    "Solapur",
+    "Sonbhadra",
+    "Sonitpur",
+    "South Garo Hills",
+    "South Goa",
+    "South Tripura",
+    "South West Garo Hills",
+    "South West Khasi Hills",
+    "Sukma",
+    "Sundargarh",
+    "Supaul",
+    "Surajpur",
+    "Surat",
+    "Surendranagar",
+    "Surguja",
+    "Tapi",
+    "Tawang",
+    "Tehri Garhwal",
+    "Thane",
+    "The Nilgiris",
+    "Theni",
+    "Thiruvananthapuram",
+    "Tinsukia",
+    "Tirap",
+    "Tiruchirappalli",
+    "Tirunelveli",
+    "Tirupathur",
+    "Tiruppur",
+    "Tuensang",
+    "Tumakuru",
+    "Udaipur",
+    "Udalguri",
+    "Udhampur",
+    "Udupi",
+    "Ukhrul",
+    "Una",
+    "Upper Siang",
+    "Upper Subansiri",
+    "Uttar Dinajpur",
+    "Uttara Kannada",
+    "Vaishali",
+    "Vellore",
+    "Vijayapura",
+    "Vikarabad",
+    "Virudhunagar",
+    "Wanaparthy",
+    "Wardha",
+    "Washim",
+    "Wayanad",
+    "West Garo Hills",
+    "West Jaintia Hills",
+    "West Kameng",
+    "West Khasi Hills",
+    "West Siang",
+    "West Tripura",
+    "Wokha",
+    "Yavatmal",
+    "Zunheboto"
+  ],
+  "district_results": {
+    "Adilabad": {
+      "baseline_revenue_cr": 711.8294,
+      "scenario_A_revenue_change_pct": -38.8435,
+      "scenario_B_revenue_change_pct": -39.1358,
+      "scenario_C_revenue_change_pct": -36.2827,
+      "pd_A": 0.559996,
+      "pd_B": 0.561963,
+      "pd_C": 0.542703
+    },
+    "Agar Malwa": {
+      "baseline_revenue_cr": 1472.2741,
+      "scenario_A_revenue_change_pct": -23.8892,
+      "scenario_B_revenue_change_pct": -23.8892,
+      "scenario_C_revenue_change_pct": -23.8892,
+      "pd_A": 0.451562,
+      "pd_B": 0.451562,
+      "pd_C": 0.451562
+    },
+    "Agra": {
+      "baseline_revenue_cr": 2158.3615,
+      "scenario_A_revenue_change_pct": -31.0561,
+      "scenario_B_revenue_change_pct": -31.0561,
+      "scenario_C_revenue_change_pct": -31.0561,
+      "pd_A": 0.513858,
+      "pd_B": 0.513858,
+      "pd_C": 0.513858
+    },
+    "Ahmadabad": {
+      "baseline_revenue_cr": 1255.7606,
+      "scenario_A_revenue_change_pct": -22.4917,
+      "scenario_B_revenue_change_pct": -23.45,
+      "scenario_C_revenue_change_pct": -20.4093,
+      "pd_A": 0.40073,
+      "pd_B": 0.413183,
+      "pd_C": 0.374031
+    },
+    "Aizawl": {
+      "baseline_revenue_cr": 9.8415,
+      "scenario_A_revenue_change_pct": -18.0939,
+      "scenario_B_revenue_change_pct": -18.11,
+      "scenario_C_revenue_change_pct": -11.1422,
+      "pd_A": 0.369927,
+      "pd_B": 0.370097,
+      "pd_C": 0.299472
+    },
+    "Ajmer": {
+      "baseline_revenue_cr": 7466.7464,
+      "scenario_A_revenue_change_pct": -38.8413,
+      "scenario_B_revenue_change_pct": -39.2831,
+      "scenario_C_revenue_change_pct": -36.6202,
+      "pd_A": 0.554268,
+      "pd_B": 0.556962,
+      "pd_C": 0.54069
+    },
+    "Akola": {
+      "baseline_revenue_cr": 20242.8243,
+      "scenario_A_revenue_change_pct": -36.3652,
+      "scenario_B_revenue_change_pct": -36.5124,
+      "scenario_C_revenue_change_pct": -32.5804,
+      "pd_A": 0.522083,
+      "pd_B": 0.522593,
+      "pd_C": 0.508956
+    },
+    "Alappuzha": {
+      "baseline_revenue_cr": 70.8748,
+      "scenario_A_revenue_change_pct": -11.2442,
+      "scenario_B_revenue_change_pct": -11.2442,
+      "scenario_C_revenue_change_pct": -11.2442,
+      "pd_A": 0.317624,
+      "pd_B": 0.317624,
+      "pd_C": 0.317624
+    },
+    "Aligarh": {
+      "baseline_revenue_cr": 2927.9762,
+      "scenario_A_revenue_change_pct": -13.1621,
+      "scenario_B_revenue_change_pct": -13.1621,
+      "scenario_C_revenue_change_pct": -13.1621,
+      "pd_A": 0.269621,
+      "pd_B": 0.269621,
+      "pd_C": 0.269621
+    },
+    "Alipurduar": {
+      "baseline_revenue_cr": 248.7055,
+      "scenario_A_revenue_change_pct": -18.1812,
+      "scenario_B_revenue_change_pct": -19.0662,
+      "scenario_C_revenue_change_pct": -15.9017,
+      "pd_A": 0.316809,
+      "pd_B": 0.329624,
+      "pd_C": 0.284824
+    },
+    "Alirajpur": {
+      "baseline_revenue_cr": 716.7748,
+      "scenario_A_revenue_change_pct": -26.8811,
+      "scenario_B_revenue_change_pct": -27.2256,
+      "scenario_C_revenue_change_pct": -23.6187,
+      "pd_A": 0.466629,
+      "pd_B": 0.470308,
+      "pd_C": 0.431977
+    },
+    "Almora": {
+      "baseline_revenue_cr": 118.4168,
+      "scenario_A_revenue_change_pct": -21.416,
+      "scenario_B_revenue_change_pct": -21.4463,
+      "scenario_C_revenue_change_pct": -13.1516,
+      "pd_A": 0.442792,
+      "pd_B": 0.442993,
+      "pd_C": 0.388808
+    },
+    "Alwar": {
+      "baseline_revenue_cr": 6176.5377,
+      "scenario_A_revenue_change_pct": -46.5739,
+      "scenario_B_revenue_change_pct": -46.5739,
+      "scenario_C_revenue_change_pct": -46.5739,
+      "pd_A": 0.579052,
+      "pd_B": 0.579052,
+      "pd_C": 0.579052
+    },
+    "Ambala": {
+      "baseline_revenue_cr": 1714.7516,
+      "scenario_A_revenue_change_pct": -4.1739,
+      "scenario_B_revenue_change_pct": -4.1739,
+      "scenario_C_revenue_change_pct": -4.1739,
+      "pd_A": 0.408964,
+      "pd_B": 0.408964,
+      "pd_C": 0.408964
+    },
+    "Ambedkar Nagar": {
+      "baseline_revenue_cr": 1682.2668,
+      "scenario_A_revenue_change_pct": -10.268,
+      "scenario_B_revenue_change_pct": -10.268,
+      "scenario_C_revenue_change_pct": -10.268,
+      "pd_A": 0.399492,
+      "pd_B": 0.399492,
+      "pd_C": 0.399492
+    },
+    "Amethi": {
+      "baseline_revenue_cr": 1391.5243,
+      "scenario_A_revenue_change_pct": -12.2954,
+      "scenario_B_revenue_change_pct": -12.2954,
+      "scenario_C_revenue_change_pct": -12.2954,
+      "pd_A": 0.269489,
+      "pd_B": 0.269489,
+      "pd_C": 0.269489
+    },
+    "Amravati": {
+      "baseline_revenue_cr": 9992.1069,
+      "scenario_A_revenue_change_pct": -37.1642,
+      "scenario_B_revenue_change_pct": -37.3316,
+      "scenario_C_revenue_change_pct": -33.3317,
+      "pd_A": 0.533121,
+      "pd_B": 0.533893,
+      "pd_C": 0.515417
+    },
+    "Amreli": {
+      "baseline_revenue_cr": 759.2999,
+      "scenario_A_revenue_change_pct": -34.104,
+      "scenario_B_revenue_change_pct": -34.985,
+      "scenario_C_revenue_change_pct": -33.9639,
+      "pd_A": 0.537232,
+      "pd_B": 0.545193,
+      "pd_C": 0.535964
+    },
+    "Amritsar": {
+      "baseline_revenue_cr": 3151.4373,
+      "scenario_A_revenue_change_pct": -5.6763,
+      "scenario_B_revenue_change_pct": -5.6763,
+      "scenario_C_revenue_change_pct": -5.6763,
+      "pd_A": 0.118323,
+      "pd_B": 0.118323,
+      "pd_C": 0.118323
+    },
+    "Amroha": {
+      "baseline_revenue_cr": 849.1978,
+      "scenario_A_revenue_change_pct": -11.2462,
+      "scenario_B_revenue_change_pct": -11.2462,
+      "scenario_C_revenue_change_pct": -11.2462,
+      "pd_A": 0.248823,
+      "pd_B": 0.248823,
+      "pd_C": 0.248823
+    },
+    "Anand": {
+      "baseline_revenue_cr": 841.2226,
+      "scenario_A_revenue_change_pct": -13.3041,
+      "scenario_B_revenue_change_pct": -13.3041,
+      "scenario_C_revenue_change_pct": -13.3041,
+      "pd_A": 0.345309,
+      "pd_B": 0.345309,
+      "pd_C": 0.345309
+    },
+    "Anantapur": {
+      "baseline_revenue_cr": 213293.8359,
+      "scenario_A_revenue_change_pct": -35.0883,
+      "scenario_B_revenue_change_pct": -35.4675,
+      "scenario_C_revenue_change_pct": -31.8309,
+      "pd_A": 0.523257,
+      "pd_B": 0.524988,
+      "pd_C": 0.508373
+    },
+    "Anantnag": {
+      "baseline_revenue_cr": 220.2242,
+      "scenario_A_revenue_change_pct": -30.5821,
+      "scenario_B_revenue_change_pct": -31.9892,
+      "scenario_C_revenue_change_pct": -28.2963,
+      "pd_A": 0.507161,
+      "pd_B": 0.524459,
+      "pd_C": 0.479048
+    },
+    "Anjaw": {
+      "baseline_revenue_cr": 13.0017,
+      "scenario_A_revenue_change_pct": -26.2787,
+      "scenario_B_revenue_change_pct": -26.6051,
+      "scenario_C_revenue_change_pct": -18.2001,
+      "pd_A": 0.425059,
+      "pd_B": 0.431565,
+      "pd_C": 0.274521
+    },
+    "Anugul": {
+      "baseline_revenue_cr": 184.9523,
+      "scenario_A_revenue_change_pct": -24.1455,
+      "scenario_B_revenue_change_pct": -24.1957,
+      "scenario_C_revenue_change_pct": -19.7632,
+      "pd_A": 0.442517,
+      "pd_B": 0.443006,
+      "pd_C": 0.400202
+    },
+    "Anuppur": {
+      "baseline_revenue_cr": 115013.6387,
+      "scenario_A_revenue_change_pct": -13.8118,
+      "scenario_B_revenue_change_pct": -13.8118,
+      "scenario_C_revenue_change_pct": -13.8118,
+      "pd_A": 0.45857,
+      "pd_B": 0.45857,
+      "pd_C": 0.45857
+    },
+    "Araria": {
+      "baseline_revenue_cr": 489.2337,
+      "scenario_A_revenue_change_pct": -13.4642,
+      "scenario_B_revenue_change_pct": -13.4642,
+      "scenario_C_revenue_change_pct": -13.4642,
+      "pd_A": 0.315797,
+      "pd_B": 0.315797,
+      "pd_C": 0.315797
+    },
+    "Aravalli": {
+      "baseline_revenue_cr": 916.9646,
+      "scenario_A_revenue_change_pct": -17.8915,
+      "scenario_B_revenue_change_pct": -17.8915,
+      "scenario_C_revenue_change_pct": -17.8915,
+      "pd_A": 0.372561,
+      "pd_B": 0.372561,
+      "pd_C": 0.372561
+    },
+    "Ariyalur": {
+      "baseline_revenue_cr": 282.5138,
+      "scenario_A_revenue_change_pct": -22.1693,
+      "scenario_B_revenue_change_pct": -22.6563,
+      "scenario_C_revenue_change_pct": -18.7227,
+      "pd_A": 0.464797,
+      "pd_B": 0.466981,
+      "pd_C": 0.449374
+    },
+    "Arwal": {
+      "baseline_revenue_cr": 310.0567,
+      "scenario_A_revenue_change_pct": -13.8369,
+      "scenario_B_revenue_change_pct": -13.8369,
+      "scenario_C_revenue_change_pct": -13.8369,
+      "pd_A": 0.308205,
+      "pd_B": 0.308205,
+      "pd_C": 0.308205
+    },
+    "Ashoknagar": {
+      "baseline_revenue_cr": 1321311.3676,
+      "scenario_A_revenue_change_pct": -4.1892,
+      "scenario_B_revenue_change_pct": -4.1892,
+      "scenario_C_revenue_change_pct": -4.1892,
+      "pd_A": 0.353639,
+      "pd_B": 0.353639,
+      "pd_C": 0.353639
+    },
+    "Auraiya": {
+      "baseline_revenue_cr": 1464.6958,
+      "scenario_A_revenue_change_pct": -20.0506,
+      "scenario_B_revenue_change_pct": -20.0506,
+      "scenario_C_revenue_change_pct": -20.0506,
+      "pd_A": 0.331405,
+      "pd_B": 0.331405,
+      "pd_C": 0.331405
+    },
+    "Aurangabad": {
+      "baseline_revenue_cr": 1524.8029,
+      "scenario_A_revenue_change_pct": -24.7046,
+      "scenario_B_revenue_change_pct": -25.3861,
+      "scenario_C_revenue_change_pct": -23.2432,
+      "pd_A": 0.473149,
+      "pd_B": 0.4766,
+      "pd_C": 0.465755
+    },
+    "Azamgarh": {
+      "baseline_revenue_cr": 2755.3075,
+      "scenario_A_revenue_change_pct": -11.0109,
+      "scenario_B_revenue_change_pct": -11.0109,
+      "scenario_C_revenue_change_pct": -11.0109,
+      "pd_A": 0.367306,
+      "pd_B": 0.367306,
+      "pd_C": 0.367306
+    },
+    "Badgam": {
+      "baseline_revenue_cr": 165.2451,
+      "scenario_A_revenue_change_pct": -21.659,
+      "scenario_B_revenue_change_pct": -23.0031,
+      "scenario_C_revenue_change_pct": -18.1969,
+      "pd_A": 0.409978,
+      "pd_B": 0.424292,
+      "pd_C": 0.3737
+    },
+    "Bagalkote": {
+      "baseline_revenue_cr": 1371.4431,
+      "scenario_A_revenue_change_pct": -44.9501,
+      "scenario_B_revenue_change_pct": -44.9501,
+      "scenario_C_revenue_change_pct": -44.9501,
+      "pd_A": 0.579049,
+      "pd_B": 0.579049,
+      "pd_C": 0.579049
+    },
+    "Bageshwar": {
+      "baseline_revenue_cr": 93.2721,
+      "scenario_A_revenue_change_pct": -20.2277,
+      "scenario_B_revenue_change_pct": -20.3086,
+      "scenario_C_revenue_change_pct": -11.1087,
+      "pd_A": 0.355153,
+      "pd_B": 0.356299,
+      "pd_C": 0.236361
+    },
+    "Baghpat": {
+      "baseline_revenue_cr": 596.8451,
+      "scenario_A_revenue_change_pct": -9.3786,
+      "scenario_B_revenue_change_pct": -9.3786,
+      "scenario_C_revenue_change_pct": -9.3786,
+      "pd_A": 0.370232,
+      "pd_B": 0.370232,
+      "pd_C": 0.370232
+    },
+    "Bahraich": {
+      "baseline_revenue_cr": 2116.9775,
+      "scenario_A_revenue_change_pct": -9.6797,
+      "scenario_B_revenue_change_pct": -9.6797,
+      "scenario_C_revenue_change_pct": -9.6797,
+      "pd_A": 0.220741,
+      "pd_B": 0.220741,
+      "pd_C": 0.220741
+    },
+    "Baksa": {
+      "baseline_revenue_cr": 176.3839,
+      "scenario_A_revenue_change_pct": -28.4513,
+      "scenario_B_revenue_change_pct": -28.7204,
+      "scenario_C_revenue_change_pct": -23.0599,
+      "pd_A": 0.479769,
+      "pd_B": 0.483281,
+      "pd_C": 0.410077
+    },
+    "Balaghat": {
+      "baseline_revenue_cr": 2235.6391,
+      "scenario_A_revenue_change_pct": -34.2639,
+      "scenario_B_revenue_change_pct": -34.7443,
+      "scenario_C_revenue_change_pct": -32.3319,
+      "pd_A": 0.527078,
+      "pd_B": 0.530124,
+      "pd_C": 0.514817
+    },
+    "Balangir": {
+      "baseline_revenue_cr": 300.5474,
+      "scenario_A_revenue_change_pct": -20.0505,
+      "scenario_B_revenue_change_pct": -20.1125,
+      "scenario_C_revenue_change_pct": -15.8514,
+      "pd_A": 0.411425,
+      "pd_B": 0.411968,
+      "pd_C": 0.375102
+    },
+    "Baleshwar": {
+      "baseline_revenue_cr": 527.4753,
+      "scenario_A_revenue_change_pct": -12.5727,
+      "scenario_B_revenue_change_pct": -12.5727,
+      "scenario_C_revenue_change_pct": -12.5727,
+      "pd_A": 0.31046,
+      "pd_B": 0.31046,
+      "pd_C": 0.31046
+    },
+    "Ballari": {
+      "baseline_revenue_cr": 950.7677,
+      "scenario_A_revenue_change_pct": -28.4869,
+      "scenario_B_revenue_change_pct": -29.3171,
+      "scenario_C_revenue_change_pct": -27.4858,
+      "pd_A": 0.482279,
+      "pd_B": 0.492,
+      "pd_C": 0.470572
+    },
+    "Ballia": {
+      "baseline_revenue_cr": 1661.1934,
+      "scenario_A_revenue_change_pct": -11.2431,
+      "scenario_B_revenue_change_pct": -11.2431,
+      "scenario_C_revenue_change_pct": -11.2431,
+      "pd_A": 0.359124,
+      "pd_B": 0.359124,
+      "pd_C": 0.359124
+    },
+    "Balod": {
+      "baseline_revenue_cr": 707.3826,
+      "scenario_A_revenue_change_pct": -17.8148,
+      "scenario_B_revenue_change_pct": -17.8148,
+      "scenario_C_revenue_change_pct": -17.8148,
+      "pd_A": 0.438552,
+      "pd_B": 0.438552,
+      "pd_C": 0.438552
+    },
+    "Baloda Bazar": {
+      "baseline_revenue_cr": 731.915,
+      "scenario_A_revenue_change_pct": -13.0381,
+      "scenario_B_revenue_change_pct": -13.0381,
+      "scenario_C_revenue_change_pct": -13.0381,
+      "pd_A": 0.240932,
+      "pd_B": 0.240932,
+      "pd_C": 0.240932
+    },
+    "Balrampur": {
+      "baseline_revenue_cr": 724.193,
+      "scenario_A_revenue_change_pct": -18.2832,
+      "scenario_B_revenue_change_pct": -18.8566,
+      "scenario_C_revenue_change_pct": -15.6888,
+      "pd_A": 0.391826,
+      "pd_B": 0.396998,
+      "pd_C": 0.368678
+    },
+    "Banas Kantha": {
+      "baseline_revenue_cr": 2812.6419,
+      "scenario_A_revenue_change_pct": -51.6015,
+      "scenario_B_revenue_change_pct": -52.295,
+      "scenario_C_revenue_change_pct": -50.8242,
+      "pd_A": 0.71712,
+      "pd_B": 0.723324,
+      "pd_C": 0.710088
+    },
+    "Banda": {
+      "baseline_revenue_cr": 1479.2868,
+      "scenario_A_revenue_change_pct": -33.5728,
+      "scenario_B_revenue_change_pct": -33.5728,
+      "scenario_C_revenue_change_pct": -33.5728,
+      "pd_A": 0.533555,
+      "pd_B": 0.533555,
+      "pd_C": 0.533555
+    },
+    "Banka": {
+      "baseline_revenue_cr": 630.2945,
+      "scenario_A_revenue_change_pct": -13.6214,
+      "scenario_B_revenue_change_pct": -13.6214,
+      "scenario_C_revenue_change_pct": -13.6214,
+      "pd_A": 0.298824,
+      "pd_B": 0.298824,
+      "pd_C": 0.298824
+    },
+    "Bankura": {
+      "baseline_revenue_cr": 791.0613,
+      "scenario_A_revenue_change_pct": -17.0753,
+      "scenario_B_revenue_change_pct": -17.0753,
+      "scenario_C_revenue_change_pct": -17.0753,
+      "pd_A": 0.440682,
+      "pd_B": 0.440682,
+      "pd_C": 0.440682
+    },
+    "Banswara": {
+      "baseline_revenue_cr": 1231.8796,
+      "scenario_A_revenue_change_pct": -18.0003,
+      "scenario_B_revenue_change_pct": -18.8687,
+      "scenario_C_revenue_change_pct": -16.2033,
+      "pd_A": 0.362652,
+      "pd_B": 0.37223,
+      "pd_C": 0.343106
+    },
+    "Baran": {
+      "baseline_revenue_cr": 3827.5785,
+      "scenario_A_revenue_change_pct": -32.2163,
+      "scenario_B_revenue_change_pct": -33.2494,
+      "scenario_C_revenue_change_pct": -32.0138,
+      "pd_A": 0.512272,
+      "pd_B": 0.517989,
+      "pd_C": 0.511151
+    },
+    "Bareilly": {
+      "baseline_revenue_cr": 2054.7573,
+      "scenario_A_revenue_change_pct": -10.2012,
+      "scenario_B_revenue_change_pct": -10.2012,
+      "scenario_C_revenue_change_pct": -10.2012,
+      "pd_A": 0.282006,
+      "pd_B": 0.282006,
+      "pd_C": 0.282006
+    },
+    "Bargarh": {
+      "baseline_revenue_cr": 444.9948,
+      "scenario_A_revenue_change_pct": -13.547,
+      "scenario_B_revenue_change_pct": -13.547,
+      "scenario_C_revenue_change_pct": -13.547,
+      "pd_A": 0.292785,
+      "pd_B": 0.292785,
+      "pd_C": 0.292785
+    },
+    "Barmer": {
+      "baseline_revenue_cr": 683.729,
+      "scenario_A_revenue_change_pct": -39.0575,
+      "scenario_B_revenue_change_pct": -39.4212,
+      "scenario_C_revenue_change_pct": -35.6067,
+      "pd_A": 0.556197,
+      "pd_B": 0.558438,
+      "pd_C": 0.534858
+    },
+    "Barnala": {
+      "baseline_revenue_cr": 2419.1609,
+      "scenario_A_revenue_change_pct": -4.6649,
+      "scenario_B_revenue_change_pct": -4.6649,
+      "scenario_C_revenue_change_pct": -4.6649,
+      "pd_A": 0.012566,
+      "pd_B": 0.012566,
+      "pd_C": 0.012566
+    },
+    "Barpeta": {
+      "baseline_revenue_cr": 261.5247,
+      "scenario_A_revenue_change_pct": -29.6494,
+      "scenario_B_revenue_change_pct": -30.2806,
+      "scenario_C_revenue_change_pct": -26.6081,
+      "pd_A": 0.49567,
+      "pd_B": 0.503466,
+      "pd_C": 0.458183
+    },
+    "Barwani": {
+      "baseline_revenue_cr": 10836.4239,
+      "scenario_A_revenue_change_pct": -8.4438,
+      "scenario_B_revenue_change_pct": -9.2667,
+      "scenario_C_revenue_change_pct": -7.4485,
+      "pd_A": 0.412903,
+      "pd_B": 0.416177,
+      "pd_C": 0.40895
+    },
+    "Bastar": {
+      "baseline_revenue_cr": 475.991,
+      "scenario_A_revenue_change_pct": -15.3423,
+      "scenario_B_revenue_change_pct": -15.379,
+      "scenario_C_revenue_change_pct": -10.4665,
+      "pd_A": 0.297958,
+      "pd_B": 0.298418,
+      "pd_C": 0.239883
+    },
+    "Basti": {
+      "baseline_revenue_cr": 1333.1292,
+      "scenario_A_revenue_change_pct": -7.3938,
+      "scenario_B_revenue_change_pct": -7.3938,
+      "scenario_C_revenue_change_pct": -7.3938,
+      "pd_A": 0.263526,
+      "pd_B": 0.263526,
+      "pd_C": 0.263526
+    },
+    "Bathinda": {
+      "baseline_revenue_cr": 4396.3242,
+      "scenario_A_revenue_change_pct": -5.6658,
+      "scenario_B_revenue_change_pct": -5.6658,
+      "scenario_C_revenue_change_pct": -5.6658,
+      "pd_A": 0.079848,
+      "pd_B": 0.079848,
+      "pd_C": 0.079848
+    },
+    "Begusarai": {
+      "baseline_revenue_cr": 726.1103,
+      "scenario_A_revenue_change_pct": -14.1018,
+      "scenario_B_revenue_change_pct": -14.1018,
+      "scenario_C_revenue_change_pct": -14.1018,
+      "pd_A": 0.288591,
+      "pd_B": 0.288591,
+      "pd_C": 0.288591
+    },
+    "Belagavi": {
+      "baseline_revenue_cr": 1600.8845,
+      "scenario_A_revenue_change_pct": -33.9733,
+      "scenario_B_revenue_change_pct": -34.8512,
+      "scenario_C_revenue_change_pct": -33.5632,
+      "pd_A": 0.522026,
+      "pd_B": 0.526886,
+      "pd_C": 0.519755
+    },
+    "Betul": {
+      "baseline_revenue_cr": 2797.9936,
+      "scenario_A_revenue_change_pct": -27.6649,
+      "scenario_B_revenue_change_pct": -28.1622,
+      "scenario_C_revenue_change_pct": -24.2169,
+      "pd_A": 0.485999,
+      "pd_B": 0.48898,
+      "pd_C": 0.465361
+    },
+    "Bhadrak": {
+      "baseline_revenue_cr": 386.131,
+      "scenario_A_revenue_change_pct": -12.1865,
+      "scenario_B_revenue_change_pct": -12.1865,
+      "scenario_C_revenue_change_pct": -12.1865,
+      "pd_A": 0.359329,
+      "pd_B": 0.359329,
+      "pd_C": 0.359329
+    },
+    "Bhagalpur": {
+      "baseline_revenue_cr": 560.0068,
+      "scenario_A_revenue_change_pct": -17.4513,
+      "scenario_B_revenue_change_pct": -17.8661,
+      "scenario_C_revenue_change_pct": -14.2243,
+      "pd_A": 0.320731,
+      "pd_B": 0.326261,
+      "pd_C": 0.279139
+    },
+    "Bhandara": {
+      "baseline_revenue_cr": 543.1202,
+      "scenario_A_revenue_change_pct": -19.299,
+      "scenario_B_revenue_change_pct": -19.299,
+      "scenario_C_revenue_change_pct": -19.299,
+      "pd_A": 0.431451,
+      "pd_B": 0.431451,
+      "pd_C": 0.431451
+    },
+    "Bharatpur": {
+      "baseline_revenue_cr": 3754.4526,
+      "scenario_A_revenue_change_pct": -50.1295,
+      "scenario_B_revenue_change_pct": -50.1295,
+      "scenario_C_revenue_change_pct": -50.1295,
+      "pd_A": 0.753451,
+      "pd_B": 0.753451,
+      "pd_C": 0.753451
+    },
+    "Bharuch": {
+      "baseline_revenue_cr": 660.8598,
+      "scenario_A_revenue_change_pct": -29.1814,
+      "scenario_B_revenue_change_pct": -29.6136,
+      "scenario_C_revenue_change_pct": -26.8237,
+      "pd_A": 0.490687,
+      "pd_B": 0.495604,
+      "pd_C": 0.46391
+    },
+    "Bhavnagar": {
+      "baseline_revenue_cr": 811.2224,
+      "scenario_A_revenue_change_pct": -32.9227,
+      "scenario_B_revenue_change_pct": -33.3603,
+      "scenario_C_revenue_change_pct": -30.4167,
+      "pd_A": 0.533474,
+      "pd_B": 0.53847,
+      "pd_C": 0.504778
+    },
+    "Bhilwara": {
+      "baseline_revenue_cr": 2256.8766,
+      "scenario_A_revenue_change_pct": -34.1453,
+      "scenario_B_revenue_change_pct": -34.7276,
+      "scenario_C_revenue_change_pct": -30.7841,
+      "pd_A": 0.52405,
+      "pd_B": 0.527423,
+      "pd_C": 0.504552
+    },
+    "Bhind": {
+      "baseline_revenue_cr": 4038.8591,
+      "scenario_A_revenue_change_pct": -39.6107,
+      "scenario_B_revenue_change_pct": -39.6107,
+      "scenario_C_revenue_change_pct": -39.6107,
+      "pd_A": 0.523631,
+      "pd_B": 0.523631,
+      "pd_C": 0.523631
+    },
+    "Bhiwani": {
+      "baseline_revenue_cr": 2782.2241,
+      "scenario_A_revenue_change_pct": -43.392,
+      "scenario_B_revenue_change_pct": -43.392,
+      "scenario_C_revenue_change_pct": -43.392,
+      "pd_A": 0.565941,
+      "pd_B": 0.565941,
+      "pd_C": 0.565941
+    },
+    "Bhojpur": {
+      "baseline_revenue_cr": 754.7546,
+      "scenario_A_revenue_change_pct": -14.6608,
+      "scenario_B_revenue_change_pct": -14.6608,
+      "scenario_C_revenue_change_pct": -14.6608,
+      "pd_A": 0.295688,
+      "pd_B": 0.295688,
+      "pd_C": 0.295688
+    },
+    "Bhopal": {
+      "baseline_revenue_cr": 3929.6147,
+      "scenario_A_revenue_change_pct": -10.6974,
+      "scenario_B_revenue_change_pct": -10.6974,
+      "scenario_C_revenue_change_pct": -10.6974,
+      "pd_A": 0.416668,
+      "pd_B": 0.416668,
+      "pd_C": 0.416668
+    },
+    "Bidar": {
+      "baseline_revenue_cr": 1486.5054,
+      "scenario_A_revenue_change_pct": -32.562,
+      "scenario_B_revenue_change_pct": -32.7394,
+      "scenario_C_revenue_change_pct": -28.8724,
+      "pd_A": 0.521811,
+      "pd_B": 0.52332,
+      "pd_C": 0.490396
+    },
+    "Bijapur": {
+      "baseline_revenue_cr": 182.4151,
+      "scenario_A_revenue_change_pct": -14.9315,
+      "scenario_B_revenue_change_pct": -14.9397,
+      "scenario_C_revenue_change_pct": -9.5624,
+      "pd_A": 0.4644,
+      "pd_B": 0.464419,
+      "pd_C": 0.451769
+    },
+    "Bijnor": {
+      "baseline_revenue_cr": 1244.205,
+      "scenario_A_revenue_change_pct": -9.1791,
+      "scenario_B_revenue_change_pct": -9.1791,
+      "scenario_C_revenue_change_pct": -9.1791,
+      "pd_A": 0.229773,
+      "pd_B": 0.229773,
+      "pd_C": 0.229773
+    },
+    "Bikaner": {
+      "baseline_revenue_cr": 5311.2961,
+      "scenario_A_revenue_change_pct": -55.8443,
+      "scenario_B_revenue_change_pct": -56.287,
+      "scenario_C_revenue_change_pct": -53.0014,
+      "pd_A": 0.643194,
+      "pd_B": 0.645536,
+      "pd_C": 0.628029
+    },
+    "Bilaspur": {
+      "baseline_revenue_cr": 526.98,
+      "scenario_A_revenue_change_pct": -14.7153,
+      "scenario_B_revenue_change_pct": -14.7153,
+      "scenario_C_revenue_change_pct": -14.7153,
+      "pd_A": 0.424975,
+      "pd_B": 0.424975,
+      "pd_C": 0.424975
+    },
+    "Birbhum": {
+      "baseline_revenue_cr": 1324.4213,
+      "scenario_A_revenue_change_pct": -25.7751,
+      "scenario_B_revenue_change_pct": -26.2603,
+      "scenario_C_revenue_change_pct": -24.5254,
+      "pd_A": 0.450492,
+      "pd_B": 0.456153,
+      "pd_C": 0.435959
+    },
+    "Bishnupur": {
+      "baseline_revenue_cr": 245.7878,
+      "scenario_A_revenue_change_pct": -18.225,
+      "scenario_B_revenue_change_pct": -18.225,
+      "scenario_C_revenue_change_pct": -18.225,
+      "pd_A": 0.169411,
+      "pd_B": 0.169411,
+      "pd_C": 0.169411
+    },
+    "Bokaro": {
+      "baseline_revenue_cr": 192.1875,
+      "scenario_A_revenue_change_pct": -37.9054,
+      "scenario_B_revenue_change_pct": -37.9157,
+      "scenario_C_revenue_change_pct": -35.1769,
+      "pd_A": 0.564546,
+      "pd_B": 0.564629,
+      "pd_C": 0.542375
+    },
+    "Bongaigaon": {
+      "baseline_revenue_cr": 101.4166,
+      "scenario_A_revenue_change_pct": -28.8958,
+      "scenario_B_revenue_change_pct": -29.2067,
+      "scenario_C_revenue_change_pct": -24.2637,
+      "pd_A": 0.484872,
+      "pd_B": 0.48913,
+      "pd_C": 0.421895
+    },
+    "Botad": {
+      "baseline_revenue_cr": 83.3582,
+      "scenario_A_revenue_change_pct": -25.4171,
+      "scenario_B_revenue_change_pct": -25.4171,
+      "scenario_C_revenue_change_pct": -25.4171,
+      "pd_A": 0.417271,
+      "pd_B": 0.417271,
+      "pd_C": 0.417271
+    },
+    "Budaun": {
+      "baseline_revenue_cr": 2823.4566,
+      "scenario_A_revenue_change_pct": -17.8486,
+      "scenario_B_revenue_change_pct": -17.8486,
+      "scenario_C_revenue_change_pct": -17.8486,
+      "pd_A": 0.323642,
+      "pd_B": 0.323642,
+      "pd_C": 0.323642
+    },
+    "Bulandshahr": {
+      "baseline_revenue_cr": 2397.1274,
+      "scenario_A_revenue_change_pct": -10.3937,
+      "scenario_B_revenue_change_pct": -10.3937,
+      "scenario_C_revenue_change_pct": -10.3937,
+      "pd_A": 0.275396,
+      "pd_B": 0.275396,
+      "pd_C": 0.275396
+    },
+    "Bundi": {
+      "baseline_revenue_cr": 2853.7173,
+      "scenario_A_revenue_change_pct": -24.588,
+      "scenario_B_revenue_change_pct": -25.7869,
+      "scenario_C_revenue_change_pct": -23.7786,
+      "pd_A": 0.443892,
+      "pd_B": 0.456265,
+      "pd_C": 0.43557
+    },
+    "Burhanpur": {
+      "baseline_revenue_cr": 1186.8408,
+      "scenario_A_revenue_change_pct": -19.876,
+      "scenario_B_revenue_change_pct": -20.431,
+      "scenario_C_revenue_change_pct": -17.1171,
+      "pd_A": 0.452545,
+      "pd_B": 0.455136,
+      "pd_C": 0.439702
+    },
+    "Buxar": {
+      "baseline_revenue_cr": 997.9217,
+      "scenario_A_revenue_change_pct": -11.3649,
+      "scenario_B_revenue_change_pct": -11.3649,
+      "scenario_C_revenue_change_pct": -11.3649,
+      "pd_A": 0.271878,
+      "pd_B": 0.271878,
+      "pd_C": 0.271878
+    },
+    "Cachar": {
+      "baseline_revenue_cr": 149.8113,
+      "scenario_A_revenue_change_pct": -17.3297,
+      "scenario_B_revenue_change_pct": -17.3767,
+      "scenario_C_revenue_change_pct": -10.6087,
+      "pd_A": 0.300096,
+      "pd_B": 0.300772,
+      "pd_C": 0.211234
+    },
+    "Chamarajanagara": {
+      "baseline_revenue_cr": 165.6028,
+      "scenario_A_revenue_change_pct": -28.5903,
+      "scenario_B_revenue_change_pct": -28.8948,
+      "scenario_C_revenue_change_pct": -24.6972,
+      "pd_A": 0.484452,
+      "pd_B": 0.487809,
+      "pd_C": 0.441708
+    },
+    "Chamba": {
+      "baseline_revenue_cr": 252.775,
+      "scenario_A_revenue_change_pct": -26.5689,
+      "scenario_B_revenue_change_pct": -26.5993,
+      "scenario_C_revenue_change_pct": -16.0972,
+      "pd_A": 0.46569,
+      "pd_B": 0.465992,
+      "pd_C": 0.363576
+    },
+    "Chamoli": {
+      "baseline_revenue_cr": 85.3704,
+      "scenario_A_revenue_change_pct": -23.4553,
+      "scenario_B_revenue_change_pct": -23.4606,
+      "scenario_C_revenue_change_pct": -12.8792,
+      "pd_A": 0.433651,
+      "pd_B": 0.433703,
+      "pd_C": 0.331021
+    },
+    "Champawat": {
+      "baseline_revenue_cr": 51.0752,
+      "scenario_A_revenue_change_pct": -22.6585,
+      "scenario_B_revenue_change_pct": -22.6759,
+      "scenario_C_revenue_change_pct": -14.8441,
+      "pd_A": 0.47073,
+      "pd_B": 0.4708,
+      "pd_C": 0.439752
+    },
+    "Champhai": {
+      "baseline_revenue_cr": 17.3145,
+      "scenario_A_revenue_change_pct": -18.5322,
+      "scenario_B_revenue_change_pct": -18.5492,
+      "scenario_C_revenue_change_pct": -11.5092,
+      "pd_A": 0.414622,
+      "pd_B": 0.414747,
+      "pd_C": 0.364014
+    },
+    "Chandauli": {
+      "baseline_revenue_cr": 1322.5984,
+      "scenario_A_revenue_change_pct": -11.47,
+      "scenario_B_revenue_change_pct": -11.47,
+      "scenario_C_revenue_change_pct": -11.47,
+      "pd_A": 0.241631,
+      "pd_B": 0.241631,
+      "pd_C": 0.241631
+    },
+    "Chandel": {
+      "baseline_revenue_cr": 49.81,
+      "scenario_A_revenue_change_pct": -29.4012,
+      "scenario_B_revenue_change_pct": -30.2376,
+      "scenario_C_revenue_change_pct": -27.2469,
+      "pd_A": 0.487786,
+      "pd_B": 0.504846,
+      "pd_C": 0.44402
+    },
+    "Chandigarh": {
+      "baseline_revenue_cr": 5.9985,
+      "scenario_A_revenue_change_pct": -19.2295,
+      "scenario_B_revenue_change_pct": -19.8662,
+      "scenario_C_revenue_change_pct": -12.4793,
+      "pd_A": 0.458039,
+      "pd_B": 0.460511,
+      "pd_C": 0.431949
+    },
+    "Chandrapur": {
+      "baseline_revenue_cr": 1043.6788,
+      "scenario_A_revenue_change_pct": -26.848,
+      "scenario_B_revenue_change_pct": -27.2479,
+      "scenario_C_revenue_change_pct": -24.3396,
+      "pd_A": 0.481277,
+      "pd_B": 0.483651,
+      "pd_C": 0.466405
+    },
+    "Changlang": {
+      "baseline_revenue_cr": 67.9683,
+      "scenario_A_revenue_change_pct": -34.4526,
+      "scenario_B_revenue_change_pct": -34.7784,
+      "scenario_C_revenue_change_pct": -28.5161,
+      "pd_A": 0.570072,
+      "pd_B": 0.575139,
+      "pd_C": 0.476541
+    },
+    "Charki Dadri": {
+      "baseline_revenue_cr": 1209.231,
+      "scenario_A_revenue_change_pct": -43.5292,
+      "scenario_B_revenue_change_pct": -43.5292,
+      "scenario_C_revenue_change_pct": -43.5292,
+      "pd_A": 0.81488,
+      "pd_B": 0.81488,
+      "pd_C": 0.81488
+    },
+    "Chatra": {
+      "baseline_revenue_cr": 336.9353,
+      "scenario_A_revenue_change_pct": -37.9586,
+      "scenario_B_revenue_change_pct": -37.9822,
+      "scenario_C_revenue_change_pct": -35.0866,
+      "pd_A": 0.609852,
+      "pd_B": 0.61017,
+      "pd_C": 0.570747
+    },
+    "Chengalpattu": {
+      "baseline_revenue_cr": 0.0198,
+      "scenario_A_revenue_change_pct": -16.378,
+      "scenario_B_revenue_change_pct": -16.9334,
+      "scenario_C_revenue_change_pct": -13.5084,
+      "pd_A": 0.247904,
+      "pd_B": 0.256772,
+      "pd_C": 0.204805
+    },
+    "Chennai": {
+      "baseline_revenue_cr": 454.9589,
+      "scenario_A_revenue_change_pct": -14.4467,
+      "scenario_B_revenue_change_pct": -14.4609,
+      "scenario_C_revenue_change_pct": -9.0013,
+      "pd_A": 0.436545,
+      "pd_B": 0.436602,
+      "pd_C": 0.414626
+    },
+    "Chhatarpur": {
+      "baseline_revenue_cr": 2603.8956,
+      "scenario_A_revenue_change_pct": -29.7075,
+      "scenario_B_revenue_change_pct": -30.6716,
+      "scenario_C_revenue_change_pct": -29.2386,
+      "pd_A": 0.497686,
+      "pd_B": 0.505313,
+      "pd_C": 0.493977
+    },
+    "Chhindwara": {
+      "baseline_revenue_cr": 4677.1198,
+      "scenario_A_revenue_change_pct": -27.0389,
+      "scenario_B_revenue_change_pct": -27.6813,
+      "scenario_C_revenue_change_pct": -24.7269,
+      "pd_A": 0.482626,
+      "pd_B": 0.486394,
+      "pd_C": 0.469082
+    },
+    "Chikkaballapura": {
+      "baseline_revenue_cr": 233.9365,
+      "scenario_A_revenue_change_pct": -27.4634,
+      "scenario_B_revenue_change_pct": -27.723,
+      "scenario_C_revenue_change_pct": -23.2948,
+      "pd_A": 0.470042,
+      "pd_B": 0.473104,
+      "pd_C": 0.421255
+    },
+    "Chikkamagaluru": {
+      "baseline_revenue_cr": 216.4434,
+      "scenario_A_revenue_change_pct": -33.4316,
+      "scenario_B_revenue_change_pct": -33.7891,
+      "scenario_C_revenue_change_pct": -29.6512,
+      "pd_A": 0.545206,
+      "pd_B": 0.549893,
+      "pd_C": 0.495395
+    },
+    "Chirang": {
+      "baseline_revenue_cr": 89.8825,
+      "scenario_A_revenue_change_pct": -44.8364,
+      "scenario_B_revenue_change_pct": -44.9406,
+      "scenario_C_revenue_change_pct": -40.3192,
+      "pd_A": 0.695136,
+      "pd_B": 0.696391,
+      "pd_C": 0.638721
+    },
+    "Chitradurga": {
+      "baseline_revenue_cr": 521.5823,
+      "scenario_A_revenue_change_pct": -39.7802,
+      "scenario_B_revenue_change_pct": -40.1076,
+      "scenario_C_revenue_change_pct": -37.3851,
+      "pd_A": 0.564764,
+      "pd_B": 0.566912,
+      "pd_C": 0.548997
+    },
+    "Chitrakoot": {
+      "baseline_revenue_cr": 657.5691,
+      "scenario_A_revenue_change_pct": -42.987,
+      "scenario_B_revenue_change_pct": -43.4181,
+      "scenario_C_revenue_change_pct": -40.7579,
+      "pd_A": 0.627102,
+      "pd_B": 0.631168,
+      "pd_C": 0.60586
+    },
+    "Chittoor": {
+      "baseline_revenue_cr": 4823.7914,
+      "scenario_A_revenue_change_pct": -40.2171,
+      "scenario_B_revenue_change_pct": -40.3755,
+      "scenario_C_revenue_change_pct": -36.6824,
+      "pd_A": 0.532668,
+      "pd_B": 0.533173,
+      "pd_C": 0.52138
+    },
+    "Churachandpur": {
+      "baseline_revenue_cr": 102.6282,
+      "scenario_A_revenue_change_pct": -20.3221,
+      "scenario_B_revenue_change_pct": -20.3221,
+      "scenario_C_revenue_change_pct": -20.3221,
+      "pd_A": 0.300115,
+      "pd_B": 0.300115,
+      "pd_C": 0.300115
+    },
+    "Churu": {
+      "baseline_revenue_cr": 2354.5411,
+      "scenario_A_revenue_change_pct": -54.1156,
+      "scenario_B_revenue_change_pct": -54.483,
+      "scenario_C_revenue_change_pct": -51.2348,
+      "pd_A": 0.586746,
+      "pd_B": 0.588046,
+      "pd_C": 0.57652
+    },
+    "Coimbatore": {
+      "baseline_revenue_cr": 92.5656,
+      "scenario_A_revenue_change_pct": -33.7322,
+      "scenario_B_revenue_change_pct": -34.2743,
+      "scenario_C_revenue_change_pct": -31.0598,
+      "pd_A": 0.519477,
+      "pd_B": 0.522304,
+      "pd_C": 0.505533
+    },
+    "Cuddalore": {
+      "baseline_revenue_cr": 871.6099,
+      "scenario_A_revenue_change_pct": -15.3358,
+      "scenario_B_revenue_change_pct": -15.3358,
+      "scenario_C_revenue_change_pct": -15.3358,
+      "pd_A": 0.363439,
+      "pd_B": 0.363439,
+      "pd_C": 0.363439
+    },
+    "Cuttack": {
+      "baseline_revenue_cr": 245.5734,
+      "scenario_A_revenue_change_pct": -18.0783,
+      "scenario_B_revenue_change_pct": -18.0783,
+      "scenario_C_revenue_change_pct": -18.0783,
+      "pd_A": 0.370054,
+      "pd_B": 0.370054,
+      "pd_C": 0.370054
+    },
+    "Dakshin Bastar Dantewada": {
+      "baseline_revenue_cr": 185.3148,
+      "scenario_A_revenue_change_pct": -15.4775,
+      "scenario_B_revenue_change_pct": -15.4777,
+      "scenario_C_revenue_change_pct": -10.2557,
+      "pd_A": 0.459591,
+      "pd_B": 0.459592,
+      "pd_C": 0.445141
+    },
+    "Dakshin Dinajpur": {
+      "baseline_revenue_cr": 937.5041,
+      "scenario_A_revenue_change_pct": -42.1152,
+      "scenario_B_revenue_change_pct": -42.6233,
+      "scenario_C_revenue_change_pct": -40.8065,
+      "pd_A": 0.660656,
+      "pd_B": 0.666993,
+      "pd_C": 0.644125
+    },
+    "Dakshina Kannada": {
+      "baseline_revenue_cr": 62.9034,
+      "scenario_A_revenue_change_pct": -11.6082,
+      "scenario_B_revenue_change_pct": -11.6082,
+      "scenario_C_revenue_change_pct": -11.6082,
+      "pd_A": 0.215858,
+      "pd_B": 0.215858,
+      "pd_C": 0.215858
+    },
+    "Damoh": {
+      "baseline_revenue_cr": 2821.1467,
+      "scenario_A_revenue_change_pct": -47.6682,
+      "scenario_B_revenue_change_pct": -48.301,
+      "scenario_C_revenue_change_pct": -46.9252,
+      "pd_A": 0.655689,
+      "pd_B": 0.660957,
+      "pd_C": 0.649464
+    },
+    "Darbhanga": {
+      "baseline_revenue_cr": 486.4248,
+      "scenario_A_revenue_change_pct": -13.5741,
+      "scenario_B_revenue_change_pct": -13.5741,
+      "scenario_C_revenue_change_pct": -13.5741,
+      "pd_A": 0.316172,
+      "pd_B": 0.316172,
+      "pd_C": 0.316172
+    },
+    "Darrang": {
+      "baseline_revenue_cr": 228.8548,
+      "scenario_A_revenue_change_pct": -31.3107,
+      "scenario_B_revenue_change_pct": -31.4865,
+      "scenario_C_revenue_change_pct": -25.5486,
+      "pd_A": 0.513352,
+      "pd_B": 0.515142,
+      "pd_C": 0.454742
+    },
+    "Datia": {
+      "baseline_revenue_cr": 1748.5736,
+      "scenario_A_revenue_change_pct": -22.5812,
+      "scenario_B_revenue_change_pct": -22.5812,
+      "scenario_C_revenue_change_pct": -22.5812,
+      "pd_A": 0.411044,
+      "pd_B": 0.411044,
+      "pd_C": 0.411044
+    },
+    "Dausa": {
+      "baseline_revenue_cr": 1929.7023,
+      "scenario_A_revenue_change_pct": -40.0244,
+      "scenario_B_revenue_change_pct": -40.9171,
+      "scenario_C_revenue_change_pct": -39.0885,
+      "pd_A": 0.623292,
+      "pd_B": 0.633868,
+      "pd_C": 0.612106
+    },
+    "Dehradun": {
+      "baseline_revenue_cr": 156.5022,
+      "scenario_A_revenue_change_pct": -21.4316,
+      "scenario_B_revenue_change_pct": -21.5876,
+      "scenario_C_revenue_change_pct": -13.2731,
+      "pd_A": 0.440444,
+      "pd_B": 0.44152,
+      "pd_C": 0.384944
+    },
+    "Deoghar": {
+      "baseline_revenue_cr": 244.8107,
+      "scenario_A_revenue_change_pct": -33.8117,
+      "scenario_B_revenue_change_pct": -33.8595,
+      "scenario_C_revenue_change_pct": -30.9541,
+      "pd_A": 0.556261,
+      "pd_B": 0.556963,
+      "pd_C": 0.514128
+    },
+    "Deoria": {
+      "baseline_revenue_cr": 1480.6282,
+      "scenario_A_revenue_change_pct": -8.4943,
+      "scenario_B_revenue_change_pct": -8.4943,
+      "scenario_C_revenue_change_pct": -8.4943,
+      "pd_A": 0.363369,
+      "pd_B": 0.363369,
+      "pd_C": 0.363369
+    },
+    "Devbhumi Dwarka": {
+      "baseline_revenue_cr": 941.353,
+      "scenario_A_revenue_change_pct": -34.5798,
+      "scenario_B_revenue_change_pct": -35.3359,
+      "scenario_C_revenue_change_pct": -33.4468,
+      "pd_A": 0.564332,
+      "pd_B": 0.574836,
+      "pd_C": 0.548509
+    },
+    "Dewas": {
+      "baseline_revenue_cr": 4361.7158,
+      "scenario_A_revenue_change_pct": -33.2225,
+      "scenario_B_revenue_change_pct": -33.2225,
+      "scenario_C_revenue_change_pct": -33.2225,
+      "pd_A": 0.514673,
+      "pd_B": 0.514673,
+      "pd_C": 0.514673
+    },
+    "Dhalai": {
+      "baseline_revenue_cr": 64.997,
+      "scenario_A_revenue_change_pct": -23.4977,
+      "scenario_B_revenue_change_pct": -23.5613,
+      "scenario_C_revenue_change_pct": -17.8816,
+      "pd_A": 0.33585,
+      "pd_B": 0.337363,
+      "pd_C": 0.214801
+    },
+    "Dhamtari": {
+      "baseline_revenue_cr": 977.7865,
+      "scenario_A_revenue_change_pct": -17.1002,
+      "scenario_B_revenue_change_pct": -17.1002,
+      "scenario_C_revenue_change_pct": -17.1002,
+      "pd_A": 0.344582,
+      "pd_B": 0.344582,
+      "pd_C": 0.344582
+    },
+    "Dhanbad": {
+      "baseline_revenue_cr": 144.4579,
+      "scenario_A_revenue_change_pct": -41.3951,
+      "scenario_B_revenue_change_pct": -41.4011,
+      "scenario_C_revenue_change_pct": -38.8929,
+      "pd_A": 0.588055,
+      "pd_B": 0.588101,
+      "pd_C": 0.568941
+    },
+    "Dhar": {
+      "baseline_revenue_cr": 4501.4456,
+      "scenario_A_revenue_change_pct": -23.3917,
+      "scenario_B_revenue_change_pct": -23.3917,
+      "scenario_C_revenue_change_pct": -23.3917,
+      "pd_A": 0.4655,
+      "pd_B": 0.4655,
+      "pd_C": 0.4655
+    },
+    "Dharmapuri": {
+      "baseline_revenue_cr": 309.0568,
+      "scenario_A_revenue_change_pct": -29.239,
+      "scenario_B_revenue_change_pct": -29.5085,
+      "scenario_C_revenue_change_pct": -25.3616,
+      "pd_A": 0.496196,
+      "pd_B": 0.497543,
+      "pd_C": 0.476829
+    },
+    "Dharwad": {
+      "baseline_revenue_cr": 4179.4953,
+      "scenario_A_revenue_change_pct": -42.8683,
+      "scenario_B_revenue_change_pct": -43.0415,
+      "scenario_C_revenue_change_pct": -38.6595,
+      "pd_A": 0.549169,
+      "pd_B": 0.549828,
+      "pd_C": 0.533134
+    },
+    "Dhemaji": {
+      "baseline_revenue_cr": 121.7078,
+      "scenario_A_revenue_change_pct": -50.6351,
+      "scenario_B_revenue_change_pct": -50.6408,
+      "scenario_C_revenue_change_pct": -44.9938,
+      "pd_A": 0.717149,
+      "pd_B": 0.717202,
+      "pd_C": 0.661794
+    },
+    "Dhenkanal": {
+      "baseline_revenue_cr": 145.1075,
+      "scenario_A_revenue_change_pct": -18.7904,
+      "scenario_B_revenue_change_pct": -18.9508,
+      "scenario_C_revenue_change_pct": -14.5066,
+      "pd_A": 0.391384,
+      "pd_B": 0.3929,
+      "pd_C": 0.351572
+    },
+    "Dhubri": {
+      "baseline_revenue_cr": 234.2505,
+      "scenario_A_revenue_change_pct": -31.958,
+      "scenario_B_revenue_change_pct": -32.4707,
+      "scenario_C_revenue_change_pct": -29.0408,
+      "pd_A": 0.519698,
+      "pd_B": 0.524849,
+      "pd_C": 0.490347
+    },
+    "Dhule": {
+      "baseline_revenue_cr": 1230.6818,
+      "scenario_A_revenue_change_pct": -48.7302,
+      "scenario_B_revenue_change_pct": -49.0981,
+      "scenario_C_revenue_change_pct": -46.9252,
+      "pd_A": 0.577356,
+      "pd_B": 0.578856,
+      "pd_C": 0.569983
+    },
+    "Dibrugarh": {
+      "baseline_revenue_cr": 119.3436,
+      "scenario_A_revenue_change_pct": -23.8026,
+      "scenario_B_revenue_change_pct": -23.8323,
+      "scenario_C_revenue_change_pct": -15.1748,
+      "pd_A": 0.420121,
+      "pd_B": 0.4205,
+      "pd_C": 0.314825
+    },
+    "Dima Hasao": {
+      "baseline_revenue_cr": 56.2622,
+      "scenario_A_revenue_change_pct": -34.7625,
+      "scenario_B_revenue_change_pct": -34.7675,
+      "scenario_C_revenue_change_pct": -28.8701,
+      "pd_A": 0.574536,
+      "pd_B": 0.574613,
+      "pd_C": 0.482218
+    },
+    "Dimapur": {
+      "baseline_revenue_cr": 204.6105,
+      "scenario_A_revenue_change_pct": -21.9781,
+      "scenario_B_revenue_change_pct": -21.9781,
+      "scenario_C_revenue_change_pct": -21.9781,
+      "pd_A": 0.369451,
+      "pd_B": 0.369451,
+      "pd_C": 0.369451
+    },
+    "Dindigul": {
+      "baseline_revenue_cr": 359.4794,
+      "scenario_A_revenue_change_pct": -24.8438,
+      "scenario_B_revenue_change_pct": -25.2376,
+      "scenario_C_revenue_change_pct": -20.6318,
+      "pd_A": 0.463507,
+      "pd_B": 0.466286,
+      "pd_C": 0.433908
+    },
+    "Dindori": {
+      "baseline_revenue_cr": 875.9767,
+      "scenario_A_revenue_change_pct": -30.1032,
+      "scenario_B_revenue_change_pct": -30.1876,
+      "scenario_C_revenue_change_pct": -25.8742,
+      "pd_A": 0.500832,
+      "pd_B": 0.501511,
+      "pd_C": 0.466797
+    },
+    "Doda": {
+      "baseline_revenue_cr": 93.1682,
+      "scenario_A_revenue_change_pct": -27.4097,
+      "scenario_B_revenue_change_pct": -27.4588,
+      "scenario_C_revenue_change_pct": -17.2837,
+      "pd_A": 0.470507,
+      "pd_B": 0.471066,
+      "pd_C": 0.358206
+    },
+    "Dohad": {
+      "baseline_revenue_cr": 956.3318,
+      "scenario_A_revenue_change_pct": -34.7933,
+      "scenario_B_revenue_change_pct": -35.2625,
+      "scenario_C_revenue_change_pct": -32.592,
+      "pd_A": 0.560957,
+      "pd_B": 0.56687,
+      "pd_C": 0.533054
+    },
+    "Dumka": {
+      "baseline_revenue_cr": 543.1262,
+      "scenario_A_revenue_change_pct": -31.9258,
+      "scenario_B_revenue_change_pct": -31.9339,
+      "scenario_C_revenue_change_pct": -28.7409,
+      "pd_A": 0.523382,
+      "pd_B": 0.52348,
+      "pd_C": 0.484707
+    },
+    "Dungarpur": {
+      "baseline_revenue_cr": 651.5157,
+      "scenario_A_revenue_change_pct": -25.6914,
+      "scenario_B_revenue_change_pct": -26.0948,
+      "scenario_C_revenue_change_pct": -21.6396,
+      "pd_A": 0.45613,
+      "pd_B": 0.460223,
+      "pd_C": 0.415348
+    },
+    "Durg": {
+      "baseline_revenue_cr": 664.8601,
+      "scenario_A_revenue_change_pct": -19.1545,
+      "scenario_B_revenue_change_pct": -19.1545,
+      "scenario_C_revenue_change_pct": -19.1545,
+      "pd_A": 0.370383,
+      "pd_B": 0.370383,
+      "pd_C": 0.370383
+    },
+    "East Garo Hills": {
+      "baseline_revenue_cr": 19.1074,
+      "scenario_A_revenue_change_pct": -28.098,
+      "scenario_B_revenue_change_pct": -28.2106,
+      "scenario_C_revenue_change_pct": -23.1051,
+      "pd_A": 0.452506,
+      "pd_B": 0.455307,
+      "pd_C": 0.332662
+    },
+    "East Godavari": {
+      "baseline_revenue_cr": 1875.0637,
+      "scenario_A_revenue_change_pct": -10.7824,
+      "scenario_B_revenue_change_pct": -10.7824,
+      "scenario_C_revenue_change_pct": -10.7824,
+      "pd_A": 0.348499,
+      "pd_B": 0.348499,
+      "pd_C": 0.348499
+    },
+    "East Jaintia Hills": {
+      "baseline_revenue_cr": 8.634,
+      "scenario_A_revenue_change_pct": -16.702,
+      "scenario_B_revenue_change_pct": -16.7512,
+      "scenario_C_revenue_change_pct": -9.9978,
+      "pd_A": 0.289439,
+      "pd_B": 0.290141,
+      "pd_C": 0.201903
+    },
+    "East Kameng": {
+      "baseline_revenue_cr": 35.6333,
+      "scenario_A_revenue_change_pct": -26.9664,
+      "scenario_B_revenue_change_pct": -27.2667,
+      "scenario_C_revenue_change_pct": -20.6124,
+      "pd_A": 0.4341,
+      "pd_B": 0.440572,
+      "pd_C": 0.303792
+    },
+    "East Khasi Hills": {
+      "baseline_revenue_cr": 24.8343,
+      "scenario_A_revenue_change_pct": -18.7978,
+      "scenario_B_revenue_change_pct": -18.9141,
+      "scenario_C_revenue_change_pct": -12.5682,
+      "pd_A": 0.311758,
+      "pd_B": 0.313562,
+      "pd_C": 0.222478
+    },
+    "East Siang": {
+      "baseline_revenue_cr": 71.8797,
+      "scenario_A_revenue_change_pct": -29.5448,
+      "scenario_B_revenue_change_pct": -30.1743,
+      "scenario_C_revenue_change_pct": -24.5265,
+      "pd_A": 0.490317,
+      "pd_B": 0.503707,
+      "pd_C": 0.385198
+    },
+    "Ernakulam": {
+      "baseline_revenue_cr": 7.7086,
+      "scenario_A_revenue_change_pct": -11.131,
+      "scenario_B_revenue_change_pct": -11.131,
+      "scenario_C_revenue_change_pct": -11.131,
+      "pd_A": 0.387408,
+      "pd_B": 0.387408,
+      "pd_C": 0.387408
+    },
+    "Erode": {
+      "baseline_revenue_cr": 314.4593,
+      "scenario_A_revenue_change_pct": -23.2721,
+      "scenario_B_revenue_change_pct": -23.7415,
+      "scenario_C_revenue_change_pct": -19.9167,
+      "pd_A": 0.465965,
+      "pd_B": 0.468334,
+      "pd_C": 0.449067
+    },
+    "Etah": {
+      "baseline_revenue_cr": 1615.759,
+      "scenario_A_revenue_change_pct": -15.4424,
+      "scenario_B_revenue_change_pct": -15.4424,
+      "scenario_C_revenue_change_pct": -15.4424,
+      "pd_A": 0.35633,
+      "pd_B": 0.35633,
+      "pd_C": 0.35633
+    },
+    "Etawah": {
+      "baseline_revenue_cr": 1519.2227,
+      "scenario_A_revenue_change_pct": -21.8281,
+      "scenario_B_revenue_change_pct": -22.7944,
+      "scenario_C_revenue_change_pct": -21.0951,
+      "pd_A": 0.382951,
+      "pd_B": 0.396455,
+      "pd_C": 0.3728
+    },
+    "Faizabad": {
+      "baseline_revenue_cr": 2313.6785,
+      "scenario_A_revenue_change_pct": -19.8248,
+      "scenario_B_revenue_change_pct": -19.8248,
+      "scenario_C_revenue_change_pct": -19.8248,
+      "pd_A": 0.448704,
+      "pd_B": 0.448704,
+      "pd_C": 0.448704
+    },
+    "Faridabad": {
+      "baseline_revenue_cr": 527.8592,
+      "scenario_A_revenue_change_pct": -12.9877,
+      "scenario_B_revenue_change_pct": -12.9877,
+      "scenario_C_revenue_change_pct": -12.9877,
+      "pd_A": 0.433482,
+      "pd_B": 0.433482,
+      "pd_C": 0.433482
+    },
+    "Faridkot": {
+      "baseline_revenue_cr": 2276.8765,
+      "scenario_A_revenue_change_pct": -4.6022,
+      "scenario_B_revenue_change_pct": -4.6022,
+      "scenario_C_revenue_change_pct": -4.6022,
+      "pd_A": 0.120752,
+      "pd_B": 0.120752,
+      "pd_C": 0.120752
+    },
+    "Farrukhabad": {
+      "baseline_revenue_cr": 885.7106,
+      "scenario_A_revenue_change_pct": -14.5644,
+      "scenario_B_revenue_change_pct": -14.5644,
+      "scenario_C_revenue_change_pct": -14.5644,
+      "pd_A": 0.272846,
+      "pd_B": 0.272846,
+      "pd_C": 0.272846
+    },
+    "Fatehabad": {
+      "baseline_revenue_cr": 3247.2058,
+      "scenario_A_revenue_change_pct": -8.3569,
+      "scenario_B_revenue_change_pct": -8.3569,
+      "scenario_C_revenue_change_pct": -8.3569,
+      "pd_A": 0.414107,
+      "pd_B": 0.414107,
+      "pd_C": 0.414107
+    },
+    "Fatehgarh Sahib": {
+      "baseline_revenue_cr": 1694.318,
+      "scenario_A_revenue_change_pct": -4.7093,
+      "scenario_B_revenue_change_pct": -4.7093,
+      "scenario_C_revenue_change_pct": -4.7093,
+      "pd_A": 0.031153,
+      "pd_B": 0.031153,
+      "pd_C": 0.031153
+    },
+    "Fatehpur": {
+      "baseline_revenue_cr": 2254.633,
+      "scenario_A_revenue_change_pct": -22.2357,
+      "scenario_B_revenue_change_pct": -22.2357,
+      "scenario_C_revenue_change_pct": -22.2357,
+      "pd_A": 0.401793,
+      "pd_B": 0.401793,
+      "pd_C": 0.401793
+    },
+    "Fazilka": {
+      "baseline_revenue_cr": 3141.7461,
+      "scenario_A_revenue_change_pct": -5.733,
+      "scenario_B_revenue_change_pct": -5.733,
+      "scenario_C_revenue_change_pct": -5.733,
+      "pd_A": 0.105062,
+      "pd_B": 0.105062,
+      "pd_C": 0.105062
+    },
+    "Firozabad": {
+      "baseline_revenue_cr": 1325.5468,
+      "scenario_A_revenue_change_pct": -22.6027,
+      "scenario_B_revenue_change_pct": -23.3639,
+      "scenario_C_revenue_change_pct": -20.7506,
+      "pd_A": 0.416475,
+      "pd_B": 0.424961,
+      "pd_C": 0.395993
+    },
+    "Gadag": {
+      "baseline_revenue_cr": 531.7932,
+      "scenario_A_revenue_change_pct": -56.5127,
+      "scenario_B_revenue_change_pct": -56.7528,
+      "scenario_C_revenue_change_pct": -54.1829,
+      "pd_A": 0.738415,
+      "pd_B": 0.740293,
+      "pd_C": 0.719839
+    },
+    "Gadchiroli": {
+      "baseline_revenue_cr": 361.5644,
+      "scenario_A_revenue_change_pct": -22.7587,
+      "scenario_B_revenue_change_pct": -23.322,
+      "scenario_C_revenue_change_pct": -21.0049,
+      "pd_A": 0.457445,
+      "pd_B": 0.460744,
+      "pd_C": 0.447192
+    },
+    "Gajapati": {
+      "baseline_revenue_cr": 105.1491,
+      "scenario_A_revenue_change_pct": -19.7319,
+      "scenario_B_revenue_change_pct": -19.9174,
+      "scenario_C_revenue_change_pct": -15.5679,
+      "pd_A": 0.465973,
+      "pd_B": 0.466586,
+      "pd_C": 0.45223
+    },
+    "Ganderbal": {
+      "baseline_revenue_cr": 62.7098,
+      "scenario_A_revenue_change_pct": -27.9514,
+      "scenario_B_revenue_change_pct": -29.0525,
+      "scenario_C_revenue_change_pct": -22.8028,
+      "pd_A": 0.47696,
+      "pd_B": 0.489339,
+      "pd_C": 0.419562
+    },
+    "Gandhinagar": {
+      "baseline_revenue_cr": 327.797,
+      "scenario_A_revenue_change_pct": -15.4,
+      "scenario_B_revenue_change_pct": -15.4,
+      "scenario_C_revenue_change_pct": -15.4,
+      "pd_A": 0.299174,
+      "pd_B": 0.299174,
+      "pd_C": 0.299174
+    },
+    "Ganganagar": {
+      "baseline_revenue_cr": 5006.382,
+      "scenario_A_revenue_change_pct": -48.9519,
+      "scenario_B_revenue_change_pct": -48.9519,
+      "scenario_C_revenue_change_pct": -48.9519,
+      "pd_A": 0.664323,
+      "pd_B": 0.664323,
+      "pd_C": 0.664323
+    },
+    "Ganjam": {
+      "baseline_revenue_cr": 640.5173,
+      "scenario_A_revenue_change_pct": -18.6526,
+      "scenario_B_revenue_change_pct": -18.6526,
+      "scenario_C_revenue_change_pct": -18.6526,
+      "pd_A": 0.452952,
+      "pd_B": 0.452952,
+      "pd_C": 0.452952
+    },
+    "Garhwa": {
+      "baseline_revenue_cr": 351.0088,
+      "scenario_A_revenue_change_pct": -40.7267,
+      "scenario_B_revenue_change_pct": -40.8469,
+      "scenario_C_revenue_change_pct": -37.544,
+      "pd_A": 0.611548,
+      "pd_B": 0.612765,
+      "pd_C": 0.578979
+    },
+    "Gautam Buddha Nagar": {
+      "baseline_revenue_cr": 497.4955,
+      "scenario_A_revenue_change_pct": -16.0205,
+      "scenario_B_revenue_change_pct": -16.7034,
+      "scenario_C_revenue_change_pct": -12.6942,
+      "pd_A": 0.426276,
+      "pd_B": 0.429839,
+      "pd_C": 0.409012
+    },
+    "Gaya": {
+      "baseline_revenue_cr": 940.5729,
+      "scenario_A_revenue_change_pct": -16.7399,
+      "scenario_B_revenue_change_pct": -17.1268,
+      "scenario_C_revenue_change_pct": -13.8309,
+      "pd_A": 0.401687,
+      "pd_B": 0.4045,
+      "pd_C": 0.380715
+    },
+    "Ghaziabad": {
+      "baseline_revenue_cr": 313.9535,
+      "scenario_A_revenue_change_pct": -14.1689,
+      "scenario_B_revenue_change_pct": -14.1689,
+      "scenario_C_revenue_change_pct": -14.1689,
+      "pd_A": 0.265446,
+      "pd_B": 0.265446,
+      "pd_C": 0.265446
+    },
+    "Ghazipur": {
+      "baseline_revenue_cr": 1952.6078,
+      "scenario_A_revenue_change_pct": -11.0093,
+      "scenario_B_revenue_change_pct": -11.0093,
+      "scenario_C_revenue_change_pct": -11.0093,
+      "pd_A": 0.261431,
+      "pd_B": 0.261431,
+      "pd_C": 0.261431
+    },
+    "Gir Somnath": {
+      "baseline_revenue_cr": 1269.1032,
+      "scenario_A_revenue_change_pct": -30.7212,
+      "scenario_B_revenue_change_pct": -31.5372,
+      "scenario_C_revenue_change_pct": -29.6697,
+      "pd_A": 0.511247,
+      "pd_B": 0.523961,
+      "pd_C": 0.494848
+    },
+    "Giridih": {
+      "baseline_revenue_cr": 357.1662,
+      "scenario_A_revenue_change_pct": -30.1942,
+      "scenario_B_revenue_change_pct": -30.2931,
+      "scenario_C_revenue_change_pct": -27.5064,
+      "pd_A": 0.502492,
+      "pd_B": 0.503762,
+      "pd_C": 0.468024
+    },
+    "Goalpara": {
+      "baseline_revenue_cr": 156.3149,
+      "scenario_A_revenue_change_pct": -23.4112,
+      "scenario_B_revenue_change_pct": -23.8516,
+      "scenario_C_revenue_change_pct": -19.2033,
+      "pd_A": 0.430428,
+      "pd_B": 0.435035,
+      "pd_C": 0.386969
+    },
+    "Godda": {
+      "baseline_revenue_cr": 247.0492,
+      "scenario_A_revenue_change_pct": -42.1506,
+      "scenario_B_revenue_change_pct": -42.1863,
+      "scenario_C_revenue_change_pct": -39.7507,
+      "pd_A": 0.733111,
+      "pd_B": 0.733712,
+      "pd_C": 0.691232
+    },
+    "Golaghat": {
+      "baseline_revenue_cr": 181.6335,
+      "scenario_A_revenue_change_pct": -24.8446,
+      "scenario_B_revenue_change_pct": -24.8488,
+      "scenario_C_revenue_change_pct": -17.3147,
+      "pd_A": 0.425554,
+      "pd_B": 0.425613,
+      "pd_C": 0.322089
+    },
+    "Gomati": {
+      "baseline_revenue_cr": 68.092,
+      "scenario_A_revenue_change_pct": -20.9074,
+      "scenario_B_revenue_change_pct": -21.1783,
+      "scenario_C_revenue_change_pct": -16.4416,
+      "pd_A": 0.256187,
+      "pd_B": 0.26251,
+      "pd_C": 0.164306
+    },
+    "Gonda": {
+      "baseline_revenue_cr": 1646.0967,
+      "scenario_A_revenue_change_pct": -9.961,
+      "scenario_B_revenue_change_pct": -9.961,
+      "scenario_C_revenue_change_pct": -9.961,
+      "pd_A": 0.22019,
+      "pd_B": 0.22019,
+      "pd_C": 0.22019
+    },
+    "Gopalganj": {
+      "baseline_revenue_cr": 606.4339,
+      "scenario_A_revenue_change_pct": -14.4125,
+      "scenario_B_revenue_change_pct": -14.4125,
+      "scenario_C_revenue_change_pct": -14.4125,
+      "pd_A": 0.408487,
+      "pd_B": 0.408487,
+      "pd_C": 0.408487
+    },
+    "Gorakhpur": {
+      "baseline_revenue_cr": 1906.9542,
+      "scenario_A_revenue_change_pct": -12.4922,
+      "scenario_B_revenue_change_pct": -12.4922,
+      "scenario_C_revenue_change_pct": -12.4922,
+      "pd_A": 0.257421,
+      "pd_B": 0.257421,
+      "pd_C": 0.257421
+    },
+    "Gumla": {
+      "baseline_revenue_cr": 659.4308,
+      "scenario_A_revenue_change_pct": -28.4528,
+      "scenario_B_revenue_change_pct": -28.481,
+      "scenario_C_revenue_change_pct": -24.3248,
+      "pd_A": 0.48106,
+      "pd_B": 0.481405,
+      "pd_C": 0.430851
+    },
+    "Guna": {
+      "baseline_revenue_cr": 2934.0612,
+      "scenario_A_revenue_change_pct": -28.0815,
+      "scenario_B_revenue_change_pct": -28.0815,
+      "scenario_C_revenue_change_pct": -28.0815,
+      "pd_A": 0.479497,
+      "pd_B": 0.479497,
+      "pd_C": 0.479497
+    },
+    "Guntur": {
+      "baseline_revenue_cr": 1771.1421,
+      "scenario_A_revenue_change_pct": -27.7968,
+      "scenario_B_revenue_change_pct": -28.3937,
+      "scenario_C_revenue_change_pct": -26.3758,
+      "pd_A": 0.484794,
+      "pd_B": 0.488913,
+      "pd_C": 0.474997
+    },
+    "Gurdaspur": {
+      "baseline_revenue_cr": 3066.2103,
+      "scenario_A_revenue_change_pct": -5.9314,
+      "scenario_B_revenue_change_pct": -5.9314,
+      "scenario_C_revenue_change_pct": -5.9314,
+      "pd_A": 0.116736,
+      "pd_B": 0.116736,
+      "pd_C": 0.116736
+    },
+    "Gwalior": {
+      "baseline_revenue_cr": 1846.1646,
+      "scenario_A_revenue_change_pct": -31.1586,
+      "scenario_B_revenue_change_pct": -31.9367,
+      "scenario_C_revenue_change_pct": -29.4352,
+      "pd_A": 0.514952,
+      "pd_B": 0.524982,
+      "pd_C": 0.49271
+    },
+    "Hailakandi": {
+      "baseline_revenue_cr": 75.4438,
+      "scenario_A_revenue_change_pct": -16.2892,
+      "scenario_B_revenue_change_pct": -16.2909,
+      "scenario_C_revenue_change_pct": -9.5799,
+      "pd_A": 0.325513,
+      "pd_B": 0.325533,
+      "pd_C": 0.250256
+    },
+    "Hamirpur": {
+      "baseline_revenue_cr": 2299.2613,
+      "scenario_A_revenue_change_pct": -84.1156,
+      "scenario_B_revenue_change_pct": -84.2328,
+      "scenario_C_revenue_change_pct": -83.3811,
+      "pd_A": 0.78899,
+      "pd_B": 0.789492,
+      "pd_C": 0.785827
+    },
+    "Hanumangarh": {
+      "baseline_revenue_cr": 4247.4412,
+      "scenario_A_revenue_change_pct": -39.7779,
+      "scenario_B_revenue_change_pct": -39.7779,
+      "scenario_C_revenue_change_pct": -39.7779,
+      "pd_A": 0.552728,
+      "pd_B": 0.552728,
+      "pd_C": 0.552728
+    },
+    "Hapur": {
+      "baseline_revenue_cr": 516.1744,
+      "scenario_A_revenue_change_pct": -10.8425,
+      "scenario_B_revenue_change_pct": -10.8425,
+      "scenario_C_revenue_change_pct": -10.8425,
+      "pd_A": 0.222251,
+      "pd_B": 0.222251,
+      "pd_C": 0.222251
+    },
+    "Harda": {
+      "baseline_revenue_cr": 2347.4497,
+      "scenario_A_revenue_change_pct": -23.6986,
+      "scenario_B_revenue_change_pct": -23.6986,
+      "scenario_C_revenue_change_pct": -23.6986,
+      "pd_A": 0.460607,
+      "pd_B": 0.460607,
+      "pd_C": 0.460607
+    },
+    "Hardoi": {
+      "baseline_revenue_cr": 3066.1246,
+      "scenario_A_revenue_change_pct": -13.3736,
+      "scenario_B_revenue_change_pct": -13.3736,
+      "scenario_C_revenue_change_pct": -13.3736,
+      "pd_A": 0.268203,
+      "pd_B": 0.268203,
+      "pd_C": 0.268203
+    },
+    "Hassan": {
+      "baseline_revenue_cr": 563.1068,
+      "scenario_A_revenue_change_pct": -31.1588,
+      "scenario_B_revenue_change_pct": -31.6245,
+      "scenario_C_revenue_change_pct": -27.4752,
+      "pd_A": 0.505756,
+      "pd_B": 0.508069,
+      "pd_C": 0.48746
+    },
+    "Hathras": {
+      "baseline_revenue_cr": 1041.5951,
+      "scenario_A_revenue_change_pct": -17.9406,
+      "scenario_B_revenue_change_pct": -17.9406,
+      "scenario_C_revenue_change_pct": -17.9406,
+      "pd_A": 0.31766,
+      "pd_B": 0.31766,
+      "pd_C": 0.31766
+    },
+    "Haveri": {
+      "baseline_revenue_cr": 518.4285,
+      "scenario_A_revenue_change_pct": -19.8379,
+      "scenario_B_revenue_change_pct": -20.5851,
+      "scenario_C_revenue_change_pct": -17.2646,
+      "pd_A": 0.458814,
+      "pd_B": 0.461833,
+      "pd_C": 0.448437
+    },
+    "Hazaribagh": {
+      "baseline_revenue_cr": 321.7001,
+      "scenario_A_revenue_change_pct": -38.7836,
+      "scenario_B_revenue_change_pct": -38.8117,
+      "scenario_C_revenue_change_pct": -36.1806,
+      "pd_A": 0.652047,
+      "pd_B": 0.652508,
+      "pd_C": 0.60835
+    },
+    "Hingoli": {
+      "baseline_revenue_cr": 1789.8757,
+      "scenario_A_revenue_change_pct": -30.1079,
+      "scenario_B_revenue_change_pct": -30.8238,
+      "scenario_C_revenue_change_pct": -29.2852,
+      "pd_A": 0.500967,
+      "pd_B": 0.507387,
+      "pd_C": 0.493591
+    },
+    "Hisar": {
+      "baseline_revenue_cr": 3560.8299,
+      "scenario_A_revenue_change_pct": -24.3368,
+      "scenario_B_revenue_change_pct": -24.3368,
+      "scenario_C_revenue_change_pct": -24.3368,
+      "pd_A": 0.483493,
+      "pd_B": 0.483493,
+      "pd_C": 0.483493
+    },
+    "Hooghly": {
+      "baseline_revenue_cr": 684.6489,
+      "scenario_A_revenue_change_pct": -17.7573,
+      "scenario_B_revenue_change_pct": -17.7573,
+      "scenario_C_revenue_change_pct": -17.7573,
+      "pd_A": 0.405587,
+      "pd_B": 0.405587,
+      "pd_C": 0.405587
+    },
+    "Hoshangabad": {
+      "baseline_revenue_cr": 150033.4633,
+      "scenario_A_revenue_change_pct": -36.8374,
+      "scenario_B_revenue_change_pct": -37.6633,
+      "scenario_C_revenue_change_pct": -36.2642,
+      "pd_A": 0.526213,
+      "pd_B": 0.529374,
+      "pd_C": 0.524018
+    },
+    "Hoshiarpur": {
+      "baseline_revenue_cr": 2304.8231,
+      "scenario_A_revenue_change_pct": -11.1105,
+      "scenario_B_revenue_change_pct": -11.1105,
+      "scenario_C_revenue_change_pct": -11.1105,
+      "pd_A": 0.176171,
+      "pd_B": 0.176171,
+      "pd_C": 0.176171
+    },
+    "Howrah": {
+      "baseline_revenue_cr": 253.6587,
+      "scenario_A_revenue_change_pct": -17.5097,
+      "scenario_B_revenue_change_pct": -17.5097,
+      "scenario_C_revenue_change_pct": -17.5097,
+      "pd_A": 0.394671,
+      "pd_B": 0.394671,
+      "pd_C": 0.394671
+    },
+    "Idukki": {
+      "baseline_revenue_cr": 1.2178,
+      "scenario_A_revenue_change_pct": -14.373,
+      "scenario_B_revenue_change_pct": -14.6689,
+      "scenario_C_revenue_change_pct": -9.1071,
+      "pd_A": 0.408149,
+      "pd_B": 0.409858,
+      "pd_C": 0.378056
+    },
+    "Imphal East": {
+      "baseline_revenue_cr": 265.7087,
+      "scenario_A_revenue_change_pct": -15.6104,
+      "scenario_B_revenue_change_pct": -15.6104,
+      "scenario_C_revenue_change_pct": -15.6104,
+      "pd_A": 0.113928,
+      "pd_B": 0.113928,
+      "pd_C": 0.113928
+    },
+    "Imphal West": {
+      "baseline_revenue_cr": 295.4165,
+      "scenario_A_revenue_change_pct": -14.6593,
+      "scenario_B_revenue_change_pct": -14.6593,
+      "scenario_C_revenue_change_pct": -14.6593,
+      "pd_A": 0.105883,
+      "pd_B": 0.105883,
+      "pd_C": 0.105883
+    },
+    "Indore": {
+      "baseline_revenue_cr": 2988.5492,
+      "scenario_A_revenue_change_pct": -23.2109,
+      "scenario_B_revenue_change_pct": -23.2109,
+      "scenario_C_revenue_change_pct": -23.2109,
+      "pd_A": 0.461668,
+      "pd_B": 0.461668,
+      "pd_C": 0.461668
+    },
+    "Jabalpur": {
+      "baseline_revenue_cr": 2751.9673,
+      "scenario_A_revenue_change_pct": -28.8562,
+      "scenario_B_revenue_change_pct": -29.7543,
+      "scenario_C_revenue_change_pct": -27.517,
+      "pd_A": 0.488605,
+      "pd_B": 0.497552,
+      "pd_C": 0.475275
+    },
+    "Jagatsinghapur": {
+      "baseline_revenue_cr": 224.191,
+      "scenario_A_revenue_change_pct": -23.1089,
+      "scenario_B_revenue_change_pct": -23.1089,
+      "scenario_C_revenue_change_pct": -23.1089,
+      "pd_A": 0.415811,
+      "pd_B": 0.415811,
+      "pd_C": 0.415811
+    },
+    "Jagitial": {
+      "baseline_revenue_cr": 675.8058,
+      "scenario_A_revenue_change_pct": -10.4926,
+      "scenario_B_revenue_change_pct": -10.4926,
+      "scenario_C_revenue_change_pct": -10.4926,
+      "pd_A": 0.179098,
+      "pd_B": 0.179098,
+      "pd_C": 0.179098
+    },
+    "Jaipur": {
+      "baseline_revenue_cr": 3894.1301,
+      "scenario_A_revenue_change_pct": -44.4001,
+      "scenario_B_revenue_change_pct": -44.9472,
+      "scenario_C_revenue_change_pct": -41.5589,
+      "pd_A": 0.644026,
+      "pd_B": 0.649239,
+      "pd_C": 0.616533
+    },
+    "Jaisalmer": {
+      "baseline_revenue_cr": 1369.1948,
+      "scenario_A_revenue_change_pct": -82.0546,
+      "scenario_B_revenue_change_pct": -82.1069,
+      "scenario_C_revenue_change_pct": -79.8198,
+      "pd_A": 0.727422,
+      "pd_B": 0.727623,
+      "pd_C": 0.718725
+    },
+    "Jajapur": {
+      "baseline_revenue_cr": 189.0068,
+      "scenario_A_revenue_change_pct": -20.516,
+      "scenario_B_revenue_change_pct": -20.7067,
+      "scenario_C_revenue_change_pct": -16.4345,
+      "pd_A": 0.397242,
+      "pd_B": 0.399263,
+      "pd_C": 0.354725
+    },
+    "Jalandhar": {
+      "baseline_revenue_cr": 3285.736,
+      "scenario_A_revenue_change_pct": -4.1949,
+      "scenario_B_revenue_change_pct": -4.1949,
+      "scenario_C_revenue_change_pct": -4.1949,
+      "pd_A": 0.060809,
+      "pd_B": 0.060809,
+      "pd_C": 0.060809
+    },
+    "Jalaun": {
+      "baseline_revenue_cr": 1534.3416,
+      "scenario_A_revenue_change_pct": -28.7833,
+      "scenario_B_revenue_change_pct": -28.7833,
+      "scenario_C_revenue_change_pct": -28.7833,
+      "pd_A": 0.488325,
+      "pd_B": 0.488325,
+      "pd_C": 0.488325
+    },
+    "Jalgaon": {
+      "baseline_revenue_cr": 1527.3482,
+      "scenario_A_revenue_change_pct": -41.5833,
+      "scenario_B_revenue_change_pct": -41.9395,
+      "scenario_C_revenue_change_pct": -39.3652,
+      "pd_A": 0.551649,
+      "pd_B": 0.553228,
+      "pd_C": 0.541799
+    },
+    "Jalna": {
+      "baseline_revenue_cr": 1309.7651,
+      "scenario_A_revenue_change_pct": -28.4079,
+      "scenario_B_revenue_change_pct": -28.7103,
+      "scenario_C_revenue_change_pct": -25.7272,
+      "pd_A": 0.485136,
+      "pd_B": 0.487958,
+      "pd_C": 0.460166
+    },
+    "Jalpaiguri": {
+      "baseline_revenue_cr": 361.6627,
+      "scenario_A_revenue_change_pct": -17.3516,
+      "scenario_B_revenue_change_pct": -17.3516,
+      "scenario_C_revenue_change_pct": -17.3516,
+      "pd_A": 0.343486,
+      "pd_B": 0.343486,
+      "pd_C": 0.343486
+    },
+    "Jammu": {
+      "baseline_revenue_cr": 809.065,
+      "scenario_A_revenue_change_pct": -18.4305,
+      "scenario_B_revenue_change_pct": -19.4579,
+      "scenario_C_revenue_change_pct": -12.7836,
+      "pd_A": 0.284851,
+      "pd_B": 0.302226,
+      "pd_C": 0.198787
+    },
+    "Jamnagar": {
+      "baseline_revenue_cr": 953.1752,
+      "scenario_A_revenue_change_pct": -35.4664,
+      "scenario_B_revenue_change_pct": -35.4664,
+      "scenario_C_revenue_change_pct": -35.4664,
+      "pd_A": 0.529051,
+      "pd_B": 0.529051,
+      "pd_C": 0.529051
+    },
+    "Jamtara": {
+      "baseline_revenue_cr": 177.9332,
+      "scenario_A_revenue_change_pct": -25.054,
+      "scenario_B_revenue_change_pct": -25.0729,
+      "scenario_C_revenue_change_pct": -21.4486,
+      "pd_A": 0.440475,
+      "pd_B": 0.4407,
+      "pd_C": 0.397841
+    },
+    "Jamui": {
+      "baseline_revenue_cr": 423.4226,
+      "scenario_A_revenue_change_pct": -20.3808,
+      "scenario_B_revenue_change_pct": -20.4844,
+      "scenario_C_revenue_change_pct": -16.4921,
+      "pd_A": 0.459325,
+      "pd_B": 0.459761,
+      "pd_C": 0.442977
+    },
+    "Jangoan": {
+      "baseline_revenue_cr": 288.6629,
+      "scenario_A_revenue_change_pct": -13.6185,
+      "scenario_B_revenue_change_pct": -13.6185,
+      "scenario_C_revenue_change_pct": -13.6185,
+      "pd_A": 0.24904,
+      "pd_B": 0.24904,
+      "pd_C": 0.24904
+    },
+    "Jashpur": {
+      "baseline_revenue_cr": 493.602,
+      "scenario_A_revenue_change_pct": -18.2444,
+      "scenario_B_revenue_change_pct": -18.2766,
+      "scenario_C_revenue_change_pct": -13.4967,
+      "pd_A": 0.394428,
+      "pd_B": 0.39471,
+      "pd_C": 0.353476
+    },
+    "Jaunpur": {
+      "baseline_revenue_cr": 2367.1749,
+      "scenario_A_revenue_change_pct": -12.9091,
+      "scenario_B_revenue_change_pct": -12.9091,
+      "scenario_C_revenue_change_pct": -12.9091,
+      "pd_A": 0.263091,
+      "pd_B": 0.263091,
+      "pd_C": 0.263091
+    },
+    "Jayashankar": {
+      "baseline_revenue_cr": 271.4523,
+      "scenario_A_revenue_change_pct": -13.7037,
+      "scenario_B_revenue_change_pct": -13.7037,
+      "scenario_C_revenue_change_pct": -13.7037,
+      "pd_A": 0.20756,
+      "pd_B": 0.20756,
+      "pd_C": 0.20756
+    },
+    "Jehanabad": {
+      "baseline_revenue_cr": 341.9665,
+      "scenario_A_revenue_change_pct": -13.4992,
+      "scenario_B_revenue_change_pct": -13.4992,
+      "scenario_C_revenue_change_pct": -13.4992,
+      "pd_A": 0.29937,
+      "pd_B": 0.29937,
+      "pd_C": 0.29937
+    },
+    "Jhabua": {
+      "baseline_revenue_cr": 1068.0543,
+      "scenario_A_revenue_change_pct": -22.4237,
+      "scenario_B_revenue_change_pct": -23.3171,
+      "scenario_C_revenue_change_pct": -21.4043,
+      "pd_A": 0.466563,
+      "pd_B": 0.470499,
+      "pd_C": 0.462077
+    },
+    "Jhajjar": {
+      "baseline_revenue_cr": 1708.4019,
+      "scenario_A_revenue_change_pct": -23.7213,
+      "scenario_B_revenue_change_pct": -23.7213,
+      "scenario_C_revenue_change_pct": -23.7213,
+      "pd_A": 0.479601,
+      "pd_B": 0.479601,
+      "pd_C": 0.479601
+    },
+    "Jhalawar": {
+      "baseline_revenue_cr": 2640.6984,
+      "scenario_A_revenue_change_pct": -25.9245,
+      "scenario_B_revenue_change_pct": -25.9245,
+      "scenario_C_revenue_change_pct": -25.9245,
+      "pd_A": 0.454103,
+      "pd_B": 0.454103,
+      "pd_C": 0.454103
+    },
+    "Jhansi": {
+      "baseline_revenue_cr": 1646.2812,
+      "scenario_A_revenue_change_pct": -30.456,
+      "scenario_B_revenue_change_pct": -30.456,
+      "scenario_C_revenue_change_pct": -30.456,
+      "pd_A": 0.504045,
+      "pd_B": 0.504045,
+      "pd_C": 0.504045
+    },
+    "Jhargram": {
+      "baseline_revenue_cr": 392.1244,
+      "scenario_A_revenue_change_pct": -17.0547,
+      "scenario_B_revenue_change_pct": -17.0547,
+      "scenario_C_revenue_change_pct": -17.0547,
+      "pd_A": 0.216496,
+      "pd_B": 0.216496,
+      "pd_C": 0.216496
+    },
+    "Jharsuguda": {
+      "baseline_revenue_cr": 70.5321,
+      "scenario_A_revenue_change_pct": -15.117,
+      "scenario_B_revenue_change_pct": -15.117,
+      "scenario_C_revenue_change_pct": -15.117,
+      "pd_A": 0.434657,
+      "pd_B": 0.434657,
+      "pd_C": 0.434657
+    },
+    "Jind": {
+      "baseline_revenue_cr": 2830.275,
+      "scenario_A_revenue_change_pct": -8.1549,
+      "scenario_B_revenue_change_pct": -8.1549,
+      "scenario_C_revenue_change_pct": -8.1549,
+      "pd_A": 0.422722,
+      "pd_B": 0.422722,
+      "pd_C": 0.422722
+    },
+    "Jodhpur": {
+      "baseline_revenue_cr": 4701.0675,
+      "scenario_A_revenue_change_pct": -48.4733,
+      "scenario_B_revenue_change_pct": -48.7878,
+      "scenario_C_revenue_change_pct": -45.3342,
+      "pd_A": 0.714851,
+      "pd_B": 0.718123,
+      "pd_C": 0.681236
+    },
+    "Jorhat": {
+      "baseline_revenue_cr": 185.4788,
+      "scenario_A_revenue_change_pct": -30.5181,
+      "scenario_B_revenue_change_pct": -30.5765,
+      "scenario_C_revenue_change_pct": -23.4117,
+      "pd_A": 0.506275,
+      "pd_B": 0.506982,
+      "pd_C": 0.420734
+    },
+    "Junagadh": {
+      "baseline_revenue_cr": 1768.8922,
+      "scenario_A_revenue_change_pct": -36.7047,
+      "scenario_B_revenue_change_pct": -37.6597,
+      "scenario_C_revenue_change_pct": -36.5052,
+      "pd_A": 0.547296,
+      "pd_B": 0.553994,
+      "pd_C": 0.545895
+    },
+    "Kachchh": {
+      "baseline_revenue_cr": 668.3953,
+      "scenario_A_revenue_change_pct": -39.3688,
+      "scenario_B_revenue_change_pct": -39.5147,
+      "scenario_C_revenue_change_pct": -34.5576,
+      "pd_A": 0.553561,
+      "pd_B": 0.55439,
+      "pd_C": 0.526116
+    },
+    "Kaithal": {
+      "baseline_revenue_cr": 2938.7652,
+      "scenario_A_revenue_change_pct": -6.2364,
+      "scenario_B_revenue_change_pct": -6.2364,
+      "scenario_C_revenue_change_pct": -6.2364,
+      "pd_A": 0.423653,
+      "pd_B": 0.423653,
+      "pd_C": 0.423653
+    },
+    "Kalaburagi": {
+      "baseline_revenue_cr": 3993.9061,
+      "scenario_A_revenue_change_pct": -44.9399,
+      "scenario_B_revenue_change_pct": -45.4331,
+      "scenario_C_revenue_change_pct": -43.6695,
+      "pd_A": 0.614572,
+      "pd_B": 0.618244,
+      "pd_C": 0.605069
+    },
+    "Kalahandi": {
+      "baseline_revenue_cr": 563.1314,
+      "scenario_A_revenue_change_pct": -24.4182,
+      "scenario_B_revenue_change_pct": -24.7927,
+      "scenario_C_revenue_change_pct": -21.7765,
+      "pd_A": 0.449189,
+      "pd_B": 0.452582,
+      "pd_C": 0.425379
+    },
+    "Kalimpong": {
+      "baseline_revenue_cr": 63.2855,
+      "scenario_A_revenue_change_pct": -15.6325,
+      "scenario_B_revenue_change_pct": -16.5796,
+      "scenario_C_revenue_change_pct": -13.193,
+      "pd_A": 0.282294,
+      "pd_B": 0.295265,
+      "pd_C": 0.250203
+    },
+    "Kamareddy": {
+      "baseline_revenue_cr": 1066.3866,
+      "scenario_A_revenue_change_pct": -26.2642,
+      "scenario_B_revenue_change_pct": -26.9924,
+      "scenario_C_revenue_change_pct": -25.3175,
+      "pd_A": 0.438667,
+      "pd_B": 0.450554,
+      "pd_C": 0.423298
+    },
+    "Kamle": {
+      "baseline_revenue_cr": 20.5601,
+      "scenario_A_revenue_change_pct": -24.461,
+      "scenario_B_revenue_change_pct": -24.8514,
+      "scenario_C_revenue_change_pct": -17.9917,
+      "pd_A": 0.289825,
+      "pd_B": 0.303325,
+      "pd_C": 0.114908
+    },
+    "Kamrup": {
+      "baseline_revenue_cr": 193.0823,
+      "scenario_A_revenue_change_pct": -27.0637,
+      "scenario_B_revenue_change_pct": -27.1632,
+      "scenario_C_revenue_change_pct": -20.9996,
+      "pd_A": 0.460179,
+      "pd_B": 0.461524,
+      "pd_C": 0.379624
+    },
+    "Kandhamal": {
+      "baseline_revenue_cr": 66.3239,
+      "scenario_A_revenue_change_pct": -22.714,
+      "scenario_B_revenue_change_pct": -22.7313,
+      "scenario_C_revenue_change_pct": -17.9134,
+      "pd_A": 0.441774,
+      "pd_B": 0.441911,
+      "pd_C": 0.404011
+    },
+    "Kangra": {
+      "baseline_revenue_cr": 7600.5597,
+      "scenario_A_revenue_change_pct": -39.0189,
+      "scenario_B_revenue_change_pct": -39.1876,
+      "scenario_C_revenue_change_pct": -32.489,
+      "pd_A": 0.593397,
+      "pd_B": 0.595111,
+      "pd_C": 0.525997
+    },
+    "Kannauj": {
+      "baseline_revenue_cr": 1001.3922,
+      "scenario_A_revenue_change_pct": -14.2644,
+      "scenario_B_revenue_change_pct": -14.2644,
+      "scenario_C_revenue_change_pct": -14.2644,
+      "pd_A": 0.283051,
+      "pd_B": 0.283051,
+      "pd_C": 0.283051
+    },
+    "Kanniyakumari": {
+      "baseline_revenue_cr": 43.4427,
+      "scenario_A_revenue_change_pct": -13.6109,
+      "scenario_B_revenue_change_pct": -13.6109,
+      "scenario_C_revenue_change_pct": -13.6109,
+      "pd_A": 0.34458,
+      "pd_B": 0.34458,
+      "pd_C": 0.34458
+    },
+    "Kannur": {
+      "baseline_revenue_cr": 8.8906,
+      "scenario_A_revenue_change_pct": -30.4846,
+      "scenario_B_revenue_change_pct": -30.5836,
+      "scenario_C_revenue_change_pct": -25.2519,
+      "pd_A": 0.503954,
+      "pd_B": 0.504761,
+      "pd_C": 0.461324
+    },
+    "Kanpur Dehat": {
+      "baseline_revenue_cr": 1889.6754,
+      "scenario_A_revenue_change_pct": -27.5526,
+      "scenario_B_revenue_change_pct": -28.519,
+      "scenario_C_revenue_change_pct": -27.321,
+      "pd_A": 0.467248,
+      "pd_B": 0.480167,
+      "pd_C": 0.464157
+    },
+    "Kanpur Nagar": {
+      "baseline_revenue_cr": 1346.2991,
+      "scenario_A_revenue_change_pct": -24.3265,
+      "scenario_B_revenue_change_pct": -25.3347,
+      "scenario_C_revenue_change_pct": -24.1187,
+      "pd_A": 0.424521,
+      "pd_B": 0.437814,
+      "pd_C": 0.421791
+    },
+    "Kapurthala": {
+      "baseline_revenue_cr": 2127.2209,
+      "scenario_A_revenue_change_pct": -6.1533,
+      "scenario_B_revenue_change_pct": -6.1533,
+      "scenario_C_revenue_change_pct": -6.1533,
+      "pd_A": 0.071231,
+      "pd_B": 0.071231,
+      "pd_C": 0.071231
+    },
+    "Karaikal": {
+      "baseline_revenue_cr": 7.9803,
+      "scenario_A_revenue_change_pct": -14.4881,
+      "scenario_B_revenue_change_pct": -14.4881,
+      "scenario_C_revenue_change_pct": -14.4881,
+      "pd_A": 0.327696,
+      "pd_B": 0.327696,
+      "pd_C": 0.327696
+    },
+    "Karauli": {
+      "baseline_revenue_cr": 1949.5128,
+      "scenario_A_revenue_change_pct": -47.5078,
+      "scenario_B_revenue_change_pct": -48.0514,
+      "scenario_C_revenue_change_pct": -45.4256,
+      "pd_A": 0.693524,
+      "pd_B": 0.699015,
+      "pd_C": 0.672094
+    },
+    "Karbi Anglong": {
+      "baseline_revenue_cr": 293.075,
+      "scenario_A_revenue_change_pct": -30.1178,
+      "scenario_B_revenue_change_pct": -30.2814,
+      "scenario_C_revenue_change_pct": -24.1919,
+      "pd_A": 0.502153,
+      "pd_B": 0.505141,
+      "pd_C": 0.395104
+    },
+    "Kargil": {
+      "baseline_revenue_cr": 2.9051,
+      "scenario_A_revenue_change_pct": -12.8698,
+      "scenario_B_revenue_change_pct": -12.8698,
+      "scenario_C_revenue_change_pct": -12.8698,
+      "pd_A": 0.043354,
+      "pd_B": 0.043354,
+      "pd_C": 0.043354
+    },
+    "Karimganj": {
+      "baseline_revenue_cr": 81.1727,
+      "scenario_A_revenue_change_pct": -15.7896,
+      "scenario_B_revenue_change_pct": -15.8362,
+      "scenario_C_revenue_change_pct": -9.4196,
+      "pd_A": 0.317356,
+      "pd_B": 0.317911,
+      "pd_C": 0.245702
+    },
+    "Karimnagar": {
+      "baseline_revenue_cr": 719.4848,
+      "scenario_A_revenue_change_pct": -11.4319,
+      "scenario_B_revenue_change_pct": -11.4319,
+      "scenario_C_revenue_change_pct": -11.4319,
+      "pd_A": 0.357376,
+      "pd_B": 0.357376,
+      "pd_C": 0.357376
+    },
+    "Karnal": {
+      "baseline_revenue_cr": 2823.3466,
+      "scenario_A_revenue_change_pct": -6.4406,
+      "scenario_B_revenue_change_pct": -6.4406,
+      "scenario_C_revenue_change_pct": -6.4406,
+      "pd_A": 0.430532,
+      "pd_B": 0.430532,
+      "pd_C": 0.430532
+    },
+    "Karur": {
+      "baseline_revenue_cr": 95.2219,
+      "scenario_A_revenue_change_pct": -22.273,
+      "scenario_B_revenue_change_pct": -22.6368,
+      "scenario_C_revenue_change_pct": -17.8315,
+      "pd_A": 0.441885,
+      "pd_B": 0.444603,
+      "pd_C": 0.408958
+    },
+    "Kasaragod": {
+      "baseline_revenue_cr": 4.0536,
+      "scenario_A_revenue_change_pct": -13.8598,
+      "scenario_B_revenue_change_pct": -13.8598,
+      "scenario_C_revenue_change_pct": -13.8598,
+      "pd_A": 0.330812,
+      "pd_B": 0.330812,
+      "pd_C": 0.330812
+    },
+    "Kasganj": {
+      "baseline_revenue_cr": 1261.4456,
+      "scenario_A_revenue_change_pct": -18.9715,
+      "scenario_B_revenue_change_pct": -18.9715,
+      "scenario_C_revenue_change_pct": -18.9715,
+      "pd_A": 0.316294,
+      "pd_B": 0.316294,
+      "pd_C": 0.316294
+    },
+    "Kathua": {
+      "baseline_revenue_cr": 462.0097,
+      "scenario_A_revenue_change_pct": -22.4293,
+      "scenario_B_revenue_change_pct": -22.783,
+      "scenario_C_revenue_change_pct": -13.3331,
+      "pd_A": 0.379907,
+      "pd_B": 0.385358,
+      "pd_C": 0.250458
+    },
+    "Katihar": {
+      "baseline_revenue_cr": 640.8774,
+      "scenario_A_revenue_change_pct": -18.7312,
+      "scenario_B_revenue_change_pct": -19.229,
+      "scenario_C_revenue_change_pct": -15.632,
+      "pd_A": 0.385828,
+      "pd_B": 0.390741,
+      "pd_C": 0.355682
+    },
+    "Katni": {
+      "baseline_revenue_cr": 2194.7063,
+      "scenario_A_revenue_change_pct": -26.0572,
+      "scenario_B_revenue_change_pct": -26.9846,
+      "scenario_C_revenue_change_pct": -25.4135,
+      "pd_A": 0.482425,
+      "pd_B": 0.486557,
+      "pd_C": 0.479558
+    },
+    "Kaushambi": {
+      "baseline_revenue_cr": 872.5029,
+      "scenario_A_revenue_change_pct": -18.2324,
+      "scenario_B_revenue_change_pct": -18.2324,
+      "scenario_C_revenue_change_pct": -18.2324,
+      "pd_A": 0.34967,
+      "pd_B": 0.34967,
+      "pd_C": 0.34967
+    },
+    "Kendrapara": {
+      "baseline_revenue_cr": 234.6871,
+      "scenario_A_revenue_change_pct": -19.0673,
+      "scenario_B_revenue_change_pct": -19.0673,
+      "scenario_C_revenue_change_pct": -19.0673,
+      "pd_A": 0.450804,
+      "pd_B": 0.450804,
+      "pd_C": 0.450804
+    },
+    "Kendujhar": {
+      "baseline_revenue_cr": 313.2903,
+      "scenario_A_revenue_change_pct": -20.2995,
+      "scenario_B_revenue_change_pct": -20.3554,
+      "scenario_C_revenue_change_pct": -15.6827,
+      "pd_A": 0.389916,
+      "pd_B": 0.390534,
+      "pd_C": 0.339957
+    },
+    "Khagaria": {
+      "baseline_revenue_cr": 392.5143,
+      "scenario_A_revenue_change_pct": -15.8305,
+      "scenario_B_revenue_change_pct": -15.8305,
+      "scenario_C_revenue_change_pct": -15.8305,
+      "pd_A": 0.333039,
+      "pd_B": 0.333039,
+      "pd_C": 0.333039
+    },
+    "Khammam": {
+      "baseline_revenue_cr": 638.2781,
+      "scenario_A_revenue_change_pct": -15.6899,
+      "scenario_B_revenue_change_pct": -15.6899,
+      "scenario_C_revenue_change_pct": -15.6899,
+      "pd_A": 0.43652,
+      "pd_B": 0.43652,
+      "pd_C": 0.43652
+    },
+    "Kheda": {
+      "baseline_revenue_cr": 919.703,
+      "scenario_A_revenue_change_pct": -11.1392,
+      "scenario_B_revenue_change_pct": -11.1392,
+      "scenario_C_revenue_change_pct": -11.1392,
+      "pd_A": 0.265758,
+      "pd_B": 0.265758,
+      "pd_C": 0.265758
+    },
+    "Kheri": {
+      "baseline_revenue_cr": 2360.5617,
+      "scenario_A_revenue_change_pct": -13.4793,
+      "scenario_B_revenue_change_pct": -13.4793,
+      "scenario_C_revenue_change_pct": -13.4793,
+      "pd_A": 0.278382,
+      "pd_B": 0.278382,
+      "pd_C": 0.278382
+    },
+    "Khordha": {
+      "baseline_revenue_cr": 193.9013,
+      "scenario_A_revenue_change_pct": -16.5801,
+      "scenario_B_revenue_change_pct": -16.5801,
+      "scenario_C_revenue_change_pct": -16.5801,
+      "pd_A": 0.447991,
+      "pd_B": 0.447991,
+      "pd_C": 0.447991
+    },
+    "Khowai": {
+      "baseline_revenue_cr": 47.3164,
+      "scenario_A_revenue_change_pct": -22.4834,
+      "scenario_B_revenue_change_pct": -22.725,
+      "scenario_C_revenue_change_pct": -17.9346,
+      "pd_A": 0.285279,
+      "pd_B": 0.291505,
+      "pd_C": 0.18128
+    },
+    "Khunti": {
+      "baseline_revenue_cr": 257.1027,
+      "scenario_A_revenue_change_pct": -32.1147,
+      "scenario_B_revenue_change_pct": -32.149,
+      "scenario_C_revenue_change_pct": -28.2955,
+      "pd_A": 0.526866,
+      "pd_B": 0.527302,
+      "pd_C": 0.47834
+    },
+    "Kinnaur": {
+      "baseline_revenue_cr": 1.2085,
+      "scenario_A_revenue_change_pct": -26.8151,
+      "scenario_B_revenue_change_pct": -26.8561,
+      "scenario_C_revenue_change_pct": -15.3325,
+      "pd_A": 0.461592,
+      "pd_B": 0.462085,
+      "pd_C": 0.328496
+    },
+    "Kiphire": {
+      "baseline_revenue_cr": 88.1259,
+      "scenario_A_revenue_change_pct": -26.1232,
+      "scenario_B_revenue_change_pct": -26.2014,
+      "scenario_C_revenue_change_pct": -18.8197,
+      "pd_A": 0.381479,
+      "pd_B": 0.383802,
+      "pd_C": 0.192213
+    },
+    "Kishanganj": {
+      "baseline_revenue_cr": 221.7832,
+      "scenario_A_revenue_change_pct": -16.9808,
+      "scenario_B_revenue_change_pct": -16.9808,
+      "scenario_C_revenue_change_pct": -16.9808,
+      "pd_A": 0.357455,
+      "pd_B": 0.357455,
+      "pd_C": 0.357455
+    },
+    "Kishtwar": {
+      "baseline_revenue_cr": 36.541,
+      "scenario_A_revenue_change_pct": -25.5481,
+      "scenario_B_revenue_change_pct": -25.66,
+      "scenario_C_revenue_change_pct": -14.7637,
+      "pd_A": 0.444285,
+      "pd_B": 0.445676,
+      "pd_C": 0.315779
+    },
+    "Kodagu": {
+      "baseline_revenue_cr": 64.9688,
+      "scenario_A_revenue_change_pct": -17.3307,
+      "scenario_B_revenue_change_pct": -17.3421,
+      "scenario_C_revenue_change_pct": -10.5169,
+      "pd_A": 0.295917,
+      "pd_B": 0.296083,
+      "pd_C": 0.204814
+    },
+    "Kohima": {
+      "baseline_revenue_cr": 135.1254,
+      "scenario_A_revenue_change_pct": -24.6738,
+      "scenario_B_revenue_change_pct": -24.8833,
+      "scenario_C_revenue_change_pct": -18.3007,
+      "pd_A": 0.407828,
+      "pd_B": 0.411392,
+      "pd_C": 0.304292
+    },
+    "Kokrajhar": {
+      "baseline_revenue_cr": 207.7243,
+      "scenario_A_revenue_change_pct": -42.1259,
+      "scenario_B_revenue_change_pct": -42.2009,
+      "scenario_C_revenue_change_pct": -37.5698,
+      "pd_A": 0.671119,
+      "pd_B": 0.672109,
+      "pd_C": 0.608939
+    },
+    "Kolar": {
+      "baseline_revenue_cr": 57.4951,
+      "scenario_A_revenue_change_pct": -33.4871,
+      "scenario_B_revenue_change_pct": -33.766,
+      "scenario_C_revenue_change_pct": -29.9113,
+      "pd_A": 0.524179,
+      "pd_B": 0.526111,
+      "pd_C": 0.499384
+    },
+    "Kolasib": {
+      "baseline_revenue_cr": 13.235,
+      "scenario_A_revenue_change_pct": -20.9755,
+      "scenario_B_revenue_change_pct": -20.9894,
+      "scenario_C_revenue_change_pct": -14.5335,
+      "pd_A": 0.408208,
+      "pd_B": 0.408347,
+      "pd_C": 0.34536
+    },
+    "Kolhapur": {
+      "baseline_revenue_cr": 1178.2488,
+      "scenario_A_revenue_change_pct": -19.9375,
+      "scenario_B_revenue_change_pct": -20.3737,
+      "scenario_C_revenue_change_pct": -16.1964,
+      "pd_A": 0.44127,
+      "pd_B": 0.443798,
+      "pd_C": 0.419692
+    },
+    "Kollam": {
+      "baseline_revenue_cr": 2.5069,
+      "scenario_A_revenue_change_pct": -15.4355,
+      "scenario_B_revenue_change_pct": -15.4878,
+      "scenario_C_revenue_change_pct": -9.0387,
+      "pd_A": 0.467225,
+      "pd_B": 0.467342,
+      "pd_C": 0.452886
+    },
+    "Kondagaon": {
+      "baseline_revenue_cr": 395.0819,
+      "scenario_A_revenue_change_pct": -15.028,
+      "scenario_B_revenue_change_pct": -15.0604,
+      "scenario_C_revenue_change_pct": -10.3748,
+      "pd_A": 0.389948,
+      "pd_B": 0.39018,
+      "pd_C": 0.357068
+    },
+    "Koppal": {
+      "baseline_revenue_cr": 723.3131,
+      "scenario_A_revenue_change_pct": -37.614,
+      "scenario_B_revenue_change_pct": -38.2719,
+      "scenario_C_revenue_change_pct": -36.3459,
+      "pd_A": 0.575816,
+      "pd_B": 0.582278,
+      "pd_C": 0.563306
+    },
+    "Koraput": {
+      "baseline_revenue_cr": 238.2459,
+      "scenario_A_revenue_change_pct": -18.1235,
+      "scenario_B_revenue_change_pct": -18.3418,
+      "scenario_C_revenue_change_pct": -14.5141,
+      "pd_A": 0.379344,
+      "pd_B": 0.381495,
+      "pd_C": 0.34437
+    },
+    "Korba": {
+      "baseline_revenue_cr": 308.7037,
+      "scenario_A_revenue_change_pct": -15.2662,
+      "scenario_B_revenue_change_pct": -15.2798,
+      "scenario_C_revenue_change_pct": -10.6027,
+      "pd_A": 0.440897,
+      "pd_B": 0.440951,
+      "pd_C": 0.422398
+    },
+    "Kota": {
+      "baseline_revenue_cr": 2878.2297,
+      "scenario_A_revenue_change_pct": -26.872,
+      "scenario_B_revenue_change_pct": -26.872,
+      "scenario_C_revenue_change_pct": -26.872,
+      "pd_A": 0.481798,
+      "pd_B": 0.481798,
+      "pd_C": 0.481798
+    },
+    "Kottayam": {
+      "baseline_revenue_cr": 33.8208,
+      "scenario_A_revenue_change_pct": -11.1894,
+      "scenario_B_revenue_change_pct": -11.1894,
+      "scenario_C_revenue_change_pct": -11.1894,
+      "pd_A": 0.155779,
+      "pd_B": 0.155779,
+      "pd_C": 0.155779
+    },
+    "Kozhikode": {
+      "baseline_revenue_cr": 2.6123,
+      "scenario_A_revenue_change_pct": -15.2659,
+      "scenario_B_revenue_change_pct": -15.3149,
+      "scenario_C_revenue_change_pct": -8.8867,
+      "pd_A": 0.376117,
+      "pd_B": 0.376516,
+      "pd_C": 0.325499
+    },
+    "Kra Daadi": {
+      "baseline_revenue_cr": 3.6201,
+      "scenario_A_revenue_change_pct": -20.2421,
+      "scenario_B_revenue_change_pct": -20.5293,
+      "scenario_C_revenue_change_pct": -12.6935,
+      "pd_A": 0.432355,
+      "pd_B": 0.434327,
+      "pd_C": 0.381254
+    },
+    "Krishna": {
+      "baseline_revenue_cr": 1827.5708,
+      "scenario_A_revenue_change_pct": -11.2847,
+      "scenario_B_revenue_change_pct": -11.2847,
+      "scenario_C_revenue_change_pct": -11.2847,
+      "pd_A": 0.377887,
+      "pd_B": 0.377887,
+      "pd_C": 0.377887
+    },
+    "Krishnagiri": {
+      "baseline_revenue_cr": 272.3856,
+      "scenario_A_revenue_change_pct": -26.1069,
+      "scenario_B_revenue_change_pct": -26.3965,
+      "scenario_C_revenue_change_pct": -22.2847,
+      "pd_A": 0.466874,
+      "pd_B": 0.469334,
+      "pd_C": 0.434573
+    },
+    "Kulgam": {
+      "baseline_revenue_cr": 94.435,
+      "scenario_A_revenue_change_pct": -32.8455,
+      "scenario_B_revenue_change_pct": -33.8989,
+      "scenario_C_revenue_change_pct": -29.3698,
+      "pd_A": 0.535823,
+      "pd_B": 0.549027,
+      "pd_C": 0.492056
+    },
+    "Kullu": {
+      "baseline_revenue_cr": 158.3561,
+      "scenario_A_revenue_change_pct": -25.6414,
+      "scenario_B_revenue_change_pct": -25.765,
+      "scenario_C_revenue_change_pct": -15.446,
+      "pd_A": 0.454962,
+      "pd_B": 0.456233,
+      "pd_C": 0.352798
+    },
+    "Kupwara": {
+      "baseline_revenue_cr": 140.2969,
+      "scenario_A_revenue_change_pct": -15.2421,
+      "scenario_B_revenue_change_pct": -16.79,
+      "scenario_C_revenue_change_pct": -11.3007,
+      "pd_A": 0.316147,
+      "pd_B": 0.334211,
+      "pd_C": 0.272159
+    },
+    "Kurnool": {
+      "baseline_revenue_cr": 2126.4505,
+      "scenario_A_revenue_change_pct": -56.1519,
+      "scenario_B_revenue_change_pct": -56.2357,
+      "scenario_C_revenue_change_pct": -54.7921,
+      "pd_A": 0.71688,
+      "pd_B": 0.717501,
+      "pd_C": 0.706701
+    },
+    "Kurukshetra": {
+      "baseline_revenue_cr": 2078.9633,
+      "scenario_A_revenue_change_pct": -3.8339,
+      "scenario_B_revenue_change_pct": -3.8339,
+      "scenario_C_revenue_change_pct": -3.8339,
+      "pd_A": 0.42468,
+      "pd_B": 0.42468,
+      "pd_C": 0.42468
+    },
+    "Kurung Kumey": {
+      "baseline_revenue_cr": 3.6818,
+      "scenario_A_revenue_change_pct": -19.6336,
+      "scenario_B_revenue_change_pct": -19.865,
+      "scenario_C_revenue_change_pct": -11.7736,
+      "pd_A": 0.334442,
+      "pd_B": 0.337924,
+      "pd_C": 0.226038
+    },
+    "Lakhimpur": {
+      "baseline_revenue_cr": 275.8412,
+      "scenario_A_revenue_change_pct": -38.1903,
+      "scenario_B_revenue_change_pct": -38.4891,
+      "scenario_C_revenue_change_pct": -32.9633,
+      "pd_A": 0.579938,
+      "pd_B": 0.582812,
+      "pd_C": 0.529092
+    },
+    "Lakhisarai": {
+      "baseline_revenue_cr": 418.5726,
+      "scenario_A_revenue_change_pct": -19.811,
+      "scenario_B_revenue_change_pct": -20.2594,
+      "scenario_C_revenue_change_pct": -17.6372,
+      "pd_A": 0.384386,
+      "pd_B": 0.389339,
+      "pd_C": 0.360657
+    },
+    "Lalitpur": {
+      "baseline_revenue_cr": 1574.2983,
+      "scenario_A_revenue_change_pct": -23.0362,
+      "scenario_B_revenue_change_pct": -23.4334,
+      "scenario_C_revenue_change_pct": -18.2448,
+      "pd_A": 0.421994,
+      "pd_B": 0.426391,
+      "pd_C": 0.36987
+    },
+    "Latehar": {
+      "baseline_revenue_cr": 330.8185,
+      "scenario_A_revenue_change_pct": -37.6283,
+      "scenario_B_revenue_change_pct": -37.6728,
+      "scenario_C_revenue_change_pct": -34.2066,
+      "pd_A": 0.608486,
+      "pd_B": 0.609102,
+      "pd_C": 0.56035
+    },
+    "Latur": {
+      "baseline_revenue_cr": 3070.0579,
+      "scenario_A_revenue_change_pct": -31.4418,
+      "scenario_B_revenue_change_pct": -31.4418,
+      "scenario_C_revenue_change_pct": -31.4418,
+      "pd_A": 0.511865,
+      "pd_B": 0.511865,
+      "pd_C": 0.511865
+    },
+    "Lawngtlai": {
+      "baseline_revenue_cr": 9.825,
+      "scenario_A_revenue_change_pct": -17.2332,
+      "scenario_B_revenue_change_pct": -17.249,
+      "scenario_C_revenue_change_pct": -10.6452,
+      "pd_A": 0.380967,
+      "pd_B": 0.38111,
+      "pd_C": 0.323021
+    },
+    "Lohardaga": {
+      "baseline_revenue_cr": 232.7061,
+      "scenario_A_revenue_change_pct": -32.4147,
+      "scenario_B_revenue_change_pct": -32.5108,
+      "scenario_C_revenue_change_pct": -28.9247,
+      "pd_A": 0.53108,
+      "pd_B": 0.532313,
+      "pd_C": 0.486149
+    },
+    "Lohit": {
+      "baseline_revenue_cr": 48.5976,
+      "scenario_A_revenue_change_pct": -45.5308,
+      "scenario_B_revenue_change_pct": -45.8084,
+      "scenario_C_revenue_change_pct": -40.1497,
+      "pd_A": 0.708288,
+      "pd_B": 0.711644,
+      "pd_C": 0.639972
+    },
+    "Longding": {
+      "baseline_revenue_cr": 16.9856,
+      "scenario_A_revenue_change_pct": -23.9838,
+      "scenario_B_revenue_change_pct": -24.0749,
+      "scenario_C_revenue_change_pct": -15.8674,
+      "pd_A": 0.313671,
+      "pd_B": 0.316284,
+      "pd_C": 0.127058
+    },
+    "Longleng": {
+      "baseline_revenue_cr": 69.265,
+      "scenario_A_revenue_change_pct": -27.7774,
+      "scenario_B_revenue_change_pct": -27.866,
+      "scenario_C_revenue_change_pct": -20.0633,
+      "pd_A": 0.431972,
+      "pd_B": 0.434659,
+      "pd_C": 0.221814
+    },
+    "Lower Dibang Valley": {
+      "baseline_revenue_cr": 86.8658,
+      "scenario_A_revenue_change_pct": -33.4759,
+      "scenario_B_revenue_change_pct": -34.1826,
+      "scenario_C_revenue_change_pct": -28.9676,
+      "pd_A": 0.576269,
+      "pd_B": 0.591524,
+      "pd_C": 0.477219
+    },
+    "Lower Siang": {
+      "baseline_revenue_cr": 33.3377,
+      "scenario_A_revenue_change_pct": -36.3672,
+      "scenario_B_revenue_change_pct": -36.8577,
+      "scenario_C_revenue_change_pct": -31.5877,
+      "pd_A": 0.737845,
+      "pd_B": 0.753572,
+      "pd_C": 0.563073
+    },
+    "Lower Subansiri": {
+      "baseline_revenue_cr": 38.9148,
+      "scenario_A_revenue_change_pct": -24.6556,
+      "scenario_B_revenue_change_pct": -25.1556,
+      "scenario_C_revenue_change_pct": -18.9654,
+      "pd_A": 0.440049,
+      "pd_B": 0.445621,
+      "pd_C": 0.377728
+    },
+    "Lucknow": {
+      "baseline_revenue_cr": 836.0849,
+      "scenario_A_revenue_change_pct": -15.6688,
+      "scenario_B_revenue_change_pct": -16.2782,
+      "scenario_C_revenue_change_pct": -12.5951,
+      "pd_A": 0.325498,
+      "pd_B": 0.332456,
+      "pd_C": 0.291364
+    },
+    "Ludhiana": {
+      "baseline_revenue_cr": 5215.579,
+      "scenario_A_revenue_change_pct": -5.8665,
+      "scenario_B_revenue_change_pct": -5.8665,
+      "scenario_C_revenue_change_pct": -5.8665,
+      "pd_A": 0.257731,
+      "pd_B": 0.257731,
+      "pd_C": 0.257731
+    },
+    "Lunglei": {
+      "baseline_revenue_cr": 6.4733,
+      "scenario_A_revenue_change_pct": -17.1609,
+      "scenario_B_revenue_change_pct": -17.1771,
+      "scenario_C_revenue_change_pct": -10.5868,
+      "pd_A": 0.388024,
+      "pd_B": 0.388161,
+      "pd_C": 0.333549
+    },
+    "Madhepura": {
+      "baseline_revenue_cr": 482.1682,
+      "scenario_A_revenue_change_pct": -15.7701,
+      "scenario_B_revenue_change_pct": -15.7701,
+      "scenario_C_revenue_change_pct": -15.7701,
+      "pd_A": 0.261605,
+      "pd_B": 0.261605,
+      "pd_C": 0.261605
+    },
+    "Madhubani": {
+      "baseline_revenue_cr": 629.3705,
+      "scenario_A_revenue_change_pct": -15.9504,
+      "scenario_B_revenue_change_pct": -16.5601,
+      "scenario_C_revenue_change_pct": -12.5409,
+      "pd_A": 0.294965,
+      "pd_B": 0.303084,
+      "pd_C": 0.251517
+    },
+    "Madurai": {
+      "baseline_revenue_cr": 247.491,
+      "scenario_A_revenue_change_pct": -20.1708,
+      "scenario_B_revenue_change_pct": -20.5895,
+      "scenario_C_revenue_change_pct": -16.1011,
+      "pd_A": 0.405608,
+      "pd_B": 0.409558,
+      "pd_C": 0.367774
+    },
+    "Mahabubabad": {
+      "baseline_revenue_cr": 386.7416,
+      "scenario_A_revenue_change_pct": -17.0223,
+      "scenario_B_revenue_change_pct": -17.0223,
+      "scenario_C_revenue_change_pct": -17.0223,
+      "pd_A": 0.362798,
+      "pd_B": 0.362798,
+      "pd_C": 0.362798
+    },
+    "Mahabubnagar": {
+      "baseline_revenue_cr": 762.8459,
+      "scenario_A_revenue_change_pct": -27.4718,
+      "scenario_B_revenue_change_pct": -28.1341,
+      "scenario_C_revenue_change_pct": -26.0433,
+      "pd_A": 0.476127,
+      "pd_B": 0.482376,
+      "pd_C": 0.462669
+    },
+    "Mahasamund": {
+      "baseline_revenue_cr": 902.9589,
+      "scenario_A_revenue_change_pct": -13.2464,
+      "scenario_B_revenue_change_pct": -13.2464,
+      "scenario_C_revenue_change_pct": -13.2464,
+      "pd_A": 0.421761,
+      "pd_B": 0.421761,
+      "pd_C": 0.421761
+    },
+    "Mahendragarh": {
+      "baseline_revenue_cr": 1962.142,
+      "scenario_A_revenue_change_pct": -47.5937,
+      "scenario_B_revenue_change_pct": -48.5983,
+      "scenario_C_revenue_change_pct": -47.364,
+      "pd_A": 0.555459,
+      "pd_B": 0.558603,
+      "pd_C": 0.554739
+    },
+    "Mahesana": {
+      "baseline_revenue_cr": 847.896,
+      "scenario_A_revenue_change_pct": -27.6286,
+      "scenario_B_revenue_change_pct": -27.6286,
+      "scenario_C_revenue_change_pct": -27.6286,
+      "pd_A": 0.483425,
+      "pd_B": 0.483425,
+      "pd_C": 0.483425
+    },
+    "Mahisagar": {
+      "baseline_revenue_cr": 359.7991,
+      "scenario_A_revenue_change_pct": -24.6846,
+      "scenario_B_revenue_change_pct": -25.4228,
+      "scenario_C_revenue_change_pct": -23.2364,
+      "pd_A": 0.406558,
+      "pd_B": 0.419342,
+      "pd_C": 0.381775
+    },
+    "Mahoba": {
+      "baseline_revenue_cr": 679.738,
+      "scenario_A_revenue_change_pct": -45.139,
+      "scenario_B_revenue_change_pct": -45.5052,
+      "scenario_C_revenue_change_pct": -42.6942,
+      "pd_A": 0.57825,
+      "pd_B": 0.580118,
+      "pd_C": 0.56574
+    },
+    "Mainpuri": {
+      "baseline_revenue_cr": 1895.0426,
+      "scenario_A_revenue_change_pct": -12.0092,
+      "scenario_B_revenue_change_pct": -12.0092,
+      "scenario_C_revenue_change_pct": -12.0092,
+      "pd_A": 0.289953,
+      "pd_B": 0.289953,
+      "pd_C": 0.289953
+    },
+    "Malappuram": {
+      "baseline_revenue_cr": 15.4225,
+      "scenario_A_revenue_change_pct": -14.2142,
+      "scenario_B_revenue_change_pct": -14.4461,
+      "scenario_C_revenue_change_pct": -8.9186,
+      "pd_A": 0.330483,
+      "pd_B": 0.332822,
+      "pd_C": 0.279036
+    },
+    "Maldah": {
+      "baseline_revenue_cr": 1061.5572,
+      "scenario_A_revenue_change_pct": -30.411,
+      "scenario_B_revenue_change_pct": -30.9643,
+      "scenario_C_revenue_change_pct": -28.986,
+      "pd_A": 0.504263,
+      "pd_B": 0.51,
+      "pd_C": 0.489485
+    },
+    "Malkangiri": {
+      "baseline_revenue_cr": 129.4944,
+      "scenario_A_revenue_change_pct": -18.0298,
+      "scenario_B_revenue_change_pct": -18.0496,
+      "scenario_C_revenue_change_pct": -13.0233,
+      "pd_A": 0.454857,
+      "pd_B": 0.454931,
+      "pd_C": 0.436114
+    },
+    "Mamit": {
+      "baseline_revenue_cr": 6.2754,
+      "scenario_A_revenue_change_pct": -16.8797,
+      "scenario_B_revenue_change_pct": -16.8953,
+      "scenario_C_revenue_change_pct": -10.271,
+      "pd_A": 0.360536,
+      "pd_B": 0.360695,
+      "pd_C": 0.295682
+    },
+    "Mancherial": {
+      "baseline_revenue_cr": 227.9547,
+      "scenario_A_revenue_change_pct": -13.9967,
+      "scenario_B_revenue_change_pct": -13.9967,
+      "scenario_C_revenue_change_pct": -13.9967,
+      "pd_A": 0.228138,
+      "pd_B": 0.228138,
+      "pd_C": 0.228138
+    },
+    "Mandi": {
+      "baseline_revenue_cr": 399.8656,
+      "scenario_A_revenue_change_pct": -22.6108,
+      "scenario_B_revenue_change_pct": -22.7628,
+      "scenario_C_revenue_change_pct": -13.1324,
+      "pd_A": 0.435311,
+      "pd_B": 0.43663,
+      "pd_C": 0.355026
+    },
+    "Mandla": {
+      "baseline_revenue_cr": 1299.7838,
+      "scenario_A_revenue_change_pct": -26.091,
+      "scenario_B_revenue_change_pct": -26.2121,
+      "scenario_C_revenue_change_pct": -21.5833,
+      "pd_A": 0.481663,
+      "pd_B": 0.48223,
+      "pd_C": 0.460567
+    },
+    "Mandsaur": {
+      "baseline_revenue_cr": 3990.7863,
+      "scenario_A_revenue_change_pct": -21.8488,
+      "scenario_B_revenue_change_pct": -21.8488,
+      "scenario_C_revenue_change_pct": -21.8488,
+      "pd_A": 0.472347,
+      "pd_B": 0.472347,
+      "pd_C": 0.472347
+    },
+    "Mandya": {
+      "baseline_revenue_cr": 144.6488,
+      "scenario_A_revenue_change_pct": -12.5603,
+      "scenario_B_revenue_change_pct": -12.5603,
+      "scenario_C_revenue_change_pct": -12.5603,
+      "pd_A": 0.34296,
+      "pd_B": 0.34296,
+      "pd_C": 0.34296
+    },
+    "Mansa": {
+      "baseline_revenue_cr": 2877.9654,
+      "scenario_A_revenue_change_pct": -5.4079,
+      "scenario_B_revenue_change_pct": -5.4079,
+      "scenario_C_revenue_change_pct": -5.4079,
+      "pd_A": 0.166434,
+      "pd_B": 0.166434,
+      "pd_C": 0.166434
+    },
+    "Mathura": {
+      "baseline_revenue_cr": 2265.2517,
+      "scenario_A_revenue_change_pct": -24.1115,
+      "scenario_B_revenue_change_pct": -24.1115,
+      "scenario_C_revenue_change_pct": -24.1115,
+      "pd_A": 0.413479,
+      "pd_B": 0.413479,
+      "pd_C": 0.413479
+    },
+    "Mau": {
+      "baseline_revenue_cr": 1121.9727,
+      "scenario_A_revenue_change_pct": -7.2693,
+      "scenario_B_revenue_change_pct": -7.2693,
+      "scenario_C_revenue_change_pct": -7.2693,
+      "pd_A": 0.372911,
+      "pd_B": 0.372911,
+      "pd_C": 0.372911
+    },
+    "Mayurbhanj": {
+      "baseline_revenue_cr": 460.331,
+      "scenario_A_revenue_change_pct": -17.2,
+      "scenario_B_revenue_change_pct": -17.376,
+      "scenario_C_revenue_change_pct": -13.1821,
+      "pd_A": 0.340543,
+      "pd_B": 0.342618,
+      "pd_C": 0.294602
+    },
+    "Medak": {
+      "baseline_revenue_cr": 516.9636,
+      "scenario_A_revenue_change_pct": -16.5896,
+      "scenario_B_revenue_change_pct": -16.5896,
+      "scenario_C_revenue_change_pct": -16.5896,
+      "pd_A": 0.388317,
+      "pd_B": 0.388317,
+      "pd_C": 0.388317
+    },
+    "Medchal Malkajgiri": {
+      "baseline_revenue_cr": 34.8409,
+      "scenario_A_revenue_change_pct": -15.7453,
+      "scenario_B_revenue_change_pct": -15.9694,
+      "scenario_C_revenue_change_pct": -11.5069,
+      "pd_A": 0.236003,
+      "pd_B": 0.239499,
+      "pd_C": 0.175392
+    },
+    "Meerut": {
+      "baseline_revenue_cr": 830.969,
+      "scenario_A_revenue_change_pct": -17.0634,
+      "scenario_B_revenue_change_pct": -17.9473,
+      "scenario_C_revenue_change_pct": -14.4744,
+      "pd_A": 0.317518,
+      "pd_B": 0.329165,
+      "pd_C": 0.284461
+    },
+    "Mirzapur": {
+      "baseline_revenue_cr": 1199.5406,
+      "scenario_A_revenue_change_pct": -19.5953,
+      "scenario_B_revenue_change_pct": -20.454,
+      "scenario_C_revenue_change_pct": -18.3157,
+      "pd_A": 0.360845,
+      "pd_B": 0.371909,
+      "pd_C": 0.344576
+    },
+    "Moga": {
+      "baseline_revenue_cr": 3678.7107,
+      "scenario_A_revenue_change_pct": -4.6708,
+      "scenario_B_revenue_change_pct": -4.6708,
+      "scenario_C_revenue_change_pct": -4.6708,
+      "pd_A": 0.096636,
+      "pd_B": 0.096636,
+      "pd_C": 0.096636
+    },
+    "Mokokchung": {
+      "baseline_revenue_cr": 123.1484,
+      "scenario_A_revenue_change_pct": -29.4328,
+      "scenario_B_revenue_change_pct": -29.5726,
+      "scenario_C_revenue_change_pct": -22.6449,
+      "pd_A": 0.489147,
+      "pd_B": 0.491821,
+      "pd_C": 0.36211
+    },
+    "Mon": {
+      "baseline_revenue_cr": 120.5061,
+      "scenario_A_revenue_change_pct": -32.5439,
+      "scenario_B_revenue_change_pct": -32.6367,
+      "scenario_C_revenue_change_pct": -25.4859,
+      "pd_A": 0.544165,
+      "pd_B": 0.545769,
+      "pd_C": 0.421973
+    },
+    "Moradabad": {
+      "baseline_revenue_cr": 1222.1012,
+      "scenario_A_revenue_change_pct": -6.0822,
+      "scenario_B_revenue_change_pct": -6.0822,
+      "scenario_C_revenue_change_pct": -6.0822,
+      "pd_A": 0.194347,
+      "pd_B": 0.194347,
+      "pd_C": 0.194347
+    },
+    "Morbi": {
+      "baseline_revenue_cr": 642.2147,
+      "scenario_A_revenue_change_pct": -30.2479,
+      "scenario_B_revenue_change_pct": -30.2479,
+      "scenario_C_revenue_change_pct": -30.2479,
+      "pd_A": 0.504593,
+      "pd_B": 0.504593,
+      "pd_C": 0.504593
+    },
+    "Morena": {
+      "baseline_revenue_cr": 3169.7423,
+      "scenario_A_revenue_change_pct": -46.3233,
+      "scenario_B_revenue_change_pct": -47.1402,
+      "scenario_C_revenue_change_pct": -46.1422,
+      "pd_A": 0.62173,
+      "pd_B": 0.627614,
+      "pd_C": 0.620421
+    },
+    "Mulugu": {
+      "baseline_revenue_cr": 221.8269,
+      "scenario_A_revenue_change_pct": -15.182,
+      "scenario_B_revenue_change_pct": -15.3304,
+      "scenario_C_revenue_change_pct": -10.1534,
+      "pd_A": 0.379524,
+      "pd_B": 0.380693,
+      "pd_C": 0.340601
+    },
+    "Mumbai Suburban": {
+      "baseline_revenue_cr": 0.18,
+      "scenario_A_revenue_change_pct": -14.8588,
+      "scenario_B_revenue_change_pct": -15.5207,
+      "scenario_C_revenue_change_pct": -13.1539,
+      "pd_A": 0.224507,
+      "pd_B": 0.234544,
+      "pd_C": 0.199809
+    },
+    "Mungeli": {
+      "baseline_revenue_cr": 616.2114,
+      "scenario_A_revenue_change_pct": -22.8565,
+      "scenario_B_revenue_change_pct": -23.2719,
+      "scenario_C_revenue_change_pct": -20.8603,
+      "pd_A": 0.382608,
+      "pd_B": 0.389251,
+      "pd_C": 0.351199
+    },
+    "Munger": {
+      "baseline_revenue_cr": 141.5349,
+      "scenario_A_revenue_change_pct": -18.0454,
+      "scenario_B_revenue_change_pct": -18.3781,
+      "scenario_C_revenue_change_pct": -14.8737,
+      "pd_A": 0.336388,
+      "pd_B": 0.340688,
+      "pd_C": 0.296535
+    },
+    "Murshidabad": {
+      "baseline_revenue_cr": 1927.8263,
+      "scenario_A_revenue_change_pct": -38.6913,
+      "scenario_B_revenue_change_pct": -39.1383,
+      "scenario_C_revenue_change_pct": -37.5401,
+      "pd_A": 0.628908,
+      "pd_B": 0.635283,
+      "pd_C": 0.612326
+    },
+    "Muzaffarnagar": {
+      "baseline_revenue_cr": 796.6072,
+      "scenario_A_revenue_change_pct": -9.9789,
+      "scenario_B_revenue_change_pct": -9.9789,
+      "scenario_C_revenue_change_pct": -9.9789,
+      "pd_A": 0.200737,
+      "pd_B": 0.200737,
+      "pd_C": 0.200737
+    },
+    "Muzaffarpur": {
+      "baseline_revenue_cr": 875.1979,
+      "scenario_A_revenue_change_pct": -16.5136,
+      "scenario_B_revenue_change_pct": -16.5136,
+      "scenario_C_revenue_change_pct": -16.5136,
+      "pd_A": 0.344567,
+      "pd_B": 0.344567,
+      "pd_C": 0.344567
+    },
+    "Mysuru": {
+      "baseline_revenue_cr": 383.0262,
+      "scenario_A_revenue_change_pct": -16.6544,
+      "scenario_B_revenue_change_pct": -17.1671,
+      "scenario_C_revenue_change_pct": -12.6789,
+      "pd_A": 0.323389,
+      "pd_B": 0.329737,
+      "pd_C": 0.276005
+    },
+    "Nadia": {
+      "baseline_revenue_cr": 1183.5098,
+      "scenario_A_revenue_change_pct": -40.6671,
+      "scenario_B_revenue_change_pct": -41.0715,
+      "scenario_C_revenue_change_pct": -39.6255,
+      "pd_A": 0.667457,
+      "pd_B": 0.673398,
+      "pd_C": 0.651965
+    },
+    "Nagaon": {
+      "baseline_revenue_cr": 379.4115,
+      "scenario_A_revenue_change_pct": -25.1829,
+      "scenario_B_revenue_change_pct": -25.6883,
+      "scenario_C_revenue_change_pct": -20.6163,
+      "pd_A": 0.430965,
+      "pd_B": 0.438147,
+      "pd_C": 0.367385
+    },
+    "Nagapattinam": {
+      "baseline_revenue_cr": 681.1374,
+      "scenario_A_revenue_change_pct": -14.5899,
+      "scenario_B_revenue_change_pct": -14.5899,
+      "scenario_C_revenue_change_pct": -14.5899,
+      "pd_A": 0.436022,
+      "pd_B": 0.436022,
+      "pd_C": 0.436022
+    },
+    "Nagarkurnool": {
+      "baseline_revenue_cr": 655.1056,
+      "scenario_A_revenue_change_pct": -23.2274,
+      "scenario_B_revenue_change_pct": -23.8683,
+      "scenario_C_revenue_change_pct": -21.3736,
+      "pd_A": 0.415649,
+      "pd_B": 0.423528,
+      "pd_C": 0.393061
+    },
+    "Nagaur": {
+      "baseline_revenue_cr": 4116.8864,
+      "scenario_A_revenue_change_pct": -44.0267,
+      "scenario_B_revenue_change_pct": -44.5379,
+      "scenario_C_revenue_change_pct": -41.4799,
+      "pd_A": 0.594365,
+      "pd_B": 0.597736,
+      "pd_C": 0.577473
+    },
+    "Nagpur": {
+      "baseline_revenue_cr": 2140.571,
+      "scenario_A_revenue_change_pct": -28.5519,
+      "scenario_B_revenue_change_pct": -29.2895,
+      "scenario_C_revenue_change_pct": -27.2855,
+      "pd_A": 0.494654,
+      "pd_B": 0.497377,
+      "pd_C": 0.48998
+    },
+    "Nainital": {
+      "baseline_revenue_cr": 246.5359,
+      "scenario_A_revenue_change_pct": -18.5716,
+      "scenario_B_revenue_change_pct": -18.7528,
+      "scenario_C_revenue_change_pct": -11.6176,
+      "pd_A": 0.384759,
+      "pd_B": 0.386536,
+      "pd_C": 0.318716
+    },
+    "Nalanda": {
+      "baseline_revenue_cr": 885.3637,
+      "scenario_A_revenue_change_pct": -15.2987,
+      "scenario_B_revenue_change_pct": -15.2987,
+      "scenario_C_revenue_change_pct": -15.2987,
+      "pd_A": 0.328863,
+      "pd_B": 0.328863,
+      "pd_C": 0.328863
+    },
+    "Nalbari": {
+      "baseline_revenue_cr": 163.2784,
+      "scenario_A_revenue_change_pct": -27.7211,
+      "scenario_B_revenue_change_pct": -28.378,
+      "scenario_C_revenue_change_pct": -24.5522,
+      "pd_A": 0.471522,
+      "pd_B": 0.479722,
+      "pd_C": 0.432194
+    },
+    "Nalgonda": {
+      "baseline_revenue_cr": 706.3072,
+      "scenario_A_revenue_change_pct": -13.6644,
+      "scenario_B_revenue_change_pct": -13.6644,
+      "scenario_C_revenue_change_pct": -13.6644,
+      "pd_A": 0.349149,
+      "pd_B": 0.349149,
+      "pd_C": 0.349149
+    },
+    "Namakkal": {
+      "baseline_revenue_cr": 315.7828,
+      "scenario_A_revenue_change_pct": -30.8047,
+      "scenario_B_revenue_change_pct": -31.2868,
+      "scenario_C_revenue_change_pct": -27.6442,
+      "pd_A": 0.504815,
+      "pd_B": 0.5077,
+      "pd_C": 0.485905
+    },
+    "Namsai": {
+      "baseline_revenue_cr": 79.3447,
+      "scenario_A_revenue_change_pct": -37.5032,
+      "scenario_B_revenue_change_pct": -37.8465,
+      "scenario_C_revenue_change_pct": -31.701,
+      "pd_A": 0.61948,
+      "pd_B": 0.624769,
+      "pd_C": 0.527484
+    },
+    "Nanded": {
+      "baseline_revenue_cr": 2411.3267,
+      "scenario_A_revenue_change_pct": -39.4546,
+      "scenario_B_revenue_change_pct": -39.7067,
+      "scenario_C_revenue_change_pct": -36.6465,
+      "pd_A": 0.568396,
+      "pd_B": 0.5702,
+      "pd_C": 0.548202
+    },
+    "Nandurbar": {
+      "baseline_revenue_cr": 696.4117,
+      "scenario_A_revenue_change_pct": -33.3999,
+      "scenario_B_revenue_change_pct": -33.7754,
+      "scenario_C_revenue_change_pct": -31.1823,
+      "pd_A": 0.536712,
+      "pd_B": 0.540752,
+      "pd_C": 0.512782
+    },
+    "Narayanpur": {
+      "baseline_revenue_cr": 65.1117,
+      "scenario_A_revenue_change_pct": -14.7241,
+      "scenario_B_revenue_change_pct": -14.7249,
+      "scenario_C_revenue_change_pct": -9.8284,
+      "pd_A": 0.455076,
+      "pd_B": 0.455078,
+      "pd_C": 0.440772
+    },
+    "Narmada": {
+      "baseline_revenue_cr": 198.1366,
+      "scenario_A_revenue_change_pct": -30.2036,
+      "scenario_B_revenue_change_pct": -30.3751,
+      "scenario_C_revenue_change_pct": -27.0894,
+      "pd_A": 0.502861,
+      "pd_B": 0.50527,
+      "pd_C": 0.459168
+    },
+    "Nashik": {
+      "baseline_revenue_cr": 1887.8391,
+      "scenario_A_revenue_change_pct": -25.2687,
+      "scenario_B_revenue_change_pct": -25.2687,
+      "scenario_C_revenue_change_pct": -25.2687,
+      "pd_A": 0.481783,
+      "pd_B": 0.481783,
+      "pd_C": 0.481783
+    },
+    "Navsari": {
+      "baseline_revenue_cr": 165.6238,
+      "scenario_A_revenue_change_pct": -14.5691,
+      "scenario_B_revenue_change_pct": -14.5691,
+      "scenario_C_revenue_change_pct": -14.5691,
+      "pd_A": 0.392101,
+      "pd_B": 0.392101,
+      "pd_C": 0.392101
+    },
+    "Nawada": {
+      "baseline_revenue_cr": 475.0946,
+      "scenario_A_revenue_change_pct": -15.6113,
+      "scenario_B_revenue_change_pct": -16.1204,
+      "scenario_C_revenue_change_pct": -13.3577,
+      "pd_A": 0.313918,
+      "pd_B": 0.320028,
+      "pd_C": 0.287501
+    },
+    "Nayagarh": {
+      "baseline_revenue_cr": 1899.4375,
+      "scenario_A_revenue_change_pct": -14.401,
+      "scenario_B_revenue_change_pct": -14.401,
+      "scenario_C_revenue_change_pct": -14.401,
+      "pd_A": 0.449031,
+      "pd_B": 0.449031,
+      "pd_C": 0.449031
+    },
+    "Neemuch": {
+      "baseline_revenue_cr": 1537.14,
+      "scenario_A_revenue_change_pct": -28.0936,
+      "scenario_B_revenue_change_pct": -28.9856,
+      "scenario_C_revenue_change_pct": -26.8946,
+      "pd_A": 0.48112,
+      "pd_B": 0.489951,
+      "pd_C": 0.469264
+    },
+    "Nicobars": {
+      "baseline_revenue_cr": 0.0214,
+      "scenario_A_revenue_change_pct": -26.3905,
+      "scenario_B_revenue_change_pct": -27.46,
+      "scenario_C_revenue_change_pct": -23.6358,
+      "pd_A": 0.479656,
+      "pd_B": 0.485681,
+      "pd_C": 0.464162
+    },
+    "Nirmal": {
+      "baseline_revenue_cr": 793.0601,
+      "scenario_A_revenue_change_pct": -23.7826,
+      "scenario_B_revenue_change_pct": -24.4437,
+      "scenario_C_revenue_change_pct": -22.3338,
+      "pd_A": 0.446158,
+      "pd_B": 0.451853,
+      "pd_C": 0.433716
+    },
+    "Niwari": {
+      "baseline_revenue_cr": 554.9749,
+      "scenario_A_revenue_change_pct": -12.0214,
+      "scenario_B_revenue_change_pct": -12.0214,
+      "scenario_C_revenue_change_pct": -12.0214,
+      "pd_A": 0.184346,
+      "pd_B": 0.184346,
+      "pd_C": 0.184346
+    },
+    "Nizamabad": {
+      "baseline_revenue_cr": 1220.358,
+      "scenario_A_revenue_change_pct": -17.2802,
+      "scenario_B_revenue_change_pct": -17.2802,
+      "scenario_C_revenue_change_pct": -17.2802,
+      "pd_A": 0.440999,
+      "pd_B": 0.440999,
+      "pd_C": 0.440999
+    },
+    "North Garo Hills": {
+      "baseline_revenue_cr": 17.789,
+      "scenario_A_revenue_change_pct": -32.9568,
+      "scenario_B_revenue_change_pct": -33.0902,
+      "scenario_C_revenue_change_pct": -27.9689,
+      "pd_A": 0.609577,
+      "pd_B": 0.614386,
+      "pd_C": 0.42422
+    },
+    "North Goa": {
+      "baseline_revenue_cr": 52.7048,
+      "scenario_A_revenue_change_pct": -16.5293,
+      "scenario_B_revenue_change_pct": -16.5293,
+      "scenario_C_revenue_change_pct": -16.5293,
+      "pd_A": 0.17023,
+      "pd_B": 0.17023,
+      "pd_C": 0.17023
+    },
+    "North Tripura": {
+      "baseline_revenue_cr": 53.0309,
+      "scenario_A_revenue_change_pct": -23.6923,
+      "scenario_B_revenue_change_pct": -23.8076,
+      "scenario_C_revenue_change_pct": -18.3523,
+      "pd_A": 0.318585,
+      "pd_B": 0.321669,
+      "pd_C": 0.19189
+    },
+    "Nuapada": {
+      "baseline_revenue_cr": 162.7,
+      "scenario_A_revenue_change_pct": -21.5194,
+      "scenario_B_revenue_change_pct": -21.6594,
+      "scenario_C_revenue_change_pct": -17.9479,
+      "pd_A": 0.429083,
+      "pd_B": 0.430242,
+      "pd_C": 0.399759
+    },
+    "Osmanabad": {
+      "baseline_revenue_cr": 1209.1605,
+      "scenario_A_revenue_change_pct": -45.4324,
+      "scenario_B_revenue_change_pct": -45.8772,
+      "scenario_C_revenue_change_pct": -44.2866,
+      "pd_A": 0.561277,
+      "pd_B": 0.563029,
+      "pd_C": 0.556759
+    },
+    "Pakke Kessang": {
+      "baseline_revenue_cr": 12.0611,
+      "scenario_A_revenue_change_pct": -26.2597,
+      "scenario_B_revenue_change_pct": -26.5895,
+      "scenario_C_revenue_change_pct": -20.3073,
+      "pd_A": 0.354191,
+      "pd_B": 0.366533,
+      "pd_C": 0.166205
+    },
+    "Pakur": {
+      "baseline_revenue_cr": 261.4237,
+      "scenario_A_revenue_change_pct": -39.7612,
+      "scenario_B_revenue_change_pct": -39.7807,
+      "scenario_C_revenue_change_pct": -36.9968,
+      "pd_A": 0.605305,
+      "pd_B": 0.60551,
+      "pd_C": 0.575916
+    },
+    "Palakkad": {
+      "baseline_revenue_cr": 144.3393,
+      "scenario_A_revenue_change_pct": -14.0921,
+      "scenario_B_revenue_change_pct": -14.0921,
+      "scenario_C_revenue_change_pct": -14.0921,
+      "pd_A": 0.289869,
+      "pd_B": 0.289869,
+      "pd_C": 0.289869
+    },
+    "Palamu": {
+      "baseline_revenue_cr": 521.446,
+      "scenario_A_revenue_change_pct": -37.506,
+      "scenario_B_revenue_change_pct": -37.5699,
+      "scenario_C_revenue_change_pct": -34.1113,
+      "pd_A": 0.587287,
+      "pd_B": 0.588018,
+      "pd_C": 0.548082
+    },
+    "Palghar": {
+      "baseline_revenue_cr": 210.1854,
+      "scenario_A_revenue_change_pct": -16.951,
+      "scenario_B_revenue_change_pct": -17.0558,
+      "scenario_C_revenue_change_pct": -12.6504,
+      "pd_A": 0.416033,
+      "pd_B": 0.416698,
+      "pd_C": 0.388995
+    },
+    "Pali": {
+      "baseline_revenue_cr": 2000.2563,
+      "scenario_A_revenue_change_pct": -54.9638,
+      "scenario_B_revenue_change_pct": -55.2761,
+      "scenario_C_revenue_change_pct": -51.9829,
+      "pd_A": 0.695809,
+      "pd_B": 0.698048,
+      "pd_C": 0.674077
+    },
+    "Palwal": {
+      "baseline_revenue_cr": 1128.9079,
+      "scenario_A_revenue_change_pct": -13.5476,
+      "scenario_B_revenue_change_pct": -13.5476,
+      "scenario_C_revenue_change_pct": -13.5476,
+      "pd_A": 0.374939,
+      "pd_B": 0.374939,
+      "pd_C": 0.374939
+    },
+    "Panch Mahals": {
+      "baseline_revenue_cr": 463.2198,
+      "scenario_A_revenue_change_pct": -23.5417,
+      "scenario_B_revenue_change_pct": -23.8104,
+      "scenario_C_revenue_change_pct": -20.0756,
+      "pd_A": 0.431433,
+      "pd_B": 0.43426,
+      "pd_C": 0.39534
+    },
+    "Panchkula": {
+      "baseline_revenue_cr": 388.6315,
+      "scenario_A_revenue_change_pct": -16.1871,
+      "scenario_B_revenue_change_pct": -17.3361,
+      "scenario_C_revenue_change_pct": -12.7696,
+      "pd_A": 0.457369,
+      "pd_B": 0.460903,
+      "pd_C": 0.446878
+    },
+    "Panipat": {
+      "baseline_revenue_cr": 1579.3003,
+      "scenario_A_revenue_change_pct": -7.6357,
+      "scenario_B_revenue_change_pct": -7.6357,
+      "scenario_C_revenue_change_pct": -7.6357,
+      "pd_A": 0.420715,
+      "pd_B": 0.420715,
+      "pd_C": 0.420715
+    },
+    "Panna": {
+      "baseline_revenue_cr": 1751.9149,
+      "scenario_A_revenue_change_pct": -49.0037,
+      "scenario_B_revenue_change_pct": -49.4086,
+      "scenario_C_revenue_change_pct": -47.1853,
+      "pd_A": 0.603274,
+      "pd_B": 0.605423,
+      "pd_C": 0.593586
+    },
+    "Papum Pare": {
+      "baseline_revenue_cr": 68.2752,
+      "scenario_A_revenue_change_pct": -24.2116,
+      "scenario_B_revenue_change_pct": -24.9442,
+      "scenario_C_revenue_change_pct": -19.9357,
+      "pd_A": 0.380691,
+      "pd_B": 0.395415,
+      "pd_C": 0.298756
+    },
+    "Parbhani": {
+      "baseline_revenue_cr": 1580.0975,
+      "scenario_A_revenue_change_pct": -29.1179,
+      "scenario_B_revenue_change_pct": -29.6123,
+      "scenario_C_revenue_change_pct": -27.3684,
+      "pd_A": 0.495391,
+      "pd_B": 0.497974,
+      "pd_C": 0.486254
+    },
+    "Paschim Bardhaman": {
+      "baseline_revenue_cr": 100.4768,
+      "scenario_A_revenue_change_pct": -16.0442,
+      "scenario_B_revenue_change_pct": -16.0442,
+      "scenario_C_revenue_change_pct": -16.0442,
+      "pd_A": 0.274776,
+      "pd_B": 0.274776,
+      "pd_C": 0.274776
+    },
+    "Pashchim Champaran": {
+      "baseline_revenue_cr": 681.1157,
+      "scenario_A_revenue_change_pct": -15.62,
+      "scenario_B_revenue_change_pct": -16.5795,
+      "scenario_C_revenue_change_pct": -13.0573,
+      "pd_A": 0.293025,
+      "pd_B": 0.305645,
+      "pd_C": 0.260561
+    },
+    "Patan": {
+      "baseline_revenue_cr": 570.9977,
+      "scenario_A_revenue_change_pct": -48.9485,
+      "scenario_B_revenue_change_pct": -49.8161,
+      "scenario_C_revenue_change_pct": -48.1793,
+      "pd_A": 0.655118,
+      "pd_B": 0.661826,
+      "pd_C": 0.649129
+    },
+    "Pathanamthitta": {
+      "baseline_revenue_cr": 4.9825,
+      "scenario_A_revenue_change_pct": -11.4125,
+      "scenario_B_revenue_change_pct": -11.4125,
+      "scenario_C_revenue_change_pct": -11.4125,
+      "pd_A": 0.411054,
+      "pd_B": 0.411054,
+      "pd_C": 0.411054
+    },
+    "Pathankot": {
+      "baseline_revenue_cr": 580.8545,
+      "scenario_A_revenue_change_pct": -13.3434,
+      "scenario_B_revenue_change_pct": -13.3434,
+      "scenario_C_revenue_change_pct": -13.3434,
+      "pd_A": 0.059079,
+      "pd_B": 0.059079,
+      "pd_C": 0.059079
+    },
+    "Patiala": {
+      "baseline_revenue_cr": 4502.1027,
+      "scenario_A_revenue_change_pct": -6.1087,
+      "scenario_B_revenue_change_pct": -6.1087,
+      "scenario_C_revenue_change_pct": -6.1087,
+      "pd_A": 0.15879,
+      "pd_B": 0.15879,
+      "pd_C": 0.15879
+    },
+    "Patna": {
+      "baseline_revenue_cr": 663.2424,
+      "scenario_A_revenue_change_pct": -20.8837,
+      "scenario_B_revenue_change_pct": -21.4518,
+      "scenario_C_revenue_change_pct": -18.2047,
+      "pd_A": 0.371055,
+      "pd_B": 0.37883,
+      "pd_C": 0.33514
+    },
+    "Peddapalli": {
+      "baseline_revenue_cr": 483.1775,
+      "scenario_A_revenue_change_pct": -10.1954,
+      "scenario_B_revenue_change_pct": -10.1954,
+      "scenario_C_revenue_change_pct": -10.1954,
+      "pd_A": 0.174841,
+      "pd_B": 0.174841,
+      "pd_C": 0.174841
+    },
+    "Perambalur": {
+      "baseline_revenue_cr": 358.2803,
+      "scenario_A_revenue_change_pct": -19.042,
+      "scenario_B_revenue_change_pct": -19.4029,
+      "scenario_C_revenue_change_pct": -14.5641,
+      "pd_A": 0.474284,
+      "pd_B": 0.47513,
+      "pd_C": 0.4638
+    },
+    "Peren": {
+      "baseline_revenue_cr": 90.2193,
+      "scenario_A_revenue_change_pct": -29.7885,
+      "scenario_B_revenue_change_pct": -29.9831,
+      "scenario_C_revenue_change_pct": -24.1417,
+      "pd_A": 0.492827,
+      "pd_B": 0.499427,
+      "pd_C": 0.309179
+    },
+    "Phek": {
+      "baseline_revenue_cr": 150.995,
+      "scenario_A_revenue_change_pct": -26.3522,
+      "scenario_B_revenue_change_pct": -26.5758,
+      "scenario_C_revenue_change_pct": -20.1116,
+      "pd_A": 0.429505,
+      "pd_B": 0.433783,
+      "pd_C": 0.315068
+    },
+    "Pilibhit": {
+      "baseline_revenue_cr": 1879.8999,
+      "scenario_A_revenue_change_pct": -10.5868,
+      "scenario_B_revenue_change_pct": -10.5868,
+      "scenario_C_revenue_change_pct": -10.5868,
+      "pd_A": 0.379009,
+      "pd_B": 0.379009,
+      "pd_C": 0.379009
+    },
+    "Pithoragarh": {
+      "baseline_revenue_cr": 141.8756,
+      "scenario_A_revenue_change_pct": -23.7034,
+      "scenario_B_revenue_change_pct": -23.7147,
+      "scenario_C_revenue_change_pct": -13.3107,
+      "pd_A": 0.412327,
+      "pd_B": 0.412483,
+      "pd_C": 0.278517
+    },
+    "Porbandar": {
+      "baseline_revenue_cr": 917.2182,
+      "scenario_A_revenue_change_pct": -40.5802,
+      "scenario_B_revenue_change_pct": -41.1096,
+      "scenario_C_revenue_change_pct": -38.8872,
+      "pd_A": 0.638644,
+      "pd_B": 0.645273,
+      "pd_C": 0.617169
+    },
+    "Prakasam": {
+      "baseline_revenue_cr": 1175.2786,
+      "scenario_A_revenue_change_pct": -74.5018,
+      "scenario_B_revenue_change_pct": -74.5035,
+      "scenario_C_revenue_change_pct": -74.4312,
+      "pd_A": 0.713877,
+      "pd_B": 0.713884,
+      "pd_C": 0.713572
+    },
+    "Pratapgarh": {
+      "baseline_revenue_cr": 1800.4188,
+      "scenario_A_revenue_change_pct": -15.6361,
+      "scenario_B_revenue_change_pct": -16.6926,
+      "scenario_C_revenue_change_pct": -15.0282,
+      "pd_A": 0.313331,
+      "pd_B": 0.32612,
+      "pd_C": 0.306071
+    },
+    "Pudukkottai": {
+      "baseline_revenue_cr": 326.9097,
+      "scenario_A_revenue_change_pct": -17.7641,
+      "scenario_B_revenue_change_pct": -17.7641,
+      "scenario_C_revenue_change_pct": -17.7641,
+      "pd_A": 0.44635,
+      "pd_B": 0.44635,
+      "pd_C": 0.44635
+    },
+    "Pulwama": {
+      "baseline_revenue_cr": 104.8247,
+      "scenario_A_revenue_change_pct": -40.7302,
+      "scenario_B_revenue_change_pct": -41.8385,
+      "scenario_C_revenue_change_pct": -38.1076,
+      "pd_A": 0.607108,
+      "pd_B": 0.617858,
+      "pd_C": 0.581354
+    },
+    "Pune": {
+      "baseline_revenue_cr": 1498.8295,
+      "scenario_A_revenue_change_pct": -41.6817,
+      "scenario_B_revenue_change_pct": -42.1615,
+      "scenario_C_revenue_change_pct": -39.6809,
+      "pd_A": 0.550477,
+      "pd_B": 0.552539,
+      "pd_C": 0.541867
+    },
+    "Purba Bardhaman": {
+      "baseline_revenue_cr": 1269.4102,
+      "scenario_A_revenue_change_pct": -19.8614,
+      "scenario_B_revenue_change_pct": -19.8614,
+      "scenario_C_revenue_change_pct": -19.8614,
+      "pd_A": 0.435154,
+      "pd_B": 0.435154,
+      "pd_C": 0.435154
+    },
+    "Purba Medinipur": {
+      "baseline_revenue_cr": 989.3595,
+      "scenario_A_revenue_change_pct": -17.6306,
+      "scenario_B_revenue_change_pct": -17.6306,
+      "scenario_C_revenue_change_pct": -17.6306,
+      "pd_A": 0.338254,
+      "pd_B": 0.338254,
+      "pd_C": 0.338254
+    },
+    "Puri": {
+      "baseline_revenue_cr": 336.1886,
+      "scenario_A_revenue_change_pct": -16.7612,
+      "scenario_B_revenue_change_pct": -16.7612,
+      "scenario_C_revenue_change_pct": -16.7612,
+      "pd_A": 0.381483,
+      "pd_B": 0.381483,
+      "pd_C": 0.381483
+    },
+    "Purnia": {
+      "baseline_revenue_cr": 436.8832,
+      "scenario_A_revenue_change_pct": -11.9815,
+      "scenario_B_revenue_change_pct": -11.9815,
+      "scenario_C_revenue_change_pct": -11.9815,
+      "pd_A": 0.311283,
+      "pd_B": 0.311283,
+      "pd_C": 0.311283
+    },
+    "Rae Bareli": {
+      "baseline_revenue_cr": 1502.2573,
+      "scenario_A_revenue_change_pct": -11.3314,
+      "scenario_B_revenue_change_pct": -11.3314,
+      "scenario_C_revenue_change_pct": -11.3314,
+      "pd_A": 0.263041,
+      "pd_B": 0.263041,
+      "pd_C": 0.263041
+    },
+    "Raichur": {
+      "baseline_revenue_cr": 1520.5498,
+      "scenario_A_revenue_change_pct": -50.7991,
+      "scenario_B_revenue_change_pct": -51.2837,
+      "scenario_C_revenue_change_pct": -49.7786,
+      "pd_A": 0.626255,
+      "pd_B": 0.629093,
+      "pd_C": 0.620256
+    },
+    "Raigarh": {
+      "baseline_revenue_cr": 942.707,
+      "scenario_A_revenue_change_pct": -15.8682,
+      "scenario_B_revenue_change_pct": -15.9748,
+      "scenario_C_revenue_change_pct": -10.8747,
+      "pd_A": 0.29769,
+      "pd_B": 0.299079,
+      "pd_C": 0.236161
+    },
+    "Raipur": {
+      "baseline_revenue_cr": 861.4457,
+      "scenario_A_revenue_change_pct": -11.7765,
+      "scenario_B_revenue_change_pct": -11.7765,
+      "scenario_C_revenue_change_pct": -11.7765,
+      "pd_A": 0.34519,
+      "pd_B": 0.34519,
+      "pd_C": 0.34519
+    },
+    "Raisen": {
+      "baseline_revenue_cr": 11874.1303,
+      "scenario_A_revenue_change_pct": -36.8044,
+      "scenario_B_revenue_change_pct": -37.7559,
+      "scenario_C_revenue_change_pct": -36.5652,
+      "pd_A": 0.53947,
+      "pd_B": 0.544968,
+      "pd_C": 0.538087
+    },
+    "Rajgarh": {
+      "baseline_revenue_cr": 12552.8027,
+      "scenario_A_revenue_change_pct": -15.7513,
+      "scenario_B_revenue_change_pct": -15.7513,
+      "scenario_C_revenue_change_pct": -15.7513,
+      "pd_A": 0.421008,
+      "pd_B": 0.421008,
+      "pd_C": 0.421008
+    },
+    "Rajkot": {
+      "baseline_revenue_cr": 1797.7936,
+      "scenario_A_revenue_change_pct": -31.1881,
+      "scenario_B_revenue_change_pct": -31.1881,
+      "scenario_C_revenue_change_pct": -31.1881,
+      "pd_A": 0.512132,
+      "pd_B": 0.512132,
+      "pd_C": 0.512132
+    },
+    "Rajnandgaon": {
+      "baseline_revenue_cr": 1372.492,
+      "scenario_A_revenue_change_pct": -36.7049,
+      "scenario_B_revenue_change_pct": -36.899,
+      "scenario_C_revenue_change_pct": -34.1276,
+      "pd_A": 0.545243,
+      "pd_B": 0.546547,
+      "pd_C": 0.52789
+    },
+    "Rajsamand": {
+      "baseline_revenue_cr": 478.1446,
+      "scenario_A_revenue_change_pct": -22.6377,
+      "scenario_B_revenue_change_pct": -23.0112,
+      "scenario_C_revenue_change_pct": -17.3945,
+      "pd_A": 0.470123,
+      "pd_B": 0.471636,
+      "pd_C": 0.448938
+    },
+    "Ramanagara": {
+      "baseline_revenue_cr": 118.283,
+      "scenario_A_revenue_change_pct": -42.5328,
+      "scenario_B_revenue_change_pct": -42.6816,
+      "scenario_C_revenue_change_pct": -38.7144,
+      "pd_A": 0.552369,
+      "pd_B": 0.552987,
+      "pd_C": 0.536468
+    },
+    "Ramanathapuram": {
+      "baseline_revenue_cr": 339.9101,
+      "scenario_A_revenue_change_pct": -15.5918,
+      "scenario_B_revenue_change_pct": -15.5918,
+      "scenario_C_revenue_change_pct": -15.5918,
+      "pd_A": 0.454138,
+      "pd_B": 0.454138,
+      "pd_C": 0.454138
+    },
+    "Ramban": {
+      "baseline_revenue_cr": 60.7391,
+      "scenario_A_revenue_change_pct": -26.6983,
+      "scenario_B_revenue_change_pct": -26.7525,
+      "scenario_C_revenue_change_pct": -16.5677,
+      "pd_A": 0.4614,
+      "pd_B": 0.462031,
+      "pd_C": 0.3467
+    },
+    "Ramgarh": {
+      "baseline_revenue_cr": 221.3147,
+      "scenario_A_revenue_change_pct": -39.631,
+      "scenario_B_revenue_change_pct": -39.6519,
+      "scenario_C_revenue_change_pct": -37.1935,
+      "pd_A": 0.680565,
+      "pd_B": 0.68093,
+      "pd_C": 0.637022
+    },
+    "Rampur": {
+      "baseline_revenue_cr": 1660.2277,
+      "scenario_A_revenue_change_pct": -7.886,
+      "scenario_B_revenue_change_pct": -7.886,
+      "scenario_C_revenue_change_pct": -7.886,
+      "pd_A": 0.358846,
+      "pd_B": 0.358846,
+      "pd_C": 0.358846
+    },
+    "Ranchi": {
+      "baseline_revenue_cr": 630.6556,
+      "scenario_A_revenue_change_pct": -25.3515,
+      "scenario_B_revenue_change_pct": -25.3935,
+      "scenario_C_revenue_change_pct": -21.5718,
+      "pd_A": 0.430766,
+      "pd_B": 0.431386,
+      "pd_C": 0.375907
+    },
+    "Ratlam": {
+      "baseline_revenue_cr": 2823.9909,
+      "scenario_A_revenue_change_pct": -23.1812,
+      "scenario_B_revenue_change_pct": -23.1812,
+      "scenario_C_revenue_change_pct": -23.1812,
+      "pd_A": 0.469744,
+      "pd_B": 0.469744,
+      "pd_C": 0.469744
+    },
+    "Ratnagiri": {
+      "baseline_revenue_cr": 241.576,
+      "scenario_A_revenue_change_pct": -14.7155,
+      "scenario_B_revenue_change_pct": -14.7852,
+      "scenario_C_revenue_change_pct": -9.3999,
+      "pd_A": 0.402958,
+      "pd_B": 0.403392,
+      "pd_C": 0.370267
+    },
+    "Rayagada": {
+      "baseline_revenue_cr": 204.2049,
+      "scenario_A_revenue_change_pct": -26.2319,
+      "scenario_B_revenue_change_pct": -26.3717,
+      "scenario_C_revenue_change_pct": -22.1195,
+      "pd_A": 0.479654,
+      "pd_B": 0.480408,
+      "pd_C": 0.45751
+    },
+    "Reasi": {
+      "baseline_revenue_cr": 90.2799,
+      "scenario_A_revenue_change_pct": -26.7301,
+      "scenario_B_revenue_change_pct": -26.7712,
+      "scenario_C_revenue_change_pct": -16.0551,
+      "pd_A": 0.446381,
+      "pd_B": 0.447051,
+      "pd_C": 0.282676
+    },
+    "Rewa": {
+      "baseline_revenue_cr": 3049.8592,
+      "scenario_A_revenue_change_pct": -21.8802,
+      "scenario_B_revenue_change_pct": -22.9756,
+      "scenario_C_revenue_change_pct": -21.8534,
+      "pd_A": 0.445224,
+      "pd_B": 0.452576,
+      "pd_C": 0.445045
+    },
+    "Rewari": {
+      "baseline_revenue_cr": 1395.6855,
+      "scenario_A_revenue_change_pct": -48.8801,
+      "scenario_B_revenue_change_pct": -48.8801,
+      "scenario_C_revenue_change_pct": -48.8801,
+      "pd_A": 0.55745,
+      "pd_B": 0.55745,
+      "pd_C": 0.55745
+    },
+    "Rohtak": {
+      "baseline_revenue_cr": 1410.982,
+      "scenario_A_revenue_change_pct": -12.8639,
+      "scenario_B_revenue_change_pct": -12.8639,
+      "scenario_C_revenue_change_pct": -12.8639,
+      "pd_A": 0.429272,
+      "pd_B": 0.429272,
+      "pd_C": 0.429272
+    },
+    "Rohtas": {
+      "baseline_revenue_cr": 2123.8195,
+      "scenario_A_revenue_change_pct": -10.997,
+      "scenario_B_revenue_change_pct": -10.997,
+      "scenario_C_revenue_change_pct": -10.997,
+      "pd_A": 0.255559,
+      "pd_B": 0.255559,
+      "pd_C": 0.255559
+    },
+    "Rupnagar": {
+      "baseline_revenue_cr": 1152.8873,
+      "scenario_A_revenue_change_pct": -11.2369,
+      "scenario_B_revenue_change_pct": -11.2369,
+      "scenario_C_revenue_change_pct": -11.2369,
+      "pd_A": 0.266539,
+      "pd_B": 0.266539,
+      "pd_C": 0.266539
+    },
+    "Sabar Kantha": {
+      "baseline_revenue_cr": 1069.5391,
+      "scenario_A_revenue_change_pct": -18.6969,
+      "scenario_B_revenue_change_pct": -18.6969,
+      "scenario_C_revenue_change_pct": -18.6969,
+      "pd_A": 0.380793,
+      "pd_B": 0.380793,
+      "pd_C": 0.380793
+    },
+    "Sagar": {
+      "baseline_revenue_cr": 4099.6759,
+      "scenario_A_revenue_change_pct": -34.5791,
+      "scenario_B_revenue_change_pct": -34.5791,
+      "scenario_C_revenue_change_pct": -34.5791,
+      "pd_A": 0.523496,
+      "pd_B": 0.523496,
+      "pd_C": 0.523496
+    },
+    "Saharanpur": {
+      "baseline_revenue_cr": 1247.4678,
+      "scenario_A_revenue_change_pct": -11.329,
+      "scenario_B_revenue_change_pct": -11.329,
+      "scenario_C_revenue_change_pct": -11.329,
+      "pd_A": 0.229943,
+      "pd_B": 0.229943,
+      "pd_C": 0.229943
+    },
+    "Saharsa": {
+      "baseline_revenue_cr": 556.9211,
+      "scenario_A_revenue_change_pct": -17.0092,
+      "scenario_B_revenue_change_pct": -17.0092,
+      "scenario_C_revenue_change_pct": -17.0092,
+      "pd_A": 0.320148,
+      "pd_B": 0.320148,
+      "pd_C": 0.320148
+    },
+    "Saiha": {
+      "baseline_revenue_cr": 2.3584,
+      "scenario_A_revenue_change_pct": -18.8667,
+      "scenario_B_revenue_change_pct": -18.882,
+      "scenario_C_revenue_change_pct": -12.2442,
+      "pd_A": 0.388315,
+      "pd_B": 0.388465,
+      "pd_C": 0.325464
+    },
+    "Salem": {
+      "baseline_revenue_cr": 576.3788,
+      "scenario_A_revenue_change_pct": -24.4926,
+      "scenario_B_revenue_change_pct": -25.0217,
+      "scenario_C_revenue_change_pct": -21.35,
+      "pd_A": 0.447419,
+      "pd_B": 0.452445,
+      "pd_C": 0.417765
+    },
+    "Samastipur": {
+      "baseline_revenue_cr": 755.3279,
+      "scenario_A_revenue_change_pct": -18.0078,
+      "scenario_B_revenue_change_pct": -18.0078,
+      "scenario_C_revenue_change_pct": -18.0078,
+      "pd_A": 0.361095,
+      "pd_B": 0.361095,
+      "pd_C": 0.361095
+    },
+    "Samba": {
+      "baseline_revenue_cr": 217.6571,
+      "scenario_A_revenue_change_pct": -21.4309,
+      "scenario_B_revenue_change_pct": -21.9466,
+      "scenario_C_revenue_change_pct": -13.2017,
+      "pd_A": 0.345895,
+      "pd_B": 0.354736,
+      "pd_C": 0.218542
+    },
+    "Sambalpur": {
+      "baseline_revenue_cr": 225.6595,
+      "scenario_A_revenue_change_pct": -16.0493,
+      "scenario_B_revenue_change_pct": -16.0493,
+      "scenario_C_revenue_change_pct": -16.0493,
+      "pd_A": 0.366121,
+      "pd_B": 0.366121,
+      "pd_C": 0.366121
+    },
+    "Sambhal": {
+      "baseline_revenue_cr": 1643.8718,
+      "scenario_A_revenue_change_pct": -16.5495,
+      "scenario_B_revenue_change_pct": -16.5495,
+      "scenario_C_revenue_change_pct": -16.5495,
+      "pd_A": 0.320568,
+      "pd_B": 0.320568,
+      "pd_C": 0.320568
+    },
+    "Sangareddy": {
+      "baseline_revenue_cr": 588.6647,
+      "scenario_A_revenue_change_pct": -28.9027,
+      "scenario_B_revenue_change_pct": -29.2531,
+      "scenario_C_revenue_change_pct": -25.8669,
+      "pd_A": 0.477123,
+      "pd_B": 0.484424,
+      "pd_C": 0.41445
+    },
+    "Sangli": {
+      "baseline_revenue_cr": 1028.1363,
+      "scenario_A_revenue_change_pct": -26.8744,
+      "scenario_B_revenue_change_pct": -27.4946,
+      "scenario_C_revenue_change_pct": -24.6793,
+      "pd_A": 0.480376,
+      "pd_B": 0.484267,
+      "pd_C": 0.466619
+    },
+    "Sangrur": {
+      "baseline_revenue_cr": 6245.0438,
+      "scenario_A_revenue_change_pct": -4.8394,
+      "scenario_B_revenue_change_pct": -4.8394,
+      "scenario_C_revenue_change_pct": -4.8394,
+      "pd_A": 0.126022,
+      "pd_B": 0.126022,
+      "pd_C": 0.126022
+    },
+    "Saran": {
+      "baseline_revenue_cr": 747.4196,
+      "scenario_A_revenue_change_pct": -15.0881,
+      "scenario_B_revenue_change_pct": -15.928,
+      "scenario_C_revenue_change_pct": -13.2759,
+      "pd_A": 0.317451,
+      "pd_B": 0.327043,
+      "pd_C": 0.297174
+    },
+    "Satara": {
+      "baseline_revenue_cr": 1440.8042,
+      "scenario_A_revenue_change_pct": -26.1366,
+      "scenario_B_revenue_change_pct": -26.8815,
+      "scenario_C_revenue_change_pct": -24.6007,
+      "pd_A": 0.450679,
+      "pd_B": 0.460153,
+      "pd_C": 0.431239
+    },
+    "Satna": {
+      "baseline_revenue_cr": 3455.3014,
+      "scenario_A_revenue_change_pct": -30.9293,
+      "scenario_B_revenue_change_pct": -31.8313,
+      "scenario_C_revenue_change_pct": -30.4615,
+      "pd_A": 0.502931,
+      "pd_B": 0.505775,
+      "pd_C": 0.501455
+    },
+    "Sawai Madhopur": {
+      "baseline_revenue_cr": 2389.4334,
+      "scenario_A_revenue_change_pct": -57.6862,
+      "scenario_B_revenue_change_pct": -57.6862,
+      "scenario_C_revenue_change_pct": -57.6862,
+      "pd_A": 0.759491,
+      "pd_B": 0.759491,
+      "pd_C": 0.759491
+    },
+    "Sehore": {
+      "baseline_revenue_cr": 4144.8071,
+      "scenario_A_revenue_change_pct": -25.116,
+      "scenario_B_revenue_change_pct": -25.116,
+      "scenario_C_revenue_change_pct": -25.116,
+      "pd_A": 0.451269,
+      "pd_B": 0.451269,
+      "pd_C": 0.451269
+    },
+    "Senapati": {
+      "baseline_revenue_cr": 60.1281,
+      "scenario_A_revenue_change_pct": -26.8113,
+      "scenario_B_revenue_change_pct": -27.6778,
+      "scenario_C_revenue_change_pct": -24.5794,
+      "pd_A": 0.441466,
+      "pd_B": 0.4573,
+      "pd_C": 0.401169
+    },
+    "Seoni": {
+      "baseline_revenue_cr": 2845.0503,
+      "scenario_A_revenue_change_pct": -21.531,
+      "scenario_B_revenue_change_pct": -22.3432,
+      "scenario_C_revenue_change_pct": -19.6344,
+      "pd_A": 0.461117,
+      "pd_B": 0.464836,
+      "pd_C": 0.452447
+    },
+    "Serchhip": {
+      "baseline_revenue_cr": 13.7717,
+      "scenario_A_revenue_change_pct": -21.624,
+      "scenario_B_revenue_change_pct": -21.6381,
+      "scenario_C_revenue_change_pct": -15.0199,
+      "pd_A": 0.393448,
+      "pd_B": 0.393623,
+      "pd_C": 0.314371
+    },
+    "Shahdol": {
+      "baseline_revenue_cr": 1243.2097,
+      "scenario_A_revenue_change_pct": -22.4373,
+      "scenario_B_revenue_change_pct": -22.4957,
+      "scenario_C_revenue_change_pct": -17.6856,
+      "pd_A": 0.472983,
+      "pd_B": 0.473191,
+      "pd_C": 0.456064
+    },
+    "Shahid Bhagat Singh Nagar": {
+      "baseline_revenue_cr": 1423.1247,
+      "scenario_A_revenue_change_pct": -8.4072,
+      "scenario_B_revenue_change_pct": -8.4072,
+      "scenario_C_revenue_change_pct": -8.4072,
+      "pd_A": 0.059352,
+      "pd_B": 0.059352,
+      "pd_C": 0.059352
+    },
+    "Shahjahanpur": {
+      "baseline_revenue_cr": 3079.9004,
+      "scenario_A_revenue_change_pct": -9.3389,
+      "scenario_B_revenue_change_pct": -9.3389,
+      "scenario_C_revenue_change_pct": -9.3389,
+      "pd_A": 0.236502,
+      "pd_B": 0.236502,
+      "pd_C": 0.236502
+    },
+    "Shajapur": {
+      "baseline_revenue_cr": 2590.7344,
+      "scenario_A_revenue_change_pct": -23.0727,
+      "scenario_B_revenue_change_pct": -23.0727,
+      "scenario_C_revenue_change_pct": -23.0727,
+      "pd_A": 0.449871,
+      "pd_B": 0.449871,
+      "pd_C": 0.449871
+    },
+    "Shamli": {
+      "baseline_revenue_cr": 558.3367,
+      "scenario_A_revenue_change_pct": -8.155,
+      "scenario_B_revenue_change_pct": -8.155,
+      "scenario_C_revenue_change_pct": -8.155,
+      "pd_A": 0.159668,
+      "pd_B": 0.159668,
+      "pd_C": 0.159668
+    },
+    "Sheikhpura": {
+      "baseline_revenue_cr": 244.6542,
+      "scenario_A_revenue_change_pct": -13.7333,
+      "scenario_B_revenue_change_pct": -13.7333,
+      "scenario_C_revenue_change_pct": -13.7333,
+      "pd_A": 0.41829,
+      "pd_B": 0.41829,
+      "pd_C": 0.41829
+    },
+    "Sheohar": {
+      "baseline_revenue_cr": 117.9108,
+      "scenario_A_revenue_change_pct": -13.5542,
+      "scenario_B_revenue_change_pct": -13.5542,
+      "scenario_C_revenue_change_pct": -13.5542,
+      "pd_A": 0.288607,
+      "pd_B": 0.288607,
+      "pd_C": 0.288607
+    },
+    "Sheopur": {
+      "baseline_revenue_cr": 1897.7505,
+      "scenario_A_revenue_change_pct": -33.3375,
+      "scenario_B_revenue_change_pct": -33.9069,
+      "scenario_C_revenue_change_pct": -30.5533,
+      "pd_A": 0.535656,
+      "pd_B": 0.541719,
+      "pd_C": 0.505918
+    },
+    "Shi Yomi": {
+      "baseline_revenue_cr": 10.0879,
+      "scenario_A_revenue_change_pct": -19.0131,
+      "scenario_B_revenue_change_pct": -20.0159,
+      "scenario_C_revenue_change_pct": -14.79,
+      "pd_A": 0.135951,
+      "pd_B": 0.159039,
+      "pd_C": 0.06413
+    },
+    "Shimla": {
+      "baseline_revenue_cr": 93.9407,
+      "scenario_A_revenue_change_pct": -24.1938,
+      "scenario_B_revenue_change_pct": -24.211,
+      "scenario_C_revenue_change_pct": -14.4569,
+      "pd_A": 0.44644,
+      "pd_B": 0.446598,
+      "pd_C": 0.359243
+    },
+    "Shivamogga": {
+      "baseline_revenue_cr": 658.8397,
+      "scenario_A_revenue_change_pct": -28.1791,
+      "scenario_B_revenue_change_pct": -28.6889,
+      "scenario_C_revenue_change_pct": -24.6569,
+      "pd_A": 0.493738,
+      "pd_B": 0.495491,
+      "pd_C": 0.481631
+    },
+    "Shivpuri": {
+      "baseline_revenue_cr": 3484.1627,
+      "scenario_A_revenue_change_pct": -32.9047,
+      "scenario_B_revenue_change_pct": -33.6559,
+      "scenario_C_revenue_change_pct": -31.4341,
+      "pd_A": 0.519083,
+      "pd_B": 0.524013,
+      "pd_C": 0.509424
+    },
+    "Siang": {
+      "baseline_revenue_cr": 45.4246,
+      "scenario_A_revenue_change_pct": -29.3882,
+      "scenario_B_revenue_change_pct": -29.9394,
+      "scenario_C_revenue_change_pct": -23.8735,
+      "pd_A": 0.488792,
+      "pd_B": 0.498889,
+      "pd_C": 0.389214
+    },
+    "Siddipet": {
+      "baseline_revenue_cr": 646.1665,
+      "scenario_A_revenue_change_pct": -16.4745,
+      "scenario_B_revenue_change_pct": -16.4745,
+      "scenario_C_revenue_change_pct": -16.4745,
+      "pd_A": 0.278991,
+      "pd_B": 0.278991,
+      "pd_C": 0.278991
+    },
+    "Sidhi": {
+      "baseline_revenue_cr": 1182.4385,
+      "scenario_A_revenue_change_pct": -28.8374,
+      "scenario_B_revenue_change_pct": -29.4446,
+      "scenario_C_revenue_change_pct": -26.8393,
+      "pd_A": 0.493011,
+      "pd_B": 0.496661,
+      "pd_C": 0.481007
+    },
+    "Sikar": {
+      "baseline_revenue_cr": 2545.9767,
+      "scenario_A_revenue_change_pct": -39.7202,
+      "scenario_B_revenue_change_pct": -40.3767,
+      "scenario_C_revenue_change_pct": -37.0741,
+      "pd_A": 0.574163,
+      "pd_B": 0.579108,
+      "pd_C": 0.554121
+    },
+    "Simdega": {
+      "baseline_revenue_cr": 577.8844,
+      "scenario_A_revenue_change_pct": -30.253,
+      "scenario_B_revenue_change_pct": -30.2667,
+      "scenario_C_revenue_change_pct": -25.8663,
+      "pd_A": 0.50339,
+      "pd_B": 0.503573,
+      "pd_C": 0.444788
+    },
+    "Sindhudurg": {
+      "baseline_revenue_cr": 186.2121,
+      "scenario_A_revenue_change_pct": -14.9909,
+      "scenario_B_revenue_change_pct": -14.9909,
+      "scenario_C_revenue_change_pct": -14.9909,
+      "pd_A": 0.423319,
+      "pd_B": 0.423319,
+      "pd_C": 0.423319
+    },
+    "Singrauli": {
+      "baseline_revenue_cr": 1294.9565,
+      "scenario_A_revenue_change_pct": -33.4689,
+      "scenario_B_revenue_change_pct": -33.6777,
+      "scenario_C_revenue_change_pct": -29.8677,
+      "pd_A": 0.52164,
+      "pd_B": 0.522941,
+      "pd_C": 0.499174
+    },
+    "Sirmaur": {
+      "baseline_revenue_cr": 200.1773,
+      "scenario_A_revenue_change_pct": -21.438,
+      "scenario_B_revenue_change_pct": -21.6469,
+      "scenario_C_revenue_change_pct": -14.0562,
+      "pd_A": 0.419669,
+      "pd_B": 0.421604,
+      "pd_C": 0.352889
+    },
+    "Sirohi": {
+      "baseline_revenue_cr": 541.0324,
+      "scenario_A_revenue_change_pct": -35.1194,
+      "scenario_B_revenue_change_pct": -35.6667,
+      "scenario_C_revenue_change_pct": -31.7306,
+      "pd_A": 0.550874,
+      "pd_B": 0.556278,
+      "pd_C": 0.51724
+    },
+    "Sirsa": {
+      "baseline_revenue_cr": 4360.9356,
+      "scenario_A_revenue_change_pct": -14.0913,
+      "scenario_B_revenue_change_pct": -14.0913,
+      "scenario_C_revenue_change_pct": -14.0913,
+      "pd_A": 0.412282,
+      "pd_B": 0.412282,
+      "pd_C": 0.412282
+    },
+    "Sitamarhi": {
+      "baseline_revenue_cr": 800.6484,
+      "scenario_A_revenue_change_pct": -11.1785,
+      "scenario_B_revenue_change_pct": -11.1785,
+      "scenario_C_revenue_change_pct": -11.1785,
+      "pd_A": 0.277933,
+      "pd_B": 0.277933,
+      "pd_C": 0.277933
+    },
+    "Sitapur": {
+      "baseline_revenue_cr": 2072.4484,
+      "scenario_A_revenue_change_pct": -12.2795,
+      "scenario_B_revenue_change_pct": -12.2795,
+      "scenario_C_revenue_change_pct": -12.2795,
+      "pd_A": 0.367068,
+      "pd_B": 0.367068,
+      "pd_C": 0.367068
+    },
+    "Sivaganga": {
+      "baseline_revenue_cr": 203.3602,
+      "scenario_A_revenue_change_pct": -15.131,
+      "scenario_B_revenue_change_pct": -15.131,
+      "scenario_C_revenue_change_pct": -15.131,
+      "pd_A": 0.42043,
+      "pd_B": 0.42043,
+      "pd_C": 0.42043
+    },
+    "Sivasagar": {
+      "baseline_revenue_cr": 155.9897,
+      "scenario_A_revenue_change_pct": -20.2747,
+      "scenario_B_revenue_change_pct": -20.3239,
+      "scenario_C_revenue_change_pct": -11.8139,
+      "pd_A": 0.367232,
+      "pd_B": 0.367879,
+      "pd_C": 0.262948
+    },
+    "Siwan": {
+      "baseline_revenue_cr": 698.4971,
+      "scenario_A_revenue_change_pct": -13.3865,
+      "scenario_B_revenue_change_pct": -13.3865,
+      "scenario_C_revenue_change_pct": -13.3865,
+      "pd_A": 0.420942,
+      "pd_B": 0.420942,
+      "pd_C": 0.420942
+    },
+    "Solan": {
+      "baseline_revenue_cr": 215.7643,
+      "scenario_A_revenue_change_pct": -21.2993,
+      "scenario_B_revenue_change_pct": -21.4759,
+      "scenario_C_revenue_change_pct": -13.6523,
+      "pd_A": 0.454509,
+      "pd_B": 0.455429,
+      "pd_C": 0.414995
+    },
+    "Solapur": {
+      "baseline_revenue_cr": 50235.3988,
+      "scenario_A_revenue_change_pct": -34.5692,
+      "scenario_B_revenue_change_pct": -35.0534,
+      "scenario_C_revenue_change_pct": -32.4231,
+      "pd_A": 0.514996,
+      "pd_B": 0.516584,
+      "pd_C": 0.507954
+    },
+    "Sonbhadra": {
+      "baseline_revenue_cr": 635.8052,
+      "scenario_A_revenue_change_pct": -26.6297,
+      "scenario_B_revenue_change_pct": -26.8866,
+      "scenario_C_revenue_change_pct": -22.5734,
+      "pd_A": 0.482854,
+      "pd_B": 0.48416,
+      "pd_C": 0.462262
+    },
+    "Sonipat": {
+      "baseline_revenue_cr": 2149.4935,
+      "scenario_A_revenue_change_pct": -8.2643,
+      "scenario_B_revenue_change_pct": -8.2643,
+      "scenario_C_revenue_change_pct": -8.2643,
+      "pd_A": 0.406742,
+      "pd_B": 0.406742,
+      "pd_C": 0.406742
+    },
+    "Sonitpur": {
+      "baseline_revenue_cr": 344.4148,
+      "scenario_A_revenue_change_pct": -30.6397,
+      "scenario_B_revenue_change_pct": -30.7282,
+      "scenario_C_revenue_change_pct": -23.9715,
+      "pd_A": 0.509186,
+      "pd_B": 0.510457,
+      "pd_C": 0.414099
+    },
+    "South Garo Hills": {
+      "baseline_revenue_cr": 16.7397,
+      "scenario_A_revenue_change_pct": -23.7868,
+      "scenario_B_revenue_change_pct": -23.8854,
+      "scenario_C_revenue_change_pct": -18.4693,
+      "pd_A": 0.392933,
+      "pd_B": 0.394591,
+      "pd_C": 0.307061
+    },
+    "South Goa": {
+      "baseline_revenue_cr": 59.5939,
+      "scenario_A_revenue_change_pct": -14.5455,
+      "scenario_B_revenue_change_pct": -14.7386,
+      "scenario_C_revenue_change_pct": -8.8867,
+      "pd_A": 0.465372,
+      "pd_B": 0.465803,
+      "pd_C": 0.452744
+    },
+    "South Tripura": {
+      "baseline_revenue_cr": 78.1302,
+      "scenario_A_revenue_change_pct": -18.5611,
+      "scenario_B_revenue_change_pct": -18.8581,
+      "scenario_C_revenue_change_pct": -14.0915,
+      "pd_A": 0.217414,
+      "pd_B": 0.223424,
+      "pd_C": 0.138717
+    },
+    "South West Garo Hills": {
+      "baseline_revenue_cr": 65.3447,
+      "scenario_A_revenue_change_pct": -31.2915,
+      "scenario_B_revenue_change_pct": -31.5061,
+      "scenario_C_revenue_change_pct": -27.6679,
+      "pd_A": 0.55138,
+      "pd_B": 0.559859,
+      "pd_C": 0.407797
+    },
+    "South West Khasi Hills": {
+      "baseline_revenue_cr": 6.9666,
+      "scenario_A_revenue_change_pct": -18.6965,
+      "scenario_B_revenue_change_pct": -18.7428,
+      "scenario_C_revenue_change_pct": -12.3059,
+      "pd_A": 0.129165,
+      "pd_B": 0.130143,
+      "pd_C": 0.038413
+    },
+    "Srikakulam": {
+      "baseline_revenue_cr": 884.1733,
+      "scenario_A_revenue_change_pct": -13.9184,
+      "scenario_B_revenue_change_pct": -13.9184,
+      "scenario_C_revenue_change_pct": -13.9184,
+      "pd_A": 0.40186,
+      "pd_B": 0.40186,
+      "pd_C": 0.40186
+    },
+    "Srinagar": {
+      "baseline_revenue_cr": 15.5563,
+      "scenario_A_revenue_change_pct": -14.2593,
+      "scenario_B_revenue_change_pct": -14.2593,
+      "scenario_C_revenue_change_pct": -14.2593,
+      "pd_A": 0.314846,
+      "pd_B": 0.314846,
+      "pd_C": 0.314846
+    },
+    "Sukma": {
+      "baseline_revenue_cr": 266.9501,
+      "scenario_A_revenue_change_pct": -15.311,
+      "scenario_B_revenue_change_pct": -15.3126,
+      "scenario_C_revenue_change_pct": -9.7482,
+      "pd_A": 0.344736,
+      "pd_B": 0.344752,
+      "pd_C": 0.290854
+    },
+    "Sultanpur": {
+      "baseline_revenue_cr": 1501.2794,
+      "scenario_A_revenue_change_pct": -12.5182,
+      "scenario_B_revenue_change_pct": -12.5182,
+      "scenario_C_revenue_change_pct": -12.5182,
+      "pd_A": 0.279165,
+      "pd_B": 0.279165,
+      "pd_C": 0.279165
+    },
+    "Sundargarh": {
+      "baseline_revenue_cr": 248.8311,
+      "scenario_A_revenue_change_pct": -20.7833,
+      "scenario_B_revenue_change_pct": -20.8233,
+      "scenario_C_revenue_change_pct": -16.4204,
+      "pd_A": 0.466611,
+      "pd_B": 0.466756,
+      "pd_C": 0.450874
+    },
+    "Supaul": {
+      "baseline_revenue_cr": 529.3355,
+      "scenario_A_revenue_change_pct": -16.8252,
+      "scenario_B_revenue_change_pct": -17.6321,
+      "scenario_C_revenue_change_pct": -14.9115,
+      "pd_A": 0.293274,
+      "pd_B": 0.304837,
+      "pd_C": 0.266694
+    },
+    "Surajpur": {
+      "baseline_revenue_cr": 1828.5412,
+      "scenario_A_revenue_change_pct": -12.0166,
+      "scenario_B_revenue_change_pct": -12.0767,
+      "scenario_C_revenue_change_pct": -7.4567,
+      "pd_A": 0.337374,
+      "pd_B": 0.337887,
+      "pd_C": 0.299429
+    },
+    "Surat": {
+      "baseline_revenue_cr": 336.2481,
+      "scenario_A_revenue_change_pct": -21.5743,
+      "scenario_B_revenue_change_pct": -22.1767,
+      "scenario_C_revenue_change_pct": -19.6547,
+      "pd_A": 0.396938,
+      "pd_B": 0.404158,
+      "pd_C": 0.374179
+    },
+    "Surendranagar": {
+      "baseline_revenue_cr": 486.8417,
+      "scenario_A_revenue_change_pct": -34.018,
+      "scenario_B_revenue_change_pct": -35.0005,
+      "scenario_C_revenue_change_pct": -32.8519,
+      "pd_A": 0.55598,
+      "pd_B": 0.569542,
+      "pd_C": 0.539798
+    },
+    "Surguja": {
+      "baseline_revenue_cr": 459.5264,
+      "scenario_A_revenue_change_pct": -18.8233,
+      "scenario_B_revenue_change_pct": -18.8837,
+      "scenario_C_revenue_change_pct": -14.3654,
+      "pd_A": 0.451852,
+      "pd_B": 0.452111,
+      "pd_C": 0.432804
+    },
+    "Suryapet": {
+      "baseline_revenue_cr": 767.8528,
+      "scenario_A_revenue_change_pct": -10.3585,
+      "scenario_B_revenue_change_pct": -10.3585,
+      "scenario_C_revenue_change_pct": -10.3585,
+      "pd_A": 0.204456,
+      "pd_B": 0.204456,
+      "pd_C": 0.204456
+    },
+    "Tamenglong": {
+      "baseline_revenue_cr": 88.6135,
+      "scenario_A_revenue_change_pct": -21.3592,
+      "scenario_B_revenue_change_pct": -21.3592,
+      "scenario_C_revenue_change_pct": -21.3592,
+      "pd_A": 0.322768,
+      "pd_B": 0.322768,
+      "pd_C": 0.322768
+    },
+    "Tapi": {
+      "baseline_revenue_cr": 406.7678,
+      "scenario_A_revenue_change_pct": -22.4575,
+      "scenario_B_revenue_change_pct": -22.8535,
+      "scenario_C_revenue_change_pct": -20.1113,
+      "pd_A": 0.395813,
+      "pd_B": 0.401167,
+      "pd_C": 0.364527
+    },
+    "Tarn Taran": {
+      "baseline_revenue_cr": 3257.8051,
+      "scenario_A_revenue_change_pct": -4.172,
+      "scenario_B_revenue_change_pct": -4.172,
+      "scenario_C_revenue_change_pct": -4.172,
+      "pd_A": 0.109346,
+      "pd_B": 0.109346,
+      "pd_C": 0.109346
+    },
+    "Tawang": {
+      "baseline_revenue_cr": 14.1076,
+      "scenario_A_revenue_change_pct": -23.6792,
+      "scenario_B_revenue_change_pct": -23.7914,
+      "scenario_C_revenue_change_pct": -15.4447,
+      "pd_A": 0.323046,
+      "pd_B": 0.325979,
+      "pd_C": 0.145158
+    },
+    "Tehri Garhwal": {
+      "baseline_revenue_cr": 148.3165,
+      "scenario_A_revenue_change_pct": -22.8683,
+      "scenario_B_revenue_change_pct": -22.9145,
+      "scenario_C_revenue_change_pct": -14.0133,
+      "pd_A": 0.405596,
+      "pd_B": 0.406196,
+      "pd_C": 0.29615
+    },
+    "Thane": {
+      "baseline_revenue_cr": 135.7735,
+      "scenario_A_revenue_change_pct": -17.4488,
+      "scenario_B_revenue_change_pct": -17.56,
+      "scenario_C_revenue_change_pct": -12.8897,
+      "pd_A": 0.39384,
+      "pd_B": 0.394758,
+      "pd_C": 0.356752
+    },
+    "Thanjavur": {
+      "baseline_revenue_cr": 742.8347,
+      "scenario_A_revenue_change_pct": -10.8066,
+      "scenario_B_revenue_change_pct": -10.8066,
+      "scenario_C_revenue_change_pct": -10.8066,
+      "pd_A": 0.311208,
+      "pd_B": 0.311208,
+      "pd_C": 0.311208
+    },
+    "The Nilgiris": {
+      "baseline_revenue_cr": 5.7513,
+      "scenario_A_revenue_change_pct": -18.3964,
+      "scenario_B_revenue_change_pct": -18.4476,
+      "scenario_C_revenue_change_pct": -12.3769,
+      "pd_A": 0.419369,
+      "pd_B": 0.41972,
+      "pd_C": 0.37863
+    },
+    "Theni": {
+      "baseline_revenue_cr": 167.8486,
+      "scenario_A_revenue_change_pct": -24.8382,
+      "scenario_B_revenue_change_pct": -25.3322,
+      "scenario_C_revenue_change_pct": -20.9505,
+      "pd_A": 0.456854,
+      "pd_B": 0.460969,
+      "pd_C": 0.424663
+    },
+    "Thiruvallur": {
+      "baseline_revenue_cr": 455.5425,
+      "scenario_A_revenue_change_pct": -16.3447,
+      "scenario_B_revenue_change_pct": -16.3447,
+      "scenario_C_revenue_change_pct": -16.3447,
+      "pd_A": 0.322901,
+      "pd_B": 0.322901,
+      "pd_C": 0.322901
+    },
+    "Thiruvananthapuram": {
+      "baseline_revenue_cr": 3.365,
+      "scenario_A_revenue_change_pct": -27.3873,
+      "scenario_B_revenue_change_pct": -27.4599,
+      "scenario_C_revenue_change_pct": -22.047,
+      "pd_A": 0.486888,
+      "pd_B": 0.487252,
+      "pd_C": 0.460146
+    },
+    "Thiruvarur": {
+      "baseline_revenue_cr": 844.1672,
+      "scenario_A_revenue_change_pct": -10.5387,
+      "scenario_B_revenue_change_pct": -10.5387,
+      "scenario_C_revenue_change_pct": -10.5387,
+      "pd_A": 0.396917,
+      "pd_B": 0.396917,
+      "pd_C": 0.396917
+    },
+    "Thoubal": {
+      "baseline_revenue_cr": 257.8884,
+      "scenario_A_revenue_change_pct": -17.5196,
+      "scenario_B_revenue_change_pct": -17.5196,
+      "scenario_C_revenue_change_pct": -17.5196,
+      "pd_A": 0.145105,
+      "pd_B": 0.145105,
+      "pd_C": 0.145105
+    },
+    "Thrissur": {
+      "baseline_revenue_cr": 42.2439,
+      "scenario_A_revenue_change_pct": -12.3972,
+      "scenario_B_revenue_change_pct": -12.3972,
+      "scenario_C_revenue_change_pct": -12.3972,
+      "pd_A": 0.079691,
+      "pd_B": 0.079691,
+      "pd_C": 0.079691
+    },
+    "Tikamgarh": {
+      "baseline_revenue_cr": 1800.2071,
+      "scenario_A_revenue_change_pct": -16.7784,
+      "scenario_B_revenue_change_pct": -16.7784,
+      "scenario_C_revenue_change_pct": -16.7784,
+      "pd_A": 0.379823,
+      "pd_B": 0.379823,
+      "pd_C": 0.379823
+    },
+    "Tinsukia": {
+      "baseline_revenue_cr": 113.5541,
+      "scenario_A_revenue_change_pct": -31.7738,
+      "scenario_B_revenue_change_pct": -31.8074,
+      "scenario_C_revenue_change_pct": -23.8769,
+      "pd_A": 0.522907,
+      "pd_B": 0.523341,
+      "pd_C": 0.421396
+    },
+    "Tirap": {
+      "baseline_revenue_cr": 17.773,
+      "scenario_A_revenue_change_pct": -24.809,
+      "scenario_B_revenue_change_pct": -25.0,
+      "scenario_C_revenue_change_pct": -17.0891,
+      "pd_A": 0.439015,
+      "pd_B": 0.441241,
+      "pd_C": 0.35134
+    },
+    "Tiruchirappalli": {
+      "baseline_revenue_cr": 402.6347,
+      "scenario_A_revenue_change_pct": -22.1365,
+      "scenario_B_revenue_change_pct": -22.5042,
+      "scenario_C_revenue_change_pct": -17.7865,
+      "pd_A": 0.444561,
+      "pd_B": 0.447138,
+      "pd_C": 0.414284
+    },
+    "Tirunelveli": {
+      "baseline_revenue_cr": 433.3594,
+      "scenario_A_revenue_change_pct": -15.5378,
+      "scenario_B_revenue_change_pct": -15.9225,
+      "scenario_C_revenue_change_pct": -10.8227,
+      "pd_A": 0.369028,
+      "pd_B": 0.372389,
+      "pd_C": 0.328717
+    },
+    "Tirupathur": {
+      "baseline_revenue_cr": 0.1745,
+      "scenario_A_revenue_change_pct": -107.0133,
+      "scenario_B_revenue_change_pct": -106.747,
+      "scenario_C_revenue_change_pct": -109.943,
+      "pd_A": 0.999941,
+      "pd_B": 0.999938,
+      "pd_C": 0.999968
+    },
+    "Tiruppur": {
+      "baseline_revenue_cr": 278.4051,
+      "scenario_A_revenue_change_pct": -23.107,
+      "scenario_B_revenue_change_pct": -23.7068,
+      "scenario_C_revenue_change_pct": -20.2285,
+      "pd_A": 0.444303,
+      "pd_B": 0.449122,
+      "pd_C": 0.421303
+    },
+    "Tiruvannamalai": {
+      "baseline_revenue_cr": 1019.0446,
+      "scenario_A_revenue_change_pct": -21.8472,
+      "scenario_B_revenue_change_pct": -21.8472,
+      "scenario_C_revenue_change_pct": -21.8472,
+      "pd_A": 0.457321,
+      "pd_B": 0.457321,
+      "pd_C": 0.457321
+    },
+    "Tonk": {
+      "baseline_revenue_cr": 3477.8171,
+      "scenario_A_revenue_change_pct": -65.7661,
+      "scenario_B_revenue_change_pct": -65.7661,
+      "scenario_C_revenue_change_pct": -65.7661,
+      "pd_A": 0.719594,
+      "pd_B": 0.719594,
+      "pd_C": 0.719594
+    },
+    "Tuensang": {
+      "baseline_revenue_cr": 152.3689,
+      "scenario_A_revenue_change_pct": -25.6353,
+      "scenario_B_revenue_change_pct": -25.7706,
+      "scenario_C_revenue_change_pct": -18.4137,
+      "pd_A": 0.416267,
+      "pd_B": 0.418827,
+      "pd_C": 0.287295
+    },
+    "Tumakuru": {
+      "baseline_revenue_cr": 548.8394,
+      "scenario_A_revenue_change_pct": -35.557,
+      "scenario_B_revenue_change_pct": -36.1279,
+      "scenario_C_revenue_change_pct": -33.3872,
+      "pd_A": 0.529087,
+      "pd_B": 0.532069,
+      "pd_C": 0.517739
+    },
+    "Udaipur": {
+      "baseline_revenue_cr": 1136.2864,
+      "scenario_A_revenue_change_pct": -24.7801,
+      "scenario_B_revenue_change_pct": -25.0811,
+      "scenario_C_revenue_change_pct": -19.532,
+      "pd_A": 0.433915,
+      "pd_B": 0.437694,
+      "pd_C": 0.369293
+    },
+    "Udalguri": {
+      "baseline_revenue_cr": 165.1457,
+      "scenario_A_revenue_change_pct": -25.0172,
+      "scenario_B_revenue_change_pct": -25.2574,
+      "scenario_C_revenue_change_pct": -18.9377,
+      "pd_A": 0.436443,
+      "pd_B": 0.439482,
+      "pd_C": 0.361219
+    },
+    "Udhampur": {
+      "baseline_revenue_cr": 299.4508,
+      "scenario_A_revenue_change_pct": -25.0721,
+      "scenario_B_revenue_change_pct": -25.1586,
+      "scenario_C_revenue_change_pct": -14.8935,
+      "pd_A": 0.430406,
+      "pd_B": 0.431615,
+      "pd_C": 0.295458
+    },
+    "Udupi": {
+      "baseline_revenue_cr": 99.6822,
+      "scenario_A_revenue_change_pct": -17.9818,
+      "scenario_B_revenue_change_pct": -18.3049,
+      "scenario_C_revenue_change_pct": -12.9352,
+      "pd_A": 0.262668,
+      "pd_B": 0.268266,
+      "pd_C": 0.18357
+    },
+    "Ujjain": {
+      "baseline_revenue_cr": 5205.3159,
+      "scenario_A_revenue_change_pct": -21.9031,
+      "scenario_B_revenue_change_pct": -21.9031,
+      "scenario_C_revenue_change_pct": -21.9031,
+      "pd_A": 0.472584,
+      "pd_B": 0.472584,
+      "pd_C": 0.472584
+    },
+    "Ukhrul": {
+      "baseline_revenue_cr": 52.0389,
+      "scenario_A_revenue_change_pct": -34.829,
+      "scenario_B_revenue_change_pct": -35.6229,
+      "scenario_C_revenue_change_pct": -32.7842,
+      "pd_A": 0.594525,
+      "pd_B": 0.609695,
+      "pd_C": 0.554845
+    },
+    "Umaria": {
+      "baseline_revenue_cr": 783904.6789,
+      "scenario_A_revenue_change_pct": -12.5751,
+      "scenario_B_revenue_change_pct": -12.5751,
+      "scenario_C_revenue_change_pct": -12.5751,
+      "pd_A": 0.456146,
+      "pd_B": 0.456146,
+      "pd_C": 0.456146
+    },
+    "Una": {
+      "baseline_revenue_cr": 244.5087,
+      "scenario_A_revenue_change_pct": -21.3245,
+      "scenario_B_revenue_change_pct": -21.7008,
+      "scenario_C_revenue_change_pct": -14.8327,
+      "pd_A": 0.395183,
+      "pd_B": 0.39963,
+      "pd_C": 0.321052
+    },
+    "Unnao": {
+      "baseline_revenue_cr": 2245.2473,
+      "scenario_A_revenue_change_pct": -14.1299,
+      "scenario_B_revenue_change_pct": -14.1299,
+      "scenario_C_revenue_change_pct": -14.1299,
+      "pd_A": 0.309032,
+      "pd_B": 0.309032,
+      "pd_C": 0.309032
+    },
+    "Upper Siang": {
+      "baseline_revenue_cr": 29.7448,
+      "scenario_A_revenue_change_pct": -19.3686,
+      "scenario_B_revenue_change_pct": -19.8189,
+      "scenario_C_revenue_change_pct": -11.7369,
+      "pd_A": 0.269472,
+      "pd_B": 0.278137,
+      "pd_C": 0.145607
+    },
+    "Upper Subansiri": {
+      "baseline_revenue_cr": 25.4165,
+      "scenario_A_revenue_change_pct": -21.3217,
+      "scenario_B_revenue_change_pct": -21.5792,
+      "scenario_C_revenue_change_pct": -13.295,
+      "pd_A": 0.362669,
+      "pd_B": 0.366586,
+      "pd_C": 0.249429
+    },
+    "Uttar Dinajpur": {
+      "baseline_revenue_cr": 1245.9977,
+      "scenario_A_revenue_change_pct": -33.7166,
+      "scenario_B_revenue_change_pct": -34.3419,
+      "scenario_C_revenue_change_pct": -32.106,
+      "pd_A": 0.540859,
+      "pd_B": 0.547703,
+      "pd_C": 0.523181
+    },
+    "Uttara Kannada": {
+      "baseline_revenue_cr": 116.184,
+      "scenario_A_revenue_change_pct": -17.0051,
+      "scenario_B_revenue_change_pct": -17.166,
+      "scenario_C_revenue_change_pct": -11.0976,
+      "pd_A": 0.383523,
+      "pd_B": 0.384923,
+      "pd_C": 0.333265
+    },
+    "Vadodara": {
+      "baseline_revenue_cr": 567.5893,
+      "scenario_A_revenue_change_pct": -19.274,
+      "scenario_B_revenue_change_pct": -19.274,
+      "scenario_C_revenue_change_pct": -19.274,
+      "pd_A": 0.362421,
+      "pd_B": 0.362421,
+      "pd_C": 0.362421
+    },
+    "Vaishali": {
+      "baseline_revenue_cr": 432.2877,
+      "scenario_A_revenue_change_pct": -18.5778,
+      "scenario_B_revenue_change_pct": -19.3423,
+      "scenario_C_revenue_change_pct": -16.5491,
+      "pd_A": 0.359321,
+      "pd_B": 0.368375,
+      "pd_C": 0.335687
+    },
+    "Valsad": {
+      "baseline_revenue_cr": 276.8147,
+      "scenario_A_revenue_change_pct": -15.8011,
+      "scenario_B_revenue_change_pct": -15.8011,
+      "scenario_C_revenue_change_pct": -15.8011,
+      "pd_A": 0.314854,
+      "pd_B": 0.314854,
+      "pd_C": 0.314854
+    },
+    "Varanasi": {
+      "baseline_revenue_cr": 797.7466,
+      "scenario_A_revenue_change_pct": -13.2317,
+      "scenario_B_revenue_change_pct": -13.2317,
+      "scenario_C_revenue_change_pct": -13.2317,
+      "pd_A": 0.27249,
+      "pd_B": 0.27249,
+      "pd_C": 0.27249
+    },
+    "Vellore": {
+      "baseline_revenue_cr": 551.2922,
+      "scenario_A_revenue_change_pct": -27.3617,
+      "scenario_B_revenue_change_pct": -27.5694,
+      "scenario_C_revenue_change_pct": -23.1162,
+      "pd_A": 0.486394,
+      "pd_B": 0.487464,
+      "pd_C": 0.464538
+    },
+    "Vidisha": {
+      "baseline_revenue_cr": 29714.1019,
+      "scenario_A_revenue_change_pct": -11.1705,
+      "scenario_B_revenue_change_pct": -11.1705,
+      "scenario_C_revenue_change_pct": -11.1705,
+      "pd_A": 0.389873,
+      "pd_B": 0.389873,
+      "pd_C": 0.389873
+    },
+    "Vijayapura": {
+      "baseline_revenue_cr": 2213.3824,
+      "scenario_A_revenue_change_pct": -50.1597,
+      "scenario_B_revenue_change_pct": -50.6998,
+      "scenario_C_revenue_change_pct": -49.1714,
+      "pd_A": 0.625381,
+      "pd_B": 0.628623,
+      "pd_C": 0.619426
+    },
+    "Vikarabad": {
+      "baseline_revenue_cr": 475.0454,
+      "scenario_A_revenue_change_pct": -28.0618,
+      "scenario_B_revenue_change_pct": -28.4504,
+      "scenario_C_revenue_change_pct": -25.2694,
+      "pd_A": 0.46172,
+      "pd_B": 0.469379,
+      "pd_C": 0.407277
+    },
+    "Virudhunagar": {
+      "baseline_revenue_cr": 304.7962,
+      "scenario_A_revenue_change_pct": -21.9565,
+      "scenario_B_revenue_change_pct": -22.2895,
+      "scenario_C_revenue_change_pct": -17.4038,
+      "pd_A": 0.431016,
+      "pd_B": 0.433845,
+      "pd_C": 0.392752
+    },
+    "Vizianagaram": {
+      "baseline_revenue_cr": 655.8561,
+      "scenario_A_revenue_change_pct": -14.0405,
+      "scenario_B_revenue_change_pct": -14.0405,
+      "scenario_C_revenue_change_pct": -14.0405,
+      "pd_A": 0.355312,
+      "pd_B": 0.355312,
+      "pd_C": 0.355312
+    },
+    "Wanaparthy": {
+      "baseline_revenue_cr": 480.9593,
+      "scenario_A_revenue_change_pct": -24.7247,
+      "scenario_B_revenue_change_pct": -25.6544,
+      "scenario_C_revenue_change_pct": -24.6381,
+      "pd_A": 0.410895,
+      "pd_B": 0.4264,
+      "pd_C": 0.409458
+    },
+    "Wardha": {
+      "baseline_revenue_cr": 1338.047,
+      "scenario_A_revenue_change_pct": -33.0491,
+      "scenario_B_revenue_change_pct": -33.2255,
+      "scenario_C_revenue_change_pct": -29.2674,
+      "pd_A": 0.516349,
+      "pd_B": 0.517294,
+      "pd_C": 0.496071
+    },
+    "Washim": {
+      "baseline_revenue_cr": 1805.6201,
+      "scenario_A_revenue_change_pct": -24.8808,
+      "scenario_B_revenue_change_pct": -24.9831,
+      "scenario_C_revenue_change_pct": -20.4638,
+      "pd_A": 0.465053,
+      "pd_B": 0.465749,
+      "pd_C": 0.435104
+    },
+    "Wayanad": {
+      "baseline_revenue_cr": 25.5234,
+      "scenario_A_revenue_change_pct": -17.9317,
+      "scenario_B_revenue_change_pct": -18.1155,
+      "scenario_C_revenue_change_pct": -12.3985,
+      "pd_A": 0.448426,
+      "pd_B": 0.449208,
+      "pd_C": 0.425017
+    },
+    "West Garo Hills": {
+      "baseline_revenue_cr": 119.4713,
+      "scenario_A_revenue_change_pct": -34.1868,
+      "scenario_B_revenue_change_pct": -34.3066,
+      "scenario_C_revenue_change_pct": -29.6933,
+      "pd_A": 0.548339,
+      "pd_B": 0.549715,
+      "pd_C": 0.49645
+    },
+    "West Godavari": {
+      "baseline_revenue_cr": 2177.4587,
+      "scenario_A_revenue_change_pct": -11.0876,
+      "scenario_B_revenue_change_pct": -11.0876,
+      "scenario_C_revenue_change_pct": -11.0876,
+      "pd_A": 0.426757,
+      "pd_B": 0.426757,
+      "pd_C": 0.426757
+    },
+    "West Jaintia Hills": {
+      "baseline_revenue_cr": 26.3667,
+      "scenario_A_revenue_change_pct": -17.165,
+      "scenario_B_revenue_change_pct": -17.3953,
+      "scenario_C_revenue_change_pct": -11.3884,
+      "pd_A": 0.099659,
+      "pd_B": 0.103749,
+      "pd_C": 0.031361
+    },
+    "West Kameng": {
+      "baseline_revenue_cr": 16.9872,
+      "scenario_A_revenue_change_pct": -28.416,
+      "scenario_B_revenue_change_pct": -28.4739,
+      "scenario_C_revenue_change_pct": -21.2238,
+      "pd_A": 0.470905,
+      "pd_B": 0.471967,
+      "pd_C": 0.34295
+    },
+    "West Khasi Hills": {
+      "baseline_revenue_cr": 20.1666,
+      "scenario_A_revenue_change_pct": -18.8406,
+      "scenario_B_revenue_change_pct": -18.9328,
+      "scenario_C_revenue_change_pct": -12.3159,
+      "pd_A": 0.32477,
+      "pd_B": 0.326122,
+      "pd_C": 0.235738
+    },
+    "West Siang": {
+      "baseline_revenue_cr": 53.4015,
+      "scenario_A_revenue_change_pct": -20.8494,
+      "scenario_B_revenue_change_pct": -21.7557,
+      "scenario_C_revenue_change_pct": -16.5904,
+      "pd_A": 0.348035,
+      "pd_B": 0.362441,
+      "pd_C": 0.28351
+    },
+    "West Tripura": {
+      "baseline_revenue_cr": 49.5509,
+      "scenario_A_revenue_change_pct": -20.5964,
+      "scenario_B_revenue_change_pct": -20.878,
+      "scenario_C_revenue_change_pct": -16.3875,
+      "pd_A": 0.264472,
+      "pd_B": 0.270678,
+      "pd_C": 0.181037
+    },
+    "Wokha": {
+      "baseline_revenue_cr": 110.6204,
+      "scenario_A_revenue_change_pct": -28.4176,
+      "scenario_B_revenue_change_pct": -28.5925,
+      "scenario_C_revenue_change_pct": -22.1134,
+      "pd_A": 0.473486,
+      "pd_B": 0.476412,
+      "pd_C": 0.370138
+    },
+    "Yamunanagar": {
+      "baseline_revenue_cr": 1355.6871,
+      "scenario_A_revenue_change_pct": -8.6435,
+      "scenario_B_revenue_change_pct": -8.6435,
+      "scenario_C_revenue_change_pct": -8.6435,
+      "pd_A": 0.406002,
+      "pd_B": 0.406002,
+      "pd_C": 0.406002
+    },
+    "Yavatmal": {
+      "baseline_revenue_cr": 2601.792,
+      "scenario_A_revenue_change_pct": -39.4587,
+      "scenario_B_revenue_change_pct": -39.5325,
+      "scenario_C_revenue_change_pct": -35.5734,
+      "pd_A": 0.535928,
+      "pd_B": 0.536207,
+      "pd_C": 0.521189
+    },
+    "Zunheboto": {
+      "baseline_revenue_cr": 174.0232,
+      "scenario_A_revenue_change_pct": -25.9897,
+      "scenario_B_revenue_change_pct": -26.128,
+      "scenario_C_revenue_change_pct": -18.9829,
+      "pd_A": 0.426007,
+      "pd_B": 0.428532,
+      "pd_C": 0.304157
+    }
+  },
+  "verification": {
+    "parbhani_moong_yield_change_pct": -14.7893,
+    "parbhani_rice_yield_change_pct": -1.6878,
+    "total_national_revenue_baseline_cr": 3418118.16,
+    "scenario_ranking": "C < A < B (expected: C < A < B)",
+    "sigma_T": 0.341,
+    "irrigation_mean": 33.0,
+    "irrigation_std": 23.7,
+    "delta_irrigation": 0.02,
+    "n_districts": 594,
+    "n_red_zone": 360
+  }
+}

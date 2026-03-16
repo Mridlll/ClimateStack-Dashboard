@@ -1,0 +1,108 @@
+{
+  "model_version": "16_real_data",
+  "data_sources": {
+    "prices": "Agmarknet mandi prices (30-Sep-2024)",
+    "lending": "RBI BSR district panel (Q3 2022, Rural+SemiUrban, Public+RRB)",
+    "crop_panel": "All-India crop_panel_pilot (2015-2020 means)",
+    "climate": "CMIP6 SSP5-8.5 (ssp370) projections to 2035",
+    "irrigation": "panel_with_irrigation (2015-2020 means)"
+  },
+  "parameters": {
+    "sigma_T": 0.341,
+    "delta_irr": 0.02,
+    "pooled_beta": -0.066,
+    "beta_cap": 0.2,
+    "npa_target": 0.062,
+    "lgd": 0.5,
+    "calibrated_threshold": -1.1681
+  },
+  "coverage": {
+    "crop_panel_districts": 694,
+    "cmip6_districts": 719,
+    "credit_districts_matched": 565,
+    "model_results_districts": 593,
+    "full_model_districts": 506
+  },
+  "national_baseline_revenue_rs": 8397721612261.093,
+  "national_baseline_revenue_crore": 839772.1612,
+  "scenarios": {
+    "A_status_quo": {
+      "total_revenue_rs": 7692622003646.49,
+      "revenue_change_pct": -8.3963,
+      "expected_loss_crore": 68070.2371
+    },
+    "B_credit_restriction": {
+      "total_revenue_rs": 7662710904475.007,
+      "revenue_change_pct": -8.7525,
+      "expected_loss_crore": 68581.1183
+    },
+    "C_adaptation_lending": {
+      "total_revenue_rs": 7828248257488.548,
+      "revenue_change_pct": -6.7813,
+      "expected_loss_crore": 64588.8352
+    }
+  },
+  "red_zone_districts": 370,
+  "value_of_information_crore": 303.6672,
+  "price_adjustments": {
+    "Arhar/Tur": {
+      "multiplier": 1.1926,
+      "change_pct": 19.2612
+    },
+    "Bajra": {
+      "multiplier": 1.2188,
+      "change_pct": 21.8762
+    },
+    "Gram": {
+      "multiplier": 1.7355,
+      "change_pct": 73.555
+    },
+    "Groundnut": {
+      "multiplier": 1.2415,
+      "change_pct": 24.1544
+    },
+    "Jowar": {
+      "multiplier": 1.2548,
+      "change_pct": 25.4752
+    },
+    "Maize": {
+      "multiplier": 1.1217,
+      "change_pct": 12.1736
+    },
+    "Moong(Green Gram)": {
+      "multiplier": 1.3023,
+      "change_pct": 30.2348
+    },
+    "Rapeseed &Mustard": {
+      "multiplier": 1.8454,
+      "change_pct": 84.5443
+    },
+    "Rice": {
+      "multiplier": 1.0162,
+      "change_pct": 1.6215
+    },
+    "Soyabean": {
+      "multiplier": 1.0426,
+      "change_pct": 4.2626
+    },
+    "Urad": {
+      "multiplier": 1.0836,
+      "change_pct": 8.3619
+    },
+    "Wheat": {
+      "multiplier": 1.077,
+      "change_pct": 7.7023
+    }
+  },
+  "capped_crops": [
+    {
+      "crop": "Gram",
+      "original_beta": -0.601,
+      "capped_beta": -0.2,
+      "n_obs": 109,
+      "season": "Kharif"
+    }
+  ],
+  "credit_weighted_mean_PD_A": 0.0773,
+  "portfolio_loss_ranking": "C < A < B"
+}

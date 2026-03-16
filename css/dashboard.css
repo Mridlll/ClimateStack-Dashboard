@@ -991,6 +991,108 @@ footer {
     font-style: italic;
 }
 
+/* ── Scenario Toggle Buttons ──────────────────── */
+.scenario-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto 24px;
+    max-width: 600px;
+}
+.scenario-btn-lg {
+    padding: 12px 28px;
+    border: 2px solid var(--border);
+    background: var(--card);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    transition: all 0.2s;
+    flex: 1;
+    text-align: center;
+}
+.scenario-btn-lg.active {
+    background: var(--accent-dark);
+    color: white;
+    border-color: var(--accent-dark);
+    box-shadow: 0 4px 12px rgba(15,52,96,0.3);
+}
+.scenario-btn-lg:hover:not(.active) {
+    background: #f0f4ff;
+    border-color: var(--accent-dark);
+}
+
+/* ── Portfolio Loss Cards ────────────────────── */
+.portfolio-numbers {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.portfolio-card {
+    flex: 1;
+    max-width: 260px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px 24px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.portfolio-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.portfolio-card.highlight-bad {
+    border-color: rgba(211,47,47,0.3);
+    background: rgba(211,47,47,0.03);
+}
+.portfolio-card.highlight-good {
+    border-color: rgba(46,125,50,0.4);
+    background: rgba(46,125,50,0.04);
+    box-shadow: 0 0 0 2px rgba(46,125,50,0.15);
+}
+.portfolio-scenario {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+.portfolio-loss {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--accent-dark);
+    line-height: 1.1;
+    margin-bottom: 4px;
+}
+.highlight-bad .portfolio-loss { color: var(--red); }
+.highlight-good .portfolio-loss { color: var(--green); }
+.portfolio-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.portfolio-delta {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 8px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    display: inline-block;
+}
+.highlight-bad .portfolio-delta {
+    background: rgba(211,47,47,0.1);
+    color: var(--red);
+}
+.highlight-good .portfolio-delta {
+    background: rgba(46,125,50,0.1);
+    color: var(--green);
+}
+
 /* ── Responsive ───────────────────────────────── */
 @media (max-width: 900px) {
     .hero { padding: 80px 20px 60px; }
@@ -1016,6 +1118,9 @@ footer {
     .map-half { height: 320px; }
     .donut-row { flex-direction: column; align-items: center; }
     .policy-row { flex-direction: column; }
+    .scenario-toggle { flex-direction: column; }
+    .portfolio-numbers { flex-direction: column; align-items: center; }
+    .portfolio-card { max-width: 100%; width: 100%; }
 }
 
 @media (max-width: 600px) {

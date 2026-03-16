@@ -20,6 +20,8 @@ let covariateTimeline = null;
 let parbhaniDecomposition = null;
 let shockCoefficients = null;
 let stateSensitivityGeo = null;
+let economicModelData = null;
+let economicSummaryData = null;
 
 // ── Color scales (calibrated to actual data ranges) ──────────────────────
 
@@ -1070,6 +1072,298 @@ function initShockExplorer() {
     initializedMaps['shock-explorer'] = m;
 }
 
+// ── Economic model color scales ──────────────────────────────────────────
+
+// Revenue change: 0% (green) -> -5% (yellow) -> -10% (orange) -> -20%+ (red)
+function revenueChangeColor(pct) {
+    if (pct == null) return '#d4d4d4';
+    var v = Math.max(-20, Math.min(0, pct));
+    var t = Math.abs(v) / 20; // 0=no change, 1=-20%
+    if (t < 0.25) {
+        var s = t / 0.25;
+        return 'rgb(' + Math.round(76 + s * 179) + ', ' + Math.round(175 - s * 30) + ', ' + Math.round(80 - s * 30) + ')';
+    } else if (t < 0.5) {
+        var s = (t - 0.25) / 0.25;
+        return 'rgb(255, ' + Math.round(235 - s * 70) + ', ' + Math.round(50 + s * 10) + ')';
+    } else if (t < 0.75) {
+        var s = (t - 0.5) / 0.25;
+        return 'rgb(255, ' + Math.round(165 - s * 80) + ', ' + Math.round(60 - s * 30) + ')';
+    } else {
+        var s = (t - 0.75) / 0.25;
+        return 'rgb(' + Math.round(255 - s * 60) + ', ' + Math.round(85 - s * 55) + ', ' + Math.round(30 - s * 10) + ')';
+    }
+}
+
+// Adaptation dividend: 0 pp (light) -> +5 pp (dark green)
+function adaptationDividendColor(pp) {
+    if (pp == null) return '#d4d4d4';
+    var t = Math.max(0, Math.min(1, pp / 5));
+    return 'rgb(' + Math.round(230 - t * 190) + ', ' + Math.round(245 - t * 65) + ', ' + Math.round(230 - t * 180) + ')';
+}
+
+// ── Economic model visualizations ────────────────────────────────────────
+
+function initScenarioMap() {
+    if (!climateGeo || !economicModelData) return;
+
+    var m = makeMap('map-scenario', false);
+    var currentScenario = 'A';
+    var geoLayer = null;
+
+    // Build lookup from economic model data
+    var econLookup = {};
+    Object.keys(economicModelData).forEach(function(district) {
+        var d = economicModelData[district];
+        econLookup[district.toLowerCase()] = d;
+    });
+
+    function getRevChange(props, scenario) {
+        var dName = (props.district || '').toLowerCase();
+        var econ = econLookup[dName];
+        if (!econ) return null;
+        var field = 'delta_R_' + scenario;
+        return econ[field] != null ? econ[field] * 100 : null;
+    }
+
+    function getEconData(props) {
+        var dName = (props.district || '').toLowerCase();
+        return econLookup[dName] || null;
+    }
+
+    function updateStats(scenario) {
+        var vals = [];
+        var redCount = 0;
+        climateGeo.features.forEach(function(f) {
+            var rv = getRevChange(f.properties, scenario);
+            if (rv != null) {
+                vals.push(rv);
+                if (rv < -10) redCount++;
+            }
+        });
+        var avg = vals.length > 0 ? (vals.reduce(function(a, b) { return a + b; }, 0) / vals.length) : 0;
+        var avgEl = document.getElementById('scenario-avg');
+        var rzEl = document.getElementById('scenario-redzone');
+        if (avgEl) avgEl.textContent = avg.toFixed(1) + '%';
+        if (rzEl) rzEl.textContent = redCount;
+    }
+
+    geoLayer = L.geoJSON(climateGeo, {
+        style: function(f) {
+            var rv = getRevChange(f.properties, currentScenario);
+            return {
+                fillColor: revenueChangeColor(rv),
+                fillOpacity: 0.85,
+                weight: 0.3,
+                color: '#999',
+                opacity: 0.4
+            };
+        },
+        onEachFeature: function(f, layer) {
+            var p = f.properties;
+            var econ = getEconData(p);
+            var mergedProps = {
+                district: p.district,
+                state: p.state,
+                rev_A: econ ? (econ.delta_R_A * 100).toFixed(1) + '%' : 'N/A',
+                rev_B: econ ? (econ.delta_R_B * 100).toFixed(1) + '%' : 'N/A',
+                rev_C: econ ? (econ.delta_R_C * 100).toFixed(1) + '%' : 'N/A',
+                credit_exposure: econ ? econ.credit_rs_crore : null,
+                irrigation_pct: econ ? econ.irrigation_pct : null
+            };
+            bindDistrictInteraction(layer, mergedProps, [
+                ['Scenario A (Status Quo)', 'rev_A', '', '#d32f2f'],
+                ['Scenario B (Credit Restrict)', 'rev_B', '', '#b71c1c'],
+                ['Scenario C (Adaptation)', 'rev_C', '', '#2e7d32'],
+                ['Credit exposure', 'credit_exposure', ' Cr'],
+                ['Irrigation', 'irrigation_pct', '%']
+            ]);
+        }
+    }).addTo(m);
+
+    m.fitBounds(INDIA_BOUNDS);
+    setGradient('gradient-scenario', revenueChangeColor, 0, -20);
+    updateStats(currentScenario);
+
+    // Toggle buttons
+    var btns = document.querySelectorAll('.scenario-btn-lg');
+    btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            btns.forEach(function(b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            currentScenario = btn.getAttribute('data-scenario');
+            geoLayer.eachLayer(function(layer) {
+                var rv = getRevChange(layer.feature.properties, currentScenario);
+                layer.setStyle({ fillColor: revenueChangeColor(rv) });
+            });
+            updateStats(currentScenario);
+        });
+    });
+
+    initializedMaps['scenario-map'] = m;
+}
+
+function initRedZoneMap() {
+    if (!climateGeo || !economicModelData) return;
+
+    var m = makeMap('map-redzone', false);
+
+    var econLookup = {};
+    Object.keys(economicModelData).forEach(function(district) {
+        econLookup[district.toLowerCase()] = economicModelData[district];
+    });
+
+    L.geoJSON(climateGeo, {
+        style: function(f) {
+            var dName = (f.properties.district || '').toLowerCase();
+            var econ = econLookup[dName];
+            if (!econ || !econ.is_red_zone) {
+                return { fillColor: '#e8e8e8', fillOpacity: 0.4, weight: 0.2, color: '#ccc', opacity: 0.3 };
+            }
+            var dividend = (econ.delta_R_C - econ.delta_R_A) * 100; // pp improvement
+            return {
+                fillColor: adaptationDividendColor(dividend),
+                fillOpacity: 0.85,
+                weight: 0.5,
+                color: '#888',
+                opacity: 0.5
+            };
+        },
+        onEachFeature: function(f, layer) {
+            var p = f.properties;
+            var dName = (p.district || '').toLowerCase();
+            var econ = econLookup[dName];
+            if (!econ || !econ.is_red_zone) return;
+            var dividend = ((econ.delta_R_C - econ.delta_R_A) * 100).toFixed(2);
+            var mergedProps = {
+                district: p.district,
+                state: p.state,
+                adaptation_dividend: dividend + ' pp',
+                rev_A: (econ.delta_R_A * 100).toFixed(1) + '%',
+                rev_C: (econ.delta_R_C * 100).toFixed(1) + '%',
+                irrigation_pct: econ.irrigation_pct
+            };
+            bindDistrictInteraction(layer, mergedProps, [
+                ['Adaptation dividend', 'adaptation_dividend', ''],
+                ['Scenario A revenue', 'rev_A', '', '#d32f2f'],
+                ['Scenario C revenue', 'rev_C', '', '#2e7d32'],
+                ['Irrigation', 'irrigation_pct', '%']
+            ], { weight: 0.5, color: '#888', opacity: 0.5 });
+        }
+    }).addTo(m);
+
+    m.fitBounds(INDIA_BOUNDS);
+    setGradient('gradient-redzone', adaptationDividendColor, 0, 5);
+    initializedMaps.redzone = m;
+}
+
+function initWaterfallChart() {
+    var ctx = document.getElementById('chart-waterfall');
+    if (!ctx) return;
+
+    // Data from economic_summary_real.json
+    var scenarioA = -8.40;
+    var scenarioB = -8.75;
+    var scenarioC = -6.78;
+
+    if (economicSummaryData && economicSummaryData.scenarios) {
+        var s = economicSummaryData.scenarios;
+        if (s.A_status_quo) scenarioA = s.A_status_quo.revenue_change_pct;
+        if (s.B_credit_restriction) scenarioB = s.B_credit_restriction.revenue_change_pct;
+        if (s.C_adaptation_lending) scenarioC = s.C_adaptation_lending.revenue_change_pct;
+    }
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['A: Status Quo', 'B: Credit Restriction', 'C: Adaptation Lending'],
+            datasets: [{
+                data: [scenarioA, scenarioB, scenarioC],
+                backgroundColor: ['#d32f2f', '#b71c1c', '#2e7d32'],
+                borderColor: ['#b71c1c', '#7f0000', '#1b5e20'],
+                borderWidth: 1,
+                borderRadius: 6,
+                barPercentage: 0.6
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            return 'Revenue change: ' + ctx.raw.toFixed(2) + '%';
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    title: { display: true, text: 'Revenue Change (%)', font: { size: 12, weight: 600 } },
+                    min: -12,
+                    max: 0,
+                    grid: { color: 'rgba(0,0,0,0.06)' },
+                    ticks: {
+                        callback: function(v) { return v + '%'; }
+                    }
+                },
+                y: {
+                    grid: { display: false },
+                    ticks: { font: { size: 13, weight: 600 } }
+                }
+            }
+        },
+        plugins: [{
+            afterDraw: function(chart) {
+                var ctx2 = chart.ctx;
+                chart.data.datasets[0].data.forEach(function(val, i) {
+                    var meta = chart.getDatasetMeta(0);
+                    var bar = meta.data[i];
+                    var x = bar.x + 8;
+                    var y = bar.y;
+                    ctx2.save();
+                    ctx2.fillStyle = '#333';
+                    ctx2.font = 'bold 12px system-ui';
+                    ctx2.textAlign = 'left';
+                    ctx2.textBaseline = 'middle';
+                    ctx2.fillText(val.toFixed(1) + '%', x, y);
+                    ctx2.restore();
+                });
+                // Draw adaptation dividend annotation
+                var metaA = chart.getDatasetMeta(0).data[0];
+                var metaC = chart.getDatasetMeta(0).data[2];
+                if (metaA && metaC) {
+                    var diff = (chart.data.datasets[0].data[2] - chart.data.datasets[0].data[0]).toFixed(1);
+                    ctx2.save();
+                    ctx2.strokeStyle = '#2e7d32';
+                    ctx2.lineWidth = 1.5;
+                    ctx2.setLineDash([4, 3]);
+                    var xA = metaA.x;
+                    var xC = metaC.x;
+                    var midX = Math.max(xA, xC) + 40;
+                    ctx2.beginPath();
+                    ctx2.moveTo(xA, metaA.y);
+                    ctx2.lineTo(midX, metaA.y);
+                    ctx2.lineTo(midX, metaC.y);
+                    ctx2.lineTo(xC, metaC.y);
+                    ctx2.stroke();
+                    ctx2.setLineDash([]);
+                    ctx2.fillStyle = '#2e7d32';
+                    ctx2.font = 'bold 11px system-ui';
+                    ctx2.textAlign = 'left';
+                    ctx2.textBaseline = 'middle';
+                    ctx2.fillText('+' + Math.abs(parseFloat(diff)).toFixed(1) + ' pp saved', midX + 6, (metaA.y + metaC.y) / 2);
+                    ctx2.restore();
+                }
+            }
+        }]
+    });
+
+    initializedMaps.waterfall = true;
+}
+
 // Map name -> init function
 var mapInitFns = {
     trends: initMapTrends,
@@ -1081,7 +1375,10 @@ var mapInitFns = {
     'shock-explorer': initShockExplorer,
     vulnerability: initVulnerabilityScatter,
     'ssp-compare': initSSPCompare,
-    'variance-decomp': initVarianceDecomp
+    'variance-decomp': initVarianceDecomp,
+    'scenario-map': initScenarioMap,
+    'redzone': initRedZoneMap,
+    'waterfall': initWaterfallChart
 };
 
 function setupMapObservers() {
@@ -1799,7 +2096,9 @@ function init() {
         load('data/covariate_timeline.json'),          // 7
         load('data/parbhani_decomposition.json'),      // 8
         load('data/shock_response_coefficients.json'), // 9
-        load('data/states_sensitivity.geojson')       // 10
+        load('data/states_sensitivity.geojson'),      // 10
+        load('data/economic_model_real.json'),          // 11
+        load('data/economic_summary_real.json')         // 12
     ]).then(function(results) {
         climateGeo = results[0];
         pilotGeo = results[1];
@@ -1812,6 +2111,8 @@ function init() {
         parbhaniDecomposition = results[8];
         shockCoefficients = results[9];
         stateSensitivityGeo = results[10];
+        economicModelData = results[11];
+        economicSummaryData = results[12];
 
         // Build district list for search (combine both GeoJSON sources)
         var seen = {};

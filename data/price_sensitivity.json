@@ -1,0 +1,168 @@
+{
+  "analysis": "price_sensitivity",
+  "description": "Revenue and portfolio loss under four price scenarios. Key finding: scenario ranking C < A < B is invariant to price level.",
+  "price_scenarios": {
+    "P1_MSP": {
+      "label": "MSP (official floor)",
+      "prices_rs_tonne": {
+        "Rice": 20000,
+        "Wheat": 22000,
+        "Maize": 18000,
+        "Moong(Green Gram)": 70000,
+        "Arhar/Tur": 60000,
+        "Gram": 50000,
+        "Jowar": 25000,
+        "Bajra": 20000,
+        "Groundnut": 55000,
+        "Soyabean": 40000,
+        "Urad": 65000,
+        "Rapeseed &Mustard": 45000
+      }
+    },
+    "P2_Mandi": {
+      "label": "Mandi (model baseline)",
+      "prices_rs_tonne": {
+        "Rice": 22000,
+        "Wheat": 26450,
+        "Maize": 23490,
+        "Moong(Green Gram)": 73700,
+        "Arhar/Tur": 93750,
+        "Gram": 71970,
+        "Jowar": 25000,
+        "Bajra": 23250,
+        "Groundnut": 52900,
+        "Soyabean": 43300,
+        "Urad": 73525,
+        "Rapeseed &Mustard": 59050
+      }
+    },
+    "P3_Mandi_plus20": {
+      "label": "Mandi +20%",
+      "prices_rs_tonne": {
+        "Rice": 26400,
+        "Wheat": 31740,
+        "Maize": 28188,
+        "Moong(Green Gram)": 88440,
+        "Arhar/Tur": 112500,
+        "Gram": 86364,
+        "Jowar": 30000,
+        "Bajra": 27900,
+        "Groundnut": 63480,
+        "Soyabean": 51960,
+        "Urad": 88230,
+        "Rapeseed &Mustard": 70860
+      }
+    },
+    "P4_Mandi_minus20": {
+      "label": "Mandi -20%",
+      "prices_rs_tonne": {
+        "Rice": 17600,
+        "Wheat": 21160,
+        "Maize": 18792,
+        "Moong(Green Gram)": 58960,
+        "Arhar/Tur": 75000,
+        "Gram": 57576,
+        "Jowar": 20000,
+        "Bajra": 18600,
+        "Groundnut": 42320,
+        "Soyabean": 34640,
+        "Urad": 58820,
+        "Rapeseed &Mustard": 47240
+      }
+    }
+  },
+  "results": {
+    "P1_MSP": {
+      "label": "MSP (official floor)",
+      "baseline_revenue_crore": 712386.1645,
+      "scenario_A": {
+        "revenue_crore": 657312.4744,
+        "change_pct": -7.7309,
+        "expected_loss_crore": 67322.7042
+      },
+      "scenario_B": {
+        "revenue_crore": 654816.7955,
+        "change_pct": -8.0812,
+        "expected_loss_crore": 67823.0718
+      },
+      "scenario_C": {
+        "revenue_crore": 668716.0688,
+        "change_pct": -6.1301,
+        "expected_loss_crore": 63894.3295
+      },
+      "ranking_C_lt_A_lt_B": true,
+      "value_of_information_crore": 242.2823,
+      "credit_weighted_mean_PD_A": 6.1096
+    },
+    "P2_Mandi": {
+      "label": "Mandi (model baseline)",
+      "baseline_revenue_crore": 839772.1612,
+      "scenario_A": {
+        "revenue_crore": 769262.2004,
+        "change_pct": -8.3963,
+        "expected_loss_crore": 68070.2371
+      },
+      "scenario_B": {
+        "revenue_crore": 766271.0904,
+        "change_pct": -8.7525,
+        "expected_loss_crore": 68581.1183
+      },
+      "scenario_C": {
+        "revenue_crore": 782824.8257,
+        "change_pct": -6.7813,
+        "expected_loss_crore": 64588.8352
+      },
+      "ranking_C_lt_A_lt_B": true,
+      "value_of_information_crore": 303.6672,
+      "credit_weighted_mean_PD_A": 6.2034
+    },
+    "P3_Mandi_plus20": {
+      "label": "Mandi +20%",
+      "baseline_revenue_crore": 1007726.5935,
+      "scenario_A": {
+        "revenue_crore": 923114.6404,
+        "change_pct": -8.3963,
+        "expected_loss_crore": 68070.2371
+      },
+      "scenario_B": {
+        "revenue_crore": 919525.3085,
+        "change_pct": -8.7525,
+        "expected_loss_crore": 68581.1183
+      },
+      "scenario_C": {
+        "revenue_crore": 939389.7909,
+        "change_pct": -6.7813,
+        "expected_loss_crore": 64588.8352
+      },
+      "ranking_C_lt_A_lt_B": true,
+      "value_of_information_crore": 303.6672,
+      "credit_weighted_mean_PD_A": 6.2034
+    },
+    "P4_Mandi_minus20": {
+      "label": "Mandi -20%",
+      "baseline_revenue_crore": 671817.729,
+      "scenario_A": {
+        "revenue_crore": 615409.7603,
+        "change_pct": -8.3963,
+        "expected_loss_crore": 68070.2371
+      },
+      "scenario_B": {
+        "revenue_crore": 613016.8724,
+        "change_pct": -8.7525,
+        "expected_loss_crore": 68581.1183
+      },
+      "scenario_C": {
+        "revenue_crore": 626259.8606,
+        "change_pct": -6.7813,
+        "expected_loss_crore": 64588.8352
+      },
+      "ranking_C_lt_A_lt_B": true,
+      "value_of_information_crore": 303.6672,
+      "credit_weighted_mean_PD_A": 6.2034
+    }
+  },
+  "key_finding": {
+    "ranking_invariant": true,
+    "explanation": "Percentage revenue changes are identical for uniform price scaling (Mandi vs Mandi+/-20%). They differ slightly between MSP and Mandi because MSP and Mandi have different relative crop prices, changing the revenue-weighted average yield decline. The qualitative ranking C < A < B holds in all cases."
+  }
+}

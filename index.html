@@ -605,6 +605,99 @@
     </div>
 </section>
 
+<!-- Section 08C: Scenario Comparison Map -->
+<section class="map-section" id="section-scenario-map" data-map="scenario-map">
+    <div class="section-header">
+        <div class="section-number">08C</div>
+        <h2>Three Futures for Indian Agriculture</h2>
+        <p>Same climate, different policy responses. Toggle between scenarios to see how the revenue impact map changes.</p>
+    </div>
+    <div class="scenario-toggle">
+        <button class="scenario-btn-lg active" data-scenario="A">A: Status Quo</button>
+        <button class="scenario-btn-lg" data-scenario="B">B: Credit Restriction</button>
+        <button class="scenario-btn-lg" data-scenario="C">C: Adaptation Lending</button>
+    </div>
+    <div class="map-wrapper">
+        <div id="map-scenario" class="map"></div>
+        <div class="map-overlay-legend">
+            <div class="legend-title">Revenue Change by 2035 (%)</div>
+            <div class="legend-gradient" id="gradient-scenario"></div>
+            <div class="legend-ticks"><span>0%</span><span>-10%</span><span>-20%+</span></div>
+        </div>
+        <div class="map-overlay-stats" id="scenario-map-stats">
+            <div class="overlay-stat">
+                <span class="overlay-stat-value" id="scenario-avg">&mdash;</span>
+                <span class="overlay-stat-label">avg revenue change</span>
+            </div>
+            <div class="overlay-stat">
+                <span class="overlay-stat-value" id="scenario-redzone">&mdash;</span>
+                <span class="overlay-stat-label">red-zone districts</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 08D: Red-Zone Map -->
+<section class="map-section" id="section-redzone" data-map="redzone">
+    <div class="section-header">
+        <div class="section-number">08D</div>
+        <h2>Where Adaptation Lending Matters Most</h2>
+        <p>370 districts identified as high-risk (yield decline &gt;5%, irrigation &lt;50%). Color shows how much Scenario C (adaptation) improves over Scenario A (status quo).</p>
+    </div>
+    <div class="map-wrapper">
+        <div id="map-redzone" class="map"></div>
+        <div class="map-overlay-legend">
+            <div class="legend-title">Adaptation Dividend (C minus A, pp)</div>
+            <div class="legend-gradient" id="gradient-redzone"></div>
+            <div class="legend-ticks"><span>0 pp</span><span>+2 pp</span><span>+5 pp</span></div>
+        </div>
+    </div>
+    <div class="callout-card green">
+        <span class="callout-label green-label">Policy Implication</span>
+        <p>In the darkest green districts, adaptation lending reduces revenue decline by up to 5 percentage points. These are the districts where every rupee of irrigation investment has the highest climate-risk return.</p>
+    </div>
+</section>
+
+<!-- Section 08E: Scenario Waterfall Chart -->
+<section class="narrative" id="section-waterfall" data-map="waterfall">
+    <div class="text-block">
+        <div class="section-number">08E</div>
+        <h2>The Economics of Adaptation</h2>
+        <p class="lead">Baseline agricultural revenue: &#8377;8.4 lakh crore. What happens under each scenario?</p>
+        <div class="chart-container">
+            <div class="chart-fixed-height" style="height:320px;">
+                <canvas id="chart-waterfall"></canvas>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Loss Big Numbers -->
+<section class="narrative" id="section-portfolio">
+    <div class="text-block">
+        <div class="section-number">08F</div>
+        <h2>Portfolio Expected Loss</h2>
+        <p class="lead">What banks stand to lose under each policy scenario.</p>
+        <div class="portfolio-numbers">
+            <div class="portfolio-card">
+                <div class="portfolio-scenario">A: Status Quo</div>
+                <div class="portfolio-loss">&#8377;68,070 Cr</div>
+                <div class="portfolio-label">expected loss</div>
+            </div>
+            <div class="portfolio-card highlight-bad">
+                <div class="portfolio-scenario">B: Credit Restriction</div>
+                <div class="portfolio-loss">&#8377;68,581 Cr</div>
+                <div class="portfolio-delta">+&#8377;511 Cr worse</div>
+            </div>
+            <div class="portfolio-card highlight-good">
+                <div class="portfolio-scenario">C: Adaptation Lending</div>
+                <div class="portfolio-loss">&#8377;64,589 Cr</div>
+                <div class="portfolio-delta">-&#8377;3,481 Cr saved</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Section 9: Methodology -->
 <section class="narrative methodology" id="section-methodology">
     <div class="text-block">
