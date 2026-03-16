@@ -1364,6 +1364,187 @@ function initWaterfallChart() {
     initializedMaps.waterfall = true;
 }
 
+// ── EL Decomposition color scales ───────────────────────────────────────
+function elSavingColor(val) {
+    if (val == null || val <= 0) return '#e0e0e0';
+    var t = Math.min(1, val / 160);
+    return 'rgb(' + Math.round(240 - t * 200) + ', ' + Math.round(248 - t * 80) + ', ' + Math.round(240 - t * 200) + ')';
+}
+
+function pdDropColor(val) {
+    if (val == null || val <= 0) return '#e0e0e0';
+    var t = Math.min(1, val / 5);
+    return 'rgb(' + Math.round(240 - t * 200) + ', ' + Math.round(240 - t * 160) + ', ' + Math.round(255 - t * 40) + ')';
+}
+
+function creditExposureColor(val) {
+    if (val == null) return '#e0e0e0';
+    var t = Math.min(1, val / 30000);
+    return 'rgb(255, ' + Math.round(245 - t * 170) + ', ' + Math.round(230 - t * 200) + ')';
+}
+
+function initELDecompMap() {
+    if (!climateGeo || !economicModelData) return;
+
+    var m = makeMap('map-el-decomp', false);
+    var currentView = 'saving';
+    var geoLayer = null;
+
+    // Build lookup
+    var econLookup = {};
+    Object.keys(economicModelData).forEach(function(district) {
+        econLookup[district.toLowerCase()] = economicModelData[district];
+    });
+
+    function getEcon(props) {
+        return econLookup[(props.district || '').toLowerCase()] || null;
+    }
+
+    function computeMetrics(econ) {
+        if (!econ) return { el_saving: null, pd_drop: null, credit: null };
+        var elA = econ.credit_rs_crore * econ.PD_A * 0.50;
+        var elC = econ.credit_rs_crore * econ.PD_C * 0.50;
+        var el_saving = elA - elC;
+        var pd_drop = (econ.PD_A - econ.PD_C) * 100;
+        return {
+            el_saving: el_saving,
+            pd_drop: pd_drop,
+            credit: econ.credit_rs_crore
+        };
+    }
+
+    function fillColor(props) {
+        var econ = getEcon(props);
+        var met = computeMetrics(econ);
+        if (currentView === 'saving') {
+            // Grey out non-red-zone districts
+            if (!econ || !econ.is_red_zone) return '#e0e0e0';
+            return elSavingColor(met.el_saving);
+        } else if (currentView === 'pd-drop') {
+            return pdDropColor(met.pd_drop);
+        } else {
+            return creditExposureColor(met.credit);
+        }
+    }
+
+    function updateLegend() {
+        var titleEl = document.getElementById('el-decomp-legend-title');
+        var ticksEl = document.getElementById('el-decomp-ticks');
+        var gradientEl = document.getElementById('gradient-el-decomp');
+        if (currentView === 'saving') {
+            if (titleEl) titleEl.textContent = 'EL Saving (\u20B9 Cr)';
+            if (ticksEl) ticksEl.innerHTML = '<span>0</span><span>80</span><span>160+</span>';
+            setGradient('gradient-el-decomp', elSavingColor, 0, 160);
+        } else if (currentView === 'pd-drop') {
+            if (titleEl) titleEl.textContent = 'PD Reduction (pp)';
+            if (ticksEl) ticksEl.innerHTML = '<span>0</span><span>2.5</span><span>5+</span>';
+            setGradient('gradient-el-decomp', pdDropColor, 0, 5);
+        } else {
+            if (titleEl) titleEl.textContent = 'Credit Exposure (\u20B9 Cr)';
+            if (ticksEl) ticksEl.innerHTML = '<span>0</span><span>15,000</span><span>30,000+</span>';
+            setGradient('gradient-el-decomp', creditExposureColor, 0, 30000);
+        }
+    }
+
+    function updateStats() {
+        // Compute per-district EL savings
+        var districtSavings = [];
+        var stateSavings = {};
+        var totalSaving = 0;
+
+        climateGeo.features.forEach(function(f) {
+            var econ = getEcon(f.properties);
+            if (!econ) return;
+            var met = computeMetrics(econ);
+            if (met.el_saving != null && met.el_saving > 0) {
+                districtSavings.push(met.el_saving);
+                totalSaving += met.el_saving;
+                var st = f.properties.state || 'Unknown';
+                stateSavings[st] = (stateSavings[st] || 0) + met.el_saving;
+            }
+        });
+
+        // Top 50 share
+        districtSavings.sort(function(a, b) { return b - a; });
+        var top50sum = 0;
+        for (var i = 0; i < Math.min(50, districtSavings.length); i++) {
+            top50sum += districtSavings[i];
+        }
+        var top50pct = totalSaving > 0 ? Math.round(top50sum / totalSaving * 100) : 0;
+
+        // Top state
+        var topState = '';
+        var topStateVal = 0;
+        Object.keys(stateSavings).forEach(function(st) {
+            if (stateSavings[st] > topStateVal) {
+                topStateVal = stateSavings[st];
+                topState = st;
+            }
+        });
+
+        var el50 = document.getElementById('el-top50');
+        var elSt = document.getElementById('el-top-state');
+        if (el50) el50.textContent = top50pct + '%';
+        if (elSt) elSt.textContent = topState;
+    }
+
+    geoLayer = L.geoJSON(climateGeo, {
+        style: function(f) {
+            return {
+                fillColor: fillColor(f.properties),
+                fillOpacity: 0.85,
+                weight: 0.3,
+                color: '#999',
+                opacity: 0.4
+            };
+        },
+        onEachFeature: function(f, layer) {
+            var p = f.properties;
+            var econ = getEcon(p);
+            var met = computeMetrics(econ);
+            var mergedProps = {
+                district: p.district,
+                state: p.state,
+                el_saving: met.el_saving != null ? met.el_saving.toFixed(1) : 'N/A',
+                pd_a: econ ? (econ.PD_A * 100).toFixed(2) + '%' : 'N/A',
+                pd_c: econ ? (econ.PD_C * 100).toFixed(2) + '%' : 'N/A',
+                pd_drop: met.pd_drop != null ? met.pd_drop.toFixed(2) : 'N/A',
+                credit_exposure: econ ? econ.credit_rs_crore : null,
+                irrigation_pct: econ ? econ.irrigation_pct : null,
+                red_zone: econ ? (econ.is_red_zone ? 'Yes' : 'No') : 'N/A'
+            };
+            bindDistrictInteraction(layer, mergedProps, [
+                ['EL Saving', 'el_saving', ' Cr', '#2e7d32'],
+                ['PD: A \u2192 C', 'pd_a', ' \u2192 ', null],
+                ['PD drop', 'pd_drop', ' pp', '#1976d2'],
+                ['Credit exposure', 'credit_exposure', ' Cr'],
+                ['Irrigation', 'irrigation_pct', '%'],
+                ['Red zone', 'red_zone', '']
+            ]);
+        }
+    }).addTo(m);
+
+    m.fitBounds(INDIA_BOUNDS);
+    updateLegend();
+    updateStats();
+
+    // Toggle buttons — scoped to this section only
+    var btns = document.querySelectorAll('#el-decomp-toggle .scenario-btn-lg');
+    btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            btns.forEach(function(b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            currentView = btn.getAttribute('data-view');
+            geoLayer.eachLayer(function(layer) {
+                layer.setStyle({ fillColor: fillColor(layer.feature.properties) });
+            });
+            updateLegend();
+        });
+    });
+
+    initializedMaps['el-decomp'] = m;
+}
+
 // Map name -> init function
 var mapInitFns = {
     trends: initMapTrends,
@@ -1378,7 +1559,8 @@ var mapInitFns = {
     'variance-decomp': initVarianceDecomp,
     'scenario-map': initScenarioMap,
     'redzone': initRedZoneMap,
-    'waterfall': initWaterfallChart
+    'waterfall': initWaterfallChart,
+    'el-decomp': initELDecompMap
 };
 
 function setupMapObservers() {
