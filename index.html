@@ -9,89 +9,69 @@
 </head>
 <body>
 
+<!-- Sticky nav -->
+<nav id="site-nav" style="position:fixed;top:0;left:0;right:0;z-index:9990;background:rgba(250,250,247,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);transform:translateY(-100%);transition:transform 0.3s;padding:0 24px;">
+    <div style="max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:48px;">
+        <a href="#section-hero" style="font-family:'Crimson Pro',serif;font-weight:600;font-size:0.95rem;color:var(--text);text-decoration:none;">ClimateStack</a>
+        <div style="display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:0.62rem;text-transform:uppercase;letter-spacing:0.06em;">
+            <a href="#section-problem" style="color:var(--text-muted);text-decoration:none;">Problem</a>
+            <a href="#section-trends" style="color:var(--text-muted);text-decoration:none;">Trends</a>
+            <a href="#section-shocks" style="color:var(--text-muted);text-decoration:none;">Shocks</a>
+            <a href="#section-irrigation" style="color:var(--text-muted);text-decoration:none;">Irrigation</a>
+            <a href="#section-projected" style="color:var(--text-muted);text-decoration:none;">Projections</a>
+            <a href="#section-vulnerability" style="color:var(--text-muted);text-decoration:none;">Risk</a>
+        </div>
+    </div>
+</nav>
+
 <!-- Floating district search -->
-<div class="floating-search" id="floating-search">
+<div class="floating-search" id="floating-search" style="top:60px;">
     <input type="text" id="district-search" placeholder="Search any district..." autocomplete="off" />
     <div id="search-results" class="search-results"></div>
 </div>
 
-<!-- Section 1: Hero + Stats + Decomposition -->
-<header class="hero" id="section-hero">
-    <div class="hero-content">
-        <div class="hero-badge">Climate Econometrics &times; Geospatial Intelligence</div>
-        <h1>ClimateStack</h1>
-        <p class="subtitle">How Climate Shapes Agriculture Across 700 Indian Districts</p>
-        <p class="tagline">Decomposing 24 years of temperature and rainfall into five interpretable components &mdash; and measuring how each one affects crop yields differently</p>
-        <div class="stats-bar" id="stats-bar">
-            <div class="stat-item">
-                <div class="stat-value" id="stat-districts">725</div>
-                <div class="stat-label">Districts &mdash; Climate Data</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">673</div>
-                <div class="stat-label">Districts &mdash; Yield Panel</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">35</div>
-                <div class="stat-label">States &amp; UTs</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">24</div>
-                <div class="stat-label">Years of Panel Data</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value" id="stat-warming">0.13&deg;C</div>
-                <div class="stat-label">Kharif Warming / Decade</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">12</div>
-                <div class="stat-label">Major Crops</div>
-            </div>
+<!-- Section 1: Hero -->
+<header class="hero" id="section-hero" style="min-height:auto;padding:6rem 40px 4rem;text-align:left;align-items:flex-start;justify-content:flex-start;">
+    <div class="hero-content" style="max-width:780px;">
+        <p style="font-family:'JetBrains Mono',monospace;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:1.5rem;">Climate Econometrics &middot; Geospatial Intelligence</p>
+        <h1 style="font-size:clamp(2.2rem,5vw,3.4rem);letter-spacing:-0.02em;line-height:1.15;margin-bottom:0.5rem;">ClimateStack</h1>
+        <p class="subtitle" style="font-family:'Crimson Pro',serif;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:300;color:#4A4A4A;margin-bottom:1.5rem;line-height:1.45;">How Climate Shapes Agriculture Across 700 Indian Districts</p>
+        <p style="font-family:'Crimson Pro',serif;font-size:1.1rem;font-weight:500;color:var(--text);margin-bottom:0;line-height:1.5;">Mridul Khanna</p>
+        <p style="font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--text-muted);margin-bottom:2rem;">Heidelberg University &middot; 2026</p>
+        <hr style="border:none;border-top:1px solid var(--border);margin-bottom:2rem;">
+        <p style="font-size:1rem;color:#4A4A4A;line-height:1.72;margin-bottom:1.5rem;">24 years of temperature and rainfall decomposed into five interpretable components &ndash; baseline, trend, seasonal, covariate, and idiosyncratic &ndash; to measure how each dimension of climate variation affects crop yields differently across <strong>725 districts</strong>, <strong>12 major crops</strong>, and <strong>35 states</strong>.</p>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--text-muted);display:flex;flex-wrap:wrap;gap:0.25rem 0;align-items:center;">
+            <span><strong style="color:var(--text);">725</strong> districts</span>
+            <span style="margin:0 0.6rem;opacity:0.4;">&middot;</span>
+            <span><strong style="color:var(--text);">1997&ndash;2021</strong></span>
+            <span style="margin:0 0.6rem;opacity:0.4;">&middot;</span>
+            <span>Kharif warming: <strong style="color:var(--text);">+0.13&deg;C/decade</strong></span>
+            <span style="margin:0 0.6rem;opacity:0.4;">&middot;</span>
+            <span><strong style="color:var(--text);">12</strong> crops</span>
         </div>
-
-        <div class="decomposition-visual">
-            <div class="decomp-item">
-                <div class="decomp-icon" style="background: #e8eaf6">&#956;</div>
-                <div class="decomp-label">Baseline</div>
-                <div class="decomp-desc">Local climate &mdash; already adapted to</div>
-            </div>
-            <div class="decomp-plus">+</div>
-            <div class="decomp-item">
-                <div class="decomp-icon" style="background: #fce4ec">&#964;</div>
-                <div class="decomp-label">Trend</div>
-                <div class="decomp-desc">Gradual warming or drying</div>
-            </div>
-            <div class="decomp-plus">+</div>
-            <div class="decomp-item">
-                <div class="decomp-icon" style="background: #e8f5e9">s</div>
-                <div class="decomp-label">Seasonal</div>
-                <div class="decomp-desc">Monsoon timing shifts</div>
-            </div>
-            <div class="decomp-plus">+</div>
-            <div class="decomp-item">
-                <div class="decomp-icon" style="background: #fff3e0">&omega;</div>
-                <div class="decomp-label">Covariate</div>
-                <div class="decomp-desc">ENSO-type regional events</div>
-            </div>
-            <div class="decomp-plus">+</div>
-            <div class="decomp-item">
-                <div class="decomp-icon" style="background: #fafafa">&epsilon;</div>
-                <div class="decomp-label">Idiosyncratic</div>
-                <div class="decomp-desc">Local unpredictable shocks</div>
-            </div>
-        </div>
-
-        <div class="scroll-hint">&darr; Scroll to explore the findings</div>
     </div>
 </header>
+
+<script>
+// Show nav after hero scrolls away
+(function() {
+    var nav = document.getElementById('site-nav');
+    var hero = document.getElementById('section-hero');
+    if (!nav || !hero) return;
+    var obs = new IntersectionObserver(function(entries) {
+        nav.style.transform = entries[0].isIntersecting ? 'translateY(-100%)' : 'translateY(0)';
+    }, { threshold: 0 });
+    obs.observe(hero);
+})();
+</script>
 
 <!-- Section 2: The Problem -->
 <section class="narrative" id="section-problem">
     <div class="text-block">
         <div class="section-number">02</div>
         <h2>The Problem</h2>
-        <p class="lead">Climate is changing unevenly across India &mdash; but we lack the tools to see how different dimensions of that change affect agriculture differently.</p>
-        <p>We decompose climate variation into five components, estimate how each affects crop yields, and show which districts are most exposed &mdash; and which are naturally buffered.</p>
+        <p class="lead">Climate is changing unevenly across India  &ndash; but we lack the tools to see how different dimensions of that change affect agriculture differently.</p>
+        <p>We decompose climate variation into five components, estimate how each affects crop yields, and show which districts are most exposed  &ndash; and which are naturally buffered.</p>
     </div>
 </section>
 
@@ -159,8 +139,8 @@
 <section class="map-section" id="section-trends" data-map="trends">
     <div class="section-header">
         <div class="section-number">03</div>
-        <h2>India is Warming &mdash; But Not Uniformly</h2>
-        <p>District-level Kharif season (Jun&ndash;Oct) warming rates from ERA5-Land reanalysis (1997&ndash;2020). Monsoon-season warming is lower than annual due to moisture buffering &mdash; global mean is ~0.2&deg;C/decade, but India's Kharif averages 0.13&deg;C.</p>
+        <h2>India is Warming  &ndash; But Not Uniformly</h2>
+        <p>District-level Kharif season (Jun&ndash;Oct) warming rates from ERA5-Land reanalysis (1997&ndash;2020). Monsoon-season warming is lower than annual due to moisture buffering  &ndash; global mean is ~0.2&deg;C/decade, but India's Kharif averages 0.13&deg;C.</p>
     </div>
     <div class="map-wrapper">
         <div id="map-trends" class="map"></div>
@@ -183,11 +163,11 @@
     </div>
     <div class="callout-card">
         <span class="callout-label">Key Finding</span>
-        <p>Maharashtra's Marathwada region (Parbhani, Latur, Hingoli) shows the fastest warming at 0.28&ndash;0.36&deg;C per decade &mdash; precisely the drought-prone belt where farmers are most vulnerable.</p>
+        <p>Maharashtra's Marathwada region (Parbhani, Latur, Hingoli) shows the fastest warming at 0.28&ndash;0.36&deg;C per decade  &ndash; precisely the drought-prone belt where farmers are most vulnerable.</p>
     </div>
     <div class="callout-card green">
         <span class="callout-label green-label">Why 0.13&deg;C, Not 0.20&deg;C?</span>
-        <p>India's Kharif season warms at <strong>0.13&deg;C/decade</strong> &mdash; below the global land average of ~0.20&deg;C. This isn't an error. The monsoon acts as a natural climate buffer: evaporation absorbs heat energy, cloud cover blocks solar radiation, and moisture-laden air resists warming. India's aerosol loading (crop burning, industrial emissions) further dims incoming sunlight. The monsoon is currently <strong>protecting Kharif crops from the full force of greenhouse warming</strong> &mdash; but if monsoon patterns shift, that shield weakens.</p>
+        <p>India's Kharif season warms at <strong>0.13&deg;C/decade</strong>  &ndash; below the global land average of ~0.20&deg;C. This isn't an error. The monsoon acts as a natural climate buffer: evaporation absorbs heat energy, cloud cover blocks solar radiation, and moisture-laden air resists warming. India's aerosol loading (crop burning, industrial emissions) further dims incoming sunlight. The monsoon is currently <strong>protecting Kharif crops from the full force of greenhouse warming</strong>  &ndash; but if monsoon patterns shift, that shield weakens.</p>
     </div>
 </section>
 
@@ -196,7 +176,7 @@
     <div class="section-header dark-header">
         <div class="section-number">04</div>
         <h2>Where Rainfall is Most Unpredictable</h2>
-        <p>Local precipitation volatility varies dramatically across India. Districts with high volatility face year-to-year swings that devastate yields &mdash; and current insurance doesn't account for this spatial variation.</p>
+        <p>Local precipitation volatility varies dramatically across India. Districts with high volatility face year-to-year swings that devastate yields  &ndash; and current insurance doesn't account for this spatial variation.</p>
     </div>
     <div class="map-wrapper">
         <div id="map-shocks" class="map"></div>
@@ -233,7 +213,7 @@
     <div class="section-header">
         <div class="section-number">05</div>
         <h2>Local Heat Shocks: The Invisible Damage</h2>
-        <p>Idiosyncratic temperature shocks &mdash; unpredictable local events like heat waves and unseasonal frost &mdash; cause the most yield damage and are hardest to insure against.</p>
+        <p>Idiosyncratic temperature shocks  &ndash; unpredictable local events like heat waves and unseasonal frost  &ndash; cause the most yield damage and are hardest to insure against.</p>
     </div>
     <div class="map-wrapper">
         <div id="map-idiosyncratic" class="map"></div>
@@ -245,7 +225,7 @@
         </div>
     </div>
     <div class="chart-container">
-        <h3>Yield Impact per 1&sigma; Temperature Shock &mdash; with 90% Confidence Intervals</h3>
+        <h3>Yield Impact per 1&sigma; Temperature Shock  &ndash; with 90% Confidence Intervals</h3>
         <p class="chart-subtitle">Point estimate and 90% CI for each crop. Grey = not statistically significant (CI crosses zero).</p>
         <div class="chart-fixed-height">
             <canvas id="chart-crop-sensitivity"></canvas>
@@ -257,7 +237,7 @@
     </div>
     <div class="callout-card green">
         <span class="callout-label green-label">Identification Check</span>
-        <p>The temperature trend coefficient flips from <strong>+0.049</strong> (confounded) to <strong>&minus;0.064</strong> (true warming damage) after controlling for technology adoption via year trends. Covariate and idiosyncratic shock coefficients are <strong>unchanged</strong> across specifications &mdash; confirming clean causal identification of shock effects.</p>
+        <p>The temperature trend coefficient flips from <strong>+0.049</strong> (confounded) to <strong>&minus;0.064</strong> (true warming damage) after controlling for technology adoption via year trends. Covariate and idiosyncratic shock coefficients are <strong>unchanged</strong> across specifications  &ndash; confirming clean causal identification of shock effects.</p>
     </div>
 </section>
 
@@ -307,11 +287,11 @@
     <div class="two-col-callouts">
         <div class="callout-card red">
             <span class="callout-label">Most Vulnerable</span>
-            <p><strong>Parbhani, Latur, Solapur</strong> (Maharashtra) &mdash; low irrigation, high warming, high shock exposure. Priority for Climate Change Fund.</p>
+            <p><strong>Parbhani, Latur, Solapur</strong> (Maharashtra)  &ndash; low irrigation, high warming, high shock exposure. Priority for Climate Change Fund.</p>
         </div>
         <div class="callout-card green">
             <span class="callout-label green-label">Most Buffered</span>
-            <p><strong>Bareilly, Moradabad, Shahjahanpur</strong> (UP) &mdash; &gt;75% irrigation, low temperature volatility. Climate-resilient by infrastructure.</p>
+            <p><strong>Bareilly, Moradabad, Shahjahanpur</strong> (UP)  &ndash; &gt;75% irrigation, low temperature volatility. Climate-resilient by infrastructure.</p>
         </div>
     </div>
 </section>
@@ -349,11 +329,11 @@
         </div>
         <div class="map-overlay-stats" id="projected-stats">
             <div class="overlay-stat">
-                <span class="overlay-stat-value" id="projected-avg-impact">&mdash;</span>
+                <span class="overlay-stat-value" id="projected-avg-impact"> &ndash;</span>
                 <span class="overlay-stat-label">avg yield impact</span>
             </div>
             <div class="overlay-stat">
-                <span class="overlay-stat-value" id="projected-worst-district">&mdash;</span>
+                <span class="overlay-stat-value" id="projected-worst-district"> &ndash;</span>
                 <span class="overlay-stat-label">most impacted</span>
             </div>
         </div>
@@ -400,11 +380,11 @@
         </div>
         <div class="map-overlay-stats" id="shock-stats">
             <div class="overlay-stat">
-                <span class="overlay-stat-value" id="shock-avg-impact">&mdash;</span>
+                <span class="overlay-stat-value" id="shock-avg-impact"> &ndash;</span>
                 <span class="overlay-stat-label">avg yield impact</span>
             </div>
             <div class="overlay-stat">
-                <span class="overlay-stat-value" id="shock-worst-district">&mdash;</span>
+                <span class="overlay-stat-value" id="shock-worst-district"> &ndash;</span>
                 <span class="overlay-stat-label">most impacted</span>
             </div>
         </div>
@@ -455,7 +435,7 @@
     </div>
     <div class="callout-card">
         <span class="callout-label">Key Insight</span>
-        <p>The national average shifts from <strong>&minus;3.8%</strong> (SSP2-4.5) to <strong>&minus;4.1%</strong> (SSP5-8.5) &mdash; seemingly small, but the tail matters: the worst-hit districts go from &minus;11% to &minus;13%. Look at Kerala and the northern mountains for the sharpest contrast. The difference widens with time horizon &mdash; by 2050, these pathways diverge dramatically.</p>
+        <p>The national average shifts from <strong>&minus;3.8%</strong> (SSP2-4.5) to <strong>&minus;4.1%</strong> (SSP5-8.5)  &ndash; seemingly small, but the tail matters: the worst-hit districts go from &minus;11% to &minus;13%. Look at Kerala and the northern mountains for the sharpest contrast. The difference widens with time horizon  &ndash; by 2050, these pathways diverge dramatically.</p>
     </div>
 </section>
 
@@ -539,7 +519,7 @@
     <div class="text-block">
         <div class="section-number">08B</div>
         <h2>CRAF in Practice: Parbhani, Maharashtra</h2>
-        <p class="lead">How the decomposition translates into a quantified risk score &mdash; step by step, for one district.</p>
+        <p class="lead">How the decomposition translates into a quantified risk score  &ndash; step by step, for one district.</p>
 
         <div class="craf-pipeline">
             <div class="craf-step">
@@ -581,7 +561,7 @@
                 <div class="craf-step-num">5</div>
                 <div class="craf-step-content">
                     <div class="craf-step-label">Irrigation Share</div>
-                    <div class="craf-step-value red">12% (low &mdash; minimal buffer)</div>
+                    <div class="craf-step-value red">12% (low  &ndash; minimal buffer)</div>
                 </div>
             </div>
             <div class="craf-arrow">&darr;</div>
@@ -626,11 +606,11 @@
         </div>
         <div class="map-overlay-stats" id="scenario-map-stats">
             <div class="overlay-stat">
-                <span class="overlay-stat-value" id="scenario-avg">&mdash;</span>
+                <span class="overlay-stat-value" id="scenario-avg"> &ndash;</span>
                 <span class="overlay-stat-label">avg revenue change</span>
             </div>
             <div class="overlay-stat">
-                <span class="overlay-stat-value" id="scenario-redzone">&mdash;</span>
+                <span class="overlay-stat-value" id="scenario-redzone"> &ndash;</span>
                 <span class="overlay-stat-label">red-zone districts</span>
             </div>
         </div>
@@ -780,7 +760,7 @@
         </div>
         <div class="callout-card">
             <span class="callout-label">Robustness</span>
-            <p>All climate variables remain statistically significant under Conley (1999) spatial HAC standard errors with a 200km kernel &mdash; SEs are 27&ndash;32% larger than entity-clustered but inference is unchanged.</p>
+            <p>All climate variables remain statistically significant under Conley (1999) spatial HAC standard errors with a 200km kernel  &ndash; SEs are 27&ndash;32% larger than entity-clustered but inference is unchanged.</p>
         </div>
     </div>
 </section>
@@ -837,11 +817,12 @@
 <footer>
     <div class="footer-content">
         <div class="footer-org">
-            <strong>Mridul</strong> | Climate Econometrics Research
+            <strong>Mridul Khanna</strong> &middot; Heidelberg University &middot; 2026
         </div>
         <div class="footer-data">
-            Built on open data: ERA5-Land (Copernicus), DiCRA (UNDP), data.gov.in crop statistics<br>
-            <a href="https://github.com/Mridlll/ClimateStack" target="_blank">Source code on GitHub</a>
+            Data: ERA5-Land (Copernicus), DiCRA (UNDP), data.gov.in crop statistics<br>
+            <a href="https://github.com/Mridlll/ClimateStack-Dashboard" target="_blank">GitHub</a> &middot;
+            <a href="https://mridlll.github.io/portfolio/" target="_blank">Portfolio</a>
         </div>
     </div>
 </footer>
