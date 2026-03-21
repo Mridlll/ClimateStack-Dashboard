@@ -1,25 +1,27 @@
 /* ClimateStack Dashboard — Full Rewrite */
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
 :root {
-    --bg: #fafbfc;
-    --bg-alt: #f0f2f5;
-    --text: #1a1a2e;
-    --text-muted: #6b7280;
-    --accent: #e53935;
-    --accent-dark: #0f3460;
+    --bg: #FAFAF7;
+    --bg-alt: #F2F0EB;
+    --text: #1A1A1A;
+    --text-muted: #7A7A7A;
+    --accent: #8B2500;
+    --accent-dark: #6B1D00;
     --card: #ffffff;
-    --border: #e5e7eb;
-    --green: #2e7d32;
-    --red: #d32f2f;
-    --blue: #1976d2;
+    --border: #E8E4DC;
+    --green: #2D6A4F;
+    --red: #8B2500;
+    --blue: #2B4C7E;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Segoe UI', -apple-system, system-ui, sans-serif;
+    font-family: 'Source Serif 4', Georgia, serif;
     color: var(--text);
     background: var(--bg);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* ── Floating Search Bar ─────────────────────────── */
@@ -84,37 +86,41 @@ body {
 
 /* ── Hero ─────────────────────────────────────── */
 .hero {
-    background: linear-gradient(145deg, #0f172a 0%, #1e3a5f 50%, #0f3460 100%);
-    color: #fff;
+    background: var(--bg);
+    color: var(--text);
     padding: 100px 40px 80px;
     text-align: center;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid var(--border);
 }
 .hero-content { max-width: 900px; }
 .hero-badge {
     display: inline-block;
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid var(--border);
     padding: 4px 16px;
     border-radius: 20px;
-    font-size: 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 24px;
-    opacity: 0.8;
+    color: var(--text-muted);
 }
 .hero h1 {
-    font-size: 4rem;
-    font-weight: 200;
-    letter-spacing: 8px;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
     margin-bottom: 12px;
+    color: var(--text);
 }
-.hero .subtitle { font-size: 1.2rem; opacity: 0.9; margin-bottom: 6px; }
+.hero .subtitle { font-family: 'Crimson Pro', serif; font-size: 1.2rem; color: var(--text-secondary, #4A4A4A); margin-bottom: 6px; }
 .hero .tagline {
     font-size: 0.9rem;
-    opacity: 0.5;
+    color: var(--text-muted);
     max-width: 680px;
     margin: 0 auto 48px;
 }
@@ -129,10 +135,11 @@ body {
     background: transparent;
 }
 .stat-item { text-align: center; }
-.stat-value { font-size: 2rem; font-weight: 700; color: var(--accent); }
+.stat-value { font-family: 'JetBrains Mono', monospace; font-size: 2rem; font-weight: 700; color: var(--accent); }
 .stat-label {
-    font-size: 0.7rem;
-    opacity: 0.6;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -202,16 +209,17 @@ body {
     padding: 80px 40px;
 }
 .text-block h2 {
-    font-size: 2rem;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 16px;
-    color: var(--accent-dark);
+    color: var(--text);
 }
-.text-block p { font-size: 1rem; margin-bottom: 14px; color: #374151; }
+.text-block p { font-size: 1rem; margin-bottom: 14px; color: #4A4A4A; }
 .text-block .lead { font-size: 1.15rem; color: var(--text); font-weight: 500; }
 
 .map-section { padding: 60px 40px; }
-.dark-section { background: #1a1a2e; }
+.dark-section { background: #1A1A1A; }
 
 .section-header {
     max-width: 800px;
@@ -219,16 +227,17 @@ body {
     text-align: center;
 }
 .section-header h2 {
+    font-family: 'Crimson Pro', Georgia, serif;
     font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 8px;
-    color: var(--accent-dark);
+    color: var(--text);
 }
 .section-header p { font-size: 0.9rem; color: var(--text-muted); }
 
 .dark-header h2 { color: #fff; }
 .dark-header p { color: rgba(255,255,255,0.6); }
-.dark-header .section-number { color: #ff7043; }
+.dark-header .section-number { color: #C44D2A; }
 
 /* ── Component badge — floating on maps ─────── */
 .component-badge {
@@ -249,12 +258,12 @@ body {
 }
 .component-badge.dark-badge {
     background: rgba(30,30,50,0.88);
-    color: #ff7043;
+    color: #C44D2A;
 }
 
 /* ── Data Architecture — Card Grid ────────────── */
 .data-architecture {
-    background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
+    background: #1A1A1A;
     padding: 70px 40px;
 }
 .data-arch-inner { max-width: 960px; margin: 0 auto; }
@@ -425,7 +434,7 @@ body {
     font-weight: 700;
     color: var(--accent-dark);
 }
-.dark-stats .overlay-stat-value { color: #ff7043; }
+.dark-stats .overlay-stat-value { color: #C44D2A; }
 .overlay-stat-label {
     display: block;
     font-size: 0.65rem;
@@ -470,7 +479,7 @@ body {
 
 .dark-section .callout-card {
     background: rgba(255,112,67,0.08);
-    border-left-color: #ff7043;
+    border-left-color: #C44D2A;
 }
 .dark-section .callout-card p { color: rgba(255,255,255,0.85); }
 
@@ -800,10 +809,11 @@ body {
     border-bottom: 1px solid var(--border);
 }
 .method-table thead th {
-    background: var(--accent-dark);
-    color: #fff;
-    font-weight: 600;
-    font-size: 0.75rem;
+    background: var(--bg-alt);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -887,9 +897,10 @@ body {
 
 /* ── Footer ───────────────────────────────────── */
 footer {
-    background: #0f172a;
-    color: rgba(255,255,255,0.5);
+    background: #F2F0EB;
+    color: var(--text-muted);
     padding: 40px;
+    border-top: 1px solid var(--border);
 }
 .footer-content {
     max-width: 800px;
@@ -900,7 +911,9 @@ footer {
 }
 .footer-org { font-size: 0.85rem; }
 .footer-data { font-size: 0.75rem; text-align: right; }
-.footer-data a { color: rgba(255,255,255,0.6); text-decoration: underline; }
+.footer-data a { color: var(--accent); text-decoration: underline; }
+
+::selection { background: var(--accent); color: #fff; }
 
 /* ── Variance Decomposition Donuts ────────────── */
 .donut-row {
